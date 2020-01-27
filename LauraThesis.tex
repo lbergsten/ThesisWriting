@@ -13,7 +13,7 @@
 \usepackage{hyperref}
 % colored borders (false) colored text (true)
 \hypersetup{colorlinks=true,citecolor=blue,filecolor=black,linkcolor=blue,urlcolor=blue}
-
+\usepackage{natbib}
 % Add you own definitions here (file ANA-HIGG-2018-49-INT1-defs.sty).
 %\usepackage{ANA-HIGG-2018-49-INT1-defs}
 
@@ -37,7 +37,7 @@
 \begin{document}
 %\signaturepage*
 \thesisabstract{The Higgs boson is measured by me in a channel it is nice and I graduate call me doctor}
-\dedication{For my family}
+\dedication{\textit{For my family}}
 \acknowledgments{This is to thank all the people. Gabriella and committee. Gaetano and Alessandro. All group members. Friends and family for sanity.}
 \thesisfront[onlinesubmission] %other options include onlinesubmission, copyright, nocopyright, lot, nolot, lof, nolof
 \clearpage
@@ -101,7 +101,9 @@
 %-------------------------------------------------------------------------------
 
 Place your conclusion here.
-
+\clearpage
+\bibliographystyle{apalike}
+\bibliography{references}
 
 %-------------------------------------------------------------------------------
 \clearpage

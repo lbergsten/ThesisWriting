@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  26 JAN 2020 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  27 JAN 2020 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,7 +395,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
-(./LauraThesis.aux)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count129
+)
+(./LauraThesis.aux
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 ...and\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+? 
+)
 \openout1 = `LauraThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -450,16 +471,16 @@ LaTeX Font Info:    ... okay on input line 37.
 \AtBeginShipoutBox=\box58
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
+\scratchcounter=\count130
 \scratchdimen=\dimen139
 \scratchbox=\box59
-\nofMPsegments=\count130
-\nofMParguments=\count131
+\nofMPsegments=\count131
+\nofMParguments=\count132
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count132
+\MPscratchCnt=\count133
 \MPscratchDim=\dimen140
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -495,7 +516,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count136
 )
 LaTeX Info: Redefining \ref on input line 37.
 LaTeX Info: Redefining \pageref on input line 37.
@@ -556,59 +577,37 @@ Chapter 2.
 
 
 ]
-<Pictures/SMparticles.png, id=177, 803.0pt x 767.86874pt>
+<Pictures/SMparticles.png, id=178, 803.0pt x 767.86874pt>
 File: Pictures/SMparticles.png Graphic file (type png)
 
 <use Pictures/SMparticles.png>
 Package pdftex.def Info: Pictures/SMparticles.png used on input line 13.
 (pdftex.def)             Requested size: 328.82707pt x 314.44157pt.
-
-
-LaTeX Warning: Citation `PDG' on page 3 undefined on input line 14.
-
-
-LaTeX Warning: Citation `PDG' on page 3 undefined on input line 14.
-
-[3] [4 <./Pictures/SMparticles.png>] [5]) [6]
+ [3] [4] [5 <./Pictures/SMparticles.png>])
+[6] [7]
 Chapter 3.
 (./sections/LHCandATLAS.tex
 
-LaTeX Warning: Citation `Rossi_2010' on page 7 undefined on input line 2.
+Package natbib Warning: Citation `CERNnews1' on page 8 undefined on input line 
+2.
 
 
-LaTeX Warning: Citation `CERNnews1' on page 7 undefined on input line 2.
+Package natbib Warning: Citation `Aabout_2018_0' on page 8 undefined on input l
+ine 2.
 
-
-LaTeX Warning: Citation `Aabout_2018_0' on page 7 undefined on input line 2.
-
-
-LaTeX Warning: Citation `Aaboud_2019' on page 7 undefined on input line 2.
-
-
-LaTeX Warning: Citation `Aaboud_2018' on page 7 undefined on input line 2.
-
-
-LaTeX Warning: Citation `Aaboud_2018_2' on page 7 undefined on input line 2.
-
-
-LaTeX Warning: Citation `Aaboud_2019_2' on page 7 undefined on input line 2.
-
-
-LaTeX Warning: Citation `ATLAS-CONF-2019-040' on page 7 undefined on input line
- 2.
-
-[7
+[8
 
 
 ]
 
-LaTeX Warning: Citation `CERNnews2' on page 8 undefined on input line 4.
+Package natbib Warning: Citation `CERNnews2' on page 9 undefined on input line 
+4.
 
 
 LaTeX Warning: Reference `The High-Luminosity LHC and Inner Tracker (ITk)' on p
-age 8 undefined on input line 4.
+age 9 undefined on input line 4.
 
-<Pictures/LHClayout.PNG, id=210, 790.27245pt x 561.5379pt>
+<Pictures/LHClayout.PNG, id=229, 790.27245pt x 561.5379pt>
 File: Pictures/LHClayout.PNG Graphic file (type png)
 
 <use Pictures/LHClayout.PNG>
@@ -616,12 +615,12 @@ Package pdftex.def Info: Pictures/LHClayout.PNG used on input line 12.
 (pdftex.def)             Requested size: 281.85587pt x 200.27701pt.
 
 
-LaTeX Warning: Reference `LHCref' on page 8 undefined on input line 13.
+LaTeX Warning: Reference `LHCref' on page 9 undefined on input line 13.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pictures/dipolemagnet.jpg, id=212, 381.425pt x 271.0125pt>
+<Pictures/dipolemagnet.jpg, id=231, 381.425pt x 271.0125pt>
 File: Pictures/dipolemagnet.jpg Graphic file (type jpg)
 
 <use Pictures/dipolemagnet.jpg>
@@ -629,13 +628,13 @@ Package pdftex.def Info: Pictures/dipolemagnet.jpg used on input line 21.
 (pdftex.def)             Requested size: 281.85587pt x 200.27316pt.
 
 
-LaTeX Warning: Reference `LHCref' on page 8 undefined on input line 22.
+LaTeX Warning: Reference `LHCref' on page 9 undefined on input line 22.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <./Pictures/LHClayout.PNG> <./Pictures/dipolemagnet.jpg>]
-<Pictures/ATLASdetector.PNG, id=224, 639.13782pt x 433.62pt>
+[9] [10 <./Pictures/LHClayout.PNG> <./Pictures/dipolemagnet.jpg>]
+<Pictures/ATLASdetector.PNG, id=244, 639.13782pt x 433.62pt>
 File: Pictures/ATLASdetector.PNG Graphic file (type png)
 
 <use Pictures/ATLASdetector.PNG>
@@ -643,11 +642,11 @@ Package pdftex.def Info: Pictures/ATLASdetector.PNG used on input line 31.
 (pdftex.def)             Requested size: 328.82707pt x 223.08852pt.
 
 
-LaTeX Warning: Reference `detector' on page 10 undefined on input line 32.
+LaTeX Warning: Reference `detector' on page 11 undefined on input line 32.
 
-[10 <./Pictures/ATLASdetector.PNG>]
+[11 <./Pictures/ATLASdetector.PNG>]
 
-LaTeX Warning: Reference `detector' on page 11 undefined on input line 41.
+LaTeX Warning: Reference `detector' on page 12 undefined on input line 41.
 
 
 Overfull \hbox (3.86055pt too wide) in paragraph at lines 43--43
@@ -655,57 +654,28 @@ Overfull \hbox (3.86055pt too wide) in paragraph at lines 43--43
  []
 
 
-LaTeX Warning: Reference `HL-LHC Yellow Paper' on page 11 undefined on input li
+LaTeX Warning: Reference `HL-LHC Yellow Paper' on page 12 undefined on input li
 ne 44.
 
-[11] [12]) [13]
+[12] [13]) [14]
 Chapter 4.
-(./sections/TrackingIso.tex
-
-LaTeX Warning: Reference `4l' on page 14 undefined on input line 6.
-
-[14
+(./sections/TrackingIso.tex [15
 
 
 ]
 
-LaTeX Warning: Reference `patternrecognition' on page 15 undefined on input lin
-e 11.
+Package natbib Warning: Citation `ICreconstruction' on page 16 undefined on inp
+ut line 14.
 
-
-LaTeX Warning: Reference `IDreconstruction' on page 15 undefined on input line 
-11.
-
-
-LaTeX Warning: Reference `MuonReconstruction' on page 15 undefined on input lin
-e 14.
-
-[15]
-
-LaTeX Warning: Reference `MCPpaper' on page 16 undefined on input line 17.
-
-[16]
-
-LaTeX Warning: Reference `MCPpaper' on page 17 undefined on input line 34.
-
-
-LaTeX Warning: Reference `4l' on page 17 undefined on input line 37.
-
-[17] [18]
-
-LaTeX Warning: Reference `MCPpaper' on page 19 undefined on input line 56.
-
-
-LaTeX Warning: Reference `oldMCPpaper' on page 19 undefined on input line 57.
-
-<Pictures/efficiencyoverpt.PNG, id=279, 819.06pt x 585.68813pt>
+[16] [17] [18] [19]
+<Pictures/efficiencyoverpt.PNG, id=311, 819.06pt x 585.68813pt>
 File: Pictures/efficiencyoverpt.PNG Graphic file (type png)
 
 <use Pictures/efficiencyoverpt.PNG>
 Package pdftex.def Info: Pictures/efficiencyoverpt.PNG used on input line 62.
 (pdftex.def)             Requested size: 234.8775pt x 167.95058pt.
 
-<Pictures/efficiencyovereta.PNG, id=280, 694.84593pt x 655.69969pt>
+<Pictures/efficiencyovereta.PNG, id=312, 694.84593pt x 655.69969pt>
 File: Pictures/efficiencyovereta.PNG Graphic file (type png)
 
 <use Pictures/efficiencyovereta.PNG>
@@ -713,23 +683,14 @@ Package pdftex.def Info: Pictures/efficiencyovereta.PNG used on input line 66.
 (pdftex.def)             Requested size: 187.89914pt x 177.31142pt.
 
 
-LaTeX Warning: Reference `MCPpaper' on page 19 undefined on input line 68.
-
-
-LaTeX Warning: Reference `MCPpaper' on page 19 undefined on input line 68.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19] [20 <./Pictures/efficiencyoverpt.PNG> <./Pictures/efficiencyovereta.PNG>]
+[20] [21 <./Pictures/efficiencyoverpt.PNG> <./Pictures/efficiencyovereta.PNG>]
 
-LaTeX Warning: Reference `jets' on page 21 undefined on input line 77.
-
-
-LaTeX Warning: Reference `tab:datasetsdef' on page 21 undefined on input line 7
+LaTeX Warning: Reference `tab:datasetsdef' on page 22 undefined on input line 7
 9.
 
-<Pictures/isolationworkingpoints.PNG, id=297, 1162.3425pt x 421.575pt>
+<Pictures/isolationworkingpoints.PNG, id=333, 1162.3425pt x 421.575pt>
 File: Pictures/isolationworkingpoints.PNG Graphic file (type png)
 
 <use Pictures/isolationworkingpoints.PNG>
@@ -738,15 +699,9 @@ Package pdftex.def Info: Pictures/isolationworkingpoints.PNG used on input line
 (pdftex.def)             Requested size: 422.77664pt x 153.33646pt.
 
 
-LaTeX Warning: Reference `MCPpaper' on page 21 undefined on input line 84.
-
-
-LaTeX Warning: Reference `MCPpaper' on page 21 undefined on input line 84.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pictures/isolationefficiency1.png, id=298, 447.17062pt x 326.72063pt>
+<Pictures/isolationefficiency1.png, id=336, 447.17062pt x 326.72063pt>
 File: Pictures/isolationefficiency1.png Graphic file (type png)
 
 <use Pictures/isolationefficiency1.png>
@@ -754,7 +709,7 @@ Package pdftex.def Info: Pictures/isolationefficiency1.png used on input line 9
 1.
 (pdftex.def)             Requested size: 220.78543pt x 161.3159pt.
 
-<Pictures/isolationefficiency2.png, id=299, 447.17062pt x 327.47343pt>
+<Pictures/isolationefficiency2.png, id=337, 447.17062pt x 327.47343pt>
 File: Pictures/isolationefficiency2.png Graphic file (type png)
 
 <use Pictures/isolationefficiency2.png>
@@ -763,27 +718,11 @@ Package pdftex.def Info: Pictures/isolationefficiency2.png used on input line 9
 (pdftex.def)             Requested size: 225.4804pt x 165.12543pt.
 
 
-LaTeX Warning: Reference `MCPpaper' on page 21 undefined on input line 97.
-
-
-LaTeX Warning: Reference `MCPpaper' on page 21 undefined on input line 97.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] [22 <./Pictures/isolationworkingpoints.PNG> <./Pictures/isolationefficienc
-y1.png> <./Pictures/isolationefficiency2.png>]
-
-LaTeX Warning: Reference `MCPpaper' on page 23 undefined on input line 114.
-
-
-LaTeX Warning: Reference `MCPpaper' on page 23 undefined on input line 121.
-
-[23]
-
-LaTeX Warning: Reference `MCPpaper' on page 24 undefined on input line 123.
-
-<Pictures/parametrizationIDeta.PNG, id=322, 442.65375pt x 176.91093pt>
+[22] [23 <./Pictures/isolationworkingpoints.PNG> <./Pictures/isolationefficienc
+y1.png> <./Pictures/isolationefficiency2.png>] [24]
+<Pictures/parametrizationIDeta.PNG, id=365, 442.65375pt x 176.91093pt>
 File: Pictures/parametrizationIDeta.PNG Graphic file (type png)
 
 <use Pictures/parametrizationIDeta.PNG>
@@ -794,49 +733,65 @@ Package pdftex.def Info: Pictures/parametrizationIDeta.PNG used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [24] [25 <./Pictures/parametrizationIDeta.PNG>]
+) [25] [26 <./Pictures/parametrizationIDeta.PNG>]
 Chapter 5.
-(./sections/EventSelection.tex) [26
+(./sections/EventSelection.tex) [27
 
 
 ]
 Chapter 6.
-(./sections/BackgroundsSys.tex) [27
+(./sections/BackgroundsSys.tex) [28
 
 
 ]
 Chapter 7.
-(./sections/Results.tex) [28
+(./sections/Results.tex) [29
 
 
 ]
 Chapter 8.
-[29
+[30
 
+
+
+] (./LauraThesis.bbl
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-34.def
+File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
+) [31
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
- (./LauraThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+[32] [33]) [34]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+(./LauraThesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `LauraThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 13E23AE559A2FB8A18B4BFC91FA0B7AF;1579.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 8078 strings out of 493033
- 119826 string characters out of 6134139
- 236092 words of memory out of 5000000
- 11370 multiletter control sequences out of 15000+600000
+ 9349 strings out of 493033
+ 134331 string characters out of 6134139
+ 242284 words of memory out of 5000000
+ 12609 multiletter control sequences out of 15000+600000
  10759 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,13n,39p,1515b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,39p,1515b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -848,10 +803,10 @@ ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (37 pages, 2026281 bytes).
+Output written on LauraThesis.pdf (42 pages, 2040485 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 89 named destinations out of 1000 (max. 500000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

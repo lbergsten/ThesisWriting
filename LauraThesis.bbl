@@ -1,0 +1,133 @@
+\begin{thebibliography}{}
+
+\bibitem[old, ]{oldMCPpaper}
+
+
+\bibitem[IDr, 2010]{IDreconstruction}
+ (2010).
+\newblock {Performance of the ATLAS Silicon Pattern Recognition Algorithm in
+  Data and Simulation at $\sqrt{s} = 7$ TeV}.
+\newblock Technical Report ATLAS-CONF-2010-072, CERN, Geneva.
+
+\bibitem[ATL, 2019]{ATLAS-CONF-2019-040}
+ (2019).
+\newblock {Search for squarks and gluinos in final states with jets and missing
+  transverse momentum using 139 fb$^{-1}$ of $\sqrt{s}$ =13 TeV $pp$ collision
+  data with the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2019-040, CERN, Geneva.
+
+\bibitem[Aaboud et~al., 2019a]{Aaboud_2019_2}
+Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abhayasinghe, D.,
+  Abidi, S., AbouZeid, O., Abraham, N., Abramowicz, H., and et~al. (2019a).
+\newblock Cross-section measurements of the higgs boson decaying into a pair of
+  $\tau$-leptons in proton-proton collisions at $\sqrt(s)$=13 tev with the
+  atlas detector.
+\newblock {\em Physical Review D}, 99(7).
+
+\bibitem[Aaboud et~al., 2019b]{Aaboud_2019}
+Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abhayasinghe, D.,
+  Abidi, S., AbouZeid, O., Abraham, N., Abramowicz, H., and et~al. (2019b).
+\newblock Measurements of gluon–gluon fusion and vector-boson fusion higgs
+  boson production cross-sections in the $h \rightarrow ww^* \rightarrow
+  e\nu\mu\nu$ decay channel in $pp$ collisions at $\sqrt(s)$=13tev with the
+  atlas detector.
+\newblock {\em Physics Letters B}, 789:508–529.
+
+\bibitem[Aaboud et~al., 2018a]{Aaboud_2018_2}
+Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abidi, S., AbouZeid,
+  O., Abraham, N., Abramowicz, H., Abreu, H., and et~al. (2018a).
+\newblock Measurements of higgs boson properties in the diphoton decay channel
+  with 36 fb$^{−1}$ of $pp$ collision data at $\sqrt{s}=13$ tev with the
+  atlas detector.
+\newblock {\em Physical Review D}, 98(5).
+
+\bibitem[Aaboud et~al., 2018b]{Aaboud_2018}
+Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abidi, S.~H.,
+  AbouZeid, O.~S., Abraham, N.~L., Abramowicz, H., and et~al. (2018b).
+\newblock Measurement of the higgs boson coupling properties in the h
+  $\rightarrow$ zz$^* \rightarrow 4\ell$ decay channel at $ \sqrt{s}=13 $ tev
+  with the atlas detector.
+\newblock {\em Journal of High Energy Physics}, 2018(3).
+
+\bibitem[Aad et~al., 2014]{4l}
+Aad, G., Abbott, B., Abdallah, J., Abdel~Khalek, S., Abdinov, O., Aben, R.,
+  Abi, B., Abidi, S., Abolins, M., AbouZeid, O., and et~al. (2014).
+\newblock Measurement of the higgs boson mass from the $h \rightarrow
+  \gamma\gamma$ and $h \rightarrow zz^* \rightarrow 4\ell$ channels in $pp$
+  collisions at center-of-mass energies of 7 and 8 tev with the atlas detector.
+\newblock {\em Physical Review D}, 90(5).
+
+\bibitem[Aad et~al., 2013]{jets}
+Aad, G., Abbott, B., Abdallah, J., Abdelalim, A.~A., Abdesselam, A., Abdinov,
+  O., Abi, B., Abolins, M., Abramowicz, H., and et~al. (2013).
+\newblock Jet energy measurement with the atlas detector in proton-proton
+  collisions at $\sqrt{\mathrm{s} }=7\ \mathrm{TeV}$.
+\newblock {\em The European Physical Journal C}, 73(3).
+
+\bibitem[Aad et~al., 2016]{MCPpaper}
+Aad, G., Abbott, B., Abdallah, J., Abdinov, O., Abeloos, B., Aben, R., Abolins,
+  M., AbouZeid, O.~S., Abraham, N.~L., and et~al. (2016).
+\newblock Muon reconstruction performance of the atlas detector in
+  proton–proton collision data at $$\sqrt{s}$$ s =13 tev.
+\newblock {\em The European Physical Journal C}, 76(5).
+
+\bibitem[Illingworth and Kittler, 1988]{patternrecognition}
+Illingworth, J. and Kittler, J. (1988).
+\newblock A survey of the hough transform.
+\newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1):87 --
+  116.
+
+\bibitem[Rossi, 2010]{Rossi_2010}
+Rossi, L. (2010).
+\newblock {Superconductivity: Its Role, Its Success and Its Setbacks in the
+  Large Hadron Collider of CERN}.
+\newblock {\em Supercond. Sci. Technol.}, 23(CERN-ATS-2010-006):034001. 27 p.
+
+\bibitem[Tanabashi et~al., 2018]{PDG}
+Tanabashi, M., Hagiwara, K., Hikasa, K., Nakamura, K., Sumino, Y., Takahashi,
+  F., Tanaka, J., Agashe, K., Aielli, G., Amsler, C., Antonelli, M., Asner,
+  D.~M., Baer, H., Banerjee, S., Barnett, R.~M., Basaglia, T., Bauer, C.~W.,
+  Beatty, J.~J., Belousov, V.~I., Beringer, J., Bethke, S., Bettini, A.,
+  Bichsel, H., Biebel, O., Black, K.~M., Blucher, E., Buchmuller, O., Burkert,
+  V., Bychkov, M.~A., Cahn, R.~N., Carena, M., Ceccucci, A., Cerri, A.,
+  Chakraborty, D., Chen, M.-C., Chivukula, R.~S., Cowan, G., Dahl, O.,
+  D'Ambrosio, G., Damour, T., de~Florian, D., de~Gouv\^ea, A., DeGrand, T.,
+  de~Jong, P., Dissertori, G., Dobrescu, B.~A., D'Onofrio, M., Doser, M.,
+  Drees, M., Dreiner, H.~K., Dwyer, D.~A., Eerola, P., Eidelman, S., Ellis, J.,
+  Erler, J., Ezhela, V.~V., Fetscher, W., Fields, B.~D., Firestone, R., Foster,
+  B., Freitas, A., Gallagher, H., Garren, L., Gerber, H.-J., Gerbier, G.,
+  Gershon, T., Gershtein, Y., Gherghetta, T., Godizov, A.~A., Goodman, M.,
+  Grab, C., Gritsan, A.~V., Grojean, C., Groom, D.~E., Gr\"unewald, M., Gurtu,
+  A., Gutsche, T., Haber, H.~E., Hanhart, C., Hashimoto, S., Hayato, Y., Hayes,
+  K.~G., Hebecker, A., Heinemeyer, S., Heltsley, B., Hern\'andez-Rey, J.~J.,
+  Hisano, J., H\"ocker, A., Holder, J., Holtkamp, A., Hyodo, T., Irwin, K.~D.,
+  Johnson, K.~F., Kado, M., Karliner, M., Katz, U.~F., Klein, S.~R., Klempt,
+  E., Kowalewski, R.~V., Krauss, F., Kreps, M., Krusche, B., Kuyanov, Y.~V.,
+  Kwon, Y., Lahav, O., Laiho, J., Lesgourgues, J., Liddle, A., Ligeti, Z., Lin,
+  C.-J., Lippmann, C., Liss, T.~M., Littenberg, L., Lugovsky, K.~S., Lugovsky,
+  S.~B., Lusiani, A., Makida, Y., Maltoni, F., Mannel, T., Manohar, A.~V.,
+  Marciano, W.~J., Martin, A.~D., Masoni, A., Matthews, J., Mei\ss{}ner, U.-G.,
+  Milstead, D., Mitchell, R.~E., M\"onig, K., Molaro, P., Moortgat, F.,
+  Moskovic, M., Murayama, H., Narain, M., Nason, P., Navas, S., Neubert, M.,
+  Nevski, P., Nir, Y., Olive, K.~A., Pagan~Griso, S., Parsons, J., Patrignani,
+  C., Peacock, J.~A., Pennington, M., Petcov, S.~T., Petrov, V.~A., Pianori,
+  E., Piepke, A., Pomarol, A., Quadt, A., Rademacker, J., Raffelt, G.,
+  Ratcliff, B.~N., Richardson, P., Ringwald, A., Roesler, S., Rolli, S.,
+  Romaniouk, A., Rosenberg, L.~J., Rosner, J.~L., Rybka, G., Ryutin, R.~A.,
+  Sachrajda, C.~T., Sakai, Y., Salam, G.~P., Sarkar, S., Sauli, F., Schneider,
+  O., Scholberg, K., Schwartz, A.~J., Scott, D., Sharma, V., Sharpe, S.~R.,
+  Shutt, T., Silari, M., Sj\"ostrand, T., Skands, P., Skwarnicki, T., Smith,
+  J.~G., Smoot, G.~F., Spanier, S., Spieler, H., Spiering, C., Stahl, A.,
+  Stone, S.~L., Sumiyoshi, T., Syphers, M.~J., Terashi, K., Terning, J., Thoma,
+  U., Thorne, R.~S., Tiator, L., Titov, M., Tkachenko, N.~P., T\"ornqvist,
+  N.~A., Tovey, D.~R., Valencia, G., Van~de Water, R., Varelas, N., Venanzoni,
+  G., Verde, L., Vincter, M.~G., Vogel, P., Vogt, A., Wakely, S.~P., Walkowiak,
+  W., Walter, C.~W., Wands, D., Ward, D.~R., Wascko, M.~O., Weiglein, G.,
+  Weinberg, D.~H., Weinberg, E.~J., White, M., Wiencke, L.~R., Willocq, S.,
+  Wohl, C.~G., Womersley, J., Woody, C.~L., Workman, R.~L., Yao, W.-M., Zeller,
+  G.~P., Zenin, O.~V., Zhu, R.-Y., Zhu, S.-L., Zimmermann, F., Zyla, P.~A.,
+  Anderson, J., Fuller, L., Lugovsky, V.~S., and Schaffner, P. (2018).
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001.
+
+\end{thebibliography}
