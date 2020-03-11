@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Front Matter}{2}
+\contentsline {subsection}{\numberline {1.1}Your Own Front Matter Layout}{3}
+\contentsline {section}{\numberline {2}Margins and Line-spacing}{4}
+\contentsline {section}{\numberline {3}Class Options}{4}
+\contentsline {section}{\numberline {4}Issues To Be Aware Of}{6}
+\contentsline {subsection}{\numberline {4.1}Margin Notes}{6}
