@@ -89,7 +89,54 @@ Replacing the derivative into our Lagrangian and adding a gauge invariant energy
 \end{equation}
 Just as in the QED case, imposing local color phase invariance produced a new interacting field (or rather, eight) with a coupling specified as $g$. These are the gluon fields and just like photons, local gauge invariance requires them to be massless. Unlike the QED case, this Lagrangian's new kinetic term includes self-interaction between the gauge bosons - another key feature of QCD that is mandated by local color phase invariance. Gluons themselves must carry color charge and so self-couple - the structure of these self coupling terms and their single coupling strength $g$ are uniqely determined by gauge invariance. 
 
-\subsubsection{Electro-weak unification}
+\subsubsection{Electroweak unification}
+Thus far, I've summarized the theoretical backgrounds for symmetries (and so conserved quantities) in both quantum electrodynamics and chromodynamics. The weak force is the final Standard Model force and weak interactions are mediated by $Z$ and $W$ bosons. Unlike the gluons and photons of QCD and QED, these gauge bosons are massive. This is explained through spontaneous symmetry breaking of the electroweak force, which is descibed in the following section. Assuming that $W$/$Z$ bosons are massive, the weak force can be combined with QED and a central electroweak force (with its associated symmetries) can be described. 
+
+The weak neutral current $J_\mu^{NC}$ as well as the charged currents $J_\mu$ and $\J_mu^\dagger$ can form a symmetry group of weak interactions. The charged currents correspond to the charged weak interaction with $W^\pm$ bosons while the neutral current is associated with the $Z^0$ boson.
+\begin{equation}
+J_\mu=\bar{\nu_L}\gamma_\mu_L \\
+J_\mu^\dagger =\bar{e_L}\gamma_\mu\nu_L
+J_\mu^3=\frac{1}{2}\bar{\nu_L}\gamma_\mu\nu_L-\frac{1}{2}\bar{e_L}\gamma_\mu e_L
+\end{equation}
+L here denotes that these are left-handed spinors and particle names denote associated Dirac spinors. The charged currents can be written as a doublet using the Pauli spin matrices $\tau_i$ where $\tau_\pm=\frac{1}{2}(\tau_1\pm i\tau_2$ and
+\begin{equation}
+\chi_L=\begin{bmatrix}
+        \nu  \\
+        e^-
+        \end{bmatrix}
+\end{equation}
+as 
+\begin{equation}
+J_\mu^+(x)=\bar{\chi_L}\gamma_\mu\tau_+\chi_L \\
+J_\mu^+(x)=\bar{\chi_L}\gamma_\mu\tau_-\chi_L \\
+J_\mu^3(x)=\bar{\chi_L}\gamma_\mu\frac{1}{2}\tau_i\chi_L \textnormal{with} i=1,23
+\end{equation}
+Now if a corresponding charge is defined $T^i=\int J_0^i(x)d^3x$ we have an $SU$(2)$_L$ algebra
+\begin{equation}
+[T^i,T^j]=i\epsilon_{ijk}T^k
+\end{equation}
+Unfortunately while a these currents create an $SU$(2) group, they don't correspond with the weak neutral current symmetry in a fairly obvious way, unlike the charged currents, the neutral current has a right handed component. One clear way to resolve this is to add in the electromagnetic current, as its a neutral current with left and right-handed components.
+\begin{equation} 
+j_\mu^{em}(x)=-\bar{e_R}\gamma_\mu e_R-\bar{e_L}\gamma_\mu e_L
+\end{equation}
+so the the electromagnetic current $j_\mu$ can be written using the coupling $e$
+\begin{equation}
+j_\mu=e j_\mu^{em} = e\bar{\psi}\gamma_\mu Q\psi
+\end{equation}
+with $Q$ the charge operator and generator of the $U$(1) symmetry group of EM. In order to "save" the symmetry of the weak neutral current, we can define an electromagnetic current $j_\mu^Y$, the weak hypercharge current, that is unchanged by $SU$(2)$_L$ transformations. We define a weak hypercharge $Y$ and its current $j_\mu^Y$
+\begin{equation}
+Q=T^3+\frac{Y}{2} \\
+j_\mu^Y =\bar{\psi}\gamma_\mu Y \psi
+\end{equation}
+The combined current 
+\begin{equation}
+j_\mu^{em} = J_\mu^3+\frac{1}{2}j_\mu^Y
+\end{equation}
+now generates the symmetry group $U$(1)$_\gamma$ and so the electromagnetic interaction and weak interaction are combined into one $SU$(2)$_L$ $\times$ $U$(1)$_\gamma$. While unified into one enlarged group, the two forces still have independent coupling strengths. This brief introduction into electroweak unification is not the complete picture- EM and weak interactions still have to be unified. This is simple in the Standard model framework- electroweak currents just have to be coupled to vector bosons. In the electroweak $SU$(2)$_L$ $\times$ $U$(1)$_\gamma$ group there is an isotriplet of vector fields $W_\mu^i$ coupled with strength $g$ to the weak isospin current $J_\mu^i$ while a single vector field $B_\mu$ is coupled to the weak hypercharge current $j_\mu^Y$ with strength $g'/2$. The electroweak interaction can be defined
+\begin{equation}
+-i g (J^i)^\mu W_\mu^i-i\frac{g'}{2}(j^Y)^\mu B_\mu
+\end{equation}
+This summary of the unified electroweak force will be the starting point for a derivation of the Higgs boson and an explanation for mass of the weak force's vector bosons (and all fermion masses). The electroweak theory is unique in its calculability, even at higher order scales. Because of this, many deviations from theory could be observed at current energy scales- the theorectical uncertainties are low. The measurement central to my thesis probes for such discrepancies to electroweak theory. The mechanisms for this will be explained in the last section in this section. 
 
 \subsubsection{Spontaneous Symmetry Breaking}
 Unlike QED and QCD, the weak force is mediated by massive gauge bosons. Because of this, we can't apply the same gauge invariance prescription that we did in the last sections. If a mass term is added to the Lagrangian we break the gauge invariance we aimed to find. If we instead ignore the gauge invariance and add a mass term to the Lagrangian, all predictive power of the theory is lost due to unrenormalizable divergences. With "spontaneous symmetry breaking" we can gain massive gauge bosons while maintaining the integrity of the theory. In this section I first describe the "spontaneous symmetry breaking" mechanism is terms of an Abelian theory composed of complex scalar fields to illustrate the overall strategy. This mechanism is then applied to the non-Abelian electroweak theory to gain massive weak gauge bosons $W^{+/-}$ and $Z$, with the Higgs field appearing as a 'spontaneous' result.
