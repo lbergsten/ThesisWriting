@@ -1,0 +1,15 @@
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/merged_16a_total_new.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/merged_16d_total_new.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/merged_16e_total_new.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16a_all_total_new.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16d_all_total_new.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16e_all_total.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16e_all_total2.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16e_all_total3.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16e_extras2.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_16d_extras.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/merged_16d_extras.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_total_0jet_16a_JERfix2.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_total_0jet_16e_JERfix2.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/0jet/merged_total_0jet_16d_JERfix2.root
+/eos/user/t/tricoli/HWW_pxAOD_v20/merged_sys/v20/final/merged_total_JERfix2.root

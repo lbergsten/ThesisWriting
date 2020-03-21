@@ -4,42 +4,42 @@
 \contentsline {section}{\numberline {2.1}Standard Model}{2}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Particles and forces}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Gauge Invariance}{6}{subsection.2.1.2}
-\contentsline {subsubsection}{Quantum Electrodynamics}{6}{section*.3}
-\contentsline {subsubsection}{Quantum chromodynamics}{8}{section*.4}
-\contentsline {subsubsection}{Electro-weak unification}{10}{section*.5}
-\contentsline {subsubsection}{Spontaneous Symmetry Breaking}{10}{section*.6}
-\contentsline {section}{\numberline {2.2}LHC Physics/Phenomenology}{15}{section.2.2}
-\contentsline {section}{\numberline {2.3}Brief history of SM tests}{15}{section.2.3}
-\contentsline {section}{\numberline {2.4}Measurement motivation?}{15}{section.2.4}
-\contentsline {chapter}{\numberline {3}The LHC and the ATLAS detector}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}A Toroidal LHC ApparatuS}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}The High-Luminosity LHC and Inner Tracker (ITk)}{22}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Inner Tracker (ITk)}{23}{subsection.3.3.1}
-\contentsline {subsubsection}{Building ITk Strip barrel staves}{24}{section*.7}
-\contentsline {subsubsection}{IR Testing ITk Strip barrel staves}{28}{section*.8}
-\contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tracking and isolation in ATLAS}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Jets}{33}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}MET}{33}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Electrons}{33}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Muons}{33}{subsection.4.1.4}
-\contentsline {subsubsection}{Muon reconstruction in the ID}{34}{section*.9}
-\contentsline {subsubsection}{Muon reconstruction in the MS}{34}{section*.10}
-\contentsline {subsubsection}{Combined Reconstruction}{35}{section*.11}
-\contentsline {subsubsection}{Muon Identification}{36}{section*.12}
-\contentsline {subsubsection}{Muon Reconstruction Efficiency}{37}{section*.13}
-\contentsline {subsubsection}{Muon Isolation}{39}{section*.14}
-\contentsline {subsubsection}{Muon Momentum Corrections}{40}{section*.15}
-\contentsline {chapter}{\numberline {5}Event Selection}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{45}{section.5.1}
-\contentsline {section}{\numberline {5.2}Object definitions}{45}{section.5.2}
-\contentsline {section}{\numberline {5.3}Event selection}{45}{section.5.3}
-\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{46}{chapter.6}
-\contentsline {section}{\numberline {6.1}Backgrounds}{46}{section.6.1}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{46}{section.6.2}
-\contentsline {chapter}{\numberline {7}Results}{47}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{47}{section.7.1}
-\contentsline {section}{\numberline {7.2}Unfolding}{47}{section.7.2}
-\contentsline {section}{\numberline {7.3}Results and ratio measurements}{47}{section.7.3}
-\contentsline {chapter}{\numberline {8}Conclusions}{48}{chapter.8}
+\contentsline {subsubsection}{Quantum Electrodynamics}{6}{section*.4}
+\contentsline {subsubsection}{Quantum chromodynamics}{8}{section*.5}
+\contentsline {subsubsection}{Electroweak unification}{9}{section*.6}
+\contentsline {subsubsection}{Spontaneous Symmetry Breaking}{12}{section*.7}
+\contentsline {section}{\numberline {2.2}LHC Physics/Phenomenology}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}Brief history of SM tests}{23}{section.2.3}
+\contentsline {section}{\numberline {2.4}Measurement motivation?}{23}{section.2.4}
+\contentsline {chapter}{\numberline {3}The LHC and the ATLAS detector}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}A Toroidal LHC ApparatuS}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}The High-Luminosity LHC and Inner Tracker (ITk)}{30}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Inner Tracker (ITk)}{31}{subsection.3.3.1}
+\contentsline {subsubsection}{Building ITk Strip barrel staves}{32}{section*.18}
+\contentsline {subsubsection}{IR Testing ITk Strip barrel staves}{36}{section*.23}
+\contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tracking and isolation in ATLAS}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Jets}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}MET}{41}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Electrons}{41}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Muons}{41}{subsection.4.1.4}
+\contentsline {subsubsection}{Muon reconstruction in the ID}{42}{section*.28}
+\contentsline {subsubsection}{Muon reconstruction in the MS}{42}{section*.29}
+\contentsline {subsubsection}{Combined Reconstruction}{43}{section*.30}
+\contentsline {subsubsection}{Muon Identification}{44}{section*.31}
+\contentsline {subsubsection}{Muon Reconstruction Efficiency}{45}{section*.32}
+\contentsline {subsubsection}{Muon Isolation}{47}{section*.34}
+\contentsline {subsubsection}{Muon Momentum Corrections}{48}{section*.37}
+\contentsline {chapter}{\numberline {5}Event Selection}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}Object definitions}{53}{section.5.2}
+\contentsline {section}{\numberline {5.3}Event selection}{53}{section.5.3}
+\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{54}{chapter.6}
+\contentsline {section}{\numberline {6.1}Backgrounds}{54}{section.6.1}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{54}{section.6.2}
+\contentsline {chapter}{\numberline {7}Results}{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{55}{section.7.1}
+\contentsline {section}{\numberline {7.2}Unfolding}{55}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results and ratio measurements}{55}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusions}{56}{chapter.8}

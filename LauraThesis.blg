@@ -1,29 +1,31 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LauraThesis.aux
-White space in argument---line 76 of file LauraThesis.aux
+White space in argument---line 106 of file LauraThesis.aux
  : \citation{HL-LHC
  :                  Yellow Paper}
 I'm skipping whatever remains of this command
 The style file: apalike.bst
 Database file #1: references.bib
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 50 of file references.bib
-I was expecting a `,' or a `}'---line 54 of file references.bib
+--line 98 of file references.bib
+I was expecting a `,' or a `}'---line 102 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 57 of file references.bib
-Your field is more than 20000 characters---line 433 of file references.bib
+--line 105 of file references.bib
+Your field is more than 20000 characters---line 481 of file references.bib
  :                        and Gornicki, Edward a
  :                                              nd Goshaw, Alfred and Gössling,
 I'm skipping whatever remains of this entry
-Your field is more than 20000 characters---line 1623 of file references.bib
+Your field is more than 20000 characters---line 1671 of file references.bib
  :                        and Subramania, S and Whittington,
  :                                                           D and Bischof, R and
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Djouadi"
+Warning--I didn't find a database entry for "LHCCrossSectionWG"
 Warning--I didn't find a database entry for "Aabout_2018_0"
 Warning--I didn't find a database entry for "ICreconstruction"
 Warning--to sort, need author or key in ATLAS-CONF-2019-040
@@ -47,45 +49,46 @@ Warning--empty journal in LHCInjector
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
 Warning--empty publisher in HalzenMartin
-You've used 22 entries,
+Warning--empty journal in Stirling
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            600 strings with 12067 characters,
-and the built_in function-call counts, 15789 in all, are:
-= -- 1227
-> -- 1645
-< -- 11
-+ -- 648
-- -- 640
-* -- 1745
-:= -- 2932
-add.period$ -- 58
-call.type$ -- 22
-change.case$ -- 427
-chr.to.int$ -- 20
-cite$ -- 48
-duplicate$ -- 284
-empty$ -- 520
-format.name$ -- 661
-if$ -- 2747
+            622 strings with 12527 characters,
+and the built_in function-call counts, 16833 in all, are:
+= -- 1325
+> -- 1688
+< -- 12
++ -- 662
+- -- 654
+* -- 1832
+:= -- 3123
+add.period$ -- 66
+call.type$ -- 25
+change.case$ -- 449
+chr.to.int$ -- 23
+cite$ -- 52
+duplicate$ -- 325
+empty$ -- 593
+format.name$ -- 678
+if$ -- 2946
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 105
-num.names$ -- 51
-pop$ -- 419
+missing$ -- 21
+newline$ -- 119
+num.names$ -- 60
+pop$ -- 438
 preamble$ -- 1
-purify$ -- 430
+purify$ -- 452
 quote$ -- 0
-skip$ -- 213
+skip$ -- 244
 stack$ -- 0
-substring$ -- 444
-swap$ -- 15
+substring$ -- 507
+swap$ -- 17
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 130
-warning$ -- 21
-while$ -- 41
+type$ -- 148
+warning$ -- 22
+while$ -- 49
 width$ -- 0
-write$ -- 260
+write$ -- 296
 (There were 4 error messages)

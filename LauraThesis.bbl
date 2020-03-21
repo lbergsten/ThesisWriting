@@ -82,6 +82,17 @@ Aad, G., Abbott, B., Abdallah, J., Abdinov, O., Abeloos, B., Aben, R., Abolins,
 Benedikt, M., Collier, P., Mertens, V., Poole, J., and Schindl, K. (2004).
 \newblock {LHC Design Report. 3. The LHC injector chain}.
 
+\bibitem[Butterworth et~al., 2012]{Butterworth}
+Butterworth, J.~M., Dissertori, G., and Salam, G.~P. (2012).
+\newblock {Hard Processes in Proton-Proton Collisions at the Large Hadron
+  Collider}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 62:387--405.
+
+\bibitem[Campbell et~al., 2007]{Campbell}
+Campbell, J.~M., Huston, J.~W., and Stirling, W.~J. (2007).
+\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
+\newblock {\em Rept. Prog. Phys.}, 70:89.
+
 \bibitem[CERN, 2019]{CERNnews2}
 CERN (2019).
 \newblock A new schedule for the lhc and its successor.
@@ -125,6 +136,10 @@ Rossi, L. (2010).
 \bibitem[Steerenberg, 2018]{CERNnews1}
 Steerenberg, R. (2018).
 \newblock Lhc report: Protons: mission accomplished.
+
+\bibitem[Stirling, 2018]{Stirling}
+Stirling, W. (2018).
+\newblock {Private Communication...}
 
 \bibitem[Tanabashi et~al., 2018]{PDG}
 Tanabashi, M., Hagiwara, K., Hikasa, K., Nakamura, K., Sumino, Y., Takahashi,

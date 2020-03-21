@@ -92,9 +92,9 @@ Just as in the QED case, imposing local color phase invariance produced a new in
 \subsubsection{Electroweak unification}
 Thus far, I've summarized the theoretical backgrounds for symmetries (and so conserved quantities) in both quantum electrodynamics and chromodynamics. The weak force is the final Standard Model force and weak interactions are mediated by $Z$ and $W$ bosons. Unlike the gluons and photons of QCD and QED, these gauge bosons are massive. This is explained through spontaneous symmetry breaking of the electroweak force, which is descibed in the following section. Assuming that $W$/$Z$ bosons are massive, the weak force can be combined with QED and a central electroweak force (with its associated symmetries) can be described. 
 
-The weak neutral current $J_\mu^{NC}$ as well as the charged currents $J_\mu$ and $\J_mu^\dagger$ can form a symmetry group of weak interactions. The charged currents correspond to the charged weak interaction with $W^\pm$ bosons while the neutral current is associated with the $Z^0$ boson.
+The weak neutral current $J_\mu^{NC}$ as well as the charged currents $J_\mu$ and $J_\mu^\dagger$ can form a symmetry group of weak interactions. The charged currents correspond to the charged weak interaction with $W^\pm$ bosons while the neutral current is associated with the $Z^0$ boson.
 \begin{equation}
-J_\mu=\bar{\nu_L}\gamma_\mu_L \\
+J_\mu=\bar{\nu_L}\gamma_\mu\nu_L \\
 J_\mu^\dagger =\bar{e_L}\gamma_\mu\nu_L
 J_\mu^3=\frac{1}{2}\bar{\nu_L}\gamma_\mu\nu_L-\frac{1}{2}\bar{e_L}\gamma_\mu e_L
 \end{equation}
@@ -248,6 +248,75 @@ Now the Higgs field exists just in the previous example and the theory contains 
 The Standard Model has been proven over decades to be an incredibly robust theory and Large Hadron Collider (LHC) is it's key testing ground. 
 
 \section{LHC Physics/Phenomenology}
+The Large Hadron Collider (LHC) is the foremost Standard Model testing ground and the the proton-proton collisions recorded through the ATLAS detector have created greater understanding of the fundamental constants discussed in the previous section. Fermion and gauge boson masses and couplings, including the mass of the Higgs boson, have been measured incredibly precisely. In the next chapter the mechanics of the LHC and ATLAS detector will be discussed, but first here I will introduce the motivations and observations of LHC physics. This section will begin with the mechanics of proton-proton collisions and their decay products, then introduce the concept of decay cross-sections and finally focus more closely on the Higgs boson and its properties.
+
+The LHC was designed with one central goal- discover the missing Standard Model Higgs boson. The protons in the LHC collide at a center-of-mass energy of 14 TeV, but began at half that in 2010. The electroweak symmetry breaking scale was theoretically known to be between 100-1000 GeV and so probing at 7 TeV provided near certainty of finding either the Higgs or an inconsistency in the Standard Model. The motivation for a proton collider was multifaceted. Foremost, using the tunnels built for the electron-positron detector LEP with protons allows the collider to reach higher energies, as protons don't lose energy to synchroton radiation at the same scale as electrons. However, proton collisions have added complexity from their component quarks. Each parton carries some fraction of the momentum of the proton described by parton distribution functions. 
+
+Figure \ref{fig:protonproton} shows a proton-proton collision schematic. In this example, from \cite{Butterworth}, the hard process comes from the up quark in each proton. "Hardness" refers to the fraction of momentum of the protons that is involved in the collision. In contrast, "soft" collisions are those from remaining partons in each proton and usually involve low momentum transfer. These soft collisions are considered the underlying event shown in the figure. Proton scatter of partons is the most common hard process at the LHC by far due to the high density of gluons in the proton and the scale of QCD couplings above electroweak. 
+\begin{figure}[H]
+        \centering
+    \includegraphics[width=0.6\textwidth] {Pictures/protonproton.png}\hspace{1cm}
+    \caption{Proton-proton collision example showing quark-gluon scattering and final state jet and Z-boson \cite{Butterworth}}.
+    \label{fig:protonproton}
+\end{figure}
+Quarks and gluons emitted from the high energy hard scatter do not appear in the detector directly. QCD, in one of its key differences to QED, becomes stronger with larger distances. As it reaches high enough energy low energy gluons are radiated until partons are able to bind into color-neutral hadrons. These hadrons are seen collimated in groups in the detector as "jets". The energy and momentum of jets are used as reflections of the intial scattered partons. Various "jet algorithms" are used to determine the initial parton properties as reproducibility and precisely as possible. The jet algorithm used in this analysis will be described in detail in Chapter 3. However, it's important to note that the algorithm used by all LHC experiments, anti-$k_t$- is collinear and infrared safe, or no addected by small angle and soft scatterings that occur in a parton shower. Without these qualities, perturbation theory applied to the parton shower would find infinities at higher orders.
+
+The cross-section (denoted $\sigma$) measures the probability that a certain process will occur in the collision of two particles, in our case protons. In high energy physics cross-sections are measured in inverse femtobarns. A barn is the cross-sectional area of a uranium nucleus and was named to describe the large target area needed to have direct strikes on a nucleus. Hence the expression "couldn't hit the broad side of a barn". Inverse femtobarns are used to measure the number of particle collision events per femtobarn area of a target and measures time-integrated luminosity. 
+
+Hard scattering cross-sections in hadron-hadron collisions can be calculated using the QCD factorization theorem, and to leading-order these calculations are relatively simple. In the factorization theorem, developed by Drell and Yan, deep inelastic scattering parton model processes could apply to hadron-hadron collisions. The Drell-Yan process is the production of a massive lepton pair by quark-antiquark annihilation. According to the factorization theorem, a hadronic cross-section $\sigma(AB\rightarrow \mu^+\mu^-+X)$ could be calculated by weighting the Drell-Yan sub-process cross-section $\hat{\sigma}$ for $\bar{q}q\rightarrow\mu^+\mu^-$ with parton distribution functions $f_{q/A}(x)$ which come from deep inelastic scattering \cite{Campbell}:
+\begin{equation}
+\sigma_{AB} = \int dx_a dx_b f_{a/A}(x_a)f_{b/B}(x_b)\hat{\sigma_{ab\rightarrow X}}
+\end{equation}
+where $X$ represents the two resulting leptons and $ab$ the two annihilated quarks. This parton model provides good agreement with measured cross sections and so allows understanding of particlar hard scattering processes. Predictions for some key Standard Model processes are shown in Figure \ref{fig:crosssection}. Noting the logarithmic scales it's clear that the Higgs boson of mass 125GeV is orders of magnitude more numerous at the LHC than the Tevatron and that certain high mass particles like the $b$ quark and $W/Z$ bosons are produced at the LHC at high levels \cite{Campbell}. In addition, the plot shows cross-sections of particular Higgs decay modes. These will be discussed next.
+ 
+\begin{figure}[H]
+        \centering
+    \includegraphics[width=0.6\textwidth] {Pictures/crosssections.jpg}\hspace{1cm}
+    \caption{Predicted Standard Model cross-sections for the Tevatron and LHC \cite{Stirling}.}
+    \label{fig:crosssection}
+\end{figure}
+
+Higgs production at the LHC occurs via four main processes: gluon-gluon fusion, vector-boson fusion, associated production with $W/Z$ bosons, and associated production with top or bottom quarks. The Feynmann diagrams for these processes are shown in Figure \ref{fig:FeynmannHiggs}.  
+
+\begin{figure}[H]
+        \centering
+    \includegraphics[width=0.7\textwidth] {Pictures/FeynmannHiggs.png}\hspace{1cm}
+    \caption{Feynmann diagrams for the leading Higgs boson production modes at the LHC \cite{Djouadi}.}
+    \label{fig:FeynmannHiggs}
+\end{figure}
+
+The LHC Cross-section Working Group produces Higgs measurement predictions on cross-sections, branching ratios, and pseudo-observables. Four CERN reports bring together Higgs recommendations for current and planned LHC efforts \cite{LHCCrossSectionWG}. Figure \ref{fig:HiggsCrosssection} shows the Higgs cross-section for the main production modes as s function of the Higgs mass and the collision center-of-mass energy. The Standard Model doesn't predict the Higgs mass, but with our experimental knowledge of that $m_H$ is about 125GeV, the calculations can be focussed on the region of interest. Examining cross-section as a function of center-of-mass demonstrates the increase in statistics for events of interest that running the detector at higher energy levels can accomplish. It's also clear that gluon-gluon fusion Higgs production is the leading production mechanism by far. The cross-section is currently known at NNLO in QCD with NLO EW corrections. The second highest production cross-section is from vector-boson-fusion (VBF). As seen in the Feynman diagram, two outgoing quarks are produced in the interaction. These quarks produce two hard jets in the forward region, with the Higgs boson appearing between them. To leading order VBF Higgs production is solely electroweak and QCD correction (calculated at NLO) have a smaller impact than in ggF. NLO EW corrections are also applied. As a result, VBF theoretical uncertainties are much smaller than those on ggF. Vector boson associated Higgs production through a $W/Z$ boson are less common the VBF but also dominated by electroweak processes with a small QCD correction (NNLO). Finally, associated production with top and bottom quarks is shown, though these are quite rare and have high NLO and NNLO QCD corrections. 
+
+\begin{figure}[H]
+    \centering
+    \subfloat[Higgs production cross-section by $m_H$]{{\includegraphics[width=0.45\textwidth]{Pictures/HiggsCrosssectionMH.png} }} %
+    \qquad
+    \subfloat[Higgs production cross-section by$\sqrt{s}$]{{\includegraphics[width=0.45\textwidth]{Pictures/HiggsCrosssectionCOM.png} }}%
+    \caption{Higgs production cross-sections over Higgs mass at center-of-mass energy 14TeV (left) and over center-of-mass energy for a Higgs mass of 125GeV \cite{LHCCrossSectionWG}}%
+    \label{fig:HiggsCrosssection}%
+\end{figure}
+
+Theoretical uncertainties as shown as colored bars in \ref{fig:HiggsCrosssection} are calculated...
+
+\begin{figure}[H]
+        \centering
+    \includegraphics[width=0.5\textwidth] {Pictures/HiggsBranching.png}\hspace{1cm}
+    \caption{Predicted branching ratios for the Higgs boson at the LHC as a function of Higgs mass \cite{LHCCrossSectionWG}.}
+    \label{fig:FeynmannHiggs}
+\end{figure}
+
+Decay, search channels
+
 \section{Brief history of SM tests}
+first particles
+weak force
+QCD
+bosons
+Higgs discovery
+HWW cross section- ATLAS/CMS
+HWW differential
 \section{Measurement motivation?}
+Why HWW? 
+Hints from phenomology, why differential? 
+Discuss the future aka the fraction of vbf to SM
 
