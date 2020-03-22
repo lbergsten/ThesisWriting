@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  21 MAR 2020 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  22 MAR 2020 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,9 +441,6 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 (./LauraThesis.aux
 
-LaTeX Warning: Label `fig:FeynmannHiggs' multiply defined.
-
-
 ! Package natbib Error: Bibliography not compatible with author-year citations.
 
 (natbib)                Press <return> to continue in numerical citation style.
@@ -453,7 +450,7 @@ See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 ...and\NAT@force@numbers{}\NAT@force@numbers
+l.235 ...and\NAT@force@numbers{}\NAT@force@numbers
                                                   
 ? 
 )
@@ -665,111 +662,95 @@ Package natbib Warning: Citation `Djouadi' on page 21 undefined on input line 2
 Package natbib Warning: Citation `Djouadi' on page 21 undefined on input line 2
 84.
 
-[21 <./Pictures/crosssections.jpg>]
-<Pictures/HiggsCrosssectionMH.png, id=347, 600.2425pt x 577.15625pt>
+[21 <./Pictures/crosssections.jpg>] [22 <./Pictures/FeynmannHiggs.png>]
+<Pictures/HiggsCrosssectionMH.png, id=355, 600.2425pt x 577.15625pt>
 File: Pictures/HiggsCrosssectionMH.png Graphic file (type png)
 
 <use Pictures/HiggsCrosssectionMH.png>
 Package pdftex.def Info: Pictures/HiggsCrosssectionMH.png used on input line 29
-0.
+2.
 (pdftex.def)             Requested size: 211.38832pt x 203.25826pt.
 
-<Pictures/HiggsCrosssectionCOM.png, id=348, 600.2425pt x 577.15625pt>
+<Pictures/HiggsCrosssectionCOM.png, id=356, 600.2425pt x 577.15625pt>
 File: Pictures/HiggsCrosssectionCOM.png Graphic file (type png)
 
 <use Pictures/HiggsCrosssectionCOM.png>
 Package pdftex.def Info: Pictures/HiggsCrosssectionCOM.png used on input line 2
-92.
+94.
 (pdftex.def)             Requested size: 211.38832pt x 203.25826pt.
 
-
-Package natbib Warning: Citation `LHCCrossSectionWG' on page 22 undefined on in
-put line 293.
-
-
-Package natbib Warning: Citation `LHCCrossSectionWG' on page 22 undefined on in
-put line 293.
-
-<Pictures/HiggsBranching.png, id=349, 600.2425pt x 571.13374pt>
+<Pictures/HiggsBranching.png, id=361, 600.2425pt x 571.13374pt>
 File: Pictures/HiggsBranching.png Graphic file (type png)
 
 <use Pictures/HiggsBranching.png>
-Package pdftex.def Info: Pictures/HiggsBranching.png used on input line 300.
+Package pdftex.def Info: Pictures/HiggsBranching.png used on input line 303.
 (pdftex.def)             Requested size: 234.8775pt x 223.48203pt.
-
-
-Package natbib Warning: Citation `LHCCrossSectionWG' on page 22 undefined on in
-put line 301.
-
-
-Package natbib Warning: Citation `LHCCrossSectionWG' on page 22 undefined on in
-put line 301.
-
-[22 <./Pictures/FeynmannHiggs.png> <./Pictures/HiggsCrosssectionMH.png> <./Pict
-ures/HiggsCrosssectionCOM.png>]) [23 <./Pictures/HiggsBranching.png>]
+ [23 <./Pictures/HiggsCrosssectionMH.png> <./Pictures/HiggsCrosssectionCOM.png>
+] [24 <./Pictures/HiggsBranching.png>])
+[25]
 Chapter 3.
 (./sections/LHCandATLAS.tex
 
-Package natbib Warning: Citation `Aabout_2018_0' on page 24 undefined on input 
+Package natbib Warning: Citation `Aabout_2018_0' on page 26 undefined on input 
 line 2.
 
-[24
+[26
 
 
 ]
 
 LaTeX Warning: Reference `sec:The High-Luminosity LHC and Inner Tracker (ITk)' 
-on page 25 undefined on input line 4.
+on page 27 undefined on input line 4.
 
-[25] <Pictures/LHClayout.PNG, id=394, 790.27245pt x 561.5379pt>
+[27] <Pictures/LHClayout.PNG, id=417, 790.27245pt x 561.5379pt>
 File: Pictures/LHClayout.PNG Graphic file (type png)
 
 <use Pictures/LHClayout.PNG>
 Package pdftex.def Info: Pictures/LHClayout.PNG used on input line 12.
 (pdftex.def)             Requested size: 281.85587pt x 200.27701pt.
- [26 <./Pictures/LHClayout.PNG>]
-<Pictures/dipolemagnet.jpg, id=406, 381.425pt x 271.0125pt>
+ [28 <./Pictures/LHClayout.PNG>]
+<Pictures/dipolemagnet.jpg, id=429, 381.425pt x 271.0125pt>
 File: Pictures/dipolemagnet.jpg Graphic file (type jpg)
 
 <use Pictures/dipolemagnet.jpg>
 Package pdftex.def Info: Pictures/dipolemagnet.jpg used on input line 21.
 (pdftex.def)             Requested size: 281.85587pt x 200.27316pt.
 
-<Pictures/ATLASdetector.PNG, id=409, 639.13782pt x 433.62pt>
+<Pictures/ATLASdetector.PNG, id=432, 639.13782pt x 433.62pt>
 File: Pictures/ATLASdetector.PNG Graphic file (type png)
 
 <use Pictures/ATLASdetector.PNG>
 Package pdftex.def Info: Pictures/ATLASdetector.PNG used on input line 31.
 (pdftex.def)             Requested size: 328.82707pt x 223.08852pt.
- [27 <./Pictures/dipolemagnet.jpg>] [28 <./Pictures/ATLASdetector.PNG>]
+ [29 <./Pictures/dipolemagnet.jpg>] [30 <./Pictures/ATLASdetector.PNG>]
 Overfull \hbox (3.86055pt too wide) in paragraph at lines 43--43
 []\OT1/cmr/bx/n/17.28 The High-Luminosity LHC and In-ner Tracker (ITk) 
  []
 
 
-Package natbib Warning: Citation `HL-LHC Yellow Paper' on page 29 undefined on 
+Package natbib Warning: Citation `HL-LHC Yellow Paper' on page 31 undefined on 
 input line 44.
 
-[29] [30]
+[31] [32]
 
-LaTeX Warning: Reference `fig:ITklayout' on page 31 undefined on input line 51.
+LaTeX Warning: Reference `fig:ITklayout' on page 33 undefined on input line 51.
 
 
-<Pictures/ITklayout.png, id=437, 896.34875pt x 589.20125pt>
+<Pictures/ITklayout.png, id=461, 896.34875pt x 589.20125pt>
 File: Pictures/ITklayout.png Graphic file (type png)
 
 <use Pictures/ITklayout.png>
 Package pdftex.def Info: Pictures/ITklayout.png used on input line 54.
 (pdftex.def)             Requested size: 281.85587pt x 185.26672pt.
- [31] [32 <./Pictures/ITklayout.png>]
-<Pictures/ITkmodule.png, id=454, 689.57625pt x 532.99126pt>
+ [33] [34 <./Pictures/ITklayout.png>]
+<Pictures/ITkmodule.png, id=477, 689.57625pt x 532.99126pt>
 File: Pictures/ITkmodule.png Graphic file (type png)
 
 <use Pictures/ITkmodule.png>
 Package pdftex.def Info: Pictures/ITkmodule.png used on input line 65.
 (pdftex.def)             Requested size: 187.89914pt x 145.22707pt.
 
-<Pictures/electricalstave.png, id=458, 951.555pt x 172.645pt>
+<Pictures/electricalstave.png, id=481, 951.555pt x 172.645pt>
 File: Pictures/electricalstave.png Graphic file (type png)
 
 <use Pictures/electricalstave.png>
@@ -779,26 +760,26 @@ Package pdftex.def Info: Pictures/electricalstave.png used on input line 74.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33 <./Pictures/ITkmodule.png>] [34 <./Pictures/electricalstave.png>]
+[35 <./Pictures/ITkmodule.png>] [36 <./Pictures/electricalstave.png>]
 
-LaTeX Warning: Reference `modulealignment' on page 35 undefined on input line 8
+LaTeX Warning: Reference `modulealignment' on page 37 undefined on input line 8
 4.
 
-<Pictures/labviewscreen.png, id=469, 890.32625pt x 519.9425pt>
+<Pictures/labviewscreen.png, id=493, 890.32625pt x 519.9425pt>
 File: Pictures/labviewscreen.png Graphic file (type png)
 
 <use Pictures/labviewscreen.png>
 Package pdftex.def Info: Pictures/labviewscreen.png used on input line 88.
 (pdftex.def)             Requested size: 281.85587pt x 164.59991pt.
- [35 <./Pictures/labviewscreen.png>]
-<Pictures/placementresults.png, id=477, 1295.84125pt x 452.69125pt>
+ [37 <./Pictures/labviewscreen.png>]
+<Pictures/placementresults.png, id=500, 1295.84125pt x 452.69125pt>
 File: Pictures/placementresults.png Graphic file (type png)
 
 <use Pictures/placementresults.png>
 Package pdftex.def Info: Pictures/placementresults.png used on input line 97.
 (pdftex.def)             Requested size: 375.80544pt x 131.284pt.
- [36 <./Pictures/placementresults.png>]
-<Pictures/paintedstave.png, id=485, 643.40375pt x 520.94624pt>
+ [38 <./Pictures/placementresults.png>]
+<Pictures/paintedstave.png, id=508, 643.40375pt x 520.94624pt>
 File: Pictures/paintedstave.png Graphic file (type png)
 
 <use Pictures/paintedstave.png>
@@ -808,21 +789,21 @@ Package pdftex.def Info: Pictures/paintedstave.png used on input line 111.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37] <Pictures/FEAcompare.png, id=492, 885.3075pt x 618.31pt>
+[39] <Pictures/FEAcompare.png, id=515, 885.3075pt x 618.31pt>
 File: Pictures/FEAcompare.png Graphic file (type png)
 
 <use Pictures/FEAcompare.png>
 Package pdftex.def Info: Pictures/FEAcompare.png used on input line 120.
 (pdftex.def)             Requested size: 187.89914pt x 131.22638pt.
- [38 <./Pictures/paintedstave.png> <./Pictures/FEAcompare.png>] <Pictures/IRima
-getotal.png, id=499, 1266.7325pt x 354.32375pt>
+ [40 <./Pictures/paintedstave.png> <./Pictures/FEAcompare.png>] <Pictures/IRima
+getotal.png, id=522, 1266.7325pt x 354.32375pt>
 File: Pictures/IRimagetotal.png Graphic file (type png)
 
 <use Pictures/IRimagetotal.png>
 Package pdftex.def Info: Pictures/IRimagetotal.png used on input line 129.
 (pdftex.def)             Requested size: 375.80544pt x 105.1139pt.
 
-<Pictures/moduleoff.png, id=501, 1030.85126pt x 577.15625pt>
+<Pictures/moduleoff.png, id=524, 1030.85126pt x 577.15625pt>
 File: Pictures/moduleoff.png Graphic file (type png)
 
 <use Pictures/moduleoff.png>
@@ -832,25 +813,25 @@ Package pdftex.def Info: Pictures/moduleoff.png used on input line 138.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [39 <./Pictures/IRimagetotal.png>] [40 <./Pictures/moduleoff.png>]
+) [41 <./Pictures/IRimagetotal.png>] [42 <./Pictures/moduleoff.png>]
 Chapter 4.
-(./sections/TrackingIso.tex [41
+(./sections/TrackingIso.tex [43
 
 
 ]
 
-Package natbib Warning: Citation `ICreconstruction' on page 42 undefined on inp
+Package natbib Warning: Citation `ICreconstruction' on page 44 undefined on inp
 ut line 14.
 
-[42] [43] [44] [45]
-<Pictures/efficiencyoverpt.PNG, id=555, 819.06pt x 585.68813pt>
+[44] [45] [46] [47]
+<Pictures/efficiencyoverpt.PNG, id=579, 819.06pt x 585.68813pt>
 File: Pictures/efficiencyoverpt.PNG Graphic file (type png)
 
 <use Pictures/efficiencyoverpt.PNG>
 Package pdftex.def Info: Pictures/efficiencyoverpt.PNG used on input line 62.
 (pdftex.def)             Requested size: 234.8775pt x 167.95058pt.
 
-<Pictures/efficiencyovereta.PNG, id=556, 694.84593pt x 655.69969pt>
+<Pictures/efficiencyovereta.PNG, id=580, 694.84593pt x 655.69969pt>
 File: Pictures/efficiencyovereta.PNG Graphic file (type png)
 
 <use Pictures/efficiencyovereta.PNG>
@@ -860,12 +841,12 @@ Package pdftex.def Info: Pictures/efficiencyovereta.PNG used on input line 66.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[46] [47 <./Pictures/efficiencyoverpt.PNG> <./Pictures/efficiencyovereta.PNG>]
+[48] [49 <./Pictures/efficiencyoverpt.PNG> <./Pictures/efficiencyovereta.PNG>]
 
-LaTeX Warning: Reference `tab:datasetsdef' on page 48 undefined on input line 7
+LaTeX Warning: Reference `tab:datasetsdef' on page 50 undefined on input line 7
 9.
 
-<Pictures/isolationworkingpoints.PNG, id=578, 1162.3425pt x 421.575pt>
+<Pictures/isolationworkingpoints.PNG, id=602, 1162.3425pt x 421.575pt>
 File: Pictures/isolationworkingpoints.PNG Graphic file (type png)
 
 <use Pictures/isolationworkingpoints.PNG>
@@ -876,7 +857,7 @@ Package pdftex.def Info: Pictures/isolationworkingpoints.PNG used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Pictures/isolationefficiency1.png, id=581, 447.17062pt x 326.72063pt>
+<Pictures/isolationefficiency1.png, id=605, 447.17062pt x 326.72063pt>
 File: Pictures/isolationefficiency1.png Graphic file (type png)
 
 <use Pictures/isolationefficiency1.png>
@@ -884,7 +865,7 @@ Package pdftex.def Info: Pictures/isolationefficiency1.png used on input line 9
 1.
 (pdftex.def)             Requested size: 220.78543pt x 161.3159pt.
 
-<Pictures/isolationefficiency2.png, id=582, 447.17062pt x 327.47343pt>
+<Pictures/isolationefficiency2.png, id=606, 447.17062pt x 327.47343pt>
 File: Pictures/isolationefficiency2.png Graphic file (type png)
 
 <use Pictures/isolationefficiency2.png>
@@ -895,9 +876,9 @@ Package pdftex.def Info: Pictures/isolationefficiency2.png used on input line 9
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[48] [49 <./Pictures/isolationworkingpoints.PNG> <./Pictures/isolationefficienc
-y1.png> <./Pictures/isolationefficiency2.png>] [50]
-<Pictures/parametrizationIDeta.PNG, id=609, 442.65375pt x 176.91093pt>
+[50] [51 <./Pictures/isolationworkingpoints.PNG> <./Pictures/isolationefficienc
+y1.png> <./Pictures/isolationefficiency2.png>] [52]
+<Pictures/parametrizationIDeta.PNG, id=632, 442.65375pt x 176.91093pt>
 File: Pictures/parametrizationIDeta.PNG Graphic file (type png)
 
 <use Pictures/parametrizationIDeta.PNG>
@@ -908,38 +889,38 @@ Package pdftex.def Info: Pictures/parametrizationIDeta.PNG used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [51] [52 <./Pictures/parametrizationIDeta.PNG>]
+) [53] [54 <./Pictures/parametrizationIDeta.PNG>]
 Chapter 5.
-(./sections/EventSelection.tex) [53
+(./sections/EventSelection.tex) [55
 
 
 ]
 Chapter 6.
-(./sections/BackgroundsSys.tex) [54
+(./sections/BackgroundsSys.tex) [56
 
 
 ]
 Chapter 7.
-(./sections/Results.tex) [55
+(./sections/Results.tex) [57
 
 
 ]
 Chapter 8.
-[56
+[58
 
 
 
 ] (./LauraThesis.bbl
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [57
+) [59
 
 
 ]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [58]
-[59] [60]) [61]
+) [60]
+[61] [62]) [63]
 
 Package natbib Warning: There were undefined citations.
 
@@ -954,36 +935,35 @@ Package rerunfilecheck Info: File `LauraThesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 10752 strings out of 493033
- 160152 string characters out of 6134139
- 266756 words of memory out of 5000000
- 13881 multiletter control sequences out of 15000+600000
- 10759 words of font info for 38 fonts, out of 8000000 for 9000
+ 10767 strings out of 493033
+ 160413 string characters out of 6134139
+ 267923 words of memory out of 5000000
+ 13891 multiletter control sequences out of 15000+600000
+ 10986 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,13n,49p,1515b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,13n,49p,1851b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (69 pages, 8123109 bytes).
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on LauraThesis.pdf (71 pages, 8145337 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
- 610 compressed objects within 7 object streams
- 209 named destinations out of 1000 (max. 500000)
+ 779 PDF objects out of 1000 (max. 8388607)
+ 634 compressed objects within 7 object streams
+ 214 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 

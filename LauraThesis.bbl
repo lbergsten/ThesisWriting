@@ -1,5 +1,8 @@
 \begin{thebibliography}{}
 
+\bibitem[LHC, ]{LHCCrossSectionWG}
+
+
 \bibitem[det, ]{detector}
 
 
@@ -78,9 +81,20 @@ Aad, G., Abbott, B., Abdallah, J., Abdinov, O., Abeloos, B., Aben, R., Abolins,
   proton–proton collision data at $$\sqrt{s}$$ s =13 tev.
 \newblock {\em The European Physical Journal C}, 76(5).
 
+\bibitem[Aad et~al., 2012]{Higgsdiscovery}
+Aad, G. et~al. (2012).
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29.
+
 \bibitem[Benedikt et~al., 2004]{LHCInjector}
 Benedikt, M., Collier, P., Mertens, V., Poole, J., and Schindl, K. (2004).
 \newblock {LHC Design Report. 3. The LHC injector chain}.
+
+\bibitem[Butterworth et~al., 2016]{PDF4LHC}
+Butterworth, J. et~al. (2016).
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em J. Phys.}, G43:023001.
 
 \bibitem[Butterworth et~al., 2012]{Butterworth}
 Butterworth, J.~M., Dissertori, G., and Salam, G.~P. (2012).
