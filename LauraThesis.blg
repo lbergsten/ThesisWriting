@@ -1,30 +1,30 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LauraThesis.aux
-White space in argument---line 109 of file LauraThesis.aux
+White space in argument---line 123 of file LauraThesis.aux
  : \citation{HL-LHC
  :                  Yellow Paper}
 I'm skipping whatever remains of this command
 The style file: apalike.bst
 Database file #1: references.bib
-"{" immediately follows a field name---line 19 of file references.bib
+"{" immediately follows a field name---line 75 of file references.bib
  : ok
  :   {deFlorian:2227475,
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 380 of file references.bib
-I was expecting a `,' or a `}'---line 384 of file references.bib
+--line 436 of file references.bib
+I was expecting a `,' or a `}'---line 440 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 387 of file references.bib
-Your field is more than 20000 characters---line 763 of file references.bib
+--line 443 of file references.bib
+Your field is more than 20000 characters---line 819 of file references.bib
  :                        and Gornicki, Edward a
  :                                              nd Goshaw, Alfred and Gössling,
 I'm skipping whatever remains of this entry
-Your field is more than 20000 characters---line 1953 of file references.bib
+Your field is more than 20000 characters---line 2009 of file references.bib
  :                        and Subramania, S and Whittington,
  :                                                           D and Bischof, R and
 I'm skipping whatever remains of this entry
@@ -57,46 +57,47 @@ Warning--empty journal in LHCInjector
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
 Warning--empty publisher in HalzenMartin
+Warning--empty booktitle in Kibble
 Warning--empty journal in Stirling
-You've used 28 entries,
+You've used 32 entries,
             1935 wiz_defined-function locations,
-            636 strings with 12810 characters,
-and the built_in function-call counts, 17796 in all, are:
-= -- 1415
-> -- 1714
-< -- 14
-+ -- 670
-- -- 662
-* -- 1912
-:= -- 3280
-add.period$ -- 73
-call.type$ -- 28
-change.case$ -- 465
-chr.to.int$ -- 26
-cite$ -- 61
-duplicate$ -- 369
-empty$ -- 677
-format.name$ -- 690
-if$ -- 3140
-int.to.chr$ -- 3
+            660 strings with 13558 characters,
+and the built_in function-call counts, 19189 in all, are:
+= -- 1547
+> -- 1770
+< -- 17
++ -- 689
+- -- 680
+* -- 2022
+:= -- 3531
+add.period$ -- 85
+call.type$ -- 32
+change.case$ -- 491
+chr.to.int$ -- 29
+cite$ -- 66
+duplicate$ -- 428
+empty$ -- 781
+format.name$ -- 714
+if$ -- 3414
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 24
-newline$ -- 132
-num.names$ -- 66
-pop$ -- 460
+missing$ -- 29
+newline$ -- 151
+num.names$ -- 78
+pop$ -- 487
 preamble$ -- 1
-purify$ -- 469
+purify$ -- 496
 quote$ -- 0
-skip$ -- 275
+skip$ -- 317
 stack$ -- 0
-substring$ -- 574
-swap$ -- 19
+substring$ -- 649
+swap$ -- 22
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 164
-warning$ -- 27
-while$ -- 55
+type$ -- 186
+warning$ -- 28
+while$ -- 65
 width$ -- 0
-write$ -- 328
+write$ -- 377
 (There were 5 error messages)

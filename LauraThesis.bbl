@@ -74,9 +74,9 @@ Aad, G., Abbott, B., Abdallah, J., Abdelalim, A.~A., Abdesselam, A., Abdinov,
   collisions at $\sqrt{\mathrm{s} }=7\ \mathrm{TeV}$.
 \newblock {\em The European Physical Journal C}, 73(3).
 
-\bibitem[Aad et~al., 2016]{MCPpaper}
+\bibitem[Aad et~al., 2016a]{MCPpaper}
 Aad, G., Abbott, B., Abdallah, J., Abdinov, O., Abeloos, B., Aben, R., Abolins,
-  M., AbouZeid, O.~S., Abraham, N.~L., and et~al. (2016).
+  M., AbouZeid, O.~S., Abraham, N.~L., and et~al. (2016a).
 \newblock Muon reconstruction performance of the atlas detector in
   proton–proton collision data at $$\sqrt{s}$$ s =13 tev.
 \newblock {\em The European Physical Journal C}, 76(5).
@@ -86,6 +86,20 @@ Aad, G. et~al. (2012).
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
 \newblock {\em Phys. Lett.}, B716:1--29.
+
+\bibitem[Aad et~al., 2016b]{HiggsDifferential}
+Aad, G. et~al. (2016b).
+\newblock {Measurement of fiducial differential cross sections of gluon-fusion
+  production of Higgs bosons decaying to WW$^{∗}\rightarrow e\nu\mu\nu$ with
+  the ATLAS detector at $ \sqrt{s}=8 $ TeV}.
+\newblock {\em JHEP}, 08:104.
+
+\bibitem[Aad et~al., 2020]{HiggsCurrent}
+Aad, G. et~al. (2020).
+\newblock {Combined measurements of Higgs boson production and decay using up
+  to $80$ fb$^{-1}$ of proton-proton collision data at $\sqrt{s}=$ 13 TeV
+  collected with the ATLAS experiment}.
+\newblock {\em Phys. Rev.}, D101(1):012002.
 
 \bibitem[Benedikt et~al., 2004]{LHCInjector}
 Benedikt, M., Collier, P., Mertens, V., Poole, J., and Schindl, K. (2004).
@@ -116,6 +130,12 @@ Collaboration, A. (2017).
 \newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
 \newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva.
 
+\bibitem[Council et~al., 1998]{HistoryBook}
+Council, N., Sciences, D., Astronomy, B., and Physics, C. (1998).
+\newblock {\em Elementary-Particle Physics: Revealing the Secrets of Energy and
+  Matter}.
+\newblock Physics in a New Era: A Series. National Academies Press.
+
 \bibitem[Ellis, 2013]{HiggsPotential}
 Ellis, J. (2013).
 \newblock {Higgs Physics}.
@@ -140,6 +160,10 @@ Illingworth, J. and Kittler, J. (1988).
 \newblock A survey of the hough transform.
 \newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1):87 --
   116.
+
+\bibitem[Kibble, 2014]{Kibble}
+Kibble, T. W.~B. (2014).
+\newblock {The Standard Model of Particle Physics}.
 
 \bibitem[Rossi, 2010]{Rossi_2010}
 Rossi, L. (2010).
