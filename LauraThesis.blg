@@ -1,30 +1,37 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LauraThesis.aux
-White space in argument---line 123 of file LauraThesis.aux
+White space in argument---line 124 of file LauraThesis.aux
  : \citation{HL-LHC
  :                  Yellow Paper}
 I'm skipping whatever remains of this command
 The style file: apalike.bst
 Database file #1: references.bib
-"{" immediately follows a field name---line 75 of file references.bib
+Warning--entry type for "JETEtmiss" isn't style-file defined
+--line 45 of file references.bib
+I was expecting a `,' or a `}'---line 49 of file references.bib
+ :         
+ :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults?redirectedfrom=AtlasPublic.JetEtMissPublicCollisionResults}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+"{" immediately follows a field name---line 136 of file references.bib
  : ok
  :   {deFlorian:2227475,
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 436 of file references.bib
-I was expecting a `,' or a `}'---line 440 of file references.bib
+--line 497 of file references.bib
+I was expecting a `,' or a `}'---line 501 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 443 of file references.bib
-Your field is more than 20000 characters---line 819 of file references.bib
+--line 504 of file references.bib
+Your field is more than 20000 characters---line 880 of file references.bib
  :                        and Gornicki, Edward a
  :                                              nd Goshaw, Alfred and Gössling,
 I'm skipping whatever remains of this entry
-Your field is more than 20000 characters---line 2009 of file references.bib
+Your field is more than 20000 characters---line 2070 of file references.bib
  :                        and Subramania, S and Whittington,
  :                                                           D and Bischof, R and
 I'm skipping whatever remains of this entry
@@ -35,6 +42,7 @@ Warning--to sort, need author, editor, or key in LHCCrossSectionWG
 Warning--to sort, need author or key in ATLAS-CONF-2019-040
 Warning--to sort, need author or key in radiofrequency
 Warning--to sort, need author or key in detector
+Warning--to sort, need author or key in JetRun1
 Warning--to sort, need author or key in IDreconstruction
 Warning--to sort, need author or key in oldMCPpaper
 Warning--empty author and editor in LHCCrossSectionWG
@@ -52,52 +60,54 @@ Warning--empty journal in oldMCPpaper
 Warning--empty author in IDreconstruction
 Warning--empty author in radiofrequency
 Warning--empty journal in radiofrequency
+Warning--empty author in JetRun1
 Warning--empty author in ATLAS-CONF-2019-040
+Warning--empty journal in jetscaleres
 Warning--empty journal in LHCInjector
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
 Warning--empty publisher in HalzenMartin
 Warning--empty booktitle in Kibble
 Warning--empty journal in Stirling
-You've used 32 entries,
+You've used 37 entries,
             1935 wiz_defined-function locations,
-            660 strings with 13558 characters,
-and the built_in function-call counts, 19189 in all, are:
-= -- 1547
-> -- 1770
-< -- 17
-+ -- 689
-- -- 680
-* -- 2022
-:= -- 3531
-add.period$ -- 85
-call.type$ -- 32
-change.case$ -- 491
-chr.to.int$ -- 29
-cite$ -- 66
-duplicate$ -- 428
-empty$ -- 781
-format.name$ -- 714
-if$ -- 3414
-int.to.chr$ -- 4
+            684 strings with 14147 characters,
+and the built_in function-call counts, 20682 in all, are:
+= -- 1691
+> -- 1821
+< -- 21
++ -- 706
+- -- 696
+* -- 2144
+:= -- 3802
+add.period$ -- 98
+call.type$ -- 37
+change.case$ -- 522
+chr.to.int$ -- 33
+cite$ -- 75
+duplicate$ -- 491
+empty$ -- 888
+format.name$ -- 736
+if$ -- 3699
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 151
-num.names$ -- 78
-pop$ -- 487
+missing$ -- 32
+newline$ -- 174
+num.names$ -- 90
+pop$ -- 511
 preamble$ -- 1
-purify$ -- 496
+purify$ -- 527
 quote$ -- 0
-skip$ -- 317
+skip$ -- 367
 stack$ -- 0
-substring$ -- 649
-swap$ -- 22
-text.length$ -- 3
+substring$ -- 728
+swap$ -- 25
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
-warning$ -- 28
-while$ -- 65
+type$ -- 216
+warning$ -- 31
+while$ -- 75
 width$ -- 0
-write$ -- 377
-(There were 5 error messages)
+write$ -- 436
+(There were 6 error messages)

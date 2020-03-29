@@ -19,6 +19,12 @@
  (2012).
 \newblock {Radiofrequency cavities}.
 
+\bibitem[Jet, 2015]{JetRun1}
+ (2015).
+\newblock {Jet global sequential corrections with the ATLAS detector in
+  proton-proton collisions at sqrt(s) = 8 TeV}.
+\newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva.
+
 \bibitem[ATL, 2019]{ATLAS-CONF-2019-040}
  (2019).
 \newblock {Search for squarks and gluinos in final states with jets and missing
@@ -58,6 +64,17 @@ Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abidi, S.~H.,
   $\rightarrow$ zz$^* \rightarrow 4\ell$ decay channel at $ \sqrt{s}=13 $ tev
   with the atlas detector.
 \newblock {\em Journal of High Energy Physics}, 2018(3).
+
+\bibitem[Aaboud et~al., 2017]{ParticleFlow}
+Aaboud, M. et~al. (2017).
+\newblock {Jet reconstruction and performance using particle flow with the
+  ATLAS Detector}.
+\newblock {\em Eur. Phys. J.}, C77(7):466.
+
+\bibitem[Aaboud et~al., 2019c]{jetscaleres}
+Aaboud, M. et~al. (2019c).
+\newblock {Determination of jet calibration and energy resolution in
+  proton-proton collisions at $\sqrt{s}$ = 8 TeV using the ATLAS detector}.
 
 \bibitem[Aad et~al., 2014]{4l}
 Aad, G., Abbott, B., Abdallah, J., Abdel~Khalek, S., Abdinov, O., Aben, R.,
@@ -116,6 +133,11 @@ Butterworth, J.~M., Dissertori, G., and Salam, G.~P. (2012).
   Collider}.
 \newblock {\em Ann. Rev. Nucl. Part. Sci.}, 62:387--405.
 
+\bibitem[Cacciari et~al., 2008]{antikt}
+Cacciari, M., Salam, G.~P., and Soyez, G. (2008).
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063.
+
 \bibitem[Campbell et~al., 2007]{Campbell}
 Campbell, J.~M., Huston, J.~W., and Stirling, W.~J. (2007).
 \newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
@@ -149,6 +171,10 @@ Ellis, J. (2013).
 Evans, L. (2007).
 \newblock The large hadron collider.
 \newblock {\em New Journal of Physics}, 9(9):335--335.
+
+\bibitem[group, 2019]{JETEtmiss}
+group, J.~E. (2019).
+\newblock Public plots.
 
 \bibitem[Halzen and Martin, 1984]{HalzenMartin}
 Halzen, F. and Martin, A. (1984).
