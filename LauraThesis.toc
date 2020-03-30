@@ -1,4 +1,4 @@
-\contentsline {chapter}{Abstract}{vi}{chapter*.1}
+\contentsline {chapter}{Abstract}{vii}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theory}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Standard Model}{2}{section.2.1}
@@ -19,18 +19,17 @@
 \contentsline {subsubsection}{Building ITk Strip barrel staves}{41}{section*.20}
 \contentsline {subsubsection}{IR Testing ITk Strip barrel staves}{45}{section*.25}
 \contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{50}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tracking and isolation in ATLAS}{50}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Jets}{51}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}MET}{56}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Electrons}{56}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Muons}{56}{subsection.4.1.4}
-\contentsline {subsubsection}{Muon reconstruction in the ID}{57}{section*.33}
-\contentsline {subsubsection}{Muon reconstruction in the MS}{57}{section*.34}
-\contentsline {subsubsection}{Combined Reconstruction}{58}{section*.35}
-\contentsline {subsubsection}{Muon Identification}{59}{section*.36}
-\contentsline {subsubsection}{Muon Reconstruction Efficiency}{60}{section*.37}
-\contentsline {subsubsection}{Muon Isolation}{62}{section*.39}
-\contentsline {subsubsection}{Muon Momentum Corrections}{63}{section*.42}
+\contentsline {section}{\numberline {4.1}Jets}{51}{section.4.1}
+\contentsline {section}{\numberline {4.2}MET}{56}{section.4.2}
+\contentsline {section}{\numberline {4.3}Electrons}{56}{section.4.3}
+\contentsline {section}{\numberline {4.4}Muons}{56}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Muon reconstruction in the ID}{57}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Muon reconstruction in the MS}{57}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Combined Reconstruction}{58}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Muon Identification}{59}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Muon Reconstruction Efficiency}{60}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Muon Isolation}{62}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Muon Momentum Corrections}{64}{subsection.4.4.7}
 \contentsline {chapter}{\numberline {5}Event Selection}{68}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{68}{section.5.1}
 \contentsline {section}{\numberline {5.2}Object definitions}{68}{section.5.2}
