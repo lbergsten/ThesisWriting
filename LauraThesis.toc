@@ -14,31 +14,31 @@
 \contentsline {chapter}{\numberline {3}The LHC and the ATLAS detector}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}The Large Hadron Collider}{33}{section.3.1}
 \contentsline {section}{\numberline {3.2}A Toroidal LHC ApparatuS}{36}{section.3.2}
-\contentsline {section}{\numberline {3.3}The High-Luminosity LHC and Inner Tracker (ITk)}{39}{section.3.3}
+\contentsline {section}{\numberline {3.3}The High-Luminosity LHC and Inner Tracker (ITk)}{38}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Inner Tracker (ITk)}{40}{subsection.3.3.1}
 \contentsline {subsubsection}{Building ITk Strip barrel staves}{41}{section*.20}
 \contentsline {subsubsection}{IR Testing ITk Strip barrel staves}{45}{section*.25}
 \contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{50}{chapter.4}
 \contentsline {section}{\numberline {4.1}Jets}{51}{section.4.1}
-\contentsline {section}{\numberline {4.2}MET}{56}{section.4.2}
-\contentsline {section}{\numberline {4.3}Electrons}{56}{section.4.3}
-\contentsline {section}{\numberline {4.4}Muons}{56}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Muon reconstruction in the ID}{57}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Muon reconstruction in the MS}{57}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Combined Reconstruction}{58}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Muon Identification}{59}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Muon Reconstruction Efficiency}{60}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Muon Isolation}{62}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Muon Momentum Corrections}{64}{subsection.4.4.7}
-\contentsline {chapter}{\numberline {5}Event Selection}{68}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{68}{section.5.1}
-\contentsline {section}{\numberline {5.2}Object definitions}{68}{section.5.2}
-\contentsline {section}{\numberline {5.3}Event selection}{68}{section.5.3}
-\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{69}{chapter.6}
-\contentsline {section}{\numberline {6.1}Backgrounds}{69}{section.6.1}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{69}{section.6.2}
-\contentsline {chapter}{\numberline {7}Results}{70}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{70}{section.7.1}
-\contentsline {section}{\numberline {7.2}Unfolding}{70}{section.7.2}
-\contentsline {section}{\numberline {7.3}Results and ratio measurements}{70}{section.7.3}
-\contentsline {chapter}{\numberline {8}Conclusions}{71}{chapter.8}
+\contentsline {section}{\numberline {4.2}Missing transverse energy}{56}{section.4.2}
+\contentsline {section}{\numberline {4.3}Electrons}{60}{section.4.3}
+\contentsline {section}{\numberline {4.4}Muons}{63}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Muon reconstruction in the ID}{63}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Muon reconstruction in the MS}{64}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Combined Reconstruction}{64}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Muon Identification}{65}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Muon Reconstruction Efficiency}{66}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Muon Isolation}{69}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Muon Momentum Corrections}{70}{subsection.4.4.7}
+\contentsline {chapter}{\numberline {5}Event Selection}{74}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{74}{section.5.1}
+\contentsline {section}{\numberline {5.2}Object definitions}{74}{section.5.2}
+\contentsline {section}{\numberline {5.3}Event selection}{74}{section.5.3}
+\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}Backgrounds}{75}{section.6.1}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{75}{section.6.2}
+\contentsline {chapter}{\numberline {7}Results}{76}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{76}{section.7.1}
+\contentsline {section}{\numberline {7.2}Unfolding}{76}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results and ratio measurements}{76}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusions}{77}{chapter.8}

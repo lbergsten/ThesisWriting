@@ -25,6 +25,12 @@
   proton-proton collisions at sqrt(s) = 8 TeV}.
 \newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva.
 
+\bibitem[MET, 2018]{METSig}
+ (2018).
+\newblock {Object-based missing transverse momentum significance in the ATLAS
+  detector}.
+\newblock Technical Report ATLAS-CONF-2018-038, CERN, Geneva.
+
 \bibitem[ATL, 2019]{ATLAS-CONF-2019-040}
  (2019).
 \newblock {Search for squarks and gluinos in final states with jets and missing
@@ -70,6 +76,12 @@ Aaboud, M. et~al. (2017).
 \newblock {Jet reconstruction and performance using particle flow with the
   ATLAS Detector}.
 \newblock {\em Eur. Phys. J.}, C77(7):466.
+
+\bibitem[Aaboud et~al., 2018c]{METPerf}
+Aaboud, M. et~al. (2018c).
+\newblock {Performance of missing transverse momentum reconstruction with the
+  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
+\newblock {\em Eur. Phys. J.}, C78(11):903.
 
 \bibitem[Aaboud et~al., 2019c]{jetscaleres}
 Aaboud, M. et~al. (2019c).
@@ -157,6 +169,12 @@ Council, N., Sciences, D., Astronomy, B., and Physics, C. (1998).
 \newblock {\em Elementary-Particle Physics: Revealing the Secrets of Energy and
   Matter}.
 \newblock Physics in a New Era: A Series. National Academies Press.
+
+\bibitem[Djouadi, 2008]{Djouadi}
+Djouadi, A. (2008).
+\newblock {The Anatomy of electro-weak symmetry breaking. I: The Higgs boson in
+  the standard model}.
+\newblock {\em Phys. Rept.}, 457:1--216.
 
 \bibitem[Ellis, 2013]{HiggsPotential}
 Ellis, J. (2013).
