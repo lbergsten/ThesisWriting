@@ -1,273 +1,292 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem[LHC, ]{LHCCrossSectionWG}
+\bibitem{PDG}
+M.~Tanabashi, K.~Hagiwara, K.~Hikasa, K.~Nakamura, Y.~Sumino, F.~Takahashi,
+  J.~Tanaka, K.~Agashe, G.~Aielli, C.~Amsler, M.~Antonelli, D.~M. Asner,
+  H.~Baer, Sw. Banerjee, R.~M. Barnett, T.~Basaglia, C.~W. Bauer, J.~J. Beatty,
+  V.~I. Belousov, J.~Beringer, S.~Bethke, A.~Bettini, H.~Bichsel, O.~Biebel,
+  K.~M. Black, E.~Blucher, O.~Buchmuller, V.~Burkert, M.~A. Bychkov, R.~N.
+  Cahn, M.~Carena, A.~Ceccucci, A.~Cerri, D.~Chakraborty, M.-C. Chen, R.~S.
+  Chivukula, G.~Cowan, O.~Dahl, G.~D'Ambrosio, T.~Damour, D.~de~Florian,
+  A.~de~Gouv\^ea, T.~DeGrand, P.~de~Jong, G.~Dissertori, B.~A. Dobrescu,
+  M.~D'Onofrio, M.~Doser, M.~Drees, H.~K. Dreiner, D.~A. Dwyer, P.~Eerola,
+  S.~Eidelman, J.~Ellis, J.~Erler, V.~V. Ezhela, W.~Fetscher, B.~D. Fields,
+  R.~Firestone, B.~Foster, A.~Freitas, H.~Gallagher, L.~Garren, H.-J. Gerber,
+  G.~Gerbier, T.~Gershon, Y.~Gershtein, T.~Gherghetta, A.~A. Godizov,
+  M.~Goodman, C.~Grab, A.~V. Gritsan, C.~Grojean, D.~E. Groom, M.~Gr\"unewald,
+  A.~Gurtu, T.~Gutsche, H.~E. Haber, C.~Hanhart, S.~Hashimoto, Y.~Hayato, K.~G.
+  Hayes, A.~Hebecker, S.~Heinemeyer, B.~Heltsley, J.~J. Hern\'andez-Rey,
+  J.~Hisano, A.~H\"ocker, J.~Holder, A.~Holtkamp, T.~Hyodo, K.~D. Irwin, K.~F.
+  Johnson, M.~Kado, M.~Karliner, U.~F. Katz, S.~R. Klein, E.~Klempt, R.~V.
+  Kowalewski, F.~Krauss, M.~Kreps, B.~Krusche, Yu.~V. Kuyanov, Y.~Kwon,
+  O.~Lahav, J.~Laiho, J.~Lesgourgues, A.~Liddle, Z.~Ligeti, C.-J. Lin,
+  C.~Lippmann, T.~M. Liss, L.~Littenberg, K.~S. Lugovsky, S.~B. Lugovsky,
+  A.~Lusiani, Y.~Makida, F.~Maltoni, T.~Mannel, A.~V. Manohar, W.~J. Marciano,
+  A.~D. Martin, A.~Masoni, J.~Matthews, U.-G. Mei\ss{}ner, D.~Milstead, R.~E.
+  Mitchell, K.~M\"onig, P.~Molaro, F.~Moortgat, M.~Moskovic, H.~Murayama,
+  M.~Narain, P.~Nason, S.~Navas, M.~Neubert, P.~Nevski, Y.~Nir, K.~A. Olive,
+  S.~Pagan~Griso, J.~Parsons, C.~Patrignani, J.~A. Peacock, M.~Pennington,
+  S.~T. Petcov, V.~A. Petrov, E.~Pianori, A.~Piepke, A.~Pomarol, A.~Quadt,
+  J.~Rademacker, G.~Raffelt, B.~N. Ratcliff, P.~Richardson, A.~Ringwald,
+  S.~Roesler, S.~Rolli, A.~Romaniouk, L.~J. Rosenberg, J.~L. Rosner, G.~Rybka,
+  R.~A. Ryutin, C.~T. Sachrajda, Y.~Sakai, G.~P. Salam, S.~Sarkar, F.~Sauli,
+  O.~Schneider, K.~Scholberg, A.~J. Schwartz, D.~Scott, V.~Sharma, S.~R.
+  Sharpe, T.~Shutt, M.~Silari, T.~Sj\"ostrand, P.~Skands, T.~Skwarnicki, J.~G.
+  Smith, G.~F. Smoot, S.~Spanier, H.~Spieler, C.~Spiering, A.~Stahl, S.~L.
+  Stone, T.~Sumiyoshi, M.~J. Syphers, K.~Terashi, J.~Terning, U.~Thoma, R.~S.
+  Thorne, L.~Tiator, M.~Titov, N.~P. Tkachenko, N.~A. Tornqvist, D.~R. Tovey,
+  G.~Valencia, R.~Van~de Water, N.~Varelas, G.~Venanzoni, L.~Verde, M.~G.
+  Vincter, P.~Vogel, A.~Vogt, S.~P. Wakely, W.~Walkowiak, C.~W. Walter,
+  D.~Wands, D.~R. Ward, M.~O. Wascko, G.~Weiglein, D.~H. Weinberg, E.~J.
+  Weinberg, M.~White, L.~R. Wiencke, S.~Willocq, C.~G. Wohl, J.~Womersley,
+  C.~L. Woody, R.~L. Workman, W.-M. Yao, G.~P. Zeller, O.~V. Zenin, R.-Y. Zhu,
+  S.-L. Zhu, F.~Zimmermann, P.~A. Zyla, J.~Anderson, L.~Fuller, V.~S. Lugovsky,
+  and P.~Schaffner.
+\newblock Review of particle physics.
+\newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
 
+\bibitem{HalzenMartin}
+F.~Halzen and A.~Martin.
+\newblock {\em {Quarks and Leptons: An Introductory Course in Modern Particle
+  Physics}}.
+\newblock 1984.
 
-\bibitem[det, ]{detector}
-
-
-\bibitem[old, ]{oldMCPpaper}
-
-
-\bibitem[IDr, 2010]{IDreconstruction}
- (2010).
-\newblock {Performance of the ATLAS Silicon Pattern Recognition Algorithm in
-  Data and Simulation at $\sqrt{s} = 7$ TeV}.
-\newblock Technical Report ATLAS-CONF-2010-072, CERN, Geneva.
-
-\bibitem[rad, 2012]{radiofrequency}
- (2012).
-\newblock {Radiofrequency cavities}.
-
-\bibitem[Jet, 2015]{JetRun1}
- (2015).
-\newblock {Jet global sequential corrections with the ATLAS detector in
-  proton-proton collisions at sqrt(s) = 8 TeV}.
-\newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva.
-
-\bibitem[MET, 2018]{METSig}
- (2018).
-\newblock {Object-based missing transverse momentum significance in the ATLAS
-  detector}.
-\newblock Technical Report ATLAS-CONF-2018-038, CERN, Geneva.
-
-\bibitem[ATL, 2019]{ATLAS-CONF-2019-040}
- (2019).
-\newblock {Search for squarks and gluinos in final states with jets and missing
-  transverse momentum using 139 fb$^{-1}$ of $\sqrt{s}$ =13 TeV $pp$ collision
-  data with the ATLAS detector}.
-\newblock Technical Report ATLAS-CONF-2019-040, CERN, Geneva.
-
-\bibitem[Aaboud et~al., 2019a]{Aaboud_2019_2}
-Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abhayasinghe, D.,
-  Abidi, S., AbouZeid, O., Abraham, N., Abramowicz, H., and et~al. (2019a).
-\newblock Cross-section measurements of the higgs boson decaying into a pair of
-  $\tau$-leptons in proton-proton collisions at $\sqrt(s)$=13 tev with the
-  atlas detector.
-\newblock {\em Physical Review D}, 99(7).
-
-\bibitem[Aaboud et~al., 2019b]{Aaboud_2019}
-Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abhayasinghe, D.,
-  Abidi, S., AbouZeid, O., Abraham, N., Abramowicz, H., and et~al. (2019b).
-\newblock Measurements of gluon–gluon fusion and vector-boson fusion higgs
-  boson production cross-sections in the $h \rightarrow ww^* \rightarrow
-  e\nu\mu\nu$ decay channel in $pp$ collisions at $\sqrt(s)$=13tev with the
-  atlas detector.
-\newblock {\em Physics Letters B}, 789:508–529.
-
-\bibitem[Aaboud et~al., 2018a]{Aaboud_2018_2}
-Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abidi, S., AbouZeid,
-  O., Abraham, N., Abramowicz, H., Abreu, H., and et~al. (2018a).
-\newblock Measurements of higgs boson properties in the diphoton decay channel
-  with 36 fb$^{−1}$ of $pp$ collision data at $\sqrt{s}=13$ tev with the
-  atlas detector.
-\newblock {\em Physical Review D}, 98(5).
-
-\bibitem[Aaboud et~al., 2018b]{Aaboud_2018}
-Aaboud, M., Aad, G., Abbott, B., Abdinov, O., Abeloos, B., Abidi, S.~H.,
-  AbouZeid, O.~S., Abraham, N.~L., Abramowicz, H., and et~al. (2018b).
-\newblock Measurement of the higgs boson coupling properties in the h
-  $\rightarrow$ zz$^* \rightarrow 4\ell$ decay channel at $ \sqrt{s}=13 $ tev
-  with the atlas detector.
-\newblock {\em Journal of High Energy Physics}, 2018(3).
-
-\bibitem[Aaboud et~al., 2017]{ParticleFlow}
-Aaboud, M. et~al. (2017).
-\newblock {Jet reconstruction and performance using particle flow with the
-  ATLAS Detector}.
-\newblock {\em Eur. Phys. J.}, C77(7):466.
-
-\bibitem[Aaboud et~al., 2018c]{METPerf}
-Aaboud, M. et~al. (2018c).
-\newblock {Performance of missing transverse momentum reconstruction with the
-  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
-\newblock {\em Eur. Phys. J.}, C78(11):903.
-
-\bibitem[Aaboud et~al., 2019c]{jetscaleres}
-Aaboud, M. et~al. (2019c).
-\newblock {Determination of jet calibration and energy resolution in
-  proton-proton collisions at $\sqrt{s}$ = 8 TeV using the ATLAS detector}.
-
-\bibitem[Aad et~al., 2014]{4l}
-Aad, G., Abbott, B., Abdallah, J., Abdel~Khalek, S., Abdinov, O., Aben, R.,
-  Abi, B., Abidi, S., Abolins, M., AbouZeid, O., and et~al. (2014).
-\newblock Measurement of the higgs boson mass from the $h \rightarrow
-  \gamma\gamma$ and $h \rightarrow zz^* \rightarrow 4\ell$ channels in $pp$
-  collisions at center-of-mass energies of 7 and 8 tev with the atlas detector.
-\newblock {\em Physical Review D}, 90(5).
-
-\bibitem[Aad et~al., 2013]{jets}
-Aad, G., Abbott, B., Abdallah, J., Abdelalim, A.~A., Abdesselam, A., Abdinov,
-  O., Abi, B., Abolins, M., Abramowicz, H., and et~al. (2013).
-\newblock Jet energy measurement with the atlas detector in proton-proton
-  collisions at $\sqrt{\mathrm{s} }=7\ \mathrm{TeV}$.
-\newblock {\em The European Physical Journal C}, 73(3).
-
-\bibitem[Aad et~al., 2016a]{MCPpaper}
-Aad, G., Abbott, B., Abdallah, J., Abdinov, O., Abeloos, B., Aben, R., Abolins,
-  M., AbouZeid, O.~S., Abraham, N.~L., and et~al. (2016a).
-\newblock Muon reconstruction performance of the atlas detector in
-  proton–proton collision data at $$\sqrt{s}$$ s =13 tev.
-\newblock {\em The European Physical Journal C}, 76(5).
-
-\bibitem[Aad et~al., 2012]{Higgsdiscovery}
-Aad, G. et~al. (2012).
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Phys. Lett.}, B716:1--29.
-
-\bibitem[Aad et~al., 2016b]{HiggsDifferential}
-Aad, G. et~al. (2016b).
-\newblock {Measurement of fiducial differential cross sections of gluon-fusion
-  production of Higgs bosons decaying to WW$^{∗}\rightarrow e\nu\mu\nu$ with
-  the ATLAS detector at $ \sqrt{s}=8 $ TeV}.
-\newblock {\em JHEP}, 08:104.
-
-\bibitem[Aad et~al., 2020]{HiggsCurrent}
-Aad, G. et~al. (2020).
-\newblock {Combined measurements of Higgs boson production and decay using up
-  to $80$ fb$^{-1}$ of proton-proton collision data at $\sqrt{s}=$ 13 TeV
-  collected with the ATLAS experiment}.
-\newblock {\em Phys. Rev.}, D101(1):012002.
-
-\bibitem[Benedikt et~al., 2004]{LHCInjector}
-Benedikt, M., Collier, P., Mertens, V., Poole, J., and Schindl, K. (2004).
-\newblock {LHC Design Report. 3. The LHC injector chain}.
-
-\bibitem[Butterworth et~al., 2016]{PDF4LHC}
-Butterworth, J. et~al. (2016).
-\newblock {PDF4LHC recommendations for LHC Run II}.
-\newblock {\em J. Phys.}, G43:023001.
-
-\bibitem[Butterworth et~al., 2012]{Butterworth}
-Butterworth, J.~M., Dissertori, G., and Salam, G.~P. (2012).
-\newblock {Hard Processes in Proton-Proton Collisions at the Large Hadron
-  Collider}.
-\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 62:387--405.
-
-\bibitem[Cacciari et~al., 2008]{antikt}
-Cacciari, M., Salam, G.~P., and Soyez, G. (2008).
-\newblock {The anti-$k_t$ jet clustering algorithm}.
-\newblock {\em JHEP}, 04:063.
-
-\bibitem[Campbell et~al., 2007]{Campbell}
-Campbell, J.~M., Huston, J.~W., and Stirling, W.~J. (2007).
-\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
-\newblock {\em Rept. Prog. Phys.}, 70:89.
-
-\bibitem[CERN, 2019]{CERNnews2}
-CERN (2019).
-\newblock A new schedule for the lhc and its successor.
-
-\bibitem[Collaboration, 2017]{ITktech}
-Collaboration, A. (2017).
-\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
-\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva.
-
-\bibitem[Council et~al., 1998]{HistoryBook}
-Council, N., Sciences, D., Astronomy, B., and Physics, C. (1998).
-\newblock {\em Elementary-Particle Physics: Revealing the Secrets of Energy and
-  Matter}.
-\newblock Physics in a New Era: A Series. National Academies Press.
-
-\bibitem[Djouadi, 2008]{Djouadi}
-Djouadi, A. (2008).
-\newblock {The Anatomy of electro-weak symmetry breaking. I: The Higgs boson in
-  the standard model}.
-\newblock {\em Phys. Rept.}, 457:1--216.
-
-\bibitem[Ellis, 2013]{HiggsPotential}
-Ellis, J. (2013).
+\bibitem{HiggsPotential}
+John Ellis.
 \newblock {Higgs Physics}.
 \newblock (KCL-PH-TH-2013-49. KCL-PH-TH-2013-49. LCTS-2013-36.
-  CERN-PH-TH-2013-315):117--168. 52 p.
+  CERN-PH-TH-2013-315):117--168. 52 p, Dec 2013.
 \newblock 52 pages, 45 figures, Lectures presented at the ESHEP 2013 School of
   High-Energy Physics, to appear as part of the proceedings in a CERN Yellow
   Report.
 
-\bibitem[Evans, 2007]{LHCref}
-Evans, L. (2007).
-\newblock The large hadron collider.
-\newblock {\em New Journal of Physics}, 9(9):335--335.
+\bibitem{Butterworth}
+Jonathan~M. Butterworth, Guenther Dissertori, and Gavin~P. Salam.
+\newblock {Hard Processes in Proton-Proton Collisions at the Large Hadron
+  Collider}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 62:387--405, 2012.
 
-\bibitem[group, 2019]{JETEtmiss}
-group, J.~E. (2019).
-\newblock Public plots.
+\bibitem{Campbell}
+John~M. Campbell, J.~W. Huston, and W.~J. Stirling.
+\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
+\newblock {\em Rept. Prog. Phys.}, 70:89, 2007.
 
-\bibitem[Halzen and Martin, 1984]{HalzenMartin}
-Halzen, F. and Martin, A. (1984).
-\newblock {\em {Quarks and Leptons: An Introductory Course in Modern Particle
-  Physics}}.
+\bibitem{Stirling}
+W.J. Stirling.
+\newblock {Private Communication...}
+\newblock 2018.
 
-\bibitem[Illingworth and Kittler, 1988]{patternrecognition}
-Illingworth, J. and Kittler, J. (1988).
-\newblock A survey of the hough transform.
-\newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1):87 --
-  116.
+\bibitem{Djouadi}
+Abdelhak Djouadi.
+\newblock {The Anatomy of electro-weak symmetry breaking. I: The Higgs boson in
+  the standard model}.
+\newblock {\em Phys. Rept.}, 457:1--216, 2008.
 
-\bibitem[Kibble, 2014]{Kibble}
-Kibble, T. W.~B. (2014).
+\bibitem{LHCCrossSectionWG}
+
+
+\bibitem{PDF4LHC}
+Jon Butterworth et~al.
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em J. Phys.}, G43:023001, 2016.
+
+\bibitem{Higgsdiscovery}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
+\bibitem{Kibble}
+Tom W.~B. Kibble.
 \newblock {The Standard Model of Particle Physics}.
+\newblock 2014.
 
-\bibitem[Rossi, 2010]{Rossi_2010}
-Rossi, L. (2010).
+\bibitem{HistoryBook}
+N.R. Council, D.E.P. Sciences, B.P. Astronomy, and C.E.P. Physics.
+\newblock {\em Elementary-Particle Physics: Revealing the Secrets of Energy and
+  Matter}.
+\newblock Physics in a New Era: A Series. National Academies Press, 1998.
+
+\bibitem{HiggsCurrent}
+Georges Aad et~al.
+\newblock {Combined measurements of Higgs boson production and decay using up
+  to $80$ fb$^{-1}$ of proton-proton collision data at $\sqrt{s}=$ 13 TeV
+  collected with the ATLAS experiment}.
+\newblock {\em Phys. Rev.}, D101(1):012002, 2020.
+
+\bibitem{HiggsDifferential}
+Georges Aad et~al.
+\newblock {Measurement of fiducial differential cross sections of gluon-fusion
+  production of Higgs bosons decaying to WW$^{∗}\rightarrow e\nu\mu\nu$ with
+  the ATLAS detector at $ \sqrt{s}=8 $ TeV}.
+\newblock {\em JHEP}, 08:104, 2016.
+
+\bibitem{Rossi_2010}
+L~Rossi.
 \newblock {Superconductivity: Its Role, Its Success and Its Setbacks in the
   Large Hadron Collider of CERN}.
-\newblock {\em Supercond. Sci. Technol.}, 23(CERN-ATS-2010-006):034001. 27 p.
+\newblock {\em Supercond. Sci. Technol.}, 23(CERN-ATS-2010-006):034001. 27 p,
+  Jan 2010.
 
-\bibitem[Steerenberg, 2018]{CERNnews1}
-Steerenberg, R. (2018).
-\newblock Lhc report: Protons: mission accomplished.
+\bibitem{CERNnews1}
+Rende Steerenberg.
+\newblock Lhc report: Protons: mission accomplished, 2018.
 
-\bibitem[Stirling, 2018]{Stirling}
-Stirling, W. (2018).
-\newblock {Private Communication...}
+\bibitem{Aaboud_2019}
+M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D.K. Abhayasinghe, S.H.
+  Abidi, O.S. AbouZeid, N.L. Abraham, H.~Abramowicz, and et~al.
+\newblock Measurements of gluon–gluon fusion and vector-boson fusion higgs
+  boson production cross-sections in the $h \rightarrow ww^* \rightarrow
+  e\nu\mu\nu$ decay channel in $pp$ collisions at $\sqrt(s)$=13tev with the
+  atlas detector.
+\newblock {\em Physics Letters B}, 789:508–529, Feb 2019.
 
-\bibitem[Tanabashi et~al., 2018]{PDG}
-Tanabashi, M., Hagiwara, K., Hikasa, K., Nakamura, K., Sumino, Y., Takahashi,
-  F., Tanaka, J., Agashe, K., Aielli, G., Amsler, C., Antonelli, M., Asner,
-  D.~M., Baer, H., Banerjee, S., Barnett, R.~M., Basaglia, T., Bauer, C.~W.,
-  Beatty, J.~J., Belousov, V.~I., Beringer, J., Bethke, S., Bettini, A.,
-  Bichsel, H., Biebel, O., Black, K.~M., Blucher, E., Buchmuller, O., Burkert,
-  V., Bychkov, M.~A., Cahn, R.~N., Carena, M., Ceccucci, A., Cerri, A.,
-  Chakraborty, D., Chen, M.-C., Chivukula, R.~S., Cowan, G., Dahl, O.,
-  D'Ambrosio, G., Damour, T., de~Florian, D., de~Gouv\^ea, A., DeGrand, T.,
-  de~Jong, P., Dissertori, G., Dobrescu, B.~A., D'Onofrio, M., Doser, M.,
-  Drees, M., Dreiner, H.~K., Dwyer, D.~A., Eerola, P., Eidelman, S., Ellis, J.,
-  Erler, J., Ezhela, V.~V., Fetscher, W., Fields, B.~D., Firestone, R., Foster,
-  B., Freitas, A., Gallagher, H., Garren, L., Gerber, H.-J., Gerbier, G.,
-  Gershon, T., Gershtein, Y., Gherghetta, T., Godizov, A.~A., Goodman, M.,
-  Grab, C., Gritsan, A.~V., Grojean, C., Groom, D.~E., Gr\"unewald, M., Gurtu,
-  A., Gutsche, T., Haber, H.~E., Hanhart, C., Hashimoto, S., Hayato, Y., Hayes,
-  K.~G., Hebecker, A., Heinemeyer, S., Heltsley, B., Hern\'andez-Rey, J.~J.,
-  Hisano, J., H\"ocker, A., Holder, J., Holtkamp, A., Hyodo, T., Irwin, K.~D.,
-  Johnson, K.~F., Kado, M., Karliner, M., Katz, U.~F., Klein, S.~R., Klempt,
-  E., Kowalewski, R.~V., Krauss, F., Kreps, M., Krusche, B., Kuyanov, Y.~V.,
-  Kwon, Y., Lahav, O., Laiho, J., Lesgourgues, J., Liddle, A., Ligeti, Z., Lin,
-  C.-J., Lippmann, C., Liss, T.~M., Littenberg, L., Lugovsky, K.~S., Lugovsky,
-  S.~B., Lusiani, A., Makida, Y., Maltoni, F., Mannel, T., Manohar, A.~V.,
-  Marciano, W.~J., Martin, A.~D., Masoni, A., Matthews, J., Mei\ss{}ner, U.-G.,
-  Milstead, D., Mitchell, R.~E., M\"onig, K., Molaro, P., Moortgat, F.,
-  Moskovic, M., Murayama, H., Narain, M., Nason, P., Navas, S., Neubert, M.,
-  Nevski, P., Nir, Y., Olive, K.~A., Pagan~Griso, S., Parsons, J., Patrignani,
-  C., Peacock, J.~A., Pennington, M., Petcov, S.~T., Petrov, V.~A., Pianori,
-  E., Piepke, A., Pomarol, A., Quadt, A., Rademacker, J., Raffelt, G.,
-  Ratcliff, B.~N., Richardson, P., Ringwald, A., Roesler, S., Rolli, S.,
-  Romaniouk, A., Rosenberg, L.~J., Rosner, J.~L., Rybka, G., Ryutin, R.~A.,
-  Sachrajda, C.~T., Sakai, Y., Salam, G.~P., Sarkar, S., Sauli, F., Schneider,
-  O., Scholberg, K., Schwartz, A.~J., Scott, D., Sharma, V., Sharpe, S.~R.,
-  Shutt, T., Silari, M., Sj\"ostrand, T., Skands, P., Skwarnicki, T., Smith,
-  J.~G., Smoot, G.~F., Spanier, S., Spieler, H., Spiering, C., Stahl, A.,
-  Stone, S.~L., Sumiyoshi, T., Syphers, M.~J., Terashi, K., Terning, J., Thoma,
-  U., Thorne, R.~S., Tiator, L., Titov, M., Tkachenko, N.~P., T\"ornqvist,
-  N.~A., Tovey, D.~R., Valencia, G., Van~de Water, R., Varelas, N., Venanzoni,
-  G., Verde, L., Vincter, M.~G., Vogel, P., Vogt, A., Wakely, S.~P., Walkowiak,
-  W., Walter, C.~W., Wands, D., Ward, D.~R., Wascko, M.~O., Weiglein, G.,
-  Weinberg, D.~H., Weinberg, E.~J., White, M., Wiencke, L.~R., Willocq, S.,
-  Wohl, C.~G., Womersley, J., Woody, C.~L., Workman, R.~L., Yao, W.-M., Zeller,
-  G.~P., Zenin, O.~V., Zhu, R.-Y., Zhu, S.-L., Zimmermann, F., Zyla, P.~A.,
-  Anderson, J., Fuller, L., Lugovsky, V.~S., and Schaffner, P. (2018).
-\newblock Review of particle physics.
-\newblock {\em Phys. Rev. D}, 98:030001.
+\bibitem{Aaboud_2018}
+M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, S.~H. Abidi, O.~S.
+  AbouZeid, N.~L. Abraham, H.~Abramowicz, and et~al.
+\newblock Measurement of the higgs boson coupling properties in the h
+  $\rightarrow$ zz$^* \rightarrow 4\ell$ decay channel at $ \sqrt{s}=13 $ tev
+  with the atlas detector.
+\newblock {\em Journal of High Energy Physics}, 2018(3), Mar 2018.
+
+\bibitem{Aaboud_2018_2}
+M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, S. H. Abidi, O. S.
+  AbouZeid, N. L. Abraham, H.~Abramowicz, H.~Abreu, and et~al.
+\newblock Measurements of higgs boson properties in the diphoton decay channel
+  with 36 fb$^{−1}$ of $pp$ collision data at $\sqrt{s}=13$ tev with the
+  atlas detector.
+\newblock {\em Physical Review D}, 98(5), Sep 2018.
+
+\bibitem{Aaboud_2019_2}
+M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D. K. Abhayasinghe,
+  S. H. Abidi, O. S. AbouZeid, N. L. Abraham, H.~Abramowicz, and et~al.
+\newblock Cross-section measurements of the higgs boson decaying into a pair of
+  $\tau$-leptons in proton-proton collisions at $\sqrt(s)$=13 tev with the
+  atlas detector.
+\newblock {\em Physical Review D}, 99(7), Apr 2019.
+
+\bibitem{ATLAS-CONF-2019-040}
+{Search for squarks and gluinos in final states with jets and missing
+  transverse momentum using 139 fb$^{-1}$ of $\sqrt{s}$ =13 TeV $pp$ collision
+  data with the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2019-040, CERN, Geneva, Aug 2019.
+
+\bibitem{CERNnews2}
+CERN.
+\newblock A new schedule for the lhc and its successor, 2019.
+
+\bibitem{LHCInjector}
+M.~Benedikt, P.~Collier, V.~Mertens, J.~Poole, and K.~Schindl.
+\newblock {LHC Design Report. 3. The LHC injector chain}.
+\newblock 2004.
+
+\bibitem{radiofrequency}
+{Radiofrequency cavities}.
+\newblock Sep 2012.
+
+\bibitem{LHCref}
+Lyndon Evans.
+\newblock The large hadron collider.
+\newblock {\em New Journal of Physics}, 9(9):335--335, sep 2007.
+
+\bibitem{detector}
+G~Aad et~al.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock {\em JINST}, 3:S08003. 437 p, 2008.
+\newblock Also published by CERN Geneva in 2010.
+
+\bibitem{ITktech}
+ATLAS Collaboration.
+\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
+\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
+  2017.
+
+\bibitem{JetRun1}
+{Jet global sequential corrections with the ATLAS detector in proton-proton
+  collisions at sqrt(s) = 8 TeV}.
+\newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva, Mar 2015.
+
+\bibitem{ParticleFlow}
+Morad Aaboud et~al.
+\newblock {Jet reconstruction and performance using particle flow with the
+  ATLAS Detector}.
+\newblock {\em Eur. Phys. J.}, C77(7):466, 2017.
+
+\bibitem{JETEtmiss}
+JET~ETmiss group.
+\newblock Public plots, 2019.
+
+\bibitem{antikt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{jetscaleres}
+Morad Aaboud et~al.
+\newblock {Determination of jet calibration and energy resolution in
+  proton-proton collisions at $\sqrt{s}$ = 8 TeV using the ATLAS detector}.
+\newblock 2019.
+
+\bibitem{METSig}
+{Object-based missing transverse momentum significance in the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2018-038, CERN, Geneva, Jul 2018.
+
+\bibitem{METPerf}
+Morad Aaboud et~al.
+\newblock {Performance of missing transverse momentum reconstruction with the
+  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
+\newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
+
+\bibitem{ElectronPhotonPerformance}
+ATLAS Collaboration.
+\newblock 14(12):P12006--P12006, dec 2019.
+
+\bibitem{patternrecognition}
+J.~Illingworth and J.~Kittler.
+\newblock A survey of the hough transform.
+\newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1):87 --
+  116, 1988.
+
+\bibitem{IDreconstruction}
+{Performance of the ATLAS Silicon Pattern Recognition Algorithm in Data and
+  Simulation at $\sqrt{s} = 7$ TeV}.
+\newblock Technical Report ATLAS-CONF-2010-072, CERN, Geneva, Jul 2010.
+
+\bibitem{MCPpaper}
+G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, R.~Aben, M.~Abolins,
+  O.~S. AbouZeid, N.~L. Abraham, and et~al.
+\newblock Muon reconstruction performance of the atlas detector in
+  proton–proton collision data at $$\sqrt{s}$$ s =13 tev.
+\newblock {\em The European Physical Journal C}, 76(5), May 2016.
+
+\bibitem{oldMCPpaper}
+Georges Aad et~al.
+\newblock {Measurement of the muon reconstruction performance of the ATLAS
+  detector using 2011 and 2012 LHC proton–proton collision data. Measurement
+  of the muon reconstruction performance of the ATLAS detector using 2011 and
+  2012 LHC proton-proton collision data}.
+\newblock {\em Eur. Phys. J. C}, 74(CERN-PH-EP-2014-151.
+  CERN-PH-EP-2014-151):3130. 34 p, Jul 2014.
+\newblock Comments: 21 pages plus author list + cover pages (34 pages total),
+  21 figures, 2 tables, submitted to EPJC, All figures including auxiliary
+  figures are available at
+  http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/PERF-2014-05/.
+
+\bibitem{MCPPlots}
+Johannes~Josef Junggeburth.
+\newblock {Muon identification and reconstruction efficiencies in full Run-2
+  dataset}.
+\newblock Technical Report ATL-COM-PHYS-2019-1001, CERN, Geneva, Aug 2019.
+
+\bibitem{jets}
+G.~Aad, B.~Abbott, J.~Abdallah, A.~A. Abdelalim, A.~Abdesselam, O.~Abdinov,
+  B.~Abi, M.~Abolins, H.~Abramowicz, and et~al.
+\newblock Jet energy measurement with the atlas detector in proton-proton
+  collisions at $\sqrt{\mathrm{s} }=7\ \mathrm{TeV}$.
+\newblock {\em The European Physical Journal C}, 73(3), Mar 2013.
+
+\bibitem{MCPPlots2}
+Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
+\newblock Technical report.
 
 \end{thebibliography}

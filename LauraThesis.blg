@@ -5,111 +5,100 @@ White space in argument---line 123 of file LauraThesis.aux
  : \citation{HL-LHC
  :                  Yellow Paper}
 I'm skipping whatever remains of this command
-The style file: apalike.bst
+The style file: unsrt.bst
 Database file #1: references.bib
+I was expecting a `,' or a `}'---line 3 of file references.bib
+ :                        K\"
+ :                           ohler, Nicolas Maximilian and Rosati, Stefano and
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 37 of file references.bib
+ :  
+ :  title = {Electron and photon performance measurements with the {ATLAS} detector using the 2015{\textendash}2017 {LHC} proton-proton collision data},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "JETEtmiss" isn't style-file defined
---line 75 of file references.bib
-I was expecting a `,' or a `}'---line 79 of file references.bib
+--line 115 of file references.bib
+I was expecting a `,' or a `}'---line 119 of file references.bib
  :         
  :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults?redirectedfrom=AtlasPublic.JetEtMissPublicCollisionResults}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 166 of file references.bib
+"{" immediately follows a field name---line 206 of file references.bib
  : ok
  :   {deFlorian:2227475,
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 527 of file references.bib
-I was expecting a `,' or a `}'---line 531 of file references.bib
+--line 443 of file references.bib
+I was expecting a `,' or a `}'---line 447 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 534 of file references.bib
-Your field is more than 20000 characters---line 910 of file references.bib
- :                        and Gornicki, Edward a
- :                                              nd Goshaw, Alfred and Gössling,
-I'm skipping whatever remains of this entry
-Your field is more than 20000 characters---line 2100 of file references.bib
- :                        and Subramania, S and Whittington,
- :                                                           D and Bischof, R and
-I'm skipping whatever remains of this entry
+--line 450 of file references.bib
 Warning--I didn't find a database entry for "Aabout_2018_0"
-Warning--I didn't find a database entry for "ElectronPhotonPerformance"
 Warning--I didn't find a database entry for "ICreconstruction"
-Warning--to sort, need author, editor, or key in LHCCrossSectionWG
-Warning--to sort, need author or key in ATLAS-CONF-2019-040
-Warning--to sort, need author or key in radiofrequency
-Warning--to sort, need author or key in detector
-Warning--to sort, need author or key in JetRun1
-Warning--to sort, need author or key in METSig
-Warning--to sort, need author or key in IDreconstruction
-Warning--to sort, need author or key in oldMCPpaper
+Warning--empty publisher in HalzenMartin
+Warning--empty journal in HiggsPotential
+Warning--there's a number but no volume in HiggsPotential
+Warning--empty journal in Stirling
 Warning--empty author and editor in LHCCrossSectionWG
-Warning--empty year in LHCCrossSectionWG
 Warning--empty title in LHCCrossSectionWG
 Warning--empty publisher in LHCCrossSectionWG
-Warning--empty author in detector
-Warning--empty year in detector
-Warning--empty title in detector
-Warning--empty journal in detector
-Warning--empty author in oldMCPpaper
-Warning--empty year in oldMCPpaper
-Warning--empty title in oldMCPpaper
-Warning--empty journal in oldMCPpaper
-Warning--empty author in IDreconstruction
+Warning--empty year in LHCCrossSectionWG
+Warning--empty booktitle in Kibble
+Warning--empty author in ATLAS-CONF-2019-040
+Warning--empty journal in LHCInjector
 Warning--empty author in radiofrequency
 Warning--empty journal in radiofrequency
 Warning--empty author in JetRun1
-Warning--empty author in METSig
-Warning--empty author in ATLAS-CONF-2019-040
 Warning--empty journal in jetscaleres
-Warning--empty journal in LHCInjector
-Warning--empty journal in HiggsPotential
-Warning--there's a number but no volume in HiggsPotential
-Warning--empty publisher in HalzenMartin
-Warning--empty booktitle in Kibble
-Warning--empty journal in Stirling
-You've used 40 entries,
-            1935 wiz_defined-function locations,
-            701 strings with 14589 characters,
-and the built_in function-call counts, 21594 in all, are:
-= -- 1781
-> -- 1841
-< -- 24
-+ -- 713
-- -- 702
-* -- 2221
-:= -- 3960
-add.period$ -- 107
-call.type$ -- 40
-change.case$ -- 539
-chr.to.int$ -- 35
-cite$ -- 81
-duplicate$ -- 531
-empty$ -- 962
-format.name$ -- 745
-if$ -- 3879
-int.to.chr$ -- 6
-int.to.str$ -- 0
+Warning--empty author in METSig
+Warning--empty title in ElectronPhotonPerformance
+Warning--empty journal in ElectronPhotonPerformance
+Warning--empty author in IDreconstruction
+Warning--empty title in MCPPlots2
+Warning--empty institution in MCPPlots2
+Warning--empty year in MCPPlots2
+You've used 42 entries,
+            1791 wiz_defined-function locations,
+            701 strings with 14988 characters,
+and the built_in function-call counts, 11161 in all, are:
+= -- 642
+> -- 1113
+< -- 6
++ -- 391
+- -- 349
+* -- 1078
+:= -- 2054
+add.period$ -- 118
+call.type$ -- 42
+change.case$ -- 38
+chr.to.int$ -- 0
+cite$ -- 64
+duplicate$ -- 348
+empty$ -- 796
+format.name$ -- 349
+if$ -- 2207
+int.to.chr$ -- 0
+int.to.str$ -- 42
 missing$ -- 34
-newline$ -- 189
-num.names$ -- 96
-pop$ -- 521
+newline$ -- 204
+num.names$ -- 36
+pop$ -- 116
 preamble$ -- 1
-purify$ -- 544
+purify$ -- 0
 quote$ -- 0
-skip$ -- 397
+skip$ -- 133
 stack$ -- 0
-substring$ -- 789
-swap$ -- 28
-text.length$ -- 5
+substring$ -- 407
+swap$ -- 34
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 234
-warning$ -- 33
-while$ -- 81
-width$ -- 0
-write$ -- 475
+type$ -- 0
+warning$ -- 22
+while$ -- 57
+width$ -- 44
+write$ -- 430
 (There were 6 error messages)
