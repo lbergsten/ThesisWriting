@@ -1,4 +1,22 @@
 %\section{Results}
+Thus far I have outlined all reconstruction-level inputs to our analysis including event selection, all backgrounds and their estimation methods, and all systematic uncertainties. Each of these components is critical to our final result and this section will focus on the methods used to extract differential cross-section measurements and their uncertainties from the signal and control regions previously defined. 
 \section{Statistical analysis}
+\subsection{Likelihood functions}
+This analysis rests on the estimation of a parameter $\mu$ which describes the statistical significance of our signal yield relative to its standard model prediction and in this particular analysis defines the signal cross-section. We build a likelihood function $\mathcal{L}(\mu,\Theta)$ where the signal strength $\mu$ is a parameter of interest (POI) and nuicance parameters (NPs) $\Theta=\Theta_a,\Theta_b,...$ represent all relevant uncertainties. None of these values are known a priori so the likelihood is built to represent the probability of particular values for the POI and NPs. The analysis uses a maximum likelihood estimator to find the inputs which maximize the likelihood (or equivalently and more mathematically tractable, minimize the negative log of the likelihood). Here I will briefly outline how a likelihood functiion can incorporate regions of interest, this discussion uses \cite{cranmer2015practical} as a guide. First, the Poisson distribution $\mathcal{P}(n|\lambda)$ describes the probability of $n$ events with a true unknown yield $\lambda$:
+\begin{equation}
+\mathcal{P}(n|\lambda)= \lambda^n\frac{e^{-\lambda}}{n!}
+\end{equation}
+Next we can define a variable observable $x$ with probability density $f(x)$ hence with $n$ events the probability density of each is multiplied. The likelihood of $\lambda$ can now be written
+\begin{equation}
+\mathcal{L}(\lambda)=\mathcal{P}(n|\lambda)\prod_{\text{event}}^n f(x)
+\end{equation}
+Our likelihood also must take into account multiple regions (the signal region as well as the control regions) and so these likelihoods are multiplied together with their own distinct Poisson distributions
+\begin{equation}
+\mathcal{L}(\lambda)=\prod_r^{\text{regions}}(\mathcal{P}(n_r|\lambda_r)\prod_{\text{event}}^n f(x))
+\end{equation}
+A simultaneous fit maximizes this likelihood function and so produces signal strengths $\lambda$ for each free parameter simultaneously. The $\lambda$ values here represent predicted yields where $\lambda_{r,b} = \mu \lambda_{\text{sig}}+\lambda_{\text{bkg}}$. Maximizing the overall likelihood is made simpler by applying the natural logarithm (as the products between Poisson distributions become summations) and negating the likelihood, so as to take advantage of minimizing software.  
+
+Particle physics defines discovery with rigorous standards using hypothesis testing. The null hypothesis is considered $\mu=0$ and is considered ``background-only" while the alternative hypothesis is that there is a signal above th packground. The probability that the null hypothesis is rejected (or that the signal is discovered) is defined as a $p$-value. The $p$-value can be converted to a number of Gaussian standard deviations and in high energy physics three $\sigma$ significance (or a $p$-value of $1.35 \times 10^{-3}$) shows evidence while a five $\sigma$ result ($p$-value $2.87\times10^{-7}$) is considered a discovery.
+
 \section{Unfolding}
-\section{Results and ratio measurements}
+\section{Results and future measurements}
