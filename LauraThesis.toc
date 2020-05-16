@@ -25,25 +25,40 @@
 \contentsline {section}{\numberline {4.4}Muons}{64}{section.4.4}
 \contentsline {chapter}{\numberline {5}Event Selection}{76}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{76}{section.5.1}
-\contentsline {section}{\numberline {5.2}Object definitions}{76}{section.5.2}
-\contentsline {section}{\numberline {5.3}Event selection}{76}{section.5.3}
-\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{77}{chapter.6}
-\contentsline {section}{\numberline {6.1}Backgrounds}{77}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Drell-Yan background ($Z\rightarrow \tau \tau $)}{78}{subsection.6.1.1}
-\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ BDT}{79}{section*.42}
-\contentsline {subsubsection}{Drell-Yan Control Region}{83}{section*.48}
-\contentsline {subsection}{\numberline {6.1.2}Top background}{85}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Diboson background}{90}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}ggF background}{92}{subsection.6.1.4}
-\contentsline {subsubsection}{Discriminant in the GGF-CR1}{94}{section*.60}
-\contentsline {subsubsection}{Discriminant in the GGF-CR2}{96}{section*.66}
-\contentsline {subsubsection}{Discriminant in the GGF-CR3}{97}{section*.72}
-\contentsline {subsubsection}{Dependance on the modelling of the simulation}{98}{section*.78}
-\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{100}{subsection.6.1.5}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{100}{section.6.2}
-\contentsline {chapter}{\numberline {7}Results}{110}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{110}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{110}{subsection.7.1.1}
-\contentsline {section}{\numberline {7.2}Unfolding}{112}{section.7.2}
-\contentsline {section}{\numberline {7.3}Results and future measurements}{112}{section.7.3}
-\contentsline {chapter}{\numberline {8}Conclusions}{113}{chapter.8}
+\contentsline {subsection}{\numberline {5.1.1}Data samples}{76}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Monte Carlo samples}{77}{subsection.5.1.2}
+\contentsline {subsubsection}{Vector boson fusion Higgs samples}{78}{section*.42}
+\contentsline {subsubsection}{Other production mode Higgs samples}{78}{section*.43}
+\contentsline {subsubsection}{Background samples}{79}{section*.46}
+\contentsline {section}{\numberline {5.2}Object definitions}{82}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Lepton}{83}{subsection.5.2.1}
+\contentsline {subsubsection}{Electron}{83}{section*.48}
+\contentsline {subsubsection}{Muon}{84}{section*.50}
+\contentsline {subsection}{\numberline {5.2.2}Jets}{85}{subsection.5.2.2}
+\contentsline {subsubsection}{ b-tagged jet}{86}{section*.52}
+\contentsline {subsection}{\numberline {5.2.3}Missing transverse energy}{86}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Overlap removal}{87}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Common Observables}{87}{section.5.3}
+\contentsline {section}{\numberline {5.4}Event selection}{89}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Pre-selection}{91}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Signal region selection}{94}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{97}{chapter.6}
+\contentsline {section}{\numberline {6.1}Backgrounds}{97}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Drell-Yan background ($Z\rightarrow \tau \tau $)}{98}{subsection.6.1.1}
+\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ BDT}{99}{section*.63}
+\contentsline {subsubsection}{Drell-Yan Control Region}{103}{section*.69}
+\contentsline {subsection}{\numberline {6.1.2}Top background}{105}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Diboson background}{110}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}ggF background}{112}{subsection.6.1.4}
+\contentsline {subsubsection}{Discriminant in the GGF-CR1}{114}{section*.81}
+\contentsline {subsubsection}{Discriminant in the GGF-CR2}{116}{section*.87}
+\contentsline {subsubsection}{Discriminant in the GGF-CR3}{117}{section*.93}
+\contentsline {subsubsection}{Dependance on the modelling of the simulation}{118}{section*.99}
+\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{120}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{120}{section.6.2}
+\contentsline {chapter}{\numberline {7}Results}{130}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{130}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{130}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Unfolding}{132}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results and future measurements}{132}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusions}{133}{chapter.8}
