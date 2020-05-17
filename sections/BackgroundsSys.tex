@@ -1,6 +1,6 @@
 %{Backgrounds and systematics}
 \section{Backgrounds}
-While the VBF $H\rightarrow WW\rightarrow \ell\nu\ell\nu$ channel gives a fairly clear signal with $E_{\text{T}}^{\text{miss}}$, two leptons, and 2 jets, there are substantial backgrounds with similar final states. These include Drell-Yan processes (in which a $Z$ boson is formed from quark  anti-quark annihilation of the two colliding protons), top quark final states (predominantly $t\bar{t}$) and diboson events (led by SM $WW$ events), Higgs decays from the ggF production mode and finally background from mis-identified leptons, called fakes. In this section I will detail each background and describe our methods for estimating their role in our overall results. I will also demonstrate the purity and modelling of these backgrounds in their control regions. I made key contributions in this analysis in optimizing and testing control region definitions and their effects on our overall results. 
+While the VBF $H\rightarrow WW\rightarrow \ell\nu\ell\nu$ channel gives a fairly clear signal with $E_{\text{T}}^{\text{miss}}$, two leptons, and 2 jets, there are substantial backgrounds with similar final states. These include Drell-Yan processes (in which a $Z$ boson is formed from quark  anti-quark annihilation of the two colliding protons), top quark final states (predominantly $t\bar{t}$) and diboson events (led by SM $WW$ events), Higgs decays from the ggF production mode and finally background from mis-identified leptons, called fakes. In this section I will detail each background and describe our methods for estimating their role in our overall results. I will describe how this analysis estimates and minimizes contributions from each background process. Finally, we demonstrate purity and modelling of these backgrounds in validation and control regions. I made key contributions in this analysis in optimizing and testing control region definitions and their effects on our overall results. 
 \subsection{Drell-Yan background ($Z\rightarrow \tau\tau$)}
 The Drell-Yan background, alternatively called $Z\rightarrow \tau\tau$ or $Z+$jets is produced in the initial collision when two quarks produce a $Z$ boson which then decays to two leptons (in the largest background, $\tau$ leptons which then decay to electron/muons and neutrinos).  Thus there are two jets and two leptons in its final state as well as missing energy from neutrinos, all of which are indicative of signal VBF Higgs events as well. A typical Drell-Yan feynman diagram is shown in Figure \ref{fig:DrellYan}. 
 \begin{figure}
@@ -9,7 +9,9 @@ The Drell-Yan background, alternatively called $Z\rightarrow \tau\tau$ or $Z+$je
 \caption{Feynman diagram for Drell-Yan process in which two quarks produce a photon or $Z$-boson that then decays leptonically.}
 \label{fig:DrellYan}
 \end{figure}
-The Drell-Yan background can be discriminated from our signal as well as the other backgrounds in two main ways- first in terms of the mass of the overall event aligning with the mass of the $Z$ boson. To select for Drell-Yan events we can select those which $m_{\tau\tau}$ is near the $Z$ mass peak. $m_{\tau\tau}$ is defined in the previous section and cutting on this in a 25 GeV window about the $Z$-mass peak drasticly improves our $Z+$jets purity from only 19$\%$ of total events to $\approx52\%$. The second main discriminant our analysis utilizes to isolate $Z+$jet events is a BDT trained to discriminate $Z+$jets and VBF signal events.
+The Drell-Yan background can be discriminated from our signal as well as the other backgrounds in two main ways- first in terms of the mass of the overall event aligning with the mass of the $Z$ boson. To select for Drell-Yan events we can select those which $m_{\tau\tau}$ is near the $Z$ mass peak. $m_{\tau\tau}$ is defined in the previous section and cutting on this in a 25 GeV window about the $Z$-mass peak drasticly improves our $Z+$jets purity from only 19$\%$ of total events to $\approx52\%$. 
+
+We have also tested and trained a secondary discriminant for $Z+$jets in our analysis, a BDT trained to discriminate $Z+$jets and VBF signal events. This BDT significantly decreases overall $Z+$jets background in our signal region but we found that the subsequent decrease in statistics from using this cut leads to very similar overall results. The results from this comparison are shown in the Appendix. 
 
 The $Z+$jets background has a very different $E_{\text{T}}^{\text{miss}}$ signature than VBF as this sample does not contain the level expected from VBF Higgs events. Thus a BDT trained to discriminate between VBF signal events and the $Z+$jets background uses a range of $E_{\text{T}}^{\text{miss}}$ variables and cutting on this trained discriminant rather directly on $E_{\text{T}}^{\text{miss}}$ provides an enhanced purity. The training and results from the BDT are described in the next subsection. Note that the following results from substantial obtimization on training inputs and techniques where the final BDT has high discrimination, no under or overtraining, and utilizes variables which are well-modelled and not highly correlated to one another.  
 
@@ -69,7 +71,7 @@ Finally, we can test how other background samples distribute with the $Z\rightar
 
 \subsubsection{Drell-Yan Control Region}
 
-The $Z+$jets control region definition is quite similar to the VBF signal region except that the $Z+$jets veto cuts are inverted. Thus instead of removing events near the $Z$-mass window we select for them by applying a cut on $m_{ll}<80$ GeV,  66.2 GeV $< m_{\tau\tau}< 116.2$ GeV, and the same OLV and CJV cuts as in the VBF signal region as well as a cut on the $Z+$jets BDT reversing that on the signal region (BDT$_\text{Zjets}>0.5$). The $Z+$jets control region has a purity of $\approx 82\%$ and yields in this region are shown in the table below.
+The $Z+$jets control region definition is quite similar to the VBF signal region except that the $Z+$jets veto cut is inverted. Thus instead of removing events near the $Z$-mass window we select for them by applying a cut on $m_{ll}<80$ GeV,  66.2 GeV $< m_{\tau\tau}< 116.2$ GeV, and the same OLV and CJV cuts as in the VBF signal region. The $Z+$jets control region has a purity of $\approx 82\%$ and yields in this region are shown in the table below.
 
 \begin{table}[h!]
 \scalebox{0.4}{
@@ -555,4 +557,118 @@ $\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 1.00 & 1.00 \\
 \end{table}
 
 \subsection{Fake backgrounds}
+The final substantial background in the VBF HWW differential coupling analysis comes from mis-identified leptons. These are jets that are mistakenly identified as leptons in reconstruction and in this analysis these predominantly come from $W+$jet events. In these events a $W$ boson decays leptonically leading to one true lepton and a jet from the primary vertex is mistaken for a lepton. This creates an event which mimics our desired two lepton signature and so creates an additional HWW background sample. This background is estimated as in the HWW coupling analysis using the fake factor method, similarly to in the 2016 HWW coupling analysis. Further detail on the overall fake factor method and its mathematical formulation can be found here \cite{fakesfactormethod} while further details on HWW-specific fake background studies are here \cite{HWWCoupling}. In this section I will give a brief summary of fake estimations along with the slightly augmented fake factor control region definition used in the HWW differential coupling analysis. 
+
+The fake background is estimated using data which is measured in a region defined by signal region cuts with one important distinction- one or both of the leptons used are ``anti-identified'' meaning they pass some looser lepton identification criteria but not the one used in the analysis signal region. These fakes are then extrapolated to the true signal region (with two ``identified'' electrons fake factors. Fake factors are measured as functions of $p_T$ and $\eta$ in jet-enriched $Z+$jets samples and are defined as the ratio of identified to anti-identified leptons. The fake backgrounds can be considered split between ``single-fake'' (with one ``anti-ID'' lepton) from the predominant $W+$jets background and ``double-fake'' (with two ``anti-ID'' leptons from QCD processes. The total signal sample can be defined as: 
+\begin{equation}
+N_{id+id} = N^{EW}_{id+id}+N^{W+jets}_{id+id}+N^{QCD}_{id+id}
+\end{equation} 
+so that the total events include all electroweak processes ($N^{EW}_{id+id}$) as well as fake backgrounds from $W+$jets and QCD events. In order to estimate the total fake background in the signal region we need to estimate the number of $W+$jets and QCD events in ``id+anti-id'' events and then apply the fake factor to extrapolate into the ``id+id'' region. The $N_{id+anti-id}$ for fake backgrounds is calculated after subtraction of electroweak backgrounds (two true leptons that contaminate the ``id+anti-id region'') from Monte Carlo simulations as follows:
+\begin{equation}
+N^{W+jets}_{id+anti-id}+N^{QCD}_{id+anti-id}=N_{id+anti-id}-N^{EW MC}_{id+anti-id}
+\end{equation}
+ 
+Fake factors are derived from $Z+$jets samples and then applied to $W+$jets regions so the differences between these two samples are important to uncderstand fully. The fake factor is defined 
+\begin{equation}
+F.F. = \frac{N_{id}}{N_{anti-id}}
+\end{equation}
+and is measured separately for electron and muons and measured in bins of $\eta$ and $p_T$. The following table summarizes to ``id'' and ``anti-id'' requirements. 
+
+\begin{table}[tb]
+\caption{Requirements for ``identified'' and ``anti-identified'' electrons and muons.}
+\label{tab:idantiid}
+\scalebox{0.7}{
+\centering
+\begin{tabular}{c|c||c|c}
+  \hline
+  ``id'' electron & ``anti-id'' electron & ``id'' muon & ``anti-id'' muon   \\
+  \hline
+  \multicolumn{2}{c|}{\centering $p_T>15$ GeV} & \multicolumn{2}{l|}{\centering $p_T>15$ GeV} \\
+  \multicolumn{2}{c|}{\centering $|\eta| <$2.47, excluding 1.37$<|\eta|<$1.52} & \multicolumn{2}{c|}{\centering $|\eta|<$2.45} \\
+  \multicolumn{2}{c|}{\centering $|z_0$sin$\theta|<$ 0.5mm} & \multicolumn{2}{c|}{\centering $|z_0$sin$\theta|<$ 0.5mm} \\
+  Pass \textit{Tight} if $p_T<25$ GeV & \multirow{2}{*}{ \centering Pass \textit{Loose}} & \multirow{2}{*}{ \centering Pass \textit{Tight}} & \multirow{2}{*}{\centering Pass \textit{Medium}} \\
+  Pass \textit{Medium} if $p_T>25$ GeV & & & \\
+  \multicolumn{2}{c|}{\centering $|d_0|\sigma(d_0)<5$} & $|d_0|\sigma(d_0)<3$ & $|d_0|\sigma(d_0)<15$ \\
+  Pass FixedCutTrackCone40 if $p_T<25$GeV & & $E_T^{cone20}/p_T < 0.09$ & \\
+  Pass IsoGradient if $p_T<25$GeV & & $p_T^{varcone30}/p_T<0.06$ & \\
+   & Veto against identified electron & & Veto against identified muon \\
+\hline
+\hline
+\end{tabular}
+}
+\end{table}
+$Z+$jets event are selected to contain exactly three loosely identified leptons with $p_T>15$GeV. Further requirements are for an opposite sign $ee$ or $\mu\mu$ lepton pair with 7-GeV$< m_{\ell\ell} < 110$GeV. Both $Z$ candidate leptons must be ``identified'' so that the third is the fake candidate. An additional $WZ$ veto is applied using $m_T>50$GeV to mitigate electroweak background in the $Z+$jets sample. Dedicated MC model electroweak backgrounds in the $Z+$jets region and include $V+\gamma$, diboson ($WW$, $WZ$, and $ZZ$), single top and $t\bar{t}$. Finally, $WZ$ backgrounds are normalized ot their measured cross-sections. Fake yields for the $Z+$jets samples are finally calculated by subtracting data from all MC electroweak backgrounds. The $Z+$jets cutflow for fake estimation in the $ee+\mu\mu$ channel is shown next. 
+
+\textcolor{red}{Add Z+jets cutflow and plots?}
+
+The fake factor is computed as a binned ratio in $p_T$, $[15,20,25,35,\inf]$ and for muons also in $\eta$ for $[0,1.5,2.5]$ exluding the electromagnetic calorimeter crack region. The following table summarized fake factors used in this analysis.
+
+\begin{table}[tb]
+\centering
+\caption{Fake factors binned for muons and electrons in $p_T$ and $\eta$ with their statistical uncertainties}
+\label{tab:FakeFactors}
+\begin{tabular}{c|c|c|c}
+$p_T$(GeV) & Muon FF ($|\eta|<1.5$) & Muon FF ($1.5<|\eta|<2.5$) & Electron FF \\
+\hline
+15-25 & 0.038$\pm$ 0.004 & 0.057$\pm$0.005 & 0.079$\pm$0.005 \\
+20-25 & 0.021$\pm$ 0.007 & 0.0357$\pm$0.0077 & 0.097$\pm$0.001 \\
+25-35 & 0.029$\pm$ 0.011 & 0.064$\pm$0.014 & 0.157$\pm$0.017 \\
+35-$\inf$ & 0.049$\pm$ 0.023 & 0.11$\pm$0.04 & 0.19$\pm$0.026 \\
+\end{tabular}
+\end{table}
+
+Further studies on fake factors include comparisons to their MC simulation expectations and studies on differences between the $Z+$jets control sample used to calculate fake factors and the $W+$jets sample on which they are applied. These studies are beyond the scope of this thesis but support the use of the fake factor method in our analysis. Specifically, jet kinematics and heavy flavor fraction in both samples are have been studied by the HWW coupling analysis and factor into a correction factor applied to transfer between $Z+$jets and $W+$jets samples. More information on these studies and correction factors can be found in \cite{HWWCoupling}. 
+
+The $W+$jets control region is defined as in the signal region, with cuts specifying at least 2 jets, a $b$-veto, $m_{\tau\tau}$ based Z-veto, an opposite lepton veto, central jet veto, and cuts on $m_{jj}$ and $\Delta Y_{jj}$. Unlike the signal region, this region also specified one ``id'' and one ``anti-id'' lepton instead of two identified leptons. The cutflow for this region is shown below where fakes are defined from the subtraction of total electroweak background from data. Fake purity in this control region is $74\%$ after all signal region-like cuts are applied.
+
+\begin{table}[h!]
+\scalebox{0.6}{
+\input{Pictures/emme-vbf-fakesCR.tex}
+}
+\caption{Cutflow in the fakes control region.}
+\label{tab:fakescr}
+\end{table}
+
+Distributions below show the electroweak background processes (blue) in the fake control region along with data (black). The $W+$jets or fake background is taken as the difference between data and EW background and shown in the plots as light blue points. High fake purity is shown and these backgrounds are used along with fake factors to estimate fakes in contaminating our signal region.
+
+\begin{figure}[!h]
+  \subfloat[$p_T^{\ell\ell}$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-log.pdf}
+  }\hfill
+%  \subfloat[$\Delta \Phi_{\ell\ell}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-DPhill-log.pdf}
+%  }\hfill
+  \subfloat[$m_{\ell\ell}$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-log.pdf}
+  }\hfill
+  \subfloat[$m_T$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-MT-log.pdf}
+  }\hfill
+  \subfloat[$p^T_{tot}$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-log.pdf}
+  }\hfill
+  \subfloat[lep $p^T_{\text{lead}}$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-log.pdf}
+  }\hfill
+%  \subfloat[jet $p^T_{\text{lead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-leadJetPt-log.pdf}
+%  }\hfill
+%  \subfloat[lep $p^T_{\text{sublead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-subleadLepPt-log.pdf}
+%  }\hfill
+%  \subfloat[jet $p^T_{\text{sublead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-subleadJetPt-log.pdf}
+%  }\hfill
+  \subfloat[$m_{jj}$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-log.pdf}
+  }\hfill
+  \subfloat[$\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$]{
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-MET-log.pdf}
+  }%\hfill
+{\caption{Distributions of $p_T^{\ell\ell}$, $m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, $m_{jj}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$ in the differential VBF $W+$jets control region.
+\label{fig:WCR}}}
+\end{figure}  
+
+The EW background subtracted from data in the $W+$jets control region consists of $V\gamma$, diboson, top, and $Z+$jets events. \textcolor{red}{Add a breakdown of EW background types in plots and cutflows?}
+
 \section{Systematic uncertainties}

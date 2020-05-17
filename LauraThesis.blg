@@ -7,35 +7,35 @@ White space in argument---line 123 of file LauraThesis.aux
 I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 11 of file references.bib
+I was expecting a `,' or a `}'---line 27 of file references.bib
  :                        K\"
  :                           ohler, Nicolas Maximilian and Rosati, Stefano and
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 45 of file references.bib
+I was expecting a `,' or a `}'---line 61 of file references.bib
  :  
  :  title = {Electron and photon performance measurements with the {ATLAS} detector using the 2015{\textendash}2017 {LHC} proton-proton collision data},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "JETEtmiss" isn't style-file defined
---line 123 of file references.bib
-I was expecting a `,' or a `}'---line 127 of file references.bib
+--line 139 of file references.bib
+I was expecting a `,' or a `}'---line 143 of file references.bib
  :         
  :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults?redirectedfrom=AtlasPublic.JetEtMissPublicCollisionResults}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 214 of file references.bib
+"{" immediately follows a field name---line 230 of file references.bib
  : ok
  :   {deFlorian:2227475,
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 451 of file references.bib
-I was expecting a `,' or a `}'---line 455 of file references.bib
+--line 467 of file references.bib
+I was expecting a `,' or a `}'---line 471 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 458 of file references.bib
+--line 474 of file references.bib
 Warning--I didn't find a database entry for "Aabout_2018_0"
 Warning--I didn't find a database entry for "ICreconstruction"
 Warning--I didn't find a database entry for "GEANT4"
@@ -73,6 +73,7 @@ Warning--I didn't find a database entry for "Twiki_ASG"
 Warning--I didn't find a database entry for "ORpresc"
 Warning--I didn't find a database entry for "ORpresc_1"
 Warning--I didn't find a database entry for "Aad:1975394"
+Warning--I didn't find a database entry for "fakesfactormethod"
 Warning--empty publisher in HalzenMartin
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
@@ -97,7 +98,7 @@ Warning--empty institution in MCPPlots2
 Warning--empty year in MCPPlots2
 You've used 43 entries,
             1791 wiz_defined-function locations,
-            768 strings with 15881 characters,
+            769 strings with 15898 characters,
 and the built_in function-call counts, 11279 in all, are:
 = -- 650
 > -- 1117
