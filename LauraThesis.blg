@@ -39,7 +39,6 @@ Warning--entry type for "CERNnews2" isn't style-file defined
 Warning--I didn't find a database entry for "Aabout_2018_0"
 Warning--I didn't find a database entry for "ICreconstruction"
 Warning--I didn't find a database entry for "GEANT4"
-Warning--I didn't find a database entry for "pythia8"
 Warning--I didn't find a database entry for "Nason:2009ai"
 Warning--I didn't find a database entry for "PDF4LHC15"
 Warning--I didn't find a database entry for "CiccoliniDennerDittmaier2007"
@@ -48,25 +47,7 @@ Warning--I didn't find a database entry for "Bolzoni2010"
 Warning--I didn't find a database entry for "deFlorian:2016spz"
 Warning--I didn't find a database entry for "pythia"
 Warning--I didn't find a database entry for "Sjostrand:2007gs"
-Warning--I didn't find a database entry for "powheg1"
-Warning--I didn't find a database entry for "powheg2"
-Warning--I didn't find a database entry for "powheg3"
-Warning--I didn't find a database entry for "powheg5"
-Warning--I didn't find a database entry for "Butterworth:2015oua"
-Warning--I didn't find a database entry for "Campbell:2012am"
-Warning--I didn't find a database entry for "Hamilton:2013fea"
-Warning--I didn't find a database entry for "Bozzi:2005wk"
-Warning--I didn't find a database entry for "deFlorian:2011xf"
-Warning--I didn't find a database entry for "Luisoni:2013kna"
-Warning--I didn't find a database entry for "Alwall:2014hca"
-Warning--I didn't find a database entry for "Wiesemann:2014ioa"
-Warning--I didn't find a database entry for "Ball:2012cx"
 Warning--I didn't find a database entry for "Cascioli:2013gfa"
-Warning--I didn't find a database entry for "Caola:2015rqy"
-Warning--I didn't find a database entry for "MelnikovPetriello"
-Warning--I didn't find a database entry for "Czakon:2013"
-Warning--I didn't find a database entry for "Skands:2010ak"
-Warning--I didn't find a database entry for "Lange:2001uf"
 Warning--I didn't find a database entry for "HWWCoupling"
 Warning--I didn't find a database entry for "ATL-PHYS-PUB-2015-041"
 Warning--I didn't find a database entry for "Twiki_ASG"
@@ -74,6 +55,7 @@ Warning--I didn't find a database entry for "ORpresc"
 Warning--I didn't find a database entry for "ORpresc_1"
 Warning--I didn't find a database entry for "Aad:1975394"
 Warning--I didn't find a database entry for "fakesfactormethod"
+Warning--I didn't find a database entry for "ATLAS-CONF-2019-021"
 Warning--empty publisher in HalzenMartin
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
@@ -98,7 +80,7 @@ Warning--empty institution in MCPPlots2
 Warning--empty year in MCPPlots2
 You've used 43 entries,
             1791 wiz_defined-function locations,
-            769 strings with 15898 characters,
+            738 strings with 15499 characters,
 and the built_in function-call counts, 11279 in all, are:
 = -- 650
 > -- 1117

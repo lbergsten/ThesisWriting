@@ -672,3 +672,120 @@ Distributions below show the electroweak background processes (blue) in the fake
 The EW background subtracted from data in the $W+$jets control region consists of $V\gamma$, diboson, top, and $Z+$jets events. \textcolor{red}{Add a breakdown of EW background types in plots and cutflows?}
 
 \section{Systematic uncertainties}
+The experimental, theoretical, and statistical uncertainties in this analysis all impact the final measurement substantially. In this section I describe first the experimental systematic uncertainties then the theoretical in detail. Statistical uncertainties are derived from the limited number of MC events used to model each of signal and background samples per bin in the differential measurement. A single MC-stat nuisance parameter is implemented based on Poisson statistics and used in our overal statistical fit. 
+
+\subsection{Experimental uncertainties}
+Several types of experimental systematics uncertainties affect this analysis. Each of these are calculated for this analysis using the current recommendations for each of the following Combined Performance groups: muons, electrons, Jet/$E_T^{miss}$, Trigger, flavor tagging (?), and pile-up. The current set of experimental systematics uses 102 nuisance parameters, each of which will be briefly described next.
+ 
+There are two different ways systematic uncertainties are calculated and applied. First, for systematic uncertainties on the energy of jets and electrons and momentum of muons, the scale and resolutions is calculated. These test the number of events in the final state affected by shifting energy/momentum by a scale factor. This ``smearing'' procedure is done for a nominal scaling value and values with $\pm 1 \sigma$. Next, systematic uncertainty on the scale factors is calculated by comparing nominal event numbers to those after particular weights are applied. These weights are derived from data-MC agreement and their uncertainty is the relative difference between nominal and modified weight sums.  
+ 
+At the end of this section there is a table which describes all key experimental uncertainties and then tables of experimental uncertainties in the signal region, $Z\rightarrow \tau\tau$ and top control regions are shown. \textcolor{red}{Not included yet are shape systematics on the BDT distribution are also considered for all the experimental systematic uncertanties, maybe necessary, and acceptance in the signal region, $Z\rightarrow\tau\tau$ and top control regions.}
+\\
+\textbf{Muon reconstruction and identification}
+There are four nuisance parameters associated with muon reconstruction and identification, these are reconstruction efficiency statistic and systematic uncertainties ($MUON\_EFF\_RECO\_STAT$, $MUON\_EFF\_RECO\_SYS$). There are additional separate uncertainties for low $p_T$ muons, or those with $3 < p_T <20$ GeV ($MUON\_EFF\_RECO\_STAT\_LOWPT$, $MUON\_EFF\_RECO\_SYS\_LOWPT$).
+
+\textbf{Muon momentum scale and resolution}
+Muon momentum resolution uncertainties are divided into those from the Inner Detector ($MUON\_ID$) and those from the muon spectrometer ($MUON\_MS$). Muon momentum scale uncertainties are contained in $MUON\_SCALE$. Finally, two additional systematic uncertainties $MUON\_SAGITTA\_RESBIAS$ and $MUON\_SAGITTA\_RHO$ come from a correction applied to muons to account for residual ID/MS misalignments which create a charge dependent bias.  
+
+\textbf{Electron reconstruction and identification}
+lectron reconstruction and identification uncertainties come from nuisance parameters $EL\_EFF\_Reco\_TOTAL\_1NPCOR\_PLUS\_UNCOR$,$EL\_EFF\_ID\_CorrUncertaintyNP$ 0 to 15, and $EL\_EFF\_ID\_SIMPLIFIED\_UncorrUncertaintyNP$ 0 to 17.
+
+\textbf{Electron energy scale and resolution}
+The standard systematics included for electron energy scale and resolution are $EG\_SCALE\_AF2$ and $EG\_SCALE\_ALL$.\textcolor{red}{Missing resolution NP?}
+
+\textbf{Jet energy scale and resolution}
+There are a number of jet energy scale and resolution systematics included in the analysis: $JET\_BJES\_Response$,$JET\_EffectiveNP\_Detector$ 1 to 2, $JET\_EffectiveNP\_Mixed$ 1 to 3, $JET\_EffectiveNP\_Modelling$ 1 to 4, $JET\_EffectiveNP\_Statistical$ 1 to 6, $JET\_EtaIntercalibration\_Modelling$, $JET\_EtaIntercalibration\_NonClosure\_highE$, $JET\_EtaIntercalibration\_NonClosure\_negEta$, $JET\_EtaIntercalibration\_NonClosure\_posEta$, $JET\_EtaIntercalibration\_TotalStat$, $JET\_Flavor\_Composition$, $JET\_Flavor\_Response$, $JET\_JER\_DataVsMC$, $JET\_JER\_EffectiveNP\_$ 1 to 7, $JET\_JvtEfficiency$, $JET\_PunchThrough\_MC16$, $JET\_SingleParticle\_HighPt$.
+
+\textbf{Isolation}
+One isolation systematic uncertainty included is for electrons ($EL\_EFF\_Iso\_TOTAL\_1NPCOR\_PLUS\_UNCOR$) and \textcolor{red}{another two are included for muons:$MUON\_ISO\_STAT$ and $MUON\_ISO\_SYS$ . These aren't included currently?}
+
+\textbf{Trigger efficiency}
+Three nuisance parameters are included for trigger efficiency- one for electrons ($EL\_EFF\_Trigger\_TOTAL\_1NPCOR\_PLUS\_UNCOR$) and two for muons ($MUON\_EFF\_TrigStatUncertainty$ and $MUON\_EFF\_TrigSystUncertainty$) \textcolor{red}{Muon Syst isn't included...}.
+
+\textbf{Flavor tagging efficiency}
+Flavor tagging efficiency nuisance parameters considered are $FT\_EFF\_Eigen\_B\_$ 0 to 2, $FT\_EFF\_Eigen\_C\_$ 0 to 2, $FT\_EFF\_Eigen\_Light\_$ 0 to 3, $FT\_EFF\_extrapolation$, and $FT\_EFF\_extrapolation\_from\_charm$.
+
+\textbf{Pileup reweighting and integrated luminosity}
+The data scale factor for the pileup $<\mu>$ value is $1.0/1.09$ \textcolor{red}{Update this value?}. Systematics of the pileup $<\mu>$ value are accounted for with the nuisance parameter $PRW\_DATASF$ and evaluated by varying the data scale factor upward and downward. Jet pileup nuisance parameters are also included: $JET\_Pileup\_OffsetMu$,$JET\_Pileup\_OffsetNPV$, $JET\_Pileup\_PtTerm$, amd $JET\_Pileup\_RhoTopology$.
+
+\textbf{Integrated luminosity}
+Uncertainty on the integrated luminosity is $\pm 2.1\%$ for the 2015$+$2016 dataset, $\pm 2.4\%$ for the 2017 dataset and $\pm 2.0\%$ for the 2018 dataset. This results in an overall integrated luminosity uncertainty of $\pm 1.7\%$ ~\cite{ATLAS-CONF-2019-021}.
+
+\begin{table}
+\resizebox{\textwidth}{!}{
+  \begin{tabular}{l|l}
+  \hline\hline
+  Systematic uncertainty & Short description \\
+  \hline
+  \multicolumn{2}{c}{Event}\\
+  \hline
+  Luminosity         & uncertainty on total integrated luminosity \\
+  PRW\_DATASF	     & uncertainty on pileup reweighting          \\
+  \hline
+  \multicolumn{2}{c}{Electrons}\\
+  \hline
+  EL\_EFF\_Trigger\_Total\_1NPCOR\_PLUS\_UNCOR            &  trigger efficiency uncertainty          \\
+  EL\_EFF\_Reco\_Total\_1NPCOR\_PLUS\_UNCOR               &  reconstruction efficiency uncertainty   \\
+  EL\_EFF\_ID\_CorrUncertaintyNP (0 to 15)                &  ID efficiency uncertainty splits in 16 components   \\
+  EL\_EFF\_ID\_SIMPLIFIED\_UncorrUncertaintyNP (0 to 17)  &  ID efficiency uncertainty splits in 18 components   \\
+  EL\_EFF\_Iso\_Total\_1NPCOR\_PLUS\_UNCOR                &  isolation efficiency uncertainty        \\
+  EG\_SCALE\_ALL                                          &\multirow{2}{*}{energy scale uncertainty} \\
+  EG\_SCALE\_AF2	                                  &                                          \\
+ % EG\_RESOLUTION\_ALL                                     &  energy resolution uncertainty           \\
+  \hline
+  \multicolumn{2}{c}{Muons}\\
+  \hline
+  MUON\_EFF\_TrigStatUncertainty &  \multirow{2}{*}{trigger efficiency uncertainty} \\
+% MUON\_EFF\_TrigSystUncertainty &                                                  \\
+  MUON\_EFF\_STAT                &  \multirow{2}{*}{reconstruction and ID efficiency uncertainty for muons with $p_T$ > 20 GeV} \\
+  MUON\_EFF\_SYS                 &                                                                      \\
+  MUON\_EFF\_STAT\_LOWPT         & \multirow{2}{*}{reconstruction and ID efficiency uncertainty for muons with $p_T$ < 20 GeV} \\
+  MUON\_EFF\_SYST\_LOWPT         &                                                                      \\
+% MUON\_ISO\_STAT                &  \multirow{2}{*}{isolation efficiency uncertainty}                   \\
+% MUON\_ISO\_SYS                 &                                                                      \\
+% MUON\_TTVA\_STAT               &  \multirow{2}{*}{track-to-vertex association efficiency uncertainty} \\
+% MUON\_TTVA\_SYS                &                                                                      \\
+  MUON\_ID                       & momentum resolution uncertainty from inner detector                  \\
+  MUON\_MS                       & momentum resolution uncertainty from muon system                     \\
+  MUON\_SCALE                    & momentum scale uncertainty                                           \\
+  MUON\_SAGITTA\_RHO             & \multirow{2}{*}{charge dependent momentum scale uncertainty}         \\
+  MUON\_SAGITTA\_RESBIAS         &                                                                      \\
+  \hline
+  \multicolumn{2}{c}{Jets}\\
+  \hline         
+  JET\_EffectiveNP\_Detector (1 to 2) & detector related energy scale uncertainty \\
+  JET\_JER\_EffectiveNP\_ (1 to 7) & energy resolution uncertainty  \\
+  JET\_JER\_DataVsMC 	& energy resolution modelling uncertainty \\
+  JET\_BJES\_Response & energy scale uncertainty on b-jets \\
+  JET\_EffectiveNP\_Mixed (1 to 3) & energy resolution uncertainty \\
+  JET\_EffectiveNP\_Modelling (1 to 4) &  energy scale uncertainty on eta-intercalibration (modeling) \\
+  JET\_EffectiveNP\_Statistical (1 to 6) &  statistical resolution uncertainty \\
+  JET\_EtaIntercalibration\_NonClosure\_negEta &  energy scale uncertainty on eta-intercalibrations (non-closure) \\
+  JET\_EtaIntercalibration\_NonClosure\_posEta & energy scale uncertainty on eta-intercalibrations (non-closure) \\
+  JET\_EtaIntercalibration\_TotalStat & energy scale uncertainty on eta-intercalibrations (statistics/method) \\
+  JET\_Pileup\_OffsetMu                & energy scale uncertainty on pile-up (mu dependent)    \\
+  JET\_Pileup\_OffsetNPV               & energy scale uncertainty on pile-up (NPV dependent)   \\
+  JET\_Pileup\_PtTerm                  & energy scale uncertainty on pile-up (pt term)         \\
+  JET\_Pileup\_RhoTopology             & energy scale uncertainty on pile-up (density $\rho$)  \\
+  JET\_Flavor\_Composition             & energy scale uncertainty on flavour composition       \\
+  JET\_Flavor\_Response                & energy scale uncertainty on samples' flavour response \\
+  JET\_PunchThrough\_MC16              & energy scale uncertainty for punch-through jets       \\
+  JET\_SingleParticle\_HighPt          & energy scale uncertainty from the behaviour of high-$p_T$ jets \\
+  JET\_JvtEfficiency & JVT efficiency uncertainty      \\
+  FT\_EFF\_Eigen\_B (0 to 2) & \multirow{3}{*}{\parbox{11cm}{$b$-tagging efficiency uncertainties (``BTAG\_MEDIUM''): 3 components for $b$ jets, 3 for $c$ jets and 4 for light jets}} \\
+  FT\_EFF\_Eigen\_C (0 to 2)                 & \\
+  FT\_EFF\_Eigen\_Light (0 to 3)             & \\
+  FT\_EFF\_Eigen\_extrapolation              & $b$-tagging efficiency uncertainty on the extrapolation to high-$p_T$ jets\\
+  FT\_EFF\_Eigen\_extrapolation\_from\_charm & $b$-tagging efficiency uncertainty on tau jets \\
+\hline\hline     
+\end{tabular}
+}
+\caption{Summary of the experimental sytematic uncertainties considered.}
+\label{tab:expSyst}
+\end{table}
+\subsection{Theoretical uncertainties}
+\subsubsection{Signal theory uncertainties}
+\subsubsection{$ggF$ background theory uncertainties}
+\subsubsection{Top background theory uncertainties}
+\subsubsection{$WW$ background theory uncertainties}
+\subsubsection{$Z\rightarrow\tau\tau$ background theory uncertainties}
