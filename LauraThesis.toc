@@ -32,8 +32,8 @@
 \contentsline {subsubsection}{Background samples}{79}{section*.44}
 \contentsline {section}{\numberline {5.2}Object definitions}{79}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Lepton}{80}{subsection.5.2.1}
-\contentsline {subsubsection}{Electron}{81}{section*.45}
-\contentsline {subsubsection}{Muon}{82}{section*.47}
+\contentsline {subsubsection}{Electron}{80}{section*.45}
+\contentsline {subsubsection}{Muon}{81}{section*.47}
 \contentsline {subsection}{\numberline {5.2.2}Jets}{82}{subsection.5.2.2}
 \contentsline {subsubsection}{$b$-tagged jet}{83}{section*.49}
 \contentsline {subsection}{\numberline {5.2.3}Missing transverse energy}{83}{subsection.5.2.3}
@@ -46,27 +46,27 @@
 \contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{98}{chapter.6}
 \contentsline {section}{\numberline {6.1}Backgrounds}{98}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Drell-Yan background ($Z\rightarrow \tau \tau $)}{99}{subsection.6.1.1}
-\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ BDT}{100}{section*.65}
-\contentsline {subsubsection}{Drell-Yan Control Region}{104}{section*.71}
-\contentsline {subsection}{\numberline {6.1.2}Top background}{106}{subsection.6.1.2}
+\contentsline {subsubsection}{Drell-Yan Control Region}{100}{section*.65}
+\contentsline {subsection}{\numberline {6.1.2}Top background}{100}{subsection.6.1.2}
+\contentsline {subsubsection}{Top and $WW$ BDT discriminant (against all other samples)}{103}{section*.70}
 \contentsline {subsection}{\numberline {6.1.3}Diboson background}{110}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}ggF background}{115}{subsection.6.1.4}
-\contentsline {subsubsection}{Discriminant in the GGF-CR1}{116}{section*.83}
-\contentsline {subsubsection}{Discriminant in the GGF-CR2}{117}{section*.89}
-\contentsline {subsubsection}{Discriminant in the GGF-CR3}{118}{section*.95}
-\contentsline {subsubsection}{Dependance on the modelling of the simulation}{120}{section*.101}
-\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{120}{subsection.6.1.5}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{125}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{125}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{128}{subsection.6.2.2}
-\contentsline {subsubsection}{Signal theory uncertainties}{128}{section*.108}
-\contentsline {subsubsection}{$ggF$ background theory uncertainties}{128}{section*.109}
-\contentsline {subsubsection}{Top background theory uncertainties}{128}{section*.110}
-\contentsline {subsubsection}{$WW$ background theory uncertainties}{128}{section*.111}
-\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ background theory uncertainties}{128}{section*.112}
-\contentsline {chapter}{\numberline {7}Results}{140}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{140}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{140}{subsection.7.1.1}
-\contentsline {section}{\numberline {7.2}Unfolding}{142}{section.7.2}
-\contentsline {section}{\numberline {7.3}Results and future measurements}{142}{section.7.3}
-\contentsline {chapter}{\numberline {8}Conclusions}{143}{chapter.8}
+\contentsline {subsubsection}{Top vs. $WW$ BDT discriminant}{110}{section*.80}
+\contentsline {subsection}{\numberline {6.1.4}ggF background}{116}{subsection.6.1.4}
+\contentsline {subsubsection}{Discriminant in ggF CR1}{119}{section*.88}
+\contentsline {subsubsection}{Discriminant in ggF CR2}{120}{section*.94}
+\contentsline {subsubsection}{Discriminant in ggF-CR3}{124}{section*.100}
+\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{129}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{133}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{135}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{137}{subsection.6.2.2}
+\contentsline {subsubsection}{Signal theory uncertainties}{137}{section*.111}
+\contentsline {subsubsection}{$ggF$ background theory uncertainties}{137}{section*.112}
+\contentsline {subsubsection}{Top background theory uncertainties}{137}{section*.113}
+\contentsline {subsubsection}{$WW$ background theory uncertainties}{137}{section*.114}
+\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ background theory uncertainties}{137}{section*.115}
+\contentsline {chapter}{\numberline {7}Results}{139}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{139}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{139}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Unfolding}{141}{section.7.2}
+\contentsline {section}{\numberline {7.3}Results and future measurements}{141}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusions}{142}{chapter.8}

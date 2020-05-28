@@ -1,73 +1,18 @@
 %{Backgrounds and systematics}
 \section{Backgrounds}
-While the VBF $H\rightarrow WW\rightarrow \ell\nu\ell\nu$ channel gives a fairly clear signal with $E_{\text{T}}^{\text{miss}}$, two leptons, and 2 jets, there are substantial backgrounds with similar final states. These include Drell-Yan processes (in which a $Z$ boson is formed from quark  anti-quark annihilation of the two colliding protons), top quark final states (predominantly $t\bar{t}$) and diboson events (led by SM $WW$ events), Higgs decays from the ggF production mode and finally background from mis-identified leptons, called fakes. In this section I will detail each background and describe our methods for estimating their role in our overall results. I will describe how this analysis estimates and minimizes contributions from each background process. Finally, we demonstrate purity and modelling of these backgrounds in validation and control regions. I made key contributions in this analysis in optimizing and testing control region definitions and their effects on our overall results. 
+While the VBF $H\rightarrow WW\rightarrow \ell\nu\ell\nu$ channel gives a fairly clear signal with $E_{\text{T}}^{\text{miss}}$, two leptons, and 2 jets, there are substantial backgrounds with similar final states. These include Drell-Yan processes (in which a $Z$ boson is formed from quark anti-quark annihilation of the two colliding protons), top quark final states (predominantly $t\bar{t}$), diboson events (led by SM $WW$ events), Higgs decays from the other production modes (mainly ggF), and background from mis-identified leptons, called fakes. In this section I will detail each background and describe our methods for estimating their role in overall results. I will describe how this analysis estimates and minimizes contributions from each background process. Finally, I demonstrate purity and modelling of these backgrounds in validation and control regions. I made key contributions in this analysis in optimizing and testing control region definitions and their effects on our overall results. 
+
 \subsection{Drell-Yan background ($Z\rightarrow \tau\tau$)}
 The Drell-Yan background, alternatively called $Z\rightarrow \tau\tau$ or $Z+$jets is produced in the initial collision when two quarks produce a $Z$ boson which then decays to two leptons (in the largest background, $\tau$ leptons which then decay to electron/muons and neutrinos).  Thus there are two jets and two leptons in its final state as well as missing energy from neutrinos, all of which are indicative of signal VBF Higgs events as well. A typical Drell-Yan feynman diagram is shown in Figure \ref{fig:DrellYan}. 
 \begin{figure}
 \centering
   \includegraphics[width=.5\linewidth]{Pictures/FeynmanDrellYan.png}
-\caption{Feynman diagram for Drell-Yan process in which two quarks produce a photon or $Z$-boson that then decays leptonically.}
+\caption{Feynman diagram for Drell-Yan process in which two quarks produce a photon or $Z$-boson that then decays leptonically \cite{DrellYan}.}
 \label{fig:DrellYan}
 \end{figure}
 The Drell-Yan background can be discriminated from our signal as well as the other backgrounds in two main ways- first in terms of the mass of the overall event aligning with the mass of the $Z$ boson. To select for Drell-Yan events we can select those which $m_{\tau\tau}$ is near the $Z$ mass peak. $m_{\tau\tau}$ is defined in the previous section and cutting on this in a 25 GeV window about the $Z$-mass peak drasticly improves our $Z+$jets purity from only 19$\%$ of total events to $\approx52\%$. 
 
 We have also tested and trained a secondary discriminant for $Z+$jets in our analysis, a BDT trained to discriminate $Z+$jets and VBF signal events. This BDT significantly decreases overall $Z+$jets background in our signal region but we found that the subsequent decrease in statistics from using this cut leads to very similar overall results. The results from this comparison are shown in the Appendix. 
-
-The $Z+$jets background has a very different $E_{\text{T}}^{\text{miss}}$ signature than VBF as this sample does not contain the level expected from VBF Higgs events. Thus a BDT trained to discriminate between VBF signal events and the $Z+$jets background uses a range of $E_{\text{T}}^{\text{miss}}$ variables and cutting on this trained discriminant rather directly on $E_{\text{T}}^{\text{miss}}$ provides an enhanced purity. The training and results from the BDT are described in the next subsection. Note that the following results from substantial obtimization on training inputs and techniques where the final BDT has high discrimination, no under or overtraining, and utilizes variables which are well-modelled and not highly correlated to one another.  
-
-\subsubsection{$Z\rightarrow\tau\tau$ BDT}
-A decision tree is a collection of cuts designed to classify events as signal-like or background-like. A given signal event is correctly identified if it is placed in a signal-dominated leaf and vice-cersa for background events. After the initial tree is built another tree is grown to better separate the signal and background events misidentified by the first tree. This proceeds iteratively until there is a collection of a specified number of trees, in a process known as boosting. A weighted average is taken from all these trees to form a BDT output discriminant with values ranging from -1 to 1.
-
-The BDT is trained using $e\mu+\mu e$ events after the VBF selection and the signal regions cuts including that on $n_{jets}$, $b$-veto, OLV, CJV, $M_{jj}$ and $DY_{jj}$. In this way, the phase space in which we train the BDT is exactly the same as the one where we apply it. The training includes only the $Z\rightarrow\tau\tau$ background and the VBF signal. The MC statistics used in the training are half those available after all signal region cuts (as the other half are later used to test the training). This corresponds to $\approx$ 5,000 $Z\tau\tau$ events and $\approx$100,000 VBF events.
-
-The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:ZBDTparameters}.
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|c|c|}
-\hline
-Parameter                                    & Value    & Range     \\
-\hline
-Boosting algorithm                           & Gradient & --        \\
-Maximum tree depth                           &  22      & [3,10,22,30]    \\
-Number of trees                              &  1000    & [200,1000,10000] \\
-Minimum number of events requires per mode   &  5\%     & [5\%]\\
-Number of cuts                               &  7       & [3,5,7,9]  \\
-\hline
-\end{tabular}
-\caption{BDT parameters used for the $Z\rightarrow\tau\tau$ training.} 
-\label{tab:ZBDTparameters}
-\end{table}
-For this BDT we aim to take advantage of the different $E_{\text{T}}^{\text{miss}}$ distributions in $Z\rightarrow\tau\tau$ backgrounds and VBF signal Monte Carlo events. Instead of a cut on $E_{\text{T}}^{\text{miss}}$, we train the BDT using multiple different $E_{\text{T}}^{\text{miss}}$ variables to maximize discrimination and then cut on the BDT output variable. Training using variables including $E_{\text{T}}^{\text{miss}}$, $\ensuremath{E_{\text{T}}^{\text{miss, track}}}$, $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$, $\ensuremath{E_{\text{T,rel}}^{\text{miss, track}}}$, $\Delta\phi_{\ell\ell,E_{\text{T}}^{\text{miss}}}$, $\Delta\phi_{\ell\ell,E_{\text{T}}^{\text{miss, track}}}$, and $\ensuremath{E_{\text{T}}^{\text{miss, significance}}}$ have been tested. The optimal analysis uses $\ensuremath{E_{\text{T}}^{\text{miss, significance}}}$, $\ensuremath{E_{\text{T}}^{\text{miss, track}}}$, $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss, track}}}$, $\ensuremath{\Delta\phi_{\ell\ell,E_{\text{T}}^{\text{miss, track}}}}$, and $\ensuremath{\Delta\phi_{\ell\ell,E_{\text{T}}^{\text{miss}}}}$. Relative $E_{\text{T}}^{\text{miss}}$ is defined as $E_{\text{T}}^{\text{miss}} * \sin(|\Phi_{E_{\text{T}}^{\text{miss}}}\Phi_{jet}|)$, $\ensuremath{E_{\text{T}}^{\text{miss, track}}}$ is calculated from tracking detectors while $E_{\text{T}}^{\text{miss}}$ is calculated from calorimeter deposits. Finally, $\ensuremath{E_{\text{T}}^{\text{miss, significance}}}$ is a newly calibrated variable from the Jet/$E_{\text{T}}^{\text{miss}}$ group that differentiates between $E_{\text{T}}^{\text{miss}}$ from electroweak and strong interactions \cite{JETEtmiss}. While $\ensuremath{E_{\text{T}}^{\text{miss, significance}}}$ wasn't shown to increase the discrimination of the BDT due to its high correlations with $E_{\text{T}}^{\text{miss}}$, replacing this variable with $E_{\text{T}}^{\text{miss}}$ showed very similar results while reducing correlations between variables like $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$ and $\ensuremath{\Delta\phi_{\ell\ell,E_{\text{T}}^{\text{miss}}}}$. Plots shown in \ref{fig:ZjetsBDTinput} and \ref{fig:ZjetscorrSB} demonstrate the input distributions used to train the BDT and their correlations.
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=0.85\linewidth]{Pictures/variables_id_c1.eps}
-    \caption{Distributions of input variables to $Z\rightarrow\tau\tau$ BDT. Samples are unweighted and normalized to even numbers of background and signal events. Signal represents $Z\rightarrow\tau\tau$ and background VBF Higgs.}.
-    \label{fig:ZjetsBDTinput}
-\end{figure}
-\begin{figure}[!htbp]
-\centering
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixS.eps}
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to $Z\rightarrow\tau\tau$ BDT. Signal represents $Z\rightarrow\tau\tau$ and background VBF Higgs.}
-\label{fig:ZjetscorrSB}
-\end{figure}
-The BDT training successfully separates $Z\rightarrow\tau\tau$ and VBF signal. In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for unweighted normalized samples and find an optimal value of 0.897. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. Visually, once can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly. If the two distributions are random samples of the same parent distribution, the KS-test would give a uniformly distributed value between zero and one (or an average value of 0.5). The closer to 0.5 the KS-test, the greater likelihood the curves come from the same parent, however this calculation is heavily skewed toward lower values so any value above zero (or not very close to zero, on order $10^{-4}$) can be considered not indicative of overtraining. For signal and background we find KS-test values of 0.062 and 0.286, and so no evidence of over-training. We can visualize the BDT output variable both on un-weighted normalized samples and on samples with all event weights applied. The following plots show BDT results applied to un-weighted and weighted samples of $Z\rightarrow\tau\tau$ and VBF signal.
-
-\begin{figure}[!htbp]
-\centering
-  \includegraphics[width=.4\linewidth]{Pictures/overtrain_BDTG.eps}
-  \includegraphics[width=.4\linewidth]{Pictures/weightedZjetsVBF.png}
-\caption{Weighted, normalized samples of $Z\rightarrow\tau\tau$ (signal) and VBF (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. On right, full weighted samples of $Z\rightarrow\tau\tau$ and VBF signal plotted over BDT output distributions.}
-\label{fig:ZjetsBDTresult}
-\end{figure}
-
-Finally, we can test how other background samples distribute with the $Z\rightarrow\tau\tau$ BDT output variable and optimize results from cutting on this variable. The following plot \ref{fig:ZjetsBDTinterpret} shows distribution of all backgrounds as well as signal with $Z\rightarrow\tau\tau$ BDT output. We aim to increase significance while also keeping as much signal sample as possible for keep high statistics. To accomplish this we cut at a BDT output value of 0.5, in this way we eliminate $60\%$ of $Z\rightarrow\tau\tau$ background, or $\approx 450$events, and only $6\%$ of signal events. We have also tested this cut on truth samples to validate that applying this cut does not affect our fiducial phase space. 
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=.4\linewidth]{Pictures/weightedZjetsAll.png}
-\caption{Full weighted samples of all signal and background plotted over BDT output distributions}
-\label{fig:ZjetsBDTintepret}
-\end{figure}
 
 \subsubsection{Drell-Yan Control Region}
 
@@ -81,7 +26,7 @@ The $Z+$jets control region definition is quite similar to the VBF signal region
 \label{tab:zttcr}
 \end{table}
 
-Data/MC shows decent agreement over various variable distributions as seen in the  below. In particular, modelling over variables used in the BDT are modelled well. 
+Data/MC shows decent agreement over various variable distributions as seen in the  below. Some of these variables are those used in the BDT described in Appendix A. 
 
 \begin{figure}[!h]
 \centering
@@ -115,17 +60,13 @@ Data/MC shows decent agreement over various variable distributions as seen in th
 {\caption{Distributions of $m_{\tau\tau}$, $p^T_{tot}$, $m_T$, in $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$, $\ensuremath{E_{\text{T}}^{\text{miss, significance}}}$, $\ensuremath{E_{\text{T}}^{\text{miss, track}}}$, $\ensuremath{E_{\text{T,rel}}^{\text{miss, track}}}$, $\ensuremath{\Delta\phi_{\ell\ell,E_{\text{T}}^{\text{miss, track}}}}$ in the $Z+$jets control region.
 \label{fig:DYCR3}}}
 \end{figure}
-The BDT that discriminates VBF signal and $Z+$jets is applied in the $Z+$jets control region to maintain orthogonality. This further increases purity in the control region. This distribution is shown in the following plot. 
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=.6\linewidth]{Pictures/run2-emme-CutVBFZtautauControl_2jetinclBDT-BDT_Zjets-log.pdf}
-\caption{Full weighted samples of all signal and background plotted over BDT output distributions in $Z+$jets control region after cut on $Z+$jets BDT}
-\label{fig:ZjetsBDTCR}
-\end{figure}
+
 Normalization factors (NF) are derived in the $Z+$jets control region to correct for Data/MC mis-modelling. These factors are applied to the $Z+$jets sample in the signal region. The NF factors are $1.03 \pm 0.05$. 
 
 \subsection{Top background}
-The top background consists of two main components, $Wt$ and $t\bar{t}$ events where the $W$ decays leptonically and the top quarks decay to jets (notably $b$-jets). The top background is dominated by $t\bar{t}$ and is the largest background in our signal region, composing about $60\%$ of the total background. Though top backgrounds are numerous, discrimination between top and signal Higgs events is possible through training a BDT on variables that have very different discributions between these two types of events like $m_{\ell\ell}$ and $\Delta Y_{jj}$. This BDT discriminates between signal and top background quite well and so the top background is defined in the signal region and separated using this variable. The final BDT used in the final statistical fit is discused in the following chapter. We define a top validation region to test top Monte Carlo modelling as well as to calculate a normalization factor that is used to correct top mis-modelling in the signal region. The top validation region is described similarly to the signal region with one major difference, a $b$- tag applied in the signal region requiring all events with a $b$-jet to be removed is (almost) reversed. Instead we require exactly one $b$-tagged jet. We require exactly one in order to define the validation region as similarly to the signal region as possible while increasing top purity. The results is a highly pure top validation region where the flavor composition of the tagged jets is close to the signal region. Purity of the top control region is $\approx 97\%$ and yields in this region are shown in the table below.
+The top background consists of two main components, $Wt$ and $t\bar{t}$ events where the $W$ decays leptonically and the top quarks decay to jets (notably $b$-jets). The top background is dominated by $t\bar{t}$ and is the largest background in our signal region, composing about $60\%$ of the total background. Though top backgrounds are numerous, discrimination between top and signal Higgs events is possible through training a BDT on variables that have very different discributions between these two types of events like $m_{\ell\ell}$ and $\Delta Y_{jj}$. As demonstrated in Chapter 4, this BDT discriminates between signal and top background quite well. The top background is therefore able to be defined in the signal region and separated using dedicated discriminants. The final BDT used in the final statistical fit is discused in the following chapter but in this section I will decribe an additional BDT used to isolate top background events- that splitting top$+WW$ and all other backgrounds. This is added to the overall fit as the main discriminant for top backgrounds and is considered in combination with $WW$ due to their similar signatures and their estimation as a combined parameter in the final fit.  
+
+We also define a top validation region to test top Monte Carlo modelling as well as to calculate a normalization factor that is used to correct top mis-modelling in the signal region. The top validation region is described similarly to the signal region with one major difference, a $b$- tag applied in the signal region requiring all events with a $b$-jet to be removed is (almost) reversed. Instead we require exactly one $b$-tagged jet. We require exactly one in order to define the validation region as similarly to the signal region as possible while increasing top purity. The result is a highly pure top validation region where the flavor composition of the tagged jets is close to the signal region. Purity of the top control region is $\approx 97\%$ and yields in this region are shown in the table below.
 
 \begin{table}[h!]
 \scalebox{0.4}{
@@ -135,7 +76,7 @@ The top background consists of two main components, $Wt$ and $t\bar{t}$ events w
 \label{tab:topcr}
 \end{table}
 
-Data/MC in the top validation region shows good agreement over various variable distributions as seen in the  below. 
+Data/MC in the top validation region shows good agreement over various variable distributions as seen in the  below. Many of these distributions of used as inputs to the top$+WW$ BDT. 
 
 \begin{figure}[!h]
 \centering
@@ -166,7 +107,64 @@ Data/MC in the top validation region shows good agreement over various variable 
 {\caption{Distributions of $m_{\ell\ell}$, $\Delta Y_{\ell\ell}$, $\Delta Y_{jj}$, $m_{jj}$, $\Delta\Phi_{jj}$, $p^T_{tot}$, $m_T$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$ in the top validation region.
 \label{fig:TopCR3}}}
 \end{figure}
-The BDT to discriminate top background from VBF signal events is trained and applied in the signal region and so described in the next chapter, but its distribution in the top validation region is shown below. This BDT discriminates both WW and top (combined) against the VBF signal as they have similar kinematic distributions and are treated together in the final simultaneous fit. 
+
+\subsubsection{Top and $WW$ BDT discriminant (against all other samples)}
+
+This BDT is trained using $e\mu+\mu e$ events after the VBF selection and all signal regions cuts so that the phase space in which we train the BDT is exactly the same as the one where we apply it in the final fit. The training includes top and $WW$ trained against weighted samples of VBF, ggF, $Z+$jets, and $V\gamma$ events. The MC statistics used in the training are half those available after all signal region cuts and the other half are later used to test the training. This corresponds to $\approx$ 90,000 un-weighted $WW$ and top events and $\approx$ 115,000 raw VBF, ggF, $Z+$jets and $V\gamma$ events. This training includes MC weights on events to best account for overall event distributions and there are $\approx$ 2000 total weighted top and $WW$ events used in the training and $\approx$ 550 weighted other events. 
+
+The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:TopBDTparameters}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+Parameter                                    & Value     \\
+\hline
+Boosting algorithm                           &  Gradient  \\
+Maximum tree depth                           &  22       \\
+Number of trees                              &  200     \\
+Minimum number of events requires per mode   &  5\%      \\
+Number of cuts                               &  7        \\
+\hline
+\end{tabular}
+\caption{BDT parameters used for the top + $WW$ vs. other backgrounds training.} 
+\label{tab:TopBDTparameters}
+\end{table}
+
+This BDT utilizes a range of lepton and jet kinematic variables (8) to distinguish between signal and background events. These include $\Delta Y_{jj}$, the combination of lepton/jet masses $M_{l0j0}$ for leading and subleading leptons and jets, $\Delta \Phi_{\ell\ell}$, $m_T$, $\eta_{j0}$, $\eta_{j1}$, $\Delta \Phi_{jj}$, and $\sum$ centralities (L). While a larger variety of variables have been tested, these demonstrated the highest discrimination between top/$WW$ events and other samples. Plots shown in \ref{fig:TopBDTinput} and \ref{fig:TopcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.45\linewidth]{Pictures/Top+WWvsEverything/variables_id_c1.eps}
+    \includegraphics[width=0.45\linewidth]{Pictures/Top+WWvsEverything/variables_id_c2.eps}
+    \caption{Distributions of input variables to top+$WW$ vs. other samples BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents top+$WW$ and background all other samples.}.
+    \label{fig:TopBDTinput}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.4\linewidth]{Pictures/Top+WWvsEverything/CorrelationMatrixS.eps}
+  \includegraphics[width=.4\linewidth]{Pictures/Top+WWvsEverything/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to top +$WW$ vs other samples BDT. Signal represents top+$WW$ and background other samples.}
+\label{fig:TopcorrSB}
+\end{figure}
+The BDT training successfully separates top/$WW$ background and other samples (ggF, VBF, $Z+$jets, and $V\gamma$). In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.920. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. For signal and background we find KS-test values of 0.107 and 0.154, and so no evidence of over-training. We can visualize the BDT output variable both on un-weighted normalized samples and on samples with all event weights applied. The following plot shows BDT results applied to normalized samples of VBF signal and top/$WW$ backgrounds.
+
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/Top+WWvsEverything/overtrain_BDTG.eps}
+  \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf}
+\caption{Unweighted, normalized samples of top$+WW$ samples (signal) and other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of all signal and background events plotted over BDT output distribution after signal region selection. Data is blinded here}
+\label{fig:TopBDTresult}
+\end{figure}
+
+We aim to fit this distribution in the signal region with high significance for top/$WW$ events in uppermost bins of the distribution. Since this BDT is trained and applied in the signal region we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables as well as in the top validation region described eariler show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result (using Asimov data) are shown in the final chapter. We can visualize this BDT discriminant in the top validation region to gain an idea of overall modelling (particularly of the reasonably pure top events).
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=.6\linewidth]{Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-BDT_TopWWAll-log.pdf}
+\caption{Full weighted samples of all signal and background plotted over Top + $WW$ vs. VBF ggF + $Z+$jets +$V\gamma$ BDT output distributions in top validation region}
+\label{fig:VBFTopWWBDTVR}
+\end{figure}
+
+The BDT to discriminate top$+WW$ background from VBF signal events is trained and applied in the signal region and so described in the previous chapter, but its distribution in the top validation region is also shown. 
 
 \begin{figure}[!htbp]
 \centering
@@ -175,7 +173,7 @@ The BDT to discriminate top background from VBF signal events is trained and app
 \label{fig:VBFTopWWBDTVR}
 \end{figure}
 
-A designated BDT discriminates between top and WW backgrounds and is described further in the WW background section (next). However, this distribution in the top validation region with all weighted samples is shown below. 
+A designated BDT discriminates between top and WW backgrounds and is described further in the WW background section (next). However, this distribution in the top validation region with all weighted samples is shown below. to demonstrate its effect on primarily predominantly top-like events.
 
 \begin{figure}[!htbp]
 \centering
@@ -188,7 +186,7 @@ Normalization factors (NF) are derived in the top validation region to correct f
 
 \subsection{Diboson background}
 
-The $WW$ background consists primarily of QCD $WW$+jets events (highly dominating electroweak vertices). This background is estimated along with the top background using a joint parameter due to their similarities in signature as well as the difficulty in defining a pure $WW$ control region (without top contamination). A $WW$ validation region is defined to demonstrate $WW$ MC modelling in a targeted $WW$ region.  The $WW$ validation region is defined with at least 2 jets, a $b$-veto $N_{b-jet}<1$ and a central-jet-veto of below $20$GeV as in the signal region. Two additional cuts differ from the signal region - $m_T>130$GeV and $m_{T2}>160$GeV where $m_{T2}$ is defined as
+The $WW$ background consists primarily of QCD $WW$+jets events (highly dominating electroweak vertices). This background is estimated along with the top background using a joint parameter due to their similarities in signature as well as the difficulty in defining a pure $WW$ control region without top contamination. A $WW$ validation region is defined to demonstrate $WW$ MC modelling in a targeted $WW$ region.  The $WW$ validation region is defined with at least 2 jets, a $b$-veto $N_{b-jet}<1$ and a central-jet-veto of below $20$GeV as in the signal region. Two additional cuts differ from the signal region - $m_T>130$GeV and $m_{T2}>160$GeV where $m_{T2}$ is defined as
 \begin{equation}
 m_{T2}=min_{p_T^1+p_T^2=p_T}(max(m_T^2(p_T^1,p_T^a),m_T^2(p_T^2,p_T^b)))
 \end{equation}
@@ -233,41 +231,95 @@ Data/MC shows good agreement over various variable distributions as seen in the 
 \label{fig:WWCR3}}}
 \end{figure}
 
-The BDT to discriminate $WW$ background from VBF signal events is trained and applied in the signal region and so described in the next chapter, but its distribution in the $WW$ validation region is shown below. This BDT discriminates both WW and top (combined) against the VBF signal as they have similar kinematic distributions and are treated together in the final simultaneous fit.
+\subsubsection{Top vs. $WW$ BDT discriminant}
+
+This BDT is trained using $e\mu+\mu e$ events after the VBF selection and all signal regions cuts so that the phase space in which we train the BDT is exactly the same as the one where we apply it in the final fit. The training includes weighted samples of top and $WW$ events trained against one another. The MC statistics used in the training are half those available after all signal region cuts where the other half are later used to test the training. This corresponds to $\approx$ 35,000 un-weighted top and and $\approx$ 55,000 raw $WW$ events. This training includes MC weights on events to best account for overall event distributions and there are $\approx$ 1500 total weighted top used in the training and $\approx$ 500 weighted $WW$ events. 
+
+The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:WWBDTparameters}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+Parameter                                    & Value     \\
+\hline
+Boosting algorithm                           &  Gradient  \\
+Maximum tree depth                           &  22       \\
+Number of trees                              &  200     \\
+Minimum number of events requires per mode   &  5\%      \\
+Number of cuts                               &  7        \\
+\hline
+\end{tabular}
+\caption{BDT parameters used for the top vs. $WW$ training.} 
+\label{tab:WWBDTparameters}
+\end{table}
+
+This BDT utilizes a collection of lepton and jet kinematic variables (14) to distinguish between top and $WW$ events. These include $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_T$, $\eta_{l0}$, $\eta_{l1}$, $p^T_{j0}$, $p^T_{j1}$, $\Delta \Phi_{jj}$, $\sum$ centralities (L), and combined masses $M_{l0j0}$, $M_{l0j1}$, $M_{l1j0}$, $M_{l1j1}$. While a larger variety of variables have been tested, these demonstrated the highest discrimination between top and $WW$ events. Plots shown in \ref{fig:WWBDTinput} and \ref{fig:WWcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.45\linewidth]{Pictures/TopvsWW/variables_id_c1.eps}
+    \includegraphics[width=0.45\linewidth]{Pictures/TopvsWW/variables_id_c2.eps}
+    \caption{Distributions of input variables to top vs. $WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents top and background $WW$.}.
+    \label{fig:WWBDTinput}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.4\linewidth]{Pictures/TopvsWW/CorrelationMatrixS.eps}
+  \includegraphics[width=.4\linewidth]{Pictures/TopvsWW/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to top vs. $WW$ BDT. Signal represents top and background $WW$}
+\label{fig:WWcorrSB}
+\end{figure}
+The BDT training separates top and $WW$ backgrounds somewhat. These signals have similar kinematic distributions that make high discrimination difficult. In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.653. While relatively low, this shows some minimal amount of discrimination. This is useful in the fit to differentiate top and $WW$ backgrounds, though high levels of separation are not necessary because top and $WW$ are estimated together with a shared parameter in the simultaneous fit. Comparisons between the test and training show that the BDT is un-biased. For signal and background we find KS-test values of 0.067 and 0.037, and so no evidence of over-training. We can visualize the BDT output variable both on un-weighted normalized samples and on samples with all event weights applied. The following plot shows BDT results applied to normalized samples of top and $WW$ backgrounds.
+
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/TopvsWW/overtrain_BDTG.eps}
+  \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf}
+\caption{Unweighted, normalized samples of top samples (signal) and $WW$ samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of all signal and background events plotted over the BDT output distribution after signal region selection. Data is blinded here}
+\label{fig:WWBDTresult}
+\end{figure}
+
+We aim to fit this distribution in the signal region with high significance for top events in uppermost bins of the distribution (and $WW$ in the lowermost). Since this BDT is trained and applied in the signal region we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables as well as in the $WW$ validation region described eariler show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result (using Asimov data) are shown in the final chapter. We can visualize this BDT discriminant in the $WW$ validation region to gain an idea of overall modelling particularly of the $WW$ events.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=.6\linewidth]{Pictures/run2-emme-CutVBFWWControl_CJV20-BDT_TopWW-log.pdf}
+\caption{Full weighted samples of all signal and background plotted over BDT output distributions in $WW$ validation region}
+\label{fig:TopvWWBDTVR}
+\end{figure}
+
+The BDT to discriminate top$+WW$ background from VBF, ggF, $Z+$jets and $V\gamma$ events is trained and applied in the signal region and described in the previously, but its distribution in the $WW$ validation region is also shown. 
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=.6\linewidth]{Pictures/run2-emme-CutVBFWWControl_CJV20-BDT_TopWWAll-log.pdf}
+\caption{Full weighted samples of all signal and background plotted over Top + $WW$ vs. VBF ggF + $Z+$jets +$V\gamma$ BDT output distributions in $WW$ validation region}
+\label{fig:TopvWWBDTVR}
+\end{figure}
+
+The BDT to discriminate $WW$ background from VBF signal events is trained and applied in the signal region and so described in the previous chapter, but its distribution in the $WW$ validation region is shown below. This BDT discriminates both WW and top (combined) against the VBF signal as they have similar kinematic distributions and are treated together in the final simultaneous fit.
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=.6\linewidth]{Pictures/run2-emme-CutVBFWWControl_CJV20-BDT_VBF-log.pdf}
 \caption{Full weighted samples of all signal and background plotted over Top + $WW$ vs. VBF BDT output distributions in $WW$ validation region}
-\label{fig:VBFWWTopBDTVR}
-\end{figure}
-
-A designated BDT discriminates between top and WW backgrounds in the signal region...\textcolor{red}{need to put in BDT training information, Sagar?}
-
-\begin{figure}[!htbp]
-\centering
-\includegraphics[width=.6\linewidth]{Pictures/run2-emme-CutVBFWWControl_CJV20-BDT_TopWW-log.pdf}
-\caption{Full weighted samples of all signal and background plotted over BDT output distributions in WW validation region}
-\label{fig:TopWWBDTVR}
+\label{fig:VBFvWWTopBDTVR}
 \end{figure}
 
 \subsection{ggF background}
-The Higgs production via gluon--gluon fusion is estimated simultaneously from three control regions and the signal region. The control regions are chosen such as the both to minimize both the statistical and the modelling uncertainties, in particular these originating from the modelling of higher oder QCD corrections. In particular, the regions inspired from a subdivision based on the jet multiplicity. The first region, CRGGF1, is build based from the preselection and selecting events with $0$ and $1$ jet. The second and third regions, are constructed starting from the preselection and inverting the VBF selection cuts, such as to mininmize the extrapolation uncertainties to the signal region. In particular, the definitions are the following: 
+Other Higgs productions modes are considered backgrounds in this analysis- and while vector mediated Higgs production ($VH$) and top produced Higgs ($ttH$) are small in our signal region so don't play a large role in the analysis - gluon fusion Higgs production (ggF) represents a significant background. Signal region cuts requiring at least 2-jets and the central jet veto significantly reduce background yields, but because it is kinematically very similar to VBF signal, it has a large effect on the VBF differential coupling measurement. To mitigate these effects, ggF events are simultaneously estimated from three control regions and the signal region. The control regions are chosen to minimize both the statistical and the modelling uncertainties, in particular those originating from the modelling of higher order QCD corrections. In particular, the regions inspired from a subdivision based on the jet multiplicity. The first two regions, ggF CR1 and ggF CR2, are built from all preselection cuts and cuts requiring at least two jets, a $b$-veto, $Z\rightarrow\tau\tau$-veto, and orthogonal cuts on the central jet veto (CJV) and opposite lepton veto (OLV). The third ggF control region, ggF CR3, uses all preselection cuts, a $b$ veto, $Z\rightarrow \tau\tau$ veto, and requirement for less than 2 jets. The full definitions are described:  
 \begin{itemize} 
-\item {\textbf GGF-CR1} Preselection criteria and $N_{ \text{j}}<2$. 
-\item {\textbf GGF-CR2} Preselection criteria and $\text{CJV} > 1$ and $\text{OLV} > 1$
-\item {\textbf GGF-CR3} Preselection criteria and $\text{CJV}<1$ and $\text{OLV}>1$ or $\text{CJV}>1$ and $\text{OLV}<1$ 
+\item {\textbf GGF-CR1} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV}<1$ and $\text{OLV}>1$ or $\text{CJV}>1$ and $\text{OLV}<1$.
+\item {\textbf GGF-CR2} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV} > 1$ and $\text{OLV} > 1$. 
+\item {\textbf GGF-CR3} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, and $Z\rightarrow\tau\tau$ veto. 
 \end{itemize} 
-\noindent from this the expectation in the signal region is build from the following ratio, inspired from the  ABCD method, 
+The full ggF expectation in the signal region is built from the following ratio (inspired by the ABCD method) 
 \begin{equation}
-	\mu_{{\text GGF-SR}} = \frac{\mu^{{\text GGF-CR}}_{1} \cdot\mu^{{\text GGF-CR}}_{2}}{ \mu^{{\text GGF-CR}}_{3}}.
+	\mu_{{\text GGF-SR}} = \frac{\mu^{{\text GGF-CR}}_{3} \cdot\mu^{{\text GGF-CR}}_{1}}{ \mu^{{\text GGF-CR}}_{2}}.
 \end{equation}
-\noindent where $\mu_{\text{GGF-X}}$ denotes the yield modifier in each region GGF-X notextalised to the expectation from simulation. The final event yield in the signal region $\mu_{{\text GGF-SR}}$ is detetextined in the simultaneous fit as described in Sec~\ref{sec:fit}. In each $gg$F category the ggF yield is extracted from simulation-extracted template fits based on dedicated discriminants. 
+where $\mu_{\text{ggF-X}}$ represents the yield modifier in each ggF control region. The final event yield in the signal region $\mu_{{\text ggF-SR}}$ is determined in the simultaneous fit as described in the next chapter. In each ggF category the ggF yield is extracted from simulation-extracted template fits based on dedicated discriminants. For each control region a dedicated multivariate discriminant is trained and applied to discriminate between ggF and all the backgrounds combined. Results and training parameters from each of these discriminants is summarized next.
 
-For each category, a dedicated multivariate discriminant is trained and applied to discriminate between $gg$F and the backgrounds. Each of these trainings is discussed next. 
-
-\subsubsection{Discriminant in the GGF-CR1}
-The multivariate discriminate used for the GGF CR1 is a boosted decision tree (BDT) trained using $e\mu+\mu e$ events that pass all ggF CR1 cuts. The training includes ggF events trained against VBF signal and all backgrounds. The MC statistics used in the training are half those available after the ggF CR1 cuts (as the other half are later used to test the training). This corresponds to $\approx$ 3,200 ggF events and $\approx$480,000 other signal and background events.
+\subsubsection{Discriminant in ggF CR1}
+The multivariate discriminant used for the ggF CR1 is a boosted decision tree (BDT) trained using $e\mu+\mu e$ events that pass all ggF CR1 cuts. The training includes ggF events trained against VBF signal and all backgrounds. The MC statistics used in the training are half those available after the ggF CR1 cuts (as the other half are later used to test the training). This corresponds to $\approx$ 8,000 ggF events and $\approx$250,000 other signal and background events. Events are trained with MC weights applied to accurately represent relative importance of each event and the training uses $\approx$ 130 weighted ggF samples and $\approx$ 10,000 weighted other background samples.  
 
 The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:ggFCR1BDTparameters}.
 \begin{table}[h!]
@@ -278,7 +330,7 @@ Parameter                                    & Value     \\
 \hline
 Boosting algorithm                           & Gradient \\
 Maximum tree depth                           &  10      \\
-Number of trees                              &  100    \\
+Number of trees                              &  600    \\
 Minimum number of events requires per mode   &  5\%     \\ 
 Number of cuts                               &  7       \\
 \hline
@@ -286,7 +338,7 @@ Number of cuts                               &  7       \\
 \caption{BDT parameters used for the ggF CR1 training.}
 \label{tab:ggFCR1BDTparameters}
 \end{table}
-For this BDT various distributions are used to take advantage of differences in distributions between ggF events and other sample types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$. Distributions for these variables in the ggF CR1 region where the BDT is trained are shown below demonstrating data/MC modelling for each.
+For this BDT various distributions (8) are used to take advantage of differences in distributions between ggF events and other sample types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR1 region where the BDT is trained are shown below demonstrating data/MC modelling for each.
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-DYll-log.pdf}
@@ -300,17 +352,8 @@ For this BDT various distributions are used to take advantage of differences in 
   \subfloat[$m_T$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-MT-log.pdf}
   }\hfill
-  \subfloat[$p^T_{tot}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-PtTot-log.pdf}
-  }\hfill
-  \subfloat[lep $p^T_{\text{lead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-leadLepPt-log.pdf}
-  }\hfill
   \subfloat[jet $p^T_{\text{lead}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-leadJetPt-log.pdf}
-  }\hfill
-  \subfloat[lep $p^T_{\text{sublead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-subleadLepPt-log.pdf}
   }\hfill
   \subfloat[jet $p^T_{\text{sublead}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-log.pdf}
@@ -318,43 +361,43 @@ For this BDT various distributions are used to take advantage of differences in 
   \subfloat[$\Delta \Phi_{jj}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-DPhijj-log.pdf}
   }\hfill
-  \subfloat[$\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$]{
+  \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-MET-log.pdf}
   }%\hfill
-{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$ in the ggF CR1 used as input to the BDT discriminating ggF from all other samples.
+{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the ggF CR1 used as input to the BDT discriminating ggF from all other samples.
 \label{fig:ggFCR1}}}
 \end{figure} 
 
-Plots shown in \ref{fig:ggFCR1BDTinput} and \ref{fig:ggFCR1corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is unweighted and normalized to equal number of background and signal events. 
+Plots shown in \ref{fig:ggFCR1BDTinput} and \ref{fig:ggFCR1corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is normalized to equal number of background and signal events. 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.45\linewidth]{Pictures/variables_id_c1.eps}
-    \includegraphics[width=0.45\linewidth]{Pictures/variables_id_c2.eps}
-    \caption{Distributions of input variables to ggFCR1 BDT. Samples are unweighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples.}.
+    \includegraphics[width=0.45\linewidth]{Pictures/ggFCR1/variables_id_c1.eps}
+    \includegraphics[width=0.45\linewidth]{Pictures/ggFCR1/variables_id_c2.eps}
+    \caption{Distributions of input variables to ggF CR1 BDT. Samples are unweighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples.}.
     \label{fig:ggFCR1BDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixS.eps}
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to ggFCR1 BDT. Signal represents ggF and background all other samples.}
+  \includegraphics[width=.4\linewidth]{Pictures/ggFCR1/CorrelationMatrixS.eps}
+  \includegraphics[width=.4\linewidth]{Pictures/ggFCR1/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to ggF CR1 BDT. Signal represents ggF and background all other samples.}
 \label{fig:ggFCR1corrSB}
 \end{figure}
 
-In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for unweighted normalized samples and find an optimal value of 0.896. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. Visually, once can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly and no evidence of over-training is present. We can visualize the BDT output variable both on un-weighted normalized samples and on samples with all event weights applied. The following plots show BDT results applied to un-weighted and weighted samples.
+In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.898. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using too many parameters on too few events. Visually, we can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly and no evidence of over-training is present (values 0.191, 0.049 for signal, background). We can visualize the BDT output variable both on weighted normalized samples and on samples without normalization. The following plots show BDT results applied to normalized and full weighted samples.
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.45\linewidth]{Pictures/overtrain_BDTG.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR1/overtrain_BDTG.eps}
   \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf}
-\caption{Unweighted, normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 1.}
+\caption{Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 1.}
 \label{fig:ggFCR1BDTresult}
 \end{figure}
 
-\subsubsection{Discriminant in the GGF-CR2}
+\subsubsection{Discriminant in ggF CR2}
 
-The multivariate discriminate used for the GGF CR2 is a boosted decision tree (BDT) trained using $e\mu+\mu e$ events that pass all ggF CR2 cuts. The training includes ggF events trained against VBF signal and all backgrounds. The MC statistics used in the training are half those available after ggF CR2 cuts (as the other half are later used to test the training). This corresponds to $\approx$ 3,200 ggF events and $\approx$480,000 other signal and background events.
+The multivariate discriminant used for ggF CR2 is a boosted decision tree trained using $e\mu+\mu e$ events that pass all ggF CR2 cuts. The training includes ggF events trained against VBF signal and all backgrounds. The MC statistics used in the training are half those available after ggF CR2 cuts (as the other half are later used to test the training). This corresponds to $\approx$ 22,200 ggF events and $\approx$90,000 other signal and background events.
 
 The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:ggFCR2BDTparameters}.
 \begin{table}[h!]
@@ -365,7 +408,7 @@ Parameter                                    & Value     \\
 \hline
 Boosting algorithm                           & Gradient \\
 Maximum tree depth                           &  10      \\
-Number of trees                              &  100    \\
+Number of trees                              &  50    \\
 Minimum number of events requires per mode   &  5\%     \\ 
 Number of cuts                               &  7       \\
 \hline
@@ -373,7 +416,7 @@ Number of cuts                               &  7       \\
 \caption{BDT parameters used for the ggF CR2 training.}
 \label{tab:ggFCR2BDTparameters}
 \end{table}
-For this BDT various distributions are used to take advantage of differences in distributions between ggF events and other sample types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$. Distributions for these variables in the ggF CR2 region where the BDT is trained are shown below demonstrating data/MC modelling for each.
+For this BDT various distributions (6) are used to take advantage of differences in distributions between ggF events and other sample types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR2 region where the BDT is trained are shown below demonstrating data/MC modelling for each.
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-DYll-log.pdf}
@@ -387,60 +430,60 @@ For this BDT various distributions are used to take advantage of differences in 
   \subfloat[$m_T$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-MT-log.pdf}
   }\hfill
-  \subfloat[$p^T_{tot}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-PtTot-log.pdf}
-  }\hfill
-  \subfloat[lep $p^T_{\text{lead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-leadLepPt-log.pdf}
-  }\hfill
-  \subfloat[jet $p^T_{\text{lead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-leadJetPt-log.pdf}
-  }\hfill
-  \subfloat[lep $p^T_{\text{sublead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-subleadLepPt-log.pdf}
-  }\hfill
-  \subfloat[jet $p^T_{\text{sublead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-subleadJetPt-log.pdf}
-  }\hfill
+%  \subfloat[$p^T_{tot}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-PtTot-log.pdf}
+%  }\hfill
+%  \subfloat[lep $p^T_{\text{lead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-leadLepPt-log.pdf}
+%  }\hfill
+%  \subfloat[jet $p^T_{\text{lead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-leadJetPt-log.pdf}
+%  }\hfill
+%  \subfloat[lep $p^T_{\text{sublead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-subleadLepPt-log.pdf}
+%  }\hfill
+%  \subfloat[jet $p^T_{\text{sublead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-subleadJetPt-log.pdf}
+%  }\hfill
   \subfloat[$\Delta \Phi_{jj}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-DPhijj-log.pdf}
   }\hfill
-  \subfloat[$\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$]{
+  \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-MET-log.pdf}
   }%\hfill
-{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$ in the ggF CR2 used as input to the BDT discriminating ggF from all other samples.
+{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the ggF CR2 used as input to the BDT discriminating ggF from all other samples.
 \label{fig:ggFCR2}}}
 \end{figure} 
 
-Plots shown in \ref{fig:ggFCR2BDTinput} and \ref{fig:ggFCR2corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is unweighted and normalized to equal number of background and signal events. 
+Plots shown in \ref{fig:ggFCR2BDTinput} and \ref{fig:ggFCR2corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is weighted and normalized to equal number of background and signal events. 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.45\linewidth]{Pictures/variables_id_c1.eps}
-    \includegraphics[width=0.45\linewidth]{Pictures/variables_id_c2.eps}
-    \caption{Distributions of input variables to ggFCR2 BDT. Samples are unweighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples.}.
+    \includegraphics[width=0.65\linewidth]{Pictures/ggFCR2/variables_id_c1.eps}
+    \caption{Distributions of input variables to ggF CR2 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples.}.
     \label{fig:ggFCR2BDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixS.eps}
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to ggFCR2 BDT. Signal represents ggF and background all other samples.}
+  \includegraphics[width=.4\linewidth]{Pictures/ggFCR2/CorrelationMatrixS.eps}
+  \includegraphics[width=.4\linewidth]{Pictures/ggFCR2/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to ggF CR2 BDT. Signal represents ggF and background all other samples.}
 \label{fig:ggFCR2corrSB}
 \end{figure}
 
-In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for unweighted normalized samples and find an optimal value of 0.910. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. Visually, once can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly and no evidence of over-training is present. We can visualize the BDT output variable both on un-weighted normalized samples and on samples with all event weights applied. The following plots show BDT results applied to un-weighted and weighted samples.
+In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.902. Comparisons between the test and training show that the BDT is un-biased- visually, once can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly and with values of 0.012 (0.303) for signal (background) no evidence of over-training is present. We can visualize the BDT output variable both on weighted normalized samples and on samples with full event weights applied. The following plots show BDT results applied to normalized and full weighted samples.
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.45\linewidth]{Pictures/overtrain_BDTG.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR2/overtrain_BDTG.eps}
   \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf}
-\caption{Unweighted, normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 2.}
+\caption{Weighted, normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR2 cuts.}
 \label{fig:ggFCR2BDTresult}
 \end{figure}
-\subsubsection{Discriminant in the GGF-CR3}
 
-The multivariate discriminate used for the GGF CR3 is a boosted decision tree (BDT) trained using $e\mu+\mu e$ events that pass all ggF CR3 cuts. The training includes only ggF events trained against VBF signal and all backgrounds. The MC statistics used in the training are half those available after the ggF CR3 cuts (as the other half are later used to test the training). This corresponds to $\approx$ 3,200 ggF events and $\approx$480,000 other signal and background events.
+\subsubsection{Discriminant in ggF-CR3}
+
+The multivariate discriminant used for the ggF CR3 is a boosted decision tree trained using $e\mu+\mu e$ events that pass all ggF CR3 cuts. The training includes only ggF events trained against VBF signal and all backgrounds. The MC statistics used in the training are half those available after the ggF CR3 cuts (as the other half are later used to test the training). This corresponds to $\approx$ 200,000 ggF events and $\approx$2,800,000 other signal and background events.
 
 The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:ggFCR3BDTparameters}.
 \begin{table}[h!]
@@ -459,105 +502,105 @@ Number of cuts                               &  7       \\
 \caption{BDT parameters used for the ggF CR3 training.}
 \label{tab:ggFCR3BDTparameters}
 \end{table}
-For this BDT various distributions are used to take advantage of differences in distributions between ggF events and other samples types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR3 region where the BDT is trained are shown below demonstrating data/MC modelling for each.
+For this BDT various distributions (4) are used to take advantage of differences in distributions between ggF events and other samples types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,and $m_T$. Distributions for these variables in the ggF CR3 region where the BDT is trained are shown below demonstrating data/MC modelling for each.
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-DYll-log.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-log.pdf}
   }\hfill
   \subfloat[$\Delta \Phi_{\ell\ell}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-DPhill-log.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-log.pdf}
   }\hfill
   \subfloat[$m_{\ell\ell}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-Mll-log.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-log.pdf}
   }\hfill
   \subfloat[$m_T$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-MT-log.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-log.pdf}
   }\hfill
-  \subfloat[$p^T_{tot}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-PtTot-log.pdf}
-  }\hfill
-  \subfloat[lep $p^T_{\text{lead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-leadLepPt-log.pdf}
-  }\hfill
-  \subfloat[lep $p^T_{\text{sublead}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-subleadLepPt-log.pdf}
-  }\hfill
-  \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-MET-log.pdf}
-  }\hfill
-{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the ggF CR3 used as input to the BDT discriminating ggF from all other samples.
+%  \subfloat[$p^T_{tot}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-PtTot-log.pdf}
+%  }\hfill
+%  \subfloat[lep $p^T_{\text{lead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-leadLepPt-log.pdf}
+%  }\hfill
+%  \subfloat[lep $p^T_{\text{sublead}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-subleadLepPt-log.pdf}
+%  }\hfill
+%  \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-MET-log.pdf}
+%  }\hfill
+{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,and $m_T$ in the ggF CR3 used as input to the BDT discriminating ggF from all other samples.
 \label{fig:ggFCR3}}}
 \end{figure} 
 
-Plots shown in \ref{fig:ggFCR3BDTinput} and \ref{fig:ggFCR3corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is unweighted and normalized to equal number of background and signal events. 
+Plots shown in \ref{fig:ggFCR3BDTinput} and \ref{fig:ggFCR3corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is weighted and normalized to equal number of background and signal events. 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.45\linewidth]{Pictures/variables_id_c1.eps}
-    \includegraphics[width=0.45\linewidth]{Pictures/variables_id_c2.eps}
-    \caption{Distributions of input variables to ggFCR3 BDT. Samples are unweighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples.}.
+    \includegraphics[width=0.65\linewidth]{Pictures/ggFCR3/variables_id_c1.eps}
+%    \includegraphics[width=0.45\linewidth]{Pictures/ggFCR3/variables_id_c2.eps}
+    \caption{Distributions of input variables to the ggF CR3 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples.}.
     \label{fig:ggFCR3BDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixS.eps}
-  \includegraphics[width=.4\linewidth]{Pictures/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to ggFCR3 BDT. Signal represents ggF and background all other samples.}
+  \includegraphics[width=.4\linewidth]{Pictures/ggFCR3/CorrelationMatrixS.eps}
+  \includegraphics[width=.4\linewidth]{Pictures/ggFCR3/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to the ggF CR3 BDT. Signal represents ggF and background all other samples.}
 \label{fig:ggFCR3corrSB}
 \end{figure}
 
-In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for unweighted normalized samples and find an optimal value of 0.901. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. Visually, once can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly and no evidence of over-training is present. We can visualize the BDT output variable both on un-weighted normalized samples and on samples with all event weights applied. The following plots show BDT results applied to un-weighted and weighted samples.
+In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.888. Comparisons between the test and training show that the BDT is un-biased, we can see that the testing and training samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed and shows no sign of bias with values of 0.276 (0.673) for signal (background). We can visualize the BDT output variable both on weighted normalized samples and on samples with full event weights applied. The following plots show BDT results applied to normalized and fully weighted samples.
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.45\linewidth]{Pictures/overtrain_BDTG.eps}
-  \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf}
-\caption{Unweighted, normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 3.}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR3/overtrain_BDTG.eps}
+  \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-BDT_ggFCR3-log.pdf}
+\caption{Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR3 cuts.}
 \label{fig:ggFCR3BDTresult}
 \end{figure}
 
-\subsubsection{Dependance on the modelling of the simulation} 
+%\subsubsection{Dependance on the modelling of the simulation} 
+%
+%This method determines ggF the background entirely from data and so sensitivity to migration of events from one region to the other is greatly reduced. In order to study this, pseudo-experiments were thrown using Asimov data-sets. For each toy set the input yield for each region was varied independently in the range of $0<\mu_{\text{GGF-X}}<2$ at generation level. The measured variation of the VBF yield in the signal region with respect to the nominal conditions corresponds to the sensitivity to event-migration across categories in simulation due to systematic uncertainties in the predictions. 
 
-This method detetextines $gg$F the background entirely from data and, thus, the sensitivity to migration of events from one region to the other is greatly reduced. In order to study this, pseudo-experiments were thrown using Asimov data-sets. For each toy set the input yield for for each region was varied independently in the range of $0<\mu_{\text{GGF-X}}<2$ at generation level. The measured variation of the VBF yield in the signal region with respect to the nominal conditions corresponds to the sensitivity to event-migration across categories in simulation due to systematic uncertainties in the predictions. 
 
-
-\begin{table}
-\centering
-\begin{tabular}{l c c c c}
-Param name & Patextam Val &  $\Delta{ggFCRNj1}$ & $\Delta{ggFCRNj2}$ & $\Delta{ggFCRNj3}$ \\
-$\mu_{\text VBF}$ &  $1.00^{+0.36}_{-0.33}$ & 0.10 & 0.10 & 0.10 \\ 
-$\mu_{\text VBF}$ &  $1.00^{+0.34}_{-0.31}$ & 0.10 & 0.10 & 0.50 \\ 
-$\mu_{\text VBF}$ &  $1.00^{+0.33}_{-0.30}$ & 0.10 & 0.10 & 1.00 \\ 
-$\mu_{\text VBF}$ &  $1.00^{+0.36}_{-0.33}$ & 0.10 & 0.50 & 0.10 \\ 
-$\mu_{\text VBF}$ &  $1.00^{+0.34}_{-0.31}$ & 0.10 & 0.50 & 0.50 \\ 
-$\mu_{\text VBF}$ &  $1.00^{+0.33}_{-0.30}$ & 0.10 & 0.50 & 1.00 \\ 
-$\mu_{\text VBF}$ &  $1.00^{+0.36}_{-0.33}$ & 0.10 & 1.00 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.10 & 1.00 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.10 & 1.00 & 1.00 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 0.50 & 0.10 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.50 & 0.10 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.50 & 0.10 & 1.00 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 0.50 & 0.50 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.50 & 0.50 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.50 & 0.50 & 1.00 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 0.50 & 1.00 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.50 & 1.00 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.50 & 1.00 & 1.00 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 1.00 & 0.10 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 1.00 & 0.10 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 0.10 & 1.00 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 1.00 & 0.50 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 1.00 & 0.50 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 0.50 & 1.00 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 1.00 & 1.00 & 0.10 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 1.00 & 1.00 & 0.50 \\ 
-$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 1.00 & 1.00 \\ 
-\end{tabular}
-\label{tab:ggFBias}
-\end{table}
+%\begin{table}
+%\centering
+%\begin{tabular}{l c c c c}
+%Param name & Patextam Val &  $\Delta{ggFCRNj1}$ & $\Delta{ggFCRNj2}$ & $\Delta{ggFCRNj3}$ \\
+%$\mu_{\text VBF}$ &  $1.00^{+0.36}_{-0.33}$ & 0.10 & 0.10 & 0.10 \\ 
+%$\mu_{\text VBF}$ &  $1.00^{+0.34}_{-0.31}$ & 0.10 & 0.10 & 0.50 \\ 
+%$\mu_{\text VBF}$ &  $1.00^{+0.33}_{-0.30}$ & 0.10 & 0.10 & 1.00 \\ 
+%$\mu_{\text VBF}$ &  $1.00^{+0.36}_{-0.33}$ & 0.10 & 0.50 & 0.10 \\ 
+%$\mu_{\text VBF}$ &  $1.00^{+0.34}_{-0.31}$ & 0.10 & 0.50 & 0.50 \\ 
+%$\mu_{\text VBF}$ &  $1.00^{+0.33}_{-0.30}$ & 0.10 & 0.50 & 1.00 \\ 
+%$\mu_{\text VBF}$ &  $1.00^{+0.36}_{-0.33}$ & 0.10 & 1.00 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.10 & 1.00 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.10 & 1.00 & 1.00 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 0.50 & 0.10 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.50 & 0.10 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.50 & 0.10 & 1.00 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 0.50 & 0.50 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.50 & 0.50 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.50 & 0.50 & 1.00 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 0.50 & 1.00 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 0.50 & 1.00 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 0.50 & 1.00 & 1.00 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 1.00 & 0.10 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 1.00 & 0.10 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 0.10 & 1.00 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 1.00 & 0.50 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 1.00 & 0.50 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 0.50 & 1.00 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.36}_{-0.33}$ & 1.00 & 1.00 & 0.10 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.34}_{-0.31}$ & 1.00 & 1.00 & 0.50 \\ 
+%$\mu_{\text VBF}$&  $1.00^{+0.33}_{-0.30}$ & 1.00 & 1.00 & 1.00 \\ 
+%\end{tabular}
+%\label{tab:ggFBias}
+%\end{table}
 
 \subsection{Fake backgrounds}
-The final substantial background in the VBF HWW differential coupling analysis comes from mis-identified leptons. These are jets that are mistakenly identified as leptons in reconstruction and in this analysis these predominantly come from $W+$jet events. In these events a $W$ boson decays leptonically leading to one true lepton and a jet from the primary vertex is mistaken for a lepton. This creates an event which mimics our desired two lepton signature and so creates an additional HWW background sample. This background is estimated as in the HWW coupling analysis using the fake factor method, similarly to in the 2016 HWW coupling analysis. Further detail on the overall fake factor method and its mathematical formulation can be found here \cite{fakesfactormethod} while further details on HWW-specific fake background studies are here \cite{HWWCoupling}. In this section I will give a brief summary of fake estimations along with the slightly augmented fake factor control region definition used in the HWW differential coupling analysis. 
+The final substantial background in the VBF HWW differential coupling analysis comes from mis-identified leptons. These are jets that are mistakenly identified as leptons in reconstruction and in this analysis these predominantly come from $W+$jet events. In these events a $W$ boson decays leptonically leading to one true lepton and one mistaken lepton (a jet from the primary vertex is mistaken for a lepton). This event mimics our desired two lepton signature and so creates an additional HWW background sample. This background is estimated as in the HWW coupling analysis using the fake factor method, similarly to in the 2016 HWW coupling analysis. Further detail on the overall fake factor method and its mathematical formulation can be found here \cite{fakesfactormethod} while further details on HWW-specific fake background studies are here \cite{HWWCoupling}. In this section I will give a brief summary of fake estimations along with the slightly augmented fake factor control region definition used in the HWW differential coupling analysis. 
 
 The fake background is estimated using data which is measured in a region defined by signal region cuts with one important distinction- one or both of the leptons used are ``anti-identified'' meaning they pass some looser lepton identification criteria but not the one used in the analysis signal region. These fakes are then extrapolated to the true signal region (with two ``identified'' electrons fake factors. Fake factors are measured as functions of $p_T$ and $\eta$ in jet-enriched $Z+$jets samples and are defined as the ratio of identified to anti-identified leptons. The fake backgrounds can be considered split between ``single-fake'' (with one ``anti-ID'' lepton) from the predominant $W+$jets background and ``double-fake'' (with two ``anti-ID'' leptons from QCD processes. The total signal sample can be defined as: 
 \begin{equation}
@@ -568,7 +611,7 @@ so that the total events include all electroweak processes ($N^{EW}_{id+id}$) as
 N^{W+jets}_{id+anti-id}+N^{QCD}_{id+anti-id}=N_{id+anti-id}-N^{EW MC}_{id+anti-id}
 \end{equation}
  
-Fake factors are derived from $Z+$jets samples and then applied to $W+$jets regions so the differences between these two samples are important to uncderstand fully. The fake factor is defined 
+Fake factors are derived from $Z+$jets samples and then applied to $W+$jets regions so the differences between these two samples are important to understand fully. The fake factor is defined 
 \begin{equation}
 F.F. = \frac{N_{id}}{N_{anti-id}}
 \end{equation}
@@ -662,14 +705,16 @@ Distributions below show the electroweak background processes (blue) in the fake
   \subfloat[$m_{jj}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-log.pdf}
   }\hfill
-  \subfloat[$\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$]{
+  \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-MET-log.pdf}
   }%\hfill
-{\caption{Distributions of $p_T^{\ell\ell}$, $m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, $m_{jj}$, and $\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$ in the differential VBF $W+$jets control region.
+{\caption{Distributions of $p_T^{\ell\ell}$, $m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, $m_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the differential VBF $W+$jets control region.
 \label{fig:WCR}}}
 \end{figure}  
 
-The EW background subtracted from data in the $W+$jets control region consists of $V\gamma$, diboson, top, and $Z+$jets events. \textcolor{red}{Add a breakdown of EW background types in plots and cutflows?}
+The EW background subtracted from data in the $W+$jets control region consists of $V\gamma$, diboson, top, and $Z+$jets events. 
+
+\textcolor{red}{Add fake factor closure test}
 
 \section{Systematic uncertainties}
 The experimental, theoretical, and statistical uncertainties in this analysis all impact the final measurement substantially. In this section I describe first the experimental systematic uncertainties then the theoretical in detail. Statistical uncertainties are derived from the limited number of MC events used to model each of signal and background samples per bin in the differential measurement. A single MC-stat nuisance parameter is implemented based on Poisson statistics and used in our overal statistical fit. 

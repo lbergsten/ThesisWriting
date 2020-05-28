@@ -81,9 +81,7 @@ VBF Higgs events are generated through \textsc{POWHEG} \cite{Nason:2009ai} inter
 %\end{tabular}
 %end{table*}  
 
-Other Higgs production modes gluon fusion (ggF), associated Higgs boson production ($VH$, $V=W,Z$) and Higgs boson production in association with a heavy quark pair ($ttH$, $bbH$) are important backgrounds in this analysis.% and listed in table \ref{tab:samples}.  
-
-Similar to the VBF Higgs sample, ggF, $VH$, $ttH$ and $bbH$ are produced with \textsc{Pythia8}\cite{pythia,Sjostrand:2007gs} for decay, parton shower, hadronisation and multiple parton interactions.
+Other Higgs production modes are considered in the analysis including gluon fusion (ggF), associated Higgs boson production ($VH$, $V=W,Z$) and Higgs boson production in association with a heavy quark pair ($ttH$). Though only ggF has an appreciable yield in the signal region, each of these are studied and considered in the analysis. As in VBF Higgs sample, ggF, $VH$, and $ttH$ are produced with \textsc{Pythia8}\cite{pythia,Sjostrand:2007gs} for decay, parton shower, hadronisation and multiple parton interactions.
 
 %\begin{table}[tb]
 %\caption{MC samples used to simulate Higgs boson production, including generators, QCD calculation accuracy and PDF sets.}
@@ -159,50 +157,7 @@ Similar to the VBF Higgs sample, ggF, $VH$, $ttH$ and $bbH$ are produced with \t
 %  \label{tab:mcsamples}
 %\end{table}
 
-Main Standard Model backgrounds include events from production of dibosons, top-quark, $Z$+jets, $W$+jets and multijets. %They are summarised in Tab.~\ref{tab:mcsamples}. 
-
-The $WW$ samples are generated using \textsc{SHERPA} 2.2.2 interfaced with NNPDF3.0 NNLO PDFs further described in \cite{Cascioli:2013gfa}. 
-%They are generated at NLO with 0 and 1 jets and at LO accuracy with 2 and 3 jets. The production also requires $m_{\ell\ell}>4$ GeV, $p_T^{l1}>5$ GeV and $p_T^{l2}>5$ GeV. Loop-induced $gg$-initiated diboson processes are simulated by \textsc{SHERPA} 2.1.1 with zero or one additional jets, as described in \cite{Cascioli:2013gfa}. For $WW$ the sample is normalized to the NLO $gg\rightarrow WW$ cross section calculated in \cite{Caola:2015rqy} at $13$TeV so a k-factor of 2.3 applied to the sample.
-%AT: For all other processes the cross sections are taken from the generator and are at LO. 
-
-%For $q\bar{q}/g{\to}Z^{(\ast)}Z^{(\ast)}{\to}\ell\nu\ell\nu$ by \textsc{POWHEG} v2 a cut on the invariant mass of the two charged lepton $m_{\ell\ell} > 4 ~$GeV is required. In addition it is required that at least two charged leptons must have $p_T > 5 ~$GeV. The $ZZ$ is also simulated with \textsc{SHERPA} 2.1, as alternative sample. The $WZ$ is generated with \textsc{SHERPA} 2.1, using the CT10 PDFs, at NLO accurary for 0 and 1 jet and LO for 2 and 3. These samples include also the $\gamma*$ process and are produced with cuts on $m_{\ell\ell}>2 \times m_{l}+250$ MeV, $p_T^{l1}>5$ GeV, $p_T^{l2}>5$ GeV.
-
-%The $ZZ$ is also simulated with \SHERPA 2.1.
-%For the $W$+jets estimation, which will be described in Section~\ref{sec:FakeEstimation}, 
-%all the diboson process, except for $gg\to ZZ$, are simulated with \OWHEG+\PythiaEight.
-
-%Diboson samples are generated using \SHERPA 2.2.1 interfaced with NNPDF 3.0 NNLO PDFs and normalised to cross sections calculated at NLO\cite{CampbellEllis2010}.
-%%%% EW samples  
-%The \textsc{SHERPA} 2.1.1 MC is used for the modeling of diboson process with no $O(\alpha_S)$ terms for the $\ell\ell\ell\ell, \ell\nu\ell\ell$ and $\ell\nu\ell\nu$ plus two jets final states as well as the $q\bar{q}{\to}Zq\bar{q}$ processes with a requirement of $Z{\to}\tau\tau$ ($m_{\tau\tau} > 40$GeV) decay, which are also known as electroweak (EW) processes, at the LO accuracy.
-
-$Z$+jets (or Drell-Yan) production is simulated with \textsc{SHERPA} 2.2.1 using the NNPDF3.0 NNLO PDFs with dedicated parton shower tuning developed by Sherpa authors. 
-%In order to generate sufficient high V ($p_T$) statistics, V+jets samples are split according to max($H_T$, $p_T^V$). 
-%Additionally, to obtain sufficient heavy-flavour final state statistics, the V+jets samples are generated applying filters.
-%Moreover, for the $Z \to \tau \tau$ an additional filter on the leptons( or hadrons) $p_T$ has been added to better populate the analysis phase space.
-%Five filtered regions have been defined, but only 2 are used in the analysis: lep13lep7, lep15had20.
-%Only the first three max($H_T$, $p_T^V$) slices are available with these filters.
-%Therefore, in the signal channel up to $140<$max($H_T$, $p_T^V$)$<280$ the lepton/had $p_T$ filtered samples are used instead for the high max($H_T$, $p_T^V$) slice the nominal samples are used.
-%Samples are normalised using cross sections calculated at NNLO accuracy~\cite{MelnikovPetriello}.
-
-Top-quark pair production (or $t\bar{t}$) is simulated using \textsc{POWHEG} with the \textsc{ Powheg-Box} framework using the NNPDF 3.0 PDFs and interfaced with \textsc{Pythia 8} using NNPDF 2.3 PDFs for parton showering. %, with A14 tune.
-%The $t\bar{t}$ samples generated include a filter to require that the $W$ bosons decays leptonically. All the three leptons ($e, \mu, \tau$) are considered for the $W$ decay in \textsc{POWHEG}. The $\tau$s are then decayed by \textsc{Pythia 8} in either leptonically or hadronically mode.
-%Samples are normalised using cross sections calculated at NNLO+NNLL~\cite{Czakon:2013}.
-
-Single top, mainly $Wt$, production is generated with \textsc{Powheg-Box}\,2.0 interfaced to \textsc{Pythia} 6.428 for parton showering.
-%\textsc{ EvtGen}\,1.2.0~\cite{Lange:2001uf} is used for properties of the bottom and charm hadron decays.
-%The predicted $\ttbar$ production cross section is calculated with the \textsc{Top++2.0}
-%program to NNLO in perturbative QCD, including soft-gluon resummation to 
-%NNLL order (see~\cite{Czakon:2011xx} and references therein), and assuming a top-quark mass of 172.5 $\gev$.
-%$Wt$ sample is required to have at least two charged leptons in the final state.
-%Both $\ttbar$ and $Wt$ samples are required to have at least two charged leptons in the final state.
-
-$Z\gamma$ and $W\gamma$ productions are modeled using \textsc{SHERPA} 2.2.2 at the NLO accuracy for 0- and 1-jet.
-%For both $Z\gamma$ and $W\gamma$ processes the $p_T$ of the $\gamma$ are
-%required to be larger than 7 GeV, and the distance in the $\eta - \phi$ plane
-%$\Delta R = \sqrt{(\Delta \eta)^{2} + (\Delta \phi)^{2}} > 0.1$.
-%In addition the leptons from $Z$ boson in the $Z\gamma$ final state is required to have $m_{\ell\ell} > 2 $GeV.
-
-The $W$+jets process modeling is based on a data-driven method described in the next chapter. MC samples (with the same MC generators for both $W+$jets and $Z+$jets samples) are used to validate the fake estimation and estimate sample composition uncertainties. These processes are generated with \textsc{POWHEG} MiNLO interfaced to \textsc{Pythia 8} with the AZNLO tune. 
+Main Standard Model backgrounds include events from production of dibosons, top-quark, $Z$+jets, $W$+jets and multijets. The $WW$ samples are generated using \textsc{SHERPA} 2.2.2 interfaced with NNPDF3.0 NNLO PDFs and further described in \cite{Cascioli:2013gfa}. $Z$+jets (or Drell-Yan) production is simulated with \textsc{SHERPA} 2.2.1 using the NNPDF3.0 NNLO PDFs with dedicated parton shower tuning developed by Sherpa authors. Top-quark pair production ($t\bar{t}$) is simulated using \textsc{POWHEG} with the \textsc{Powheg-Box} framework using the NNPDF 3.0 PDFs and interfaced with \textsc{Pythia 8} using NNPDF 2.3 PDFs for parton showering. Single top, mainly $Wt$, production is generated with \textsc{Powheg-Box}\,2.0 interfaced to \textsc{Pythia} 6.428 for parton showering. $Z\gamma$ and $W\gamma$ productions are modeled using \textsc{SHERPA} 2.2.2 at the NLO accuracy for 0- and 1-jet. The $W$+jets process modeling is based on a data-driven method described in the next chapter. MC samples (with the same MC generators for both $W+$jets and $Z+$jets samples) are used to validate the fake estimation and estimate sample composition uncertainties. These processes are generated with \textsc{POWHEG} MiNLO interfaced to \textsc{Pythia 8} with the AZNLO tune. 
 %The PDF set used in \textsc{POWHEG} is CT14nnlo whereas the PDF set used in the parton shower is the CTEQ6 L1 leading order set.
 %The alternative V+jets samples have been produced using the LO matrix-element generator ALPGEN v2.14 interfaced to \textsc{Pythia 6} to model the parton shower. The parton-shower tune Perugia2011C and the CTEQ6L1 PDF set have been used. 
 %Up to five additional partons are modelled by the matrix elements, merged with the MLM prescription with a matching scale of 20 GeV. 
