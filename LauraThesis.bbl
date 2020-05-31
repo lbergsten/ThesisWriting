@@ -85,11 +85,6 @@ Abdelhak Djouadi.
 \bibitem{LHCCrossSectionWG}
 
 
-\bibitem{PDF4LHC}
-Jon Butterworth et~al.
-\newblock {PDF4LHC recommendations for LHC Run II}.
-\newblock {\em J. Phys.}, G43:023001, 2016.
-
 \bibitem{Higgsdiscovery}
 Georges Aad et~al.
 \newblock {Observation of a new particle in the search for the Standard Model
@@ -289,11 +284,68 @@ G.~Aad, B.~Abbott, J.~Abdallah, A.~A. Abdelalim, A.~Abdesselam, O.~Abdinov,
 Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
 \newblock Technical report.
 
+\bibitem{GEANT4}
+S.~Agostinelli et~al.
+\newblock {GEANT4: A Simulation toolkit}.
+\newblock {\em Nucl. Instrum. Meth. A}, 506:250, 2003.
+
+\bibitem{Nason:2009ai}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock {\em JHEP}, 06:043, 2010.
+
+\bibitem{PDF4LHC15}
+Jon Butterworth et~al.
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em J. Phys.}, G43:023001, 2016.
+
+\bibitem{Ciccolini:2007jr}
+M.~Ciccolini, Ansgar Denner, and S.~Dittmaier.
+\newblock {Strong and electroweak corrections to the production of Higgs+2jets
+  via weak interactions at the LHC}.
+\newblock {\em Phys. Rev. Lett.}, 99:161803, 2007.
+
+\bibitem{Arnold:2008rz}
+K.~Arnold et~al.
+\newblock {VBFNLO: A parton level Monte Carlo for processes with electroweak
+  bosons}.
+\newblock {\em Comput. Phys. Commun.}, 180:1661--1670, 2009.
+
+\bibitem{Bolzoni:2010xr}
+Paolo Bolzoni, Fabio Maltoni, Sven-Olaf Moch, and Marco Zaro.
+\newblock {Higgs production via vector-boson fusion at NNLO in QCD}.
+\newblock {\em Phys. Rev. Lett.}, 105:011801, 2010.
+
+\bibitem{pythia}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock {\em JHEP}, 05:026, 2006.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
 \bibitem{DrellYan}
 Travis Martin and W~Martin.
 \newblock Analyzing new neutral gauge bosons at the lhc using third generation
   fermions.
 \newblock 05 2020.
+
+\bibitem{fakefactormethod}
+Fabio Cardillo, Otilia~Anamaria Ducu, Julien Maurer, Claudia Merlassino, Joseph
+  Reichert, Erich Varnes, Pepijn~Johannes Bakker, and Marcus Morgenstern.
+\newblock {Tools for estimating fake/non-prompt lepton backgrounds in ATLAS}.
+\newblock Technical Report ATL-COM-PHYS-2019-1071, CERN, Geneva, Sep 1999.
+
+\bibitem{ATLAS-CONF-2019-021}
+{Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV using the
+  ATLAS detector at the LHC}.
+\newblock Technical Report ATLAS-CONF-2019-021, CERN, Geneva, Jun 2019.
+
+\bibitem{WG1}
+Wg1 scheme: meeting discussions.
 
 \bibitem{cranmer2015practical}
 Kyle Cranmer.
