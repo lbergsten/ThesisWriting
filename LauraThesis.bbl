@@ -351,4 +351,10 @@ Wg1 scheme: meeting discussions.
 Kyle Cranmer.
 \newblock Practical statistics for the lhc, 2015.
 
+\bibitem{bayesian}
+G.~D'Agostini.
+\newblock {Improved iterative Bayesian unfolding}.
+\newblock In {\em {Alliance Workshop on Unfolding and Data Correction}}, 10
+  2010.
+
 \end{thebibliography}

@@ -234,9 +234,70 @@ CJV$>20$GeV \\
 \label{tab:fiducial}
 \end{table}
 
-The cuts represent the space within which both reconstruction-level and truth-level cross-sections are measured. The detector effects that remain reconstruction-level events will be unfolded so that they match their truth-level counterparts. This reco-truth matching is a test that the unfolding process works as expected and does not bias results. After the analysis is unblinded, data will be unfolded using the same mechanisms to create a differential measurement that can be analyzed beyond the ATLAS detector. This analysis utilizes the iterative bayesian unfolding method\cite{bayesian}, whose goal is to determine the probability that each bin $j$ in a reconstruction-level distribution corresponds to bin $i$ in a truth-level distribution. Using Bayes theorem, this probability can be given by attained with knowledge of the true spectrum $x_T$, the measured or reco-level spectrum $x_R$ and a smearing matrix $\Lambda$ with elements $\lambda_{ji}=P(R_j|T_i)$. This smearing matrix is derived from MC simulations 
+The cuts represent the space within which both reconstruction-level and truth-level cross-sections are measured. The detector effects that remain reconstruction-level events will be unfolded so that they match their truth-level counterparts. This reco-truth matching is a test that the unfolding process works as expected and does not bias results. After the analysis is unblinded, data will be unfolded using the same mechanisms to create a differential measurement that can be analyzed beyond the ATLAS detector. This analysis utilizes the iterative bayesian unfolding method\cite{bayesian}, whose goal is to determine the probability that each bin $j$ in a reconstruction-level distribution corresponds to bin $i$ in a truth-level distribution. Using Bayes theorem, this probability can be given by attained with knowledge of the true spectrum $T$ and the measured or reco-level spectrum $R$. We begin with Bayes' theorem: 
 \begin{equation}
-P(T_i|R_j)=\frac
+P(T_i|R)=\frac{P(R,T_i)P(T_i)}{\sum_{t} P(R,T_t)P(T_t)}
 \end{equation}
+where the demoninator is a normalization factor, $P(R,T_i)$ represents the likelihood and $P(T_i)$ the prior. For our analysis the prior is vague and so we begin with the assumption that $P(T_i) = constant$. Hence the most probable spectrum for $T$ maximizes the likelihood. If we observe $n$ reco-level events,  we can assign the probability of their true destributions through
+\begin{equation}
+\hat{n}(T_i)=n(R)\prod P(T_i|R).
+\end{equation}
+We can then use resultant possibilities in the Bayes formula to evaluate $P(T_i|R_j)$ each of which forms the smearing matrix $M$. This matrix can then be used in tern to estimate the truth-level events in each bin of a distribution. with
+\begin{equation}
+\hat{n}(T_i)=\frac{1}{\epsilon_i}\sum_{j=1}^{n_R} n(R_j)\prod P(T_i|R_j).
+\end{equation}
+where $\epsilon$ is the inefficiency, or ratio of events that pass both truth and reco-level selection by those that pass oly truth. Finally the truth can be determined by the reconstructed bin-by-bin yields through
+\begin{equation}
+n(T_i)=\sum_j M_{ij} \prod n(R_j).
+\end{equation}
+The migration matrix thus directly maps reco-level distributions to truth-level. In order to calculte this matrix iteratively we first allow $P(T_i)$ to be a constant distribution, say $1/n_T$, which gives an expected number of truth events $n_0(C_i)=P_0(C_i)\prod n_R$. Next, calculate $\hat{n}(C)$ using the efficiency equation, and finally use $\chi^2$ to compare $\hat{n}(C)$ and $n_0(C)$. In the next iteration, $n_0$ is replaced by $\hat{n}$ and $P_0$ by $\hat{P}$ ($\hat{P(C_i)}=\hat{n}(C_i)/\hat{N_true}$) and the procedure continues until $\chi^2$ falls below a set threshold. 
+
+While the final unfolding results fall beyond the scope of thesis, results for four kinematic variables are shown here. First, figure \ref{fig:unfoldingvalidation} shows a validation performed by using the unfolding mechanism on the same Monte Carlo events. The figures below demonstrate that truth distribution (blue) and unfolded truth distributions (black) perfectly match, as expected. Reco-level distributions are similarly shown, though these clearly differ from truth distributions. 
+
+\begin{figure}[!h]
+\centering
+\centering
+  \subfloat[$p^T_H$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/higgs_pt_validation.pdf}
+  }\hfill
+  \subfloat[$m_T^{\ell\ell}$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/MTll_validation.pdf}
+  }\hfill
+  \subfloat[$\Delta Y_{\ell\ell}$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/DYll_validation.pdf}
+  }\hfill
+  \subfloat[$m_{jj}$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/Mjj_validation.pdf}
+  }%hfill
+\caption{\label{fig:unfoldingvalidation}Validation for unfolding mechanism, truth (blue) and unfolded truth distributions (black) overlap while reconstruction level distributions (green) fall separately. Distributions shown for $p^T_H$, $m_T^{\ell\ell}$, $\Delta Y_{\ell\ell}$ and $m_{jj}$**}
+\end{figure}
+
+After validation, we use reconstruction-level Monte Carlo events and their truth counterparts to calculate migration matrices for each differential observable through the iterative Bayesian unfolding process. Four example migration matrices are shown in \ref{fig:unfoldingmatrices}. 
+
+\begin{figure}[!h]
+\centering
+\centering
+  \subfloat[$p^T_H$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf}
+  }\hfill
+  \subfloat[$m_T^{\ell\ell}$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/response_matrices/MTll_migrations.pdf}
+  }\hfill
+  \subfloat[$\Delta Y_{\ell\ell}$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/response_matrices/DYll_migrations.pdf}
+  }\hfill
+  \subfloat[$m_{jj}$]{
+      \includegraphics[width=.4\textwidth]{Pictures/unfolding/response_matrices/Mjj_migrations.pdf}
+  }%hfill
+\caption{\label{fig:unfoldingmatrices}Unfolding matrices shown for $p^T_H$, $m_T^{\ell\ell}$, $\Delta Y_{\ell\ell}$ and $m_{jj}$ distributions. Each bin value corresponds to normalized Bayesian probabilities and the x-axis represents reconstruction-level distributions while the y-axis shows truth distributions. **}
+\end{figure}  
+
+Further developments in unfolding include estimating error added by the procedure (both statistical and systematic in the case of potential mismodelling), testing for potential biases toward the truth distribution, and understanding unfolding reconstruction level uncertainties as well as nominal distributions. 
 
 \section{Future results and measurements}
+
+INTRO, VERY NEAR FUTURE, WHAT IS LEFT IN THIS ANALYSIS: theory uncertainties (add them to fit? add some more?), fitting differential distributions instead of just cross-section, then unblinding and interpretation of results (Jiayi?)
+
+Later effects: Wjj and ratio measurement
+
+Finally, where we are, what is the scope, conclusion? rehash?
