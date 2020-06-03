@@ -276,7 +276,6 @@ After validation, we use reconstruction-level Monte Carlo events and their truth
 
 \begin{figure}[!h]
 \centering
-\centering
   \subfloat[$p^T_H$]{
       \includegraphics[width=.4\textwidth]{Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf}
   }\hfill
@@ -292,12 +291,48 @@ After validation, we use reconstruction-level Monte Carlo events and their truth
 \caption{\label{fig:unfoldingmatrices}Unfolding matrices shown for $p^T_H$, $m_T^{\ell\ell}$, $\Delta Y_{\ell\ell}$ and $m_{jj}$ distributions. Each bin value corresponds to normalized Bayesian probabilities and the x-axis represents reconstruction-level distributions while the y-axis shows truth distributions. **}
 \end{figure}  
 
-Further developments in unfolding include estimating error added by the procedure (both statistical and systematic in the case of potential mismodelling), testing for potential biases toward the truth distribution, and understanding unfolding reconstruction level uncertainties as well as nominal distributions. 
+Further developments in unfolding underway currently include estimating error added by the procedure (both statistical and systematic in the case of potential mismodelling), testing for potential biases toward the truth distribution, and understanding unfolding reconstruction level uncertainties as well as nominal distributions. 
 
 \section{Future results and measurements}
 
-INTRO, VERY NEAR FUTURE, WHAT IS LEFT IN THIS ANALYSIS: theory uncertainties (add them to fit? add some more?), fitting differential distributions instead of just cross-section, then unblinding and interpretation of results (Jiayi?)
+This thesis detailed the HWW VBF differential analysis as it currently stands from background estimation to a statistical fit to unfolding methodology. However,some work remains before a final result can be measured. Chapter 5 discussed some theoretical uncertainties (VBF and ggF Higgs as well as top, WW, and $Z\rightarrow \tau\tau$) but these have not been added to the overall statistical fit. These additional uncertainties are expected to play a significant role in the overall results, particularly the large shower uncertainties. With theory uncertainties and final fit parameters finalized, we will estimate the signal and background yield. This is directly estimated from the fit signal strength described early in this chapter through multiplication by the theoretical cross-section of each process, total experimental efficiency ($C$-factor) and integrated luminosity ($\mathcal{L}$). Finally, these yields are used to measure fiducial and inclusive cross-sections. The fiducial phase space definions was decribed previously in \ref{tab:fiducial} as well as the fiducial cross-section definition. The inclusive cross-section requires one additional acceptance correction factor $A$, which is estimated from theoretical calculations and extrapolates the fiducial cross section to a more inclusive phase space defined solely by a requirement for $N_{\text{jets}}\geq2$ where each jet has $p_T>30$GeV. This will be calculated from
+\begin{equation}
+\sigma_{VBF}^{\text{incl}} = \frac{\sigma_{VBF}^{\text{fig}}}{A}
+\end{equation} 
 
-Later effects: Wjj and ratio measurement
+Signal and background yields will be used within the unfolding mechanism to extract final differential distributions. The variables used in the differential analysis will also be finalized in coming months. We aim to unfold 14 variables which are listed with their planned bin edges in \ref{tab:observablebins}. These variables probe the kinematics of the final state particles measured through this channel and add sensitivity to the total fiducial and inclusive cross-sections.
 
-Finally, where we are, what is the scope, conclusion? rehash?
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{ |c||c|  }
+ \hline
+ Observable & Bin Edges\\
+ \hline
+ $MT^{l,l,MET}$ &15,40,65,80,95,110,115,120,180\\
+ $Mll$&  0,20,25,30,35,40,45, 50, 60, 70,200\\
+ $Mjj$ &200,450,700,950,1200,1500,2200,3000,5000\\
+ $Cos(\theta^{*})$ &0,0.125,0.25,0.375,0.5,0.625,1.0\\
+ $DYll$&   0,0.15,0.3,0.45,0.6,0.75,0.9,1.05,1.2,1.5,4\\
+ $DYjj$& 0,2.5,3.25,3.62,4,4.35,4.75,5,5.5,6.25,7,8.5\\
+ $P_{t}$ Total& 150,200,250,350,500,600,900\\
+ $DPhill$& 0,0.1,0.2,0.3,0.4,0.6,0.8,1.0,1.3,1.7,2.1,2.6,3.2\\
+ $P_{t} ll$&0,20,40,50,60,70,80,90,100,120,160,500\\
+ Higgs $P_{t}$&0,45,80,120,160,200,260,350,1000\\
+ Leading Lepton $P_{t}$&20,25,35,42,50,65,80,90,2000\\
+ Subleading Lepton $P_{t}$&20,25,35,42,50,65,80,90,2000\\
+ Leading Jet $P_{t}$&30,60,90,120,190,260,350,500\\
+ Subleading Jet $P_{t}$& 30,60,90,120,190,260,350\\
+ \hline
+\end{tabular}
+\end{center}
+\caption{Differential distributions to be measured for these observables and bin edges}
+\label{tab:observablebins}
+\end{table}
+
+Precise measurements of $H\rightarrow WW^*\ell\nu\ell\nu$ differential cross sections provide tests of the Standard Model and have the potential to reveal physics beyond the Standard Model. This analysis uses the full Run-2 dataset for VBF HWW cross-sections, showing large increases in sensitivity with respect to the most recent Run-1 measurements. In addition, the planned differential measurements for $H\rightarrow WW^*\ell\nu\ell\nu$ are the first measured with ATLAS experiment. This analysis optimized selection and background rejection methods to increase sensivity as much as possible. The invariant mass of the two jets that accompany the $W$ bosons ($m_{jj}$) and the angular separation between them ($\Delta y_{jj}$) are particularly sensitive to the electroweak symmetry breaking mechanism. Deviations between data and theoretical predictions in the distribution of these variables may be signs of new physics that alter the HWW coupling, like new resonances at high energy scales not accessible by direct searches. 
+
+This analysis has another primary motivation- it is the first step in a larger measurement of both the VBF HWW differential cross section and the Standard Model VBF $W+jj$ production cross-section. In the $W+$ jets production in the $\ell+$jets final state, the invariant mass of the two jets that accompany the $W$ bosons and the rapidity separation between them are particularly sensitive to the electroweak symmetry breaking mechanism just as in the VBF HWW cross-section. In the context of vector boson scattering and with minimal assumptions on new physics, new phenomena are expected at a scale ($\Lambda$) higher than the one accessible by the experiment.These simultaneously effect $HWW$ and $WWV$ vertices. In particular, dimension-6 operators affect VBF Higgs mechanisms and VBF $W$ production, while the interplay of VBF and VBS mechanisms allows for the probe of dimension-6 and dimension-8 operators. The sensitivity to new physics is enhanced with precision-level measurements of fiducial and differential ratios of cross sections. Specifically, new phenomena that simultaneously affect both vertices are suppressed in the ratio of VBF Higgs to VBF $Wjj$ production, thus enhancing the sensitivity the phenomena affecting the $WWV$ vertex, for example. Similarly enhanced sensitivity can be achieved for anomalous quadruple-gauge couplings via the study of VBF Higgs and VBS $W$ productions. This ratio measurement between the two cross-sections is planned after publication of the VBF HWW differential cross-sections.
+
+Effective Field Theory (EFT) VBF Higgs and $Wjj$ productions are characterized by final-states with two jets with similar kinematics. Therefore the ratio of cross sections measurement allows for the cancellations of correlated systematic uncertainties. As both process are characterized by big ($10\%-20\%$) jet-related uncertainties, a reduction via the ratio cancellation would greatly improve the sensitivity to the VBF Higgs process and to the search for new phenomena in the context of EFT.  I currently study Vector Boson Fusion (VBF) in two processes: Standard Model Higgs decaying to two W-bosons (HWW) and Standard Model W-boson production in association with jets (Wjj). We aim to measure the ratio of fiducial differential cross sections for VBF HWW and Wjj. With this ratio, we will set limits on EFT parameters, benefiting from enhanced sensitivity through the cancellation of correlated uncertainties. I am presently responsible for signal and control region setup including multivariate analysis and cut-based optimization. In addition, I play a key role in muon reconstruction performance through study of muon momentum scale and resolution.\\
+
+I plan to actively participate in all aspects of this effort. In particular with optimization of selection cuts, the fiducial phase space definition, final cross section extraction, and interpretation in the EFT context. We plan for a stepped approach with an intermediate first result proving the method while a more detailed result would follow (differential cross sections). 

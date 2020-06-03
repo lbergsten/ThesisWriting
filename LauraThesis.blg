@@ -73,43 +73,43 @@ Warning--empty journal in DrellYan
 Warning--empty author in ATLAS-CONF-2019-021
 You've used 55 entries,
             1791 wiz_defined-function locations,
-            777 strings with 16816 characters,
-and the built_in function-call counts, 13562 in all, are:
-= -- 832
+            778 strings with 16799 characters,
+and the built_in function-call counts, 13616 in all, are:
+= -- 844
 > -- 1234
 < -- 8
 + -- 437
 - -- 382
-* -- 1234
-:= -- 2451
+* -- 1242
+:= -- 2461
 add.period$ -- 153
 call.type$ -- 55
 change.case$ -- 51
 chr.to.int$ -- 0
 cite$ -- 79
-duplicate$ -- 455
-empty$ -- 1044
+duplicate$ -- 452
+empty$ -- 1042
 format.name$ -- 382
-if$ -- 2735
+if$ -- 2743
 int.to.chr$ -- 0
 int.to.str$ -- 55
 missing$ -- 43
 newline$ -- 265
 num.names$ -- 47
-pop$ -- 151
+pop$ -- 145
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 178
 stack$ -- 0
-substring$ -- 518
-swap$ -- 47
+substring$ -- 543
+swap$ -- 46
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 24
-while$ -- 75
+while$ -- 77
 width$ -- 57
-write$ -- 561
+write$ -- 562
 (There were 7 error messages)

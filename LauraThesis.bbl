@@ -353,8 +353,7 @@ Kyle Cranmer.
 
 \bibitem{bayesian}
 G.~D'Agostini.
-\newblock {Improved iterative Bayesian unfolding}.
-\newblock In {\em {Alliance Workshop on Unfolding and Data Correction}}, 10
-  2010.
+\newblock {A Multidimensional unfolding method based on Bayes' theorem}.
+\newblock {\em Nucl. Instrum. Meth. A}, 362:487--498, 1995.
 
 \end{thebibliography}
