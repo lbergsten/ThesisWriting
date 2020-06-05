@@ -46,7 +46,6 @@ Warning--I didn't find a database entry for "Aabout_2018_0"
 Warning--I didn't find a database entry for "ICreconstruction"
 Warning--I didn't find a database entry for "HWWCoupling"
 Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "HWWPaper"
 Warning--empty publisher in HalzenMartin
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
@@ -73,7 +72,7 @@ Warning--empty journal in DrellYan
 Warning--empty author in ATLAS-CONF-2019-021
 You've used 55 entries,
             1791 wiz_defined-function locations,
-            778 strings with 16799 characters,
+            776 strings with 16783 characters,
 and the built_in function-call counts, 13616 in all, are:
 = -- 844
 > -- 1234
