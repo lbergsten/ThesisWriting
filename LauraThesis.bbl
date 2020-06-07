@@ -116,16 +116,16 @@ Georges Aad et~al.
   the ATLAS detector at $ \sqrt{s}=8 $ TeV}.
 \newblock {\em JHEP}, 08:104, 2016.
 
-\bibitem{Rossi_2010}
-L~Rossi.
-\newblock {Superconductivity: Its Role, Its Success and Its Setbacks in the
-  Large Hadron Collider of CERN}.
-\newblock {\em Supercond. Sci. Technol.}, 23(CERN-ATS-2010-006):034001. 27 p,
-  Jan 2010.
-
 \bibitem{CERNnews1}
 Rende Steerenberg.
 \newblock Lhc report: Protons: mission accomplished, 2018.
+
+\bibitem{Aaboud_2018_0}
+M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D.K. Abhayasinghe, S.H.
+  Abidi, O.S. AbouZeid, N.L. Abraham, H.~Abramowicz, and et~al.
+\newblock Observation of h$\rightarrow$ bb$^-$ decays and vh production with
+  the atlas detector.
+\newblock {\em Physics Letters B}, 786:59–86, Nov 2018.
 
 \bibitem{Aaboud_2019}
 M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D.K. Abhayasinghe, S.H.
@@ -190,51 +190,23 @@ G~Aad et~al.
 \newblock {\em JINST}, 3:S08003. 437 p, 2008.
 \newblock Also published by CERN Geneva in 2010.
 
+\bibitem{HLLHCYellow}
+Apollinari G., Béjar~Alonso I., Brüning O., Fessia P., Lamont M., Rossi L.,
+  and Tavian L.
+\newblock {\em {High-Luminosity Large Hadron Collider (HL-LHC): Technical
+  Design Report V. 0.1}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2017.
+
 \bibitem{ITktech}
 ATLAS Collaboration.
 \newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
 \newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
   2017.
 
-\bibitem{JetRun1}
-{Jet global sequential corrections with the ATLAS detector in proton-proton
-  collisions at sqrt(s) = 8 TeV}.
-\newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva, Mar 2015.
-
-\bibitem{ParticleFlow}
-Morad Aaboud et~al.
-\newblock {Jet reconstruction and performance using particle flow with the
-  ATLAS Detector}.
-\newblock {\em Eur. Phys. J.}, C77(7):466, 2017.
-
-\bibitem{JETEtmiss}
-JET~ETmiss group.
-\newblock Public plots, 2019.
-
-\bibitem{antikt}
-Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
-\newblock {The anti-$k_t$ jet clustering algorithm}.
-\newblock {\em JHEP}, 04:063, 2008.
-
-\bibitem{jetscaleres}
-Morad Aaboud et~al.
-\newblock {Determination of jet calibration and energy resolution in
-  proton-proton collisions at $\sqrt{s}$ = 8 TeV using the ATLAS detector}.
-\newblock 2019.
-
-\bibitem{METSig}
-{Object-based missing transverse momentum significance in the ATLAS detector}.
-\newblock Technical Report ATLAS-CONF-2018-038, CERN, Geneva, Jul 2018.
-
-\bibitem{METPerf}
-Morad Aaboud et~al.
-\newblock {Performance of missing transverse momentum reconstruction with the
-  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
-\newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
-
-\bibitem{ElectronPhotonPerformance}
-ATLAS Collaboration.
-\newblock 14(12):P12006--P12006, dec 2019.
+\bibitem{tracking}
+{Early Inner Detector Tracking Performance in the 2015 data at $\sqrt s$ = 13
+  TeV}.
+\newblock Technical Report ATL-PHYS-PUB-2015-051, CERN, Geneva, Dec 2015.
 
 \bibitem{patternrecognition}
 J.~Illingworth and J.~Kittler.
@@ -246,6 +218,10 @@ J.~Illingworth and J.~Kittler.
 {Performance of the ATLAS Silicon Pattern Recognition Algorithm in Data and
   Simulation at $\sqrt{s} = 7$ TeV}.
 \newblock Technical Report ATLAS-CONF-2010-072, CERN, Geneva, Jul 2010.
+
+\bibitem{ElectronPhotonPerformance}
+ATLAS Collaboration.
+\newblock 14(12):P12006--P12006, dec 2019.
 
 \bibitem{MCPpaper}
 G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, R.~Aben, M.~Abolins,
@@ -283,6 +259,42 @@ G.~Aad, B.~Abbott, J.~Abdallah, A.~A. Abdelalim, A.~Abdesselam, O.~Abdinov,
 \bibitem{MCPPlots2}
 Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
 \newblock Technical report.
+
+\bibitem{JetRun1}
+{Jet global sequential corrections with the ATLAS detector in proton-proton
+  collisions at sqrt(s) = 8 TeV}.
+\newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva, Mar 2015.
+
+\bibitem{ParticleFlow}
+Morad Aaboud et~al.
+\newblock {Jet reconstruction and performance using particle flow with the
+  ATLAS Detector}.
+\newblock {\em Eur. Phys. J.}, C77(7):466, 2017.
+
+\bibitem{JETEtmiss}
+JET~ETmiss group.
+\newblock Public plots, 2019.
+
+\bibitem{antikt}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The anti-$k_t$ jet clustering algorithm}.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{jetscaleres}
+Morad Aaboud et~al.
+\newblock {Determination of jet calibration and energy resolution in
+  proton-proton collisions at $\sqrt{s}$ = 8 TeV using the ATLAS detector}.
+\newblock 2019.
+
+\bibitem{METSig}
+{Object-based missing transverse momentum significance in the ATLAS detector}.
+\newblock Technical Report ATLAS-CONF-2018-038, CERN, Geneva, Jul 2018.
+
+\bibitem{METPerf}
+Morad Aaboud et~al.
+\newblock {Performance of missing transverse momentum reconstruction with the
+  ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
+\newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
 
 \bibitem{GEANT4}
 S.~Agostinelli et~al.

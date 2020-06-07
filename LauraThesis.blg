@@ -1,49 +1,43 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: LauraThesis.aux
-White space in argument---line 123 of file LauraThesis.aux
- : \citation{HL-LHC
- :                  Yellow Paper}
-I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: references.bib
-I was expecting a `,' or a `}'---line 13 of file references.bib
+I was expecting a `,' or a `}'---line 36 of file references.bib
  :      
  :      url  = "https://indico.cern.ch/event/618048"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 156 of file references.bib
+I was expecting a `,' or a `}'---line 179 of file references.bib
  :                        K\"
  :                           ohler, Nicolas Maximilian and Rosati, Stefano and
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 190 of file references.bib
+I was expecting a `,' or a `}'---line 213 of file references.bib
  :  
  :  title = {Electron and photon performance measurements with the {ATLAS} detector using the 2015{\textendash}2017 {LHC} proton-proton collision data},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "JETEtmiss" isn't style-file defined
---line 268 of file references.bib
-I was expecting a `,' or a `}'---line 272 of file references.bib
+--line 291 of file references.bib
+I was expecting a `,' or a `}'---line 295 of file references.bib
  :         
  :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults?redirectedfrom=AtlasPublic.JetEtMissPublicCollisionResults}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 359 of file references.bib
+"{" immediately follows a field name---line 382 of file references.bib
  : ok
  :   {deFlorian:2227475,
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 596 of file references.bib
-I was expecting a `,' or a `}'---line 600 of file references.bib
+--line 619 of file references.bib
+I was expecting a `,' or a `}'---line 623 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 603 of file references.bib
+--line 626 of file references.bib
 Warning--I didn't find a database entry for "PDF4LHC"
-Warning--I didn't find a database entry for "Aabout_2018_0"
-Warning--I didn't find a database entry for "ICreconstruction"
 Warning--I didn't find a database entry for "HWWCoupling"
 Warning--I didn't find a database entry for "?"
 Warning--empty publisher in HalzenMartin
@@ -59,56 +53,57 @@ Warning--empty author in ATLAS-CONF-2019-040
 Warning--empty journal in LHCInjector
 Warning--empty author in radiofrequency
 Warning--empty journal in radiofrequency
-Warning--empty author in JetRun1
-Warning--empty journal in jetscaleres
-Warning--empty author in METSig
+Warning--empty author in tracking
+Warning--empty author in IDreconstruction
 Warning--empty title in ElectronPhotonPerformance
 Warning--empty journal in ElectronPhotonPerformance
-Warning--empty author in IDreconstruction
 Warning--empty title in MCPPlots2
 Warning--empty institution in MCPPlots2
 Warning--empty year in MCPPlots2
+Warning--empty author in JetRun1
+Warning--empty journal in jetscaleres
+Warning--empty author in METSig
 Warning--empty journal in DrellYan
 Warning--empty author in ATLAS-CONF-2019-021
-You've used 55 entries,
+You've used 57 entries,
             1791 wiz_defined-function locations,
-            776 strings with 16783 characters,
-and the built_in function-call counts, 13616 in all, are:
-= -- 844
-> -- 1234
-< -- 8
-+ -- 437
-- -- 382
-* -- 1242
-:= -- 2461
-add.period$ -- 153
-call.type$ -- 55
-change.case$ -- 51
+            777 strings with 17016 characters,
+and the built_in function-call counts, 14059 in all, are:
+= -- 869
+> -- 1289
+< -- 9
++ -- 456
+- -- 399
+* -- 1283
+:= -- 2547
+add.period$ -- 159
+call.type$ -- 57
+change.case$ -- 52
 chr.to.int$ -- 0
-cite$ -- 79
-duplicate$ -- 452
-empty$ -- 1042
-format.name$ -- 382
-if$ -- 2743
+cite$ -- 82
+duplicate$ -- 469
+empty$ -- 1067
+format.name$ -- 399
+if$ -- 2833
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 43
-newline$ -- 265
-num.names$ -- 47
-pop$ -- 145
+int.to.str$ -- 57
+missing$ -- 45
+newline$ -- 274
+num.names$ -- 48
+pop$ -- 151
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 178
+skip$ -- 182
 stack$ -- 0
-substring$ -- 543
-swap$ -- 46
-text.length$ -- 8
+substring$ -- 528
+swap$ -- 48
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 24
-while$ -- 77
-width$ -- 57
-write$ -- 562
-(There were 7 error messages)
+warning$ -- 25
+while$ -- 78
+width$ -- 59
+write$ -- 584
+(There were 6 error messages)
