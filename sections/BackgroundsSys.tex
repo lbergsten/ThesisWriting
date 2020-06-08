@@ -580,6 +580,55 @@ In order to quantify the discrimination we use the integrated-ROC calculated thr
 \label{fig:ggFCR3BDTresult}
 \end{figure}
 
+\subsubsection{Discriminant for ggF and VBF in the signal region}
+There is one final multivariate discriminant used to discriminate ggF backgrounds. This focuses on discriminating ggF from VBF events in the signal region. The boosted decision tree uses $e\mu+\mu e$ events that pass all signal region cuts. The training includes only ggF events trained against VBF signal. The MC statistics used in the training are half those available after the SR cuts (as the other half are later used to test the training). This corresponds to $\approx$ 6,000 ggF events and $\approx$95,000 signal events.
+
+The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:ggFVBFBDTparameters}.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+Parameter                                    & Value     \\
+\hline
+Boosting algorithm                           & Gradient \\
+Maximum tree depth                           &  10      \\
+Number of trees                              &  300    \\
+Minimum number of events requires per mode   &  5\%     \\
+Number of cuts                               &  7       \\
+\hline
+\end{tabular}
+\caption{BDT parameters used for the ggF vs. VBF training.}
+\label{tab:ggFVBFBDTparameters}
+\end{table}
+For this BDT various distributions (7) are used to take advantage of differences in distributions between ggF and VBF events. These variables include $\Delta Y_{jj}$, $\Delta \Phi_{jj}$, $m_T$, $p_T^{j0}$, $p_T^{j1}$, $\sum$ centralities, and $\sum M_{lj}$.
+
+Plots shown in \ref{fig:ggFVBFBDTinput} and \ref{fig:ggFVBFcorrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is weighted and normalized to equal number of background and signal events.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.45\linewidth]{Pictures/ggFVBF/variables_id_c1.eps}
+    \includegraphics[width=0.45\linewidth]{Pictures/ggFVBF/variables_id_c2.eps}
+    \caption{Distributions of input variables to the ggF vs. VBF BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background ggF samples.}
+    \label{fig:ggFVBFBDTinput}
+\end{figure}
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.3\linewidth]{Pictures/ggFVBF/CorrelationMatrixS.eps}
+  \includegraphics[width=.3\linewidth]{Pictures/ggFVBF/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to the ggF vs. VBF BDT. Signal represents VBF and background ggF samples.}
+\label{fig:ggFVBFcorrSB}
+\end{figure}
+
+In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.785. Comparisons between the test and training show that the BDT is un-biased, since the testing and training samples are similar. Additionally, a Kolmogorov-Smirnov test is performed and shows no sign of bias with values of 0.008 (0.047) for signal (background). We can visualize the BDT output variable both on weighted normalized samples and on samples with full event weights applied. The following plots show BDT results applied to normalized and fully weighted samples.
+
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.4\linewidth]{Pictures/ggFVBF/overtrain_BDTG.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf}
+\caption{Normalized samples of VBF (signal) and ggF (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of VBF signal and ggF background plotted over BDT output distribution after SR cuts.}
+\label{fig:ggFVBFBDTresult}
+\end{figure}
+
 %\subsubsection{Dependance on the modelling of the simulation} 
 %
 %This method determines ggF the background entirely from data and so sensitivity to migration of events from one region to the other is greatly reduced. In order to study this, pseudo-experiments were thrown using Asimov data-sets. For each toy set the input yield for each region was varied independently in the range of $0<\mu_{\text{GGF-X}}<2$ at generation level. The measured variation of the VBF yield in the signal region with respect to the nominal conditions corresponds to the sensitivity to event-migration across categories in simulation due to systematic uncertainties in the predictions. 

@@ -65,45 +65,45 @@ Warning--empty journal in jetscaleres
 Warning--empty author in METSig
 Warning--empty journal in DrellYan
 Warning--empty author in ATLAS-CONF-2019-021
-You've used 57 entries,
+You've used 56 entries,
             1791 wiz_defined-function locations,
-            777 strings with 17016 characters,
-and the built_in function-call counts, 14059 in all, are:
-= -- 869
-> -- 1289
+            770 strings with 16877 characters,
+and the built_in function-call counts, 13820 in all, are:
+= -- 847
+> -- 1281
 < -- 9
-+ -- 456
-- -- 399
-* -- 1283
-:= -- 2547
-add.period$ -- 159
-call.type$ -- 57
-change.case$ -- 52
++ -- 453
+- -- 397
+* -- 1264
+:= -- 2510
+add.period$ -- 156
+call.type$ -- 56
+change.case$ -- 51
 chr.to.int$ -- 0
-cite$ -- 82
-duplicate$ -- 469
-empty$ -- 1067
-format.name$ -- 399
-if$ -- 2833
+cite$ -- 81
+duplicate$ -- 460
+empty$ -- 1042
+format.name$ -- 397
+if$ -- 2779
 int.to.chr$ -- 0
-int.to.str$ -- 57
-missing$ -- 45
-newline$ -- 274
-num.names$ -- 48
-pop$ -- 151
+int.to.str$ -- 56
+missing$ -- 44
+newline$ -- 269
+num.names$ -- 47
+pop$ -- 150
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 182
+skip$ -- 178
 stack$ -- 0
-substring$ -- 528
-swap$ -- 48
+substring$ -- 504
+swap$ -- 47
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 25
-while$ -- 78
-width$ -- 59
-write$ -- 584
+while$ -- 76
+width$ -- 58
+write$ -- 573
 (There were 6 error messages)

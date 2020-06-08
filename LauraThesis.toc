@@ -21,8 +21,8 @@
 \contentsline {section}{\numberline {4.1}Tracking}{50}{section.4.1}
 \contentsline {section}{\numberline {4.2}Electrons}{51}{section.4.2}
 \contentsline {section}{\numberline {4.3}Muons}{55}{section.4.3}
-\contentsline {section}{\numberline {4.4}Jets}{65}{section.4.4}
-\contentsline {section}{\numberline {4.5}Missing transverse energy}{69}{section.4.5}
+\contentsline {section}{\numberline {4.4}Jets}{64}{section.4.4}
+\contentsline {section}{\numberline {4.5}Missing transverse energy}{70}{section.4.5}
 \contentsline {chapter}{\numberline {5}Event Selection}{74}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{74}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Data samples}{74}{subsection.5.1.1}
@@ -55,20 +55,21 @@
 \contentsline {subsubsection}{Discriminant in ggF CR1}{114}{section*.88}
 \contentsline {subsubsection}{Discriminant in ggF CR2}{116}{section*.94}
 \contentsline {subsubsection}{Discriminant in ggF-CR3}{121}{section*.100}
-\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{123}{subsection.6.1.5}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{130}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{130}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{133}{subsection.6.2.2}
-\contentsline {subsubsection}{Signal theory uncertainties}{133}{section*.111}
-\contentsline {subsubsection}{ggF background theory uncertainties}{133}{section*.112}
-\contentsline {subsubsection}{Top background theory uncertainties}{134}{section*.115}
-\contentsline {subsubsection}{$WW$ background theory uncertainties}{135}{section*.116}
-\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ background theory uncertainties}{135}{section*.117}
-\contentsline {chapter}{\numberline {7}Results}{136}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{136}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{136}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Asimov results}{141}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{145}{section.7.2}
-\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{148}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future results and measurements}{151}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{154}{chapter.8}
+\contentsline {subsubsection}{Discriminant for ggF and VBF in the signal region}{123}{section*.106}
+\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{127}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{131}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{132}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{134}{subsection.6.2.2}
+\contentsline {subsubsection}{Signal theory uncertainties}{134}{section*.116}
+\contentsline {subsubsection}{ggF background theory uncertainties}{136}{section*.117}
+\contentsline {subsubsection}{Top background theory uncertainties}{137}{section*.120}
+\contentsline {subsubsection}{$WW$ background theory uncertainties}{138}{section*.121}
+\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ background theory uncertainties}{138}{section*.122}
+\contentsline {chapter}{\numberline {7}Results}{139}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{139}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{139}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Asimov results}{144}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{148}{section.7.2}
+\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{151}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future results and measurements}{154}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions}{157}{chapter.8}

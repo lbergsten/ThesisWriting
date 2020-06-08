@@ -208,12 +208,6 @@ ATLAS Collaboration.
   TeV}.
 \newblock Technical Report ATL-PHYS-PUB-2015-051, CERN, Geneva, Dec 2015.
 
-\bibitem{patternrecognition}
-J.~Illingworth and J.~Kittler.
-\newblock A survey of the hough transform.
-\newblock {\em Computer Vision, Graphics, and Image Processing}, 44(1):87 --
-  116, 1988.
-
 \bibitem{IDreconstruction}
 {Performance of the ATLAS Silicon Pattern Recognition Algorithm in Data and
   Simulation at $\sqrt{s} = 7$ TeV}.
