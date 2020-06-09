@@ -874,12 +874,37 @@ Systematics of the pileup $<\mu>$ value are determined by varying the data scale
 Theoretical uncertainties are determined and evaluated per sample rather than on reconstructed physics objects and determine the accuracy of each of our Monte Carlo generated signal and background samples. In this analysis theoretical uncertainties are calculated and included in our overall fit for VBF signal, and ggF, top, $WW$ and $Z\rightarrow\tau\tau$ background events. In this section I will briefly discuss the uncertainties associated with each of these samples and demonstrate the scale of their effects. Their impacts on the overall results is further discussed in the next chapter. 
 
 \subsubsection{Signal theory uncertainties}
-The VBF theoretical uncertainties come from three main parameters: shower, PDFs/$\alpha_s$, and QCD. Parton shower uncertainties are derived from comparison between different parton shower generators (Powheg$+$Pythia8 (nominal) and Powheg$+$Herwig7) and constitute the largest theoretical uncertainties in in the signal region. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales and are found with an 8-point envelope scheme \cite{?} 
- 
-\textcolor{red}{will add better plot, ask Sagar for .eps/pdf}
+The VBF theoretical uncertainties come from four main sources: shower, PDFs, $\alpha_s$, and QCD. Parton shower uncertainties are derived from comparison between different parton shower generators (Powheg$+$Pythia8 (nominal) and Powheg$+$Herwig7) and constitute the largest theoretical uncertainties in in the signal region. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales and are found with an 8-point envelope scheme. VBF signal theory systematics within the signal region, control/validation regions is shown in \ref{tab:vbftheory}.
+
+\begin{table}[h!]
+\scalebox{0.6}{
+\input{Pictures/theory_systematics/VBF/table-VBF.tex}
+}
+\caption{VBF theory uncertainties- NP breakdown}
+\label{tab:vbftheory}
+\end{table}
+
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:vbftheor} show very little shape effects.
+
+\begin{figure}[!h]
+  \subfloat[PDF uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf}
+  }\hfill
+  \subfloat[$\alpha_s$ uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf}
+  }\hfill
+  \subfloat[Shower uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf}
+  }\hfill
+  \subfloat[QCD uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf}
+  }\hfill
+{\caption{Up and down variations shown for four theoretical uncertainties from the VBF signal displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
+\label{fig:vbftheor}}}
+\end{figure} 
 
 \subsubsection{ggF background theory uncertainties}
-The ggF theoretical uncertainties come from three main parameters: shower, PDFs/$\alpha_s$, and QCD. Parton shower uncertainties use the same prescription described for the VBF samples and similarly constitute the largest theoretical uncertainties from ggF events. PDF uncertainties are derived from internal re-weighting as for VBF and QCD uncertainties include factorization and renormalization scales and are derived using the WG1 scheme \cite{WG1}. ggF theory uncertainties derived in the signal and validation regions are show in the table \ref{tab:ggftheory}. 
+The ggF theoretical uncertainties come from four main sources: shower, PDFs, $\alpha_s$, and QCD. Parton shower uncertainties use the same prescription described for the VBF samples and similarly constitute the largest theoretical uncertainties from ggF events. PDF uncertainties are derived from internal re-weighting as for VBF and QCD uncertainties include factorization and renormalization scales and are derived using the WG1 scheme \cite{WG1}. ggF theory uncertainties derived in the signal and validation regions are show in the table \ref{tab:ggftheory}.
 
 \begin{table}[h!]
 \scalebox{0.6}{
@@ -893,26 +918,150 @@ We examine these uncertainties for any shape effects on the BDT output used in t
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/ggftheory/theo_ggf_pdf.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf}
   }\hfill
   \subfloat[$\alpha_s$ uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/ggftheory/theo_ggf_alphas.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf}
   }\hfill
   \subfloat[Shower uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/ggftheory/theo_ggf_shower.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf}
   }\hfill
   \subfloat[QCD scale uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/ggftheory/theo_ggf_qcd_mu.pdf}
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf}
   }\hfill
-{\caption{Up and down variations shown for four theoretical uncertainties from the ggF background displayed against $m_{jj}$. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects.
+{\caption{Up and down variations shown for four theoretical uncertainties from the ggF background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
 \label{fig:ggftheor}}}
 \end{figure}
 
 \subsubsection{Top background theory uncertainties}
 Top theoretical uncertainties include those from a variety of sources including hard scatter generation, parton shower, factorization and renormalization scales, initial state radiation (ISR), final state radiation (FSR), and PDFs. For parton shower uncertainties, the same scheme used in ggF and VBF samples is used here (comparisons between Powheg$+$Pythia8 (nominal) and Powheg$+$Herwig7 are made). Hard scatter generation uncertainties are similarly derived from comparing the nominal generation method with aMcAtNlo$+$Pythia8. QCD scale uncertainties from renormalization and factorization are added with a 6-point envelope scheme \cite{?}. ISR and FSR uncertainties are determined through varying internal weights and the PDF uncertainty is completed with internal reweighting and errors produced within the nominal Powheg$+$Pythia8 samples. 
 
-\textcolor{red}{The tables and some shape systematic plots for these will be added soon (in progress)}
+The top background considered in this analysis includes $t\bar{t}$ and $Wt$ where $t\bar{t}$ is the dominant sample by far. Theoretical uncertainties are produced for both single top and $t\bar{t}$ independently and both include those from a variety of sources including hard scatter generation, parton shower, factorization and renormalization scales, initial state radiation (ISR), final state radiation (FSR), and PDFs. For parton shower uncertainties, the same scheme used in ggF and VBF samples is used here (comparisons between Powheg$+$Pythia8 (nominal) and Powheg$+$Herwig7 are made). Hard scatter generation uncertainties are similarly derived from comparing the nominal generation method with aMcAtNlo$+$Pythia8. QCD scale uncertainties from renormalization and factorization are added with a 6-point envelope scheme. ISR and FSR uncertainties are determined through varying internal weights and the PDF uncertainty is completed with internal reweighting and errors produced within the nominal Powheg$+$Pythia8 samples. $Wt$ events contain one additonal systematic uncertainty - interference. This is derived from removing $t\bar{t}$-like contributions at the level of amplitude (DR) or matrix elements (DS) \cite{Wttheory}. Table \ref{tab:ttbartheory} shows theory uncertainty from $t\bar{t}$ events in the signal, control and validation regions while table \ref{tab:singletoptheory} shows the same for $Wt$. While $Wt$ uncertainties are large, the background has a minimal contribution to the analysis so these do not have a large effect on overall results.
+
+\begin{table}[h!]
+\scalebox{0.6}{
+\input{Pictures/theory_systematics/ttbar/table-ttbar_vbf.tex}
+}
+\caption{$t\bar{t}$ theory uncertainties- NP breakdown}
+\label{tab:ttbartheory}
+\end{table}
+
+\begin{table}[h!]
+\scalebox{0.6}{
+\input{Pictures/theory_systematics/wt/table-Wt_vbf.tex}
+}
+\caption{$Wt$ theory uncertainties- NP breakdown}
+\label{tab:singletoptheory}
+\end{table}
+
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:wttheory} show too little statistics to discern any shape effects.
+
+\begin{figure}[!h]
+  \subfloat[PDF uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_pdf.pdf}
+  }\hfill
+  \subfloat[Generator uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_generator.pdf}
+  }\hfill
+  \subfloat[Shower uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_shower.pdf}
+  }\hfill
+  \subfloat[QCD scale uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_scale.pdf}
+  }\hfill
+  \subfloat[ISR uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_isr.pdf}
+  }\hfill
+  \subfloat[FSR uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_fsr.pdf}
+  }\hfill
+  \subfloat[Interference uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_interference.pdf}
+  }%\hfill
+{\caption{Up and down variations shown for four theoretical uncertainties from the $Wt$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
+\label{fig:wttheor}}}
+\end{figure}
+
+Plots \ref{fig:ttbartheory} show very little shape effects from theoretical uncertainties on far more numerous $t\bar{t}$ backgrounds.
+
+\begin{figure}[!h]
+  \subfloat[PDF uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf.pdf}
+  }\hfill
+  \subfloat[Generator uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_generator.pdf}
+  }\hfill
+  \subfloat[Shower uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_shower.pdf}
+  }\hfill
+  \subfloat[QCD scale uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_scale.pdf}
+  }\hfill
+  \subfloat[ISR uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.pdf}
+  }\hfill
+  \subfloat[FSR uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr.pdf}
+  }%\hfill
+{\caption{Up and down variations shown for four theoretical uncertainties from the $t\bar{t}$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
+\label{fig:ttbartheor}}}
+\end{figure}
 
 \subsubsection{$WW$ background theory uncertainties}
 
-\subsubsection{$Z\rightarrow\tau\tau$ background theory uncertainties}
+The $WW$ background theoretical uncertainties come from three dominant sources: PDFs, $\alpha_s$, and QCD scale. \textcolor{red}{Add CKKM uncertainties and generator?}. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales, and generator uncertainties are derived from a comparison with $MG5_aMC@NLO$ interfaced with Pythia8 (and so include shower uncertainty). $WW$ theory systematics within the signal region, control/validation regions are shown in \ref{tab:wwtheory}.
+
+\begin{table}[h!]
+\scalebox{0.6}{
+\input{Pictures/theory_systematics/WW/table-WW_vbf.tex}
+}
+\caption{$WW$ theory uncertainties- NP breakdown}
+\label{tab:wwtheory}
+\end{table}
+
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:wwtheor} show no shape effects.
+
+\begin{figure}[!h]
+  \subfloat[PDF uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf}
+  }\hfill
+  \subfloat[$\alpha_s$ uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pdf}
+  }\hfill
+  \subfloat[QCD scale uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf}
+  }%\hfill
+{\caption{Up and down variations shown for four theoretical uncertainties from the $Z\rightarrow\tau\tau$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
+\label{fig:ztttheor}}}
+\end{figure}
+
+\subsection{$Z\rightarrow\tau\tau$ background theory uncertainties}
+
+The $Z\rightarrow\tau\tau$ theoretical uncertainties come from four main sources: PDFs, $\alpha_s$, QCD scale, and generator. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales and use a seven-point envelope, $\alpha_s$ uncertainties use an up-down comparion with two $NNPDF3.0$ NNLO $\alpha_s$ variations, and generator uncertainties are derived from a comparison with $MG5_aMC@NLO$ interfaced with Pythia8. $Z\rightarrow\tau\tau$ theory systematics within the signal region, control/validation regions is shown in \ref{tab:ztttheory}.
+
+\begin{table}[h!]
+\scalebox{0.6}{
+\input{Pictures/theory_systematics/Ztautau/table-ztautau_VBF.tex}
+}
+\caption{$Z\rightarrow\tau\tau$ theory uncertainties- NP breakdown}
+\label{tab:ztttheory}
+\end{table}
+
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:ztttheor} show very little shape effects.
+
+\begin{figure}[!h]
+  \subfloat[PDF uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_pdf.pdf}
+  }\hfill
+  \subfloat[$\alpha_s$ uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_alphas.pdf}
+  }\hfill
+  \subfloat[Generator uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_generator.pdf}
+  }\hfill
+  \subfloat[QCD scale uncertainty]{
+      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_scale.pdf}
+  }\hfill
+{\caption{Up and down variations shown for four theoretical uncertainties from the $Z\rightarrow\tau\tau$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
+\label{fig:ztttheor}}}
+\end{figure}

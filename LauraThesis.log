@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  8 JUN 2020 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  9 JUN 2020 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,6 +445,9 @@ LaTeX Warning: Label `fig:VBFTopWWBDTVR' multiply defined.
 
 
 LaTeX Warning: Label `fig:TopvWWBDTVR' multiply defined.
+
+
+LaTeX Warning: Label `fig:ztttheor' multiply defined.
 
 )
 \openout1 = `LauraThesis.aux'.
@@ -2710,62 +2713,396 @@ Underfull \hbox (badness 1394) in paragraph at lines 869--869
 `BTAG[]MEDIUM''): 3
  []
 
+[134] [135] (./Pictures/theory_systematics/VBF/table-VBF.tex)
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf, id=534
+0, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf Gr
+aphic file (type pdf)
 
-Package natbib Warning: Citation `?' on page 134 undefined on input line 877.
-
-[134] [135] (./Pictures/table-ggfinvbfdiff.tex)
-<Pictures/ggftheory/theo_ggf_pdf.pdf, id=5341, 569.12625pt x 546.04pt>
-File: Pictures/ggftheory/theo_ggf_pdf.pdf Graphic file (type pdf)
-
-<use Pictures/ggftheory/theo_ggf_pdf.pdf>
-Package pdftex.def Info: Pictures/ggftheory/theo_ggf_pdf.pdf used on input line
- 897.
+<use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
+_VBF_pdf4lhc.pdf used on input line 892.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/ggftheory/theo_ggf_alphas.pdf, id=5342, 569.12625pt x 546.04pt>
-File: Pictures/ggftheory/theo_ggf_alphas.pdf Graphic file (type pdf)
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf, id=5341
+, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf Gra
+phic file (type pdf)
 
-<use Pictures/ggftheory/theo_ggf_alphas.pdf>
-Package pdftex.def Info: Pictures/ggftheory/theo_ggf_alphas.pdf used on input l
-ine 900.
+<use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
+_VBF_alphas.pdf used on input line 895.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/ggftheory/theo_ggf_shower.pdf, id=5343, 569.12625pt x 546.04pt>
-File: Pictures/ggftheory/theo_ggf_shower.pdf Graphic file (type pdf)
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf, id=5342
+, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf Gra
+phic file (type pdf)
 
-<use Pictures/ggftheory/theo_ggf_shower.pdf>
-Package pdftex.def Info: Pictures/ggftheory/theo_ggf_shower.pdf used on input l
-ine 903.
+<use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
+_VBF_shower.pdf used on input line 898.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/ggftheory/theo_ggf_qcd_mu.pdf, id=5344, 569.12625pt x 546.04pt>
-File: Pictures/ggftheory/theo_ggf_qcd_mu.pdf Graphic file (type pdf)
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf, id=
+5343, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf
+ Graphic file (type pdf)
 
-<use Pictures/ggftheory/theo_ggf_qcd_mu.pdf>
-Package pdftex.def Info: Pictures/ggftheory/theo_ggf_qcd_mu.pdf used on input l
-ine 906.
+<use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
+_VBF_qcd_muRmuF.pdf used on input line 901.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./Pictures/table-ggfinvbfdiff.tex) [136]
+<Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf, id=5356, 569.12625pt x 54
+6.04pt>
+File: Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf Graphic file (type pd
+f)
+ <use Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf us
+ed on input line 922.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf, id=5357, 569.12625pt x
+ 546.04pt>
+File: Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf Graphic file (type
+ pdf)
+ <use Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf
+ used on input line 925.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf, id=5358, 569.12625pt x
+ 546.04pt>
+File: Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf Graphic file (type
+ pdf)
+ <use Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf
+ used on input line 928.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf, id=5359, 569.12625pt x
+ 546.04pt>
+File: Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf Graphic file (type
+ pdf)
+ <use Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf
+ used on input line 931.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `?' on page 136 undefined on input line 912.
+Package natbib Warning: Citation `?' on page 137 undefined on input line 937.
 
-[136] [137 <./Pictures/ggftheory/theo_ggf_pdf.pdf, page is rotated 90 degrees> 
-<./Pictures/ggftheory/theo_ggf_alphas.pdf, page is rotated 90 degrees> <./Pictu
-res/ggftheory/theo_ggf_shower.pdf, page is rotated 90 degrees> <./Pictures/ggft
-heory/theo_ggf_qcd_mu.pdf, page is rotated 90 degrees>]) [138]
+[137 <./Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf,
+ page is rotated 90 degrees> <./Pictures/theory_systematics/VBF/plots/CutVBF_SR
+CR/theo_VBF_alphas.pdf, page is rotated 90 degrees> <./Pictures/theory_systemat
+ics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf, page is rotated 90 degrees> <./P
+ictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf, page 
+is rotated 90 degrees>] [138 <./Pictures/theory_systematics/ggF/SR/theo_ggf_pdf
+.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/ggF/SR/theo_gg
+f_alphas.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/ggF/SR
+/theo_ggf_shower.pdf, page is rotated 90 degrees> <./Pictures/theory_systematic
+s/ggF/SR/theo_ggf_qcd_mu.pdf, page is rotated 90 degrees>]
+(./Pictures/theory_systematics/ttbar/table-ttbar_vbf.tex)
+(./Pictures/theory_systematics/wt/table-Wt_vbf.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:wttheory' on page 139 undefined on input line 957
+.
+
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_pdf.pdf, id=57
+27, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_pdf.pdf G
+raphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_pdf.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_pdf.pdf used on input line 962.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_generator.pdf,
+ id=5728, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_generator
+.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_generator.
+pdf>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_generator.pdf used on input line 965.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_shower.pdf, id
+=5729, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_shower.pd
+f Graphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_shower.pdf
+>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_shower.pdf used on input line 968.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_scale.pdf, id=
+5730, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_scale.pdf
+ Graphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_scale.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_scale.pdf used on input line 971.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_isr.pdf, id=57
+31, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_isr.pdf G
+raphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_isr.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_isr.pdf used on input line 974.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_fsr.pdf, id=57
+32, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_fsr.pdf G
+raphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_fsr.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_fsr.pdf used on input line 977.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_interference.p
+df, id=5733, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_interfere
+nce.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_interferen
+ce.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2je
+t/theo_wt_interference.pdf used on input line 980.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:ttbartheory' on page 139 undefined on input line 
+985.
+
+
+<Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf.pdf,
+ id=5734, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf
+.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf.
+pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
+2jet/theo_ttbar_pdf.pdf used on input line 990.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_generato
+r.pdf, id=5735, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_gen
+erator.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_gene
+rator.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
+2jet/theo_ttbar_generator.pdf used on input line 993.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_shower.p
+df, id=5736, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_sho
+wer.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_show
+er.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
+2jet/theo_ttbar_shower.pdf used on input line 996.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_scale.pd
+f, id=5737, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_sca
+le.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_scal
+e.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
+2jet/theo_ttbar_scale.pdf used on input line 999.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.pdf,
+ id=5738, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr
+.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.
+pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
+2jet/theo_ttbar_isr.pdf used on input line 1002.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr.pdf,
+ id=5739, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr
+.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr.
+pdf>
+Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
+2jet/theo_ttbar_fsr.pdf used on input line 1005.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+ [139]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./Pictures/theory_systematics/WW/table-WW_vbf.tex)
+
+LaTeX Warning: Reference `fig:wwtheor' on page 140 undefined on input line 1022
+.
+
+
+<Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf, id=57
+48, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf G
+raphic file (type pdf)
+
+<use Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2je
+t/theo_ww_pdf.pdf used on input line 1027.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pdf, id
+=5749, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pd
+f Graphic file (type pdf)
+
+<use Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pdf
+>
+Package pdftex.def Info: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2je
+t/theo_ww_alphas.pdf used on input line 1030.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf, id=
+5750, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf
+ Graphic file (type pdf)
+
+<use Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2je
+t/theo_ww_scale.pdf used on input line 1033.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[140]
+
+LaTeX Warning: Text page 141 contains only floats.
+
+[141 <./Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_pdf.pdf
+, page is rotated 90 degrees> <./Pictures/theory_systematics/wt/plots/CutVBFZtt
+Veto_2jet/theo_wt_generator.pdf, page is rotated 90 degrees> <./Pictures/theory
+_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_shower.pdf, page is rotated 90
+ degrees> <./Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_sc
+ale.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/wt/plots/Cu
+tVBFZttVeto_2jet/theo_wt_isr.pdf, page is rotated 90 degrees> <./Pictures/theor
+y_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_fsr.pdf, page is rotated 90 d
+egrees> <./Pictures/theory_systematics/wt/plots/CutVBFZttVeto_2jet/theo_wt_inte
+rference.pdf, page is rotated 90 degrees>]
+(./Pictures/theory_systematics/Ztautau/table-ztautau_VBF.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_pdf.
+pdf, id=6075, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
+_pdf.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
+pdf.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
+o_2jet/theo_ztautau_pdf.pdf used on input line 1055.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_alph
+as.pdf, id=6076, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
+_alphas.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
+alphas.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
+o_2jet/theo_ztautau_alphas.pdf used on input line 1058.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_gene
+rator.pdf, id=6077, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
+_generator.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
+generator.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
+o_2jet/theo_ztautau_generator.pdf used on input line 1061.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_scal
+e.pdf, id=6078, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
+_scale.pdf Graphic file (type pdf)
+
+<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
+scale.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
+o_2jet/theo_ztautau_scale.pdf used on input line 1064.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [142 <./Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar
+_pdf.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/ttbar/plot
+s/CutVBFZttVeto_2jet/theo_ttbar_generator.pdf, page is rotated 90 degrees> <./P
+ictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_shower.pdf
+, page is rotated 90 degrees> <./Pictures/theory_systematics/ttbar/plots/CutVBF
+ZttVeto_2jet/theo_ttbar_scale.pdf, page is rotated 90 degrees> <./Pictures/theo
+ry_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.pdf, page is rotat
+ed 90 degrees> <./Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/th
+eo_ttbar_fsr.pdf, page is rotated 90 degrees>] [143 <./Pictures/theory_systemat
+ics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf, page is rotated 90 degrees> <.
+/Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pdf, pa
+ge is rotated 90 degrees> <./Pictures/theory_systematics/WW/plots/CutVBFZttVeto
+_2jet/theo_ww_scale.pdf, page is rotated 90 degrees>] [144 <./Pictures/theory_s
+ystematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_pdf.pdf, page is rotat
+ed 90 degrees> <./Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/
+theo_ztautau_alphas.pdf, page is rotated 90 degrees> <./Pictures/theory_systema
+tics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_generator.pdf, page is rotat
+ed 90 degrees> <./Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/
+theo_ztautau_scale.pdf, page is rotated 90 degrees>]
 Chapter 7.
-(./sections/Results.tex [139
+(./sections/Results.tex [145
 
 
-] [140] [141]
+] [146] [147]
 Overfull \hbox (55.89835pt too wide) detected at line 40
 [][] []
  []
 
-[142]
+[148]
 Overfull \hbox (8.8498pt too wide) in paragraph at lines 77--83
  [] 
  []
@@ -2773,14 +3110,14 @@ Overfull \hbox (8.8498pt too wide) in paragraph at lines 77--83
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[143] <Pictures/fitresults/SRVBF.pdf, id=5579, 569.12625pt x 491.8375pt>
+[149] <Pictures/fitresults/SRVBF.pdf, id=6708, 569.12625pt x 491.8375pt>
 File: Pictures/fitresults/SRVBF.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/SRVBF.pdf>
 Package pdftex.def Info: Pictures/fitresults/SRVBF.pdf used on input line 118.
 (pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
 
-<Pictures/fitresults/CRGGF1.pdf, id=5580, 569.12625pt x 491.8375pt>
+<Pictures/fitresults/CRGGF1.pdf, id=6709, 569.12625pt x 491.8375pt>
 File: Pictures/fitresults/CRGGF1.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/CRGGF1.pdf>
@@ -2788,7 +3125,7 @@ Package pdftex.def Info: Pictures/fitresults/CRGGF1.pdf used on input line 121.
 
 (pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
 
-<Pictures/fitresults/CRGGF2.pdf, id=5581, 569.12625pt x 491.8375pt>
+<Pictures/fitresults/CRGGF2.pdf, id=6710, 569.12625pt x 491.8375pt>
 File: Pictures/fitresults/CRGGF2.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/CRGGF2.pdf>
@@ -2796,7 +3133,7 @@ Package pdftex.def Info: Pictures/fitresults/CRGGF2.pdf used on input line 124.
 
 (pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
 
-<Pictures/fitresults/CRGGF3.pdf, id=5582, 569.12625pt x 491.8375pt>
+<Pictures/fitresults/CRGGF3.pdf, id=6711, 569.12625pt x 491.8375pt>
 File: Pictures/fitresults/CRGGF3.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/CRGGF3.pdf>
@@ -2804,7 +3141,7 @@ Package pdftex.def Info: Pictures/fitresults/CRGGF3.pdf used on input line 127.
 
 (pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
 
-<Pictures/fitresults/CRZjets.pdf, id=5583, 569.12625pt x 491.8375pt>
+<Pictures/fitresults/CRZjets.pdf, id=6712, 569.12625pt x 491.8375pt>
 File: Pictures/fitresults/CRZjets.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/CRZjets.pdf>
@@ -2812,7 +3149,7 @@ Package pdftex.def Info: Pictures/fitresults/CRZjets.pdf used on input line 130
 .
 (pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
 
-<Pictures/fitresults/CRTop.pdf, id=5584, 569.12625pt x 491.8375pt>
+<Pictures/fitresults/CRTop.pdf, id=6713, 569.12625pt x 491.8375pt>
 File: Pictures/fitresults/CRTop.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/CRTop.pdf>
@@ -2822,8 +3159,8 @@ Package pdftex.def Info: Pictures/fitresults/CRTop.pdf used on input line 133.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[144]
-<Pictures/fitresults/correlation_stat.pdf, id=5592, 569.12625pt x 355.3275pt>
+[150]
+<Pictures/fitresults/correlation_stat.pdf, id=6721, 569.12625pt x 355.3275pt>
 File: Pictures/fitresults/correlation_stat.pdf Graphic file (type pdf)
 
 <use Pictures/fitresults/correlation_stat.pdf>
@@ -2839,13 +3176,13 @@ Overfull \hbox (10.6779pt too wide) in paragraph at lines 151--161
  [] 
  []
 
-[145 <./Pictures/fitresults/SRVBF.pdf, page is rotated 90 degrees> <./Pictures/
+[151 <./Pictures/fitresults/SRVBF.pdf, page is rotated 90 degrees> <./Pictures/
 fitresults/CRGGF1.pdf, page is rotated 90 degrees> <./Pictures/fitresults/CRGGF
 2.pdf, page is rotated 90 degrees> <./Pictures/fitresults/CRGGF3.pdf, page is r
 otated 90 degrees> <./Pictures/fitresults/CRZjets.pdf, page is rotated 90 degre
-es> <./Pictures/fitresults/CRTop.pdf, page is rotated 90 degrees>] [146 <./Pict
+es> <./Pictures/fitresults/CRTop.pdf, page is rotated 90 degrees>] [152 <./Pict
 ures/fitresults/correlation_stat.pdf, page is rotated 90 degrees>]
-<Pictures/fitresults/afterfit.png, id=5916, 654.445pt x 625.33624pt>
+<Pictures/fitresults/afterfit.png, id=7045, 654.445pt x 625.33624pt>
 File: Pictures/fitresults/afterfit.png Graphic file (type png)
 
 <use Pictures/fitresults/afterfit.png>
@@ -2866,7 +3203,7 @@ s>
 (epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf, id=5917, 569.12
+<Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf, id=7046, 569.12
 625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2889,7 +3226,7 @@ s>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf, id=5918, 569.12
+<Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf, id=7047, 569.12
 625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2912,7 +3249,7 @@ _asimov_mu_ggf_1-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_ggf_
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf, id=5919, 569.
+<Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf, id=7048, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2935,7 +3272,7 @@ _asimov_mu_ggf_2-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_ggf_
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf, id=5920, 569.
+<Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf, id=7049, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2958,7 +3295,7 @@ p.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf, id=5921, 569.
+<Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf, id=7050, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2981,7 +3318,7 @@ s.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf, id=5922, 569.
+<Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf, id=7051, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2994,13 +3331,13 @@ ed-to.pdf used on input line 194.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[147 <./Pictures/fitresults/afterfit.png>] [148 <./Pictures/fitresults/impact_a
+[153 <./Pictures/fitresults/afterfit.png>] [154 <./Pictures/fitresults/impact_a
 simov_mu_vbf-eps-converted-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf-
 eps-converted-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf_1-eps-convert
 ed-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf> 
 <./Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf> <./Pictures
-/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>] [149] [150] [151]
-<Pictures/unfolding/validation/higgs_pt_validation.pdf, id=6052, 569.12625pt x 
+/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>] [155] [156] [157]
+<Pictures/unfolding/validation/higgs_pt_validation.pdf, id=7181, 569.12625pt x 
 555.07375pt>
 File: Pictures/unfolding/validation/higgs_pt_validation.pdf Graphic file (type 
 pdf)
@@ -3009,7 +3346,7 @@ Package pdftex.def Info: Pictures/unfolding/validation/higgs_pt_validation.pdf
 used on input line 278.
 (pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
 
-<Pictures/unfolding/validation/MTll_validation.pdf, id=6053, 569.12625pt x 555.
+<Pictures/unfolding/validation/MTll_validation.pdf, id=7182, 569.12625pt x 555.
 07375pt>
 File: Pictures/unfolding/validation/MTll_validation.pdf Graphic file (type pdf)
 
@@ -3018,7 +3355,7 @@ Package pdftex.def Info: Pictures/unfolding/validation/MTll_validation.pdf used
  on input line 281.
 (pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
 
-<Pictures/unfolding/validation/DYll_validation.pdf, id=6054, 569.12625pt x 555.
+<Pictures/unfolding/validation/DYll_validation.pdf, id=7183, 569.12625pt x 555.
 07375pt>
 File: Pictures/unfolding/validation/DYll_validation.pdf Graphic file (type pdf)
 
@@ -3027,7 +3364,7 @@ Package pdftex.def Info: Pictures/unfolding/validation/DYll_validation.pdf used
  on input line 284.
 (pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
 
-<Pictures/unfolding/validation/Mjj_validation.pdf, id=6055, 569.12625pt x 555.0
+<Pictures/unfolding/validation/Mjj_validation.pdf, id=7184, 569.12625pt x 555.0
 7375pt>
 File: Pictures/unfolding/validation/Mjj_validation.pdf Graphic file (type pdf)
  <use Pictures/unfolding/validation/Mjj_validation.pdf>
@@ -3039,7 +3376,7 @@ on input line 287.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6057, 346.896
+<Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=7186, 346.896
 01pt x 346.89601pt>
 File: Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf Graphic file
  (type pdf)
@@ -3049,7 +3386,7 @@ Package pdftex.def Info: Pictures/unfolding/response_matrices/higgs_pt_migratio
 ns.pdf used on input line 297.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/MTll_migrations.pdf, id=6058, 346.89601pt
+<Pictures/unfolding/response_matrices/MTll_migrations.pdf, id=7187, 346.89601pt
  x 346.89601pt>
 File: Pictures/unfolding/response_matrices/MTll_migrations.pdf Graphic file (ty
 pe pdf)
@@ -3058,7 +3395,7 @@ Package pdftex.def Info: Pictures/unfolding/response_matrices/MTll_migrations.p
 df used on input line 300.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/DYll_migrations.pdf, id=6059, 346.89601pt
+<Pictures/unfolding/response_matrices/DYll_migrations.pdf, id=7188, 346.89601pt
  x 346.89601pt>
 File: Pictures/unfolding/response_matrices/DYll_migrations.pdf Graphic file (ty
 pe pdf)
@@ -3067,7 +3404,7 @@ Package pdftex.def Info: Pictures/unfolding/response_matrices/DYll_migrations.p
 df used on input line 303.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/Mjj_migrations.pdf, id=6060, 346.89601pt 
+<Pictures/unfolding/response_matrices/Mjj_migrations.pdf, id=7189, 346.89601pt 
 x 346.89601pt>
 File: Pictures/unfolding/response_matrices/Mjj_migrations.pdf Graphic file (typ
 e pdf)
@@ -3079,11 +3416,11 @@ f used on input line 306.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152] [153 <./Pictures/unfolding/validation/higgs_pt_validation.pdf, page is ro
+[158] [159 <./Pictures/unfolding/validation/higgs_pt_validation.pdf, page is ro
 tated 90 degrees> <./Pictures/unfolding/validation/MTll_validation.pdf, page is
  rotated 90 degrees> <./Pictures/unfolding/validation/DYll_validation.pdf, page
  is rotated 90 degrees> <./Pictures/unfolding/validation/Mjj_validation.pdf, pa
-ge is rotated 90 degrees>] [154 <./Pictures/unfolding/response_matrices/higgs_p
+ge is rotated 90 degrees>] [160 <./Pictures/unfolding/response_matrices/higgs_p
 t_migrations.pdf> <./Pictures/unfolding/response_matrices/MTll_migrations.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/unfolding/response_matrices/MTll_migr
@@ -3103,25 +3440,25 @@ age
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[155]) [156]
+[161]) [162]
 Chapter 8.
-[157
+[163
 
 
 
-] (./LauraThesis.bbl [158
+] (./LauraThesis.bbl [164
 
 
-] [159]
+] [165]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [160]
+) [166]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [161]
+) [167]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [162]
+) [168]
 Underfull \hbox (badness 1112) in paragraph at lines 228--239
 []\OT1/cmr/m/n/12 Georges Aad et al.  Mea-sure-ment of the muon re-con-struc-ti
 on per-for-mance of
@@ -3145,7 +3482,7 @@ Underfull \hbox (badness 2359) in paragraph at lines 228--239
 cmr/m/it/12 Eur. Phys. J. C\OT1/cmr/m/n/12 ,
  []
 
-[163] [164] [165]) [166]
+[169] [170] [171]) [172]
 
 Package natbib Warning: There were undefined citations.
 
@@ -3166,10 +3503,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 12602 strings out of 493033
- 213332 string characters out of 6134139
- 315706 words of memory out of 5000000
- 15193 multiletter control sequences out of 15000+600000
+ 12803 strings out of 493033
+ 223696 string characters out of 6134139
+ 317629 words of memory out of 5000000
+ 15304 multiletter control sequences out of 15000+600000
  15782 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,49p,2699b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3192,10 +3529,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (174 pages, 12050017 bytes).
+Output written on LauraThesis.pdf (180 pages, 12532370 bytes).
 PDF statistics:
- 6617 PDF objects out of 7423 (max. 8388607)
- 3548 compressed objects within 36 object streams
- 581 named destinations out of 1000 (max. 500000)
- 1156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7754 PDF objects out of 8907 (max. 8388607)
+ 4050 compressed objects within 41 object streams
+ 622 named destinations out of 1000 (max. 500000)
+ 1276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

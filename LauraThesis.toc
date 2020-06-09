@@ -61,15 +61,15 @@
 \contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{132}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{134}{subsection.6.2.2}
 \contentsline {subsubsection}{Signal theory uncertainties}{134}{section*.116}
-\contentsline {subsubsection}{ggF background theory uncertainties}{136}{section*.117}
-\contentsline {subsubsection}{Top background theory uncertainties}{137}{section*.120}
-\contentsline {subsubsection}{$WW$ background theory uncertainties}{138}{section*.121}
-\contentsline {subsubsection}{$Z\rightarrow \tau \tau $ background theory uncertainties}{138}{section*.122}
-\contentsline {chapter}{\numberline {7}Results}{139}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{139}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{139}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Asimov results}{144}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{148}{section.7.2}
-\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{151}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future results and measurements}{154}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{157}{chapter.8}
+\contentsline {subsubsection}{ggF background theory uncertainties}{136}{section*.119}
+\contentsline {subsubsection}{Top background theory uncertainties}{137}{section*.122}
+\contentsline {subsubsection}{$WW$ background theory uncertainties}{140}{section*.127}
+\contentsline {subsection}{\numberline {6.2.3}$Z\rightarrow \tau \tau $ background theory uncertainties}{140}{subsection.6.2.3}
+\contentsline {chapter}{\numberline {7}Results}{145}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{145}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{145}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Asimov results}{150}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{154}{section.7.2}
+\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{157}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future results and measurements}{160}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions}{163}{chapter.8}
