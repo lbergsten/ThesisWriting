@@ -37,11 +37,11 @@
 \contentsline {subsection}{\numberline {5.2.2}Jets}{80}{subsection.5.2.2}
 \contentsline {subsubsection}{$b$-tagged jet}{81}{section*.49}
 \contentsline {subsection}{\numberline {5.2.3}Missing transverse energy}{81}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Overlap removal}{82}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.4}Overlap removal}{81}{subsection.5.2.4}
 \contentsline {section}{\numberline {5.3}Common Observables}{82}{section.5.3}
 \contentsline {section}{\numberline {5.4}Event selection}{84}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Pre-selection}{86}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Signal region selection}{89}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Signal region selection}{87}{subsection.5.4.2}
 \contentsline {subsubsection}{VBF signal boosted decision tree discriminant}{90}{section*.59}
 \contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{96}{chapter.6}
 \contentsline {section}{\numberline {6.1}Backgrounds}{96}{section.6.1}

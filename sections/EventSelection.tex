@@ -1,12 +1,12 @@
 %\section{Event selection}
-This chapter steps briefly through some of the concrete object definitions and inputs used in the analysis. First the data and Monte Carlo simulations used for signal and background modelling are summarized. Then the kinematic variables and observables used in event selection and later for the differential measurement are defined. Finally, the signal selection is outlined and its results shown. I played a primary role in testing and optimizing the analysis signal selection on reconstruction level events.  
+This chapter steps through some of the object definitions and inputs used in the analysis. First, the data and Monte Carlo simulations used for signal and background modelling are summarized. Then, the kinematic variables and observables used in event selection and later for the fiducial cross-section measurement are defined. Finally, the signal selection is outlined and its results shown. I played a primary role in testing and optimizing the analysis selection using reconstructed events.  
 
 \section{Data and Monte Carlo samples}
 \subsection{Data samples}
 
-The full Run-2 dataset containing all proton-proton collision data collected from 2015-2018 at $\sqrt{s}=13$TeV with a $25$ns bunch spacing configuration are used.
+The full Run-2 dataset containing all proton-proton collision data collected from 2015-2018 at $\sqrt{s}=13$ TeV with a $25$ns bunch spacing configuration are used.
 
-In 2015, 2016, 2017, and 2018 $3.86$~fb$^{-1}$, $35.6$~fb$^{-1}$, $46.9$~fb$^{-1}$, and  $62.2$~fb$^{-1}$ of luminosity were recorded respectively. Peak instantaneous luminosity increased from $5.0\times 10^{33}$~cm$^{-2}$s$^{-1}$ in 2015 to $21.4\times 10^{33}$~cm$^{-2}$s$^{-1}$ in 2018. Average and peak pile-up also increased from about $\langle\mu\rangle=13.6$ and 40.5 in 2015 to  $\langle\mu\rangle=37.0$ and 90 in 2018. These pile-up distributions datasets are shown in \ref{fig:mu_profile}. 
+In 2015, 2016, 2017, and 2018 $3.86$~fb$^{-1}$, $35.6$~fb$^{-1}$, $46.9$~fb$^{-1}$, and  $62.2$~fb$^{-1}$ of luminosity were recorded, respectively. Peak instantaneous luminosity increased from $5.0\times 10^{33}$~cm$^{-2}$s$^{-1}$ in 2015 to $21.4\times 10^{33}$~cm$^{-2}$s$^{-1}$ in 2018. Average (peak) pile-up also increased from $\langle\mu\rangle=13.6$ (40.5) in 2015 to  $\langle\mu\rangle=37.0$ (90) in 2018. These pile-up distributions datasets are shown in \ref{fig:mu_profile}. 
 
 \begin{figure}[!htbp]
     \centering 
@@ -15,177 +15,51 @@ In 2015, 2016, 2017, and 2018 $3.86$~fb$^{-1}$, $35.6$~fb$^{-1}$, $46.9$~fb$^{-1
     \label{fig:mu_profile}
 \end{figure}
 
-Events are only used if all relevant detector components are operating normally. These events are part of the standard ``All Good'' Good Run List comprising a total integrated luminosity of $139$fb$^{-1}$ and data quality efficiency of $91.5$\%.
+Events are only used if all relevant detector components are operating normally. These events are part of the standard ``All Good'' Good Run List comprising a total integrated luminosity of $139$ fb$^{-1}$ and data quality efficiency of $91.5$\%.
 
-Throughout Run-2 the instantaneous luminosity and so pile-up changed dramatically. This is accounted for in our MC modelling, as described in the next section.
+Throughout Run-2, the instantaneous luminosity and pile-up changed over time. This is accounted for in our MC modelling, as described in the next section.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monte Carlo samples}
-%This analysis uses samples reconstructed using release 21.0.  Derivations of MC samples were produced with the tags \texttt{p3654}, \texttt{p3652} which use \texttt{AthDerivation 21.2.44}.
-%Derivations of data samples were made the tag \texttt{p3653} using \texttt{AthDerivation 21.2.44}. The samples are further processed  using \texttt{AnalysisBase 21.2.68} for systematic computation.
 
-%\textcolor{red}{Add alternative MC samples for signal and backgrounds}\\
+Monte Carlo samples are generated to compare to data in order to test Standard Model predictions and search for discrepancies. These simulations are also used to optimize the analysis selection criteria. Monte Carlo events are fully simulated using the ATLAS detector simulation in the GEANT4 framework \cite{GEANT4} and reconstructed with standard ATLAS reconstruction software. Pile-up is simulated as additional $pp$ interations in a separate simulation step during digitization where minimum bias events are superimposed on the simulated signal events. These additional events are added based on that year's recorded pile-up to account for dataset differences. 
 
-Monte Carlo samples are generated to compare to data in order to test Standard Model predictions and search for excesses. These simulations are also used to optimize the analysis before applying these techniques to our dataset. Monte Carlo events are fully simulated using the ATLAS detector simulation in the GEANT4 framework \cite{GEANT4} and reconstructed with standard ATLAS reconstruction software. Pile-up is simulated as additional $pp$ interations in a separate simulation step during digitization where minimum bias events are superimposed on the simulated signal events. These additional events are added based on that years recorded pile-up to account for dataset differences. 
+Separate programs are used to generate the hard scattering process and to model the parton showering (PS), hadronization, and the underlying event (UE). The next sections summarize the simulation techniques for our signal VBF samples, other Higgs production modes, and relevant backgrounds.   
 
-Separate programs are used to generate the hard scattering process and to model the parton showering (PS), hadronization, and the underlying event (UE). The next sections summarize the simulation techniques for our signal vector boson fusion samples, other Higgs production modes, and relevant backgrounds.   
-
-%\HERWIG~\cite{herwig} is used for PS and hadronisation in estimating systematic uncertainties with UE being modelled with \JIMMY~\cite{jimmy}.
-
-%The CT10 and NNPDF3.0 parton distributions function (PDF) sets~\cite{Lai:2010vv}~\textcolor{red}{[missing NNPDF3.0 ref]} are used for the hard scattering process in \textsc{ Powheg-Box} v2~\cite{Nason:2009ai} ~\textcolor{red}{[unclear sinec 2 PDF sets are listed, are they used in different processes?]} while for \MADGRAPH5 (version 2.2.1 and 2.2.2)~\cite{Alwall:2014hca} the NNPDF23LO~\cite{Ball:2012cx} PDF set is used.
-%The AZNLO~\cite{Aad:2014xaa} tune is used for the diboson and signal processes while the A14 tune~\cite{ATL-PHYS-PUB-2014-021} for other processes.
-%The CTEQ6L1~\cite{Nadolsky:2008zw} PDF set is used for the \PYTHIA8 showering,
-%with the NNPDF 3.0tune when interfaced to \textsc{ Powheg-Box} v2 and
-%with the A14~\cite{ATL-PHYS-PUB-2014-021} tune when interfaced to \MADGRAPH5.
-
-%The hard scattering NLO predictions from \SHERPA 2.2.1~\cite{Gleisberg:2008ta} are calculated using NNPDF 3.0 NNLO PDF set in conjunction with a dedicated set of tuned parameters from the parton shower developed by the \SHERPA authors~\cite{Schumann:2007mg}.
-
-%The complete list of the MC samples and their configuration can be found in Appendix \ref{sec:append_samples}.
-The fullset of data is split into three time-based categories. Data-taking conditions in 2015 and 2016 are averaged and described together as mc16a. 2017 and 2018 data-taking conditions are considered separately as mc16d and mc16e respectively. 
+The data is split into three time-based categories. Data-taking conditions in 2015 and 2016 are averaged and described together as MC16a. 2017 and 2018 data-taking conditions are considered separately as MC16d and MC16e respectively. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Vector boson fusion Higgs samples}
 
-VBF Higgs events are generated through \textsc{POWHEG} \cite{Nason:2009ai} interfaced with \textsc{Pythia} 8 with the PDF4LHC15 parton distribution function (PDF) set \cite{PDF4LHC15}. Cross sections are calculated with full NLO QCD and EW corrections \cite{Ciccolini:2007jr, Arnold:2008rz} with an approximate NNLO QCD correction applied~\cite{Bolzoni:2010xr}. These cross-sections as well as associated branching ratios are calculated by the LHC Higgs Cross Section Working Group Yellow Report 4 \cite{LHCCrossSectionWG}. Generated events are normalized to calculated cross-sections. %Two tables below show first the production cross sections used to normalize the Higgs MC samples (including those for VBF) \ref{tab:MCSignal} and next summaries of the MC samples used including nominal production as well as alternative productions for the estimation of theoretical systematics, which are discussed further in the next chapter \ref{tab:samples}.  
+VBF Higgs events are generated through \textsc{POWHEG} \cite{Nason:2009ai} interfaced with \textsc{Pythia8} with the PDF4LHC15 parton distribution function (PDF) set \cite{PDF4LHC15}. Cross sections are calculated with full NLO QCD and EW corrections \cite{Ciccolini:2007jr, Arnold:2008rz} with an approximate NNLO QCD correction applied~\cite{Bolzoni:2010xr}. These cross-sections as well as associated branching ratios are calculated by the LHC Higgs Cross Section Working Group Yellow Report 4 \cite{LHCCrossSectionWG}. Generated events are normalized to calculated cross-sections. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Other production mode Higgs samples}
 
-%\begin{table*}[tb]
-% \centering
-% \caption{SM Higgs boson production cross sections ($\sigma$) for gluon fusion, vector-boson fusion and associated production with a $W$ or $Z$ boson or with a $b\bar{b}$ or $t\bar{t}$ pair in $pp$ collisions at $\sqrt{s}=13$ TeV. First and second uncertainties represent theoretical systematic uncertainties calculated by adding in quadrature the QCD scale and PDF$+\alpha_s$ uncertainties, respectively. The last column shows the decay branching ratio ($B$) for $H \rightarrow \ell\nu\ell\nu$ with $\ell = e, \mu$.\label{tab:MCSignal}}
-% \vspace{0.1cm}
-% \begin{tabular}{ccccccc}
-%   \hline \hline
-%   \noalign{\vspace{0.05cm}}
-%   $m_{H}$       & $\sigma\left(gg\to H\right)$ & $\sigma\left(qq'\to Hqq'\right)$ & $\sigma\left(q\bar{q}\to WH\right)$ & $\sigma\left(pp\to ZH\right)$   \\
-%   $[{GeV}]$ & $[{\textrm{pb}}]$                 & $[{\textrm{pb}}]$                     &  $[{\textrm{pb}}]$                       & $[{\textrm{pb}}]$                    \\
-%   \noalign{\vspace{0.05cm}}
-%   \hline\hline
-%   \noalign{\vspace{0.05cm}}
-% TODO: take the gaussian errors instead of flat for ggF N3LO as recommended?
-   
-%   $125.0$\rule[-1mm]{0mm}{4.7mm} & $48.58$  $^{+4.6\%}_{-6.7\%}$ $^{+3.2\%}_{-3.2\%}$ & $3.782$  $^{+0.4\%}_{-0.3\%}$ $^{+2.1\%}_{-2.1\%}$ & $1.373$  $^{+0.5\%}_{-0.7\%}$ $^{+1.9\%}_{-1.9\%}$  
-%                                  & $0.8839$ $^{+3.8\%}_{-3.1\%}$ $^{+1.6\%}_{-1.6\%}$ \\
-%  
-%   \noalign{\vspace{0.05cm}}
-%   \hline\hline 
-%   \noalign{\vspace{0.05cm}}
-%   $m_{H}$       & $\sigma\left(gg\to ZH\right)$ & $\sigma\left(q\bar{q}/gg\to t\bar{t}H\right)$ & $\sigma\left(q\bar{q}/gg\to b\bar{b}H\right)$ & $B$  \\ 
-%   $[{GeV}]$ & $[{\textrm{pb}}]$                  & $[{\textrm{pb}}]$                                  & $[{\textrm{pb}}]$                                 & $[10^{-3}]$\\
-%   \noalign{\vspace{0.05cm}}
-%   \hline\hline
-%   \noalign{\vspace{0.05cm}}
-%   $125.0$\rule[-1mm]{0mm}{4.7mm} & $0.1227$ $^{+25.1\%}_{-18.9\%}$ $^{+2.4\%}_{-2.4\%}$ & $0.5071$ $^{+5.8\%}_{-9.2\%}$ $^{+3.6\%}_{-3.6\%}$ & $0.4880$ $^{+20.2\%}_{-23.9\%}$ & $0.1240$ $\pm2.18\%$ \\
-%  \noalign{\vspace{0.05cm}}
-%  \hline\hline
-%\end{tabular}
-%end{table*}  
-
-Other Higgs production modes are considered in the analysis including gluon fusion (ggF), associated Higgs boson production ($VH$, $V=W,Z$) and Higgs boson production in association with a heavy quark pair ($ttH$). Though only ggF has an appreciable yield in the signal region, each of these are studied and considered in the analysis. As in VBF Higgs sample, ggF, $VH$, and $ttH$ are produced with \textsc{Pythia8}\cite{pythia,Sjostrand:2007gs} for decay, parton shower, hadronisation and multiple parton interactions.
-
-%\begin{table}[tb]
-%\caption{MC samples used to simulate Higgs boson production, including generators, QCD calculation accuracy and PDF sets.}
-%\label{tab:samples}
-%\centering
-%\begin{tabular}{ llll}
-%  \hline
-%  \hline
-%  Process & Generator & Accuracy in QCD & PDF set   \\
-%  \hline
-%   VBF & \textsc{Powheg-Box} v2~\cite{powheg1,powheg2,powheg3,powheg5}  & NLO & PDF4LHC~\cite{Butterworth:2015oua} \\
-% \hline 
-%  ggF & \textsc{Powheg-Box} v2 (NNLOPS)~\cite{powheg1,powheg2,powheg3,Campbell:2012am} & NNLO in $y^{H}$~\cite{Hamilton:2013fea}, & PDF4LHC~\cite{Butterworth:2015oua}  \\
-%  & & $p_{T}^{H}$ consistent with \textsc{HqT}  & \\
-%  & & (NNLO+NNLL)~\cite{Bozzi:2005wk,deFlorian:2011xf} & \\  
-%  $VH$ & \textsc{Powheg-Box} v2 (\textsc{MiNLO})~\cite{powheg1,powheg2,powheg3,Luisoni:2013kna} & NLO & PDF4LHC~\cite{Butterworth:2015oua} \\
-%  $tH$ & \textsc{Powheg-Pythia8} & NLO & PDF4LHC~\cite{Butterworth:2015oua} \\
-%  $ttH$ & \textsc{Powheg-Box} v2~\cite{powheg1,powheg2,powheg3,powheg5} & NLO & PDF4LHC~\cite{Butterworth:2015oua} \\
-%  $bbH$ & \textsc{Madgraph5\_aMC@NLO} (v.2.3.3)~\cite{Alwall:2014hca,Wiesemann:2014ioa} & NLO & NNPDF23~\cite{Ball:2012cx} \\
-%\hline
-%\hline
-%\end{tabular}
-%\end{table}
+Other Higgs production modes are considered in the analysis including gluon fusion (ggF), associated Higgs boson production ($VH$, $V=W,Z$), and Higgs boson production in association with a heavy quark pair ($ttH$). Though only ggF has an appreciable yield in the signal region, each of these are studied and considered in the analysis. As in VBF Higgs sample, ggF, $VH$, and $ttH$ are produced with \textsc{Pythia8}\cite{pythia,Sjostrand:2007gs} for decay, parton shower, hadronisation and multiple parton interactions.
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Background samples}
 \label{sec:bkgMC}
 
-%%\begin{table}[h]
-%  \centering
-%  \caption{Listed MC generators that model signal and background processes with corresponding cross sections.}
-%%  \scalebox{0.75}{
-%{\footnotesize
-%  \begin{tabular}{llrcc}
-%    \hline\hline
-%    Process & Generator & \hspace*{-3mm}$\sigma\cdot\mathrm{Br}$ (pb) & Precision $\sigma_{\mathrm{incl.}}$\\
-%\hline 
-%%VBF $H\rightarrow WW$  & \POWHEG+\PythiaEight & 0.808 & NNLO \\
-%%    \hline
-%%%    ggF $H\rightarrow WW $  & \POWHEG+\PythiaEight & 10.4 & NNLO+NNLL \\
-%%    ggF $H\rightarrow WW $  & \POWHEG NNLOPS & 10.4 & NNLO+NNLL \\
-%    $WH$ $H\rightarrow WW $ & \POWHEG+\PythiaEight (MINLO) & 0.293  & NNLO \\ % TO  BE checked
-%    $ZH$ $H\rightarrow WW $ & \POWHEG+\PythiaEight (MINLO) & 0.189  & NNLO \\ % TO  BE checked
-%   \red{ttH, tH, and bbH}
-%    \hline 
-%    \hline
-%    $q\bar{q}/g\rightarrow WW \rightarrow \ell\nu\ell\nu$              & \textsc{SHERPA} 2.2.2 & 49.74  & NLO\\ 
-%    $Z^{(\ast)}Z^{(\ast)} \to 2\ell2\nu~(m_{\ell\ell} \ge 4 )$GeV   & \textsc{SHERPA}  2.1  & 6.53   & NLO\\
-%
-%    $gg \to  2\ell2\nu$                     & \textsc{SHERPA}  2.1 & 0.87 & NLO\\
-%
-%    $q\bar{q}/g \to  \ell\nu\ell\ell$       & \textsc{SHERPA} 2.1 & 11.9 & NLO\\
-%
-%    $q\bar{q}/g, gg \to  \ell\ell\ell\ell$  & \textsc{SHERPA} 2.1 & 11.5 & NLO\\
-%
-%
-%    EW $WW + 2$ jets $(\ell\nu\ell\nu)$   & \textsc{SHERPA} 2.1 & 0.012 & LO \\
-%    EW $WZ + 2$ jets $(\ell\nu\ell\ell)$  & \textsc{SHERPA} 2.1 & 0.038 & LO \\
-%    EW $ZZ + 2$ jets $(\ell\ell\ell\ell)$ & \textsc{SHERPA} 2.1 & 0.116 & LO \\
-%    EW $q\bar{q} {\to}(Z\rightarrow\tau\tau) q\bar{q}$ & \textsc{SHERPA} & 2.54 & LO\\
-%    \hline
-%     inclusive $Z/\gamma^{\star} \to \ell\ell~(40 \ge m_{\ell\ell} \ge 10)$GeV & \textsc{SHERPA} 2.2.1 & $6.80 \times 10^{3}$ & NNLO\\ %%UPdate XS
-%    inclusive $Z/\gamma^{\star} \to \ell\ell~( m_{\ell\ell} \ge 40)$ GeV       & \textsc{SHERPA} 2.2.1 & $2.107 \times 10^{3}$ & NNLO\\
-%
-   % $(W \to \ell\nu)\gamma~(p_{T}^{\gamma} > 7 )$GeV                 & \textsc{SHERPA} 2.2.2& 453 & NLO\\
-%    $(Z \to \ell\ell)\gamma~(p_{T}^{\gamma} > 7 )$GeV                & \textsc{SHERPA} 2.2.2& 175 & NLO\\
-%
-%    $t\bar{t}$ di-leptonic($e,\mu ,\tau$)         & \textsc{Pythia 8} & 87.6 & NNLO+NNLL & \\
-%    $Wt$ leptonic             & \textsc{POWHEG}+\textsc{Pythia 6} & 7.55 &  NLO & \\
-%     \hline\hline
-%  \end{tabular}
-%  }
-%  \label{tab:mcsamples}
-%\end{table}
-
 Main Standard Model backgrounds include events from production of dibosons, top-quark, $Z$+jets, $W$+jets and multijets. The $WW$ samples are generated using \textsc{SHERPA} 2.2.2 interfaced with NNPDF3.0 NNLO PDFs. $Z$+jets (or Drell-Yan) production is simulated with \textsc{SHERPA} 2.2.1 using the NNPDF3.0 NNLO PDFs with dedicated parton shower tuning developed by Sherpa authors. Top-quark pair production ($t\bar{t}$) is simulated using \textsc{POWHEG} with the \textsc{Powheg-Box} framework using the NNPDF 3.0 PDFs and interfaced with \textsc{Pythia 8} using NNPDF 2.3 PDFs for parton showering. Single top, mainly $Wt$, production is generated with \textsc{Powheg-Box} 2.0 interfaced to \textsc{Pythia} 6.428 for parton showering. $Z\gamma$ and $W\gamma$ productions are modeled using \textsc{SHERPA} 2.2.2 at the NLO accuracy for 0- and 1-jet. The $W$+jets process modeling is based on a data-driven method described in the next chapter. MC samples (with the same MC generators for both $W+$jets and $Z+$jets samples) are used to validate the fake estimation and estimate sample composition uncertainties. These processes are generated with \textsc{POWHEG} MiNLO interfaced to \textsc{Pythia 8} with the AZNLO tune. 
-%The PDF set used in \textsc{POWHEG} is CT14nnlo whereas the PDF set used in the parton shower is the CTEQ6 L1 leading order set.
-%The alternative V+jets samples have been produced using the LO matrix-element generator ALPGEN v2.14 interfaced to \textsc{Pythia 6} to model the parton shower. The parton-shower tune Perugia2011C and the CTEQ6L1 PDF set have been used. 
-%Up to five additional partons are modelled by the matrix elements, merged with the MLM prescription with a matching scale of 20 GeV. 
-%The predictions follow a four-flavour-number-scheme (4FNS) for the production of heavy-flavour jets.
-%Other MC generators, like \SHERPA and \MadGraph, are availble h
-%AT All simulated samples include the effect of pile-up from multiple interactions in the same and neighbouring bunch crossing. 
-%AT This is achieved by overlaying minimum bias events, simulated using \PythiaEight, using A2 tune and interfaced with MSTW2008LO PDFs. 
-%AT All samples are processed through the Geant-4 based ATLAS detector simulation, and reconstructed with the standard ATLAS reconstruction software
 
 \section{Object definitions}
-This analysis utilizes a number of calibrated physics objects and the accurate use of each determines the precision of our $H\rightarrow WW$ differential cross section measurement. Lepton, jet, and missing transverse energy reconstruction, isolation, and calibration were described in some detail in the previous chapter. This chapter focuses on the particular parameters applied for these physics objects in this analysis. The object definitions are used in accordance with the $H\rightarrow WW$ coupling analysis for consistency where optimization focussed on $H \rightarrow WW$ measurements at large. Finally, further observables used in event selection are defined and described here as well. 
+This analysis utilizes a number of calibrated physics objects and the accurate use of each determines the precision of our $H\rightarrow WW$ cross-section measurement. Lepton, jet, and missing transverse energy reconstruction, isolation, and calibration were described in some detail in the Chapter 4. This chapter focuses on the particular parameters applied for these physics objects in this analysis. The object definitions are used in accordance with the $H\rightarrow WW$ coupling analysis for consistency where optimization focussed on $H \rightarrow WW$ measurements at large. Finally, further observables used in event selection are defined and described here as well. 
 
 \subsection{Lepton}
 
-Our choice of lepton identification algorithm impacts both the rejection of fake lepton backgrounds ($W+$jets) and QCD background. Tighter requirements on lepton identification decrease signal efficiency so the optimal criteria balance high signal efficiency and high background rejection. Further studies on lepton identification and isolation criteria can be found in the HWW Coupling Support note \cite{HWWCoupling}.
+Our choice of lepton identification algorithm impacts both the rejection of fake lepton backgrounds ($W+$jets) and QCD background. Tighter requirements on lepton identification decrease signal efficiency so the optimal criteria balance high signal efficiency and high background rejection.
 
-Specific muon and electron requirements will be detailed next. Overall, all events must have at least two leptons tracks and each lepton track must have $p_T>400$MeV. Further, leptons all are required to originate at the hard-scatter primary vertex which is defined as the primary vertex with the largest track $\sum p_T$. Leptons must pass two impact parameter selections to ensure they originate at the primary vertex. The longitudinal impact parameter of each lepton track is defined as $|z_0\mathrm{sin}\theta|$ where $z_0$ is the impact paramter and $\theta$ the track angle. Each lepton longitudinal impact parameter must be less than 0.5mm. The significance of the transverse impact parameter is calculated with respect to the beam line ($|d_0|/\sigma_{d_0}$) and has a requirement of three (five) for muons (electrons) as recommended by the Muon and E/$\gamma$ combined performance groups. 
+Overall, all events must have at least two leptons tracks and each lepton track must have $p_T>400$ MeV. Further, leptons are all required to originate at the hard-scatter primary vertex, which is defined as the primary vertex with the largest track $\sum p_T$. Leptons must pass two impact parameter selections to ensure they originate at the primary vertex. The longitudinal impact parameter of each lepton track is defined as $|z_0\mathrm{sin}\theta|$ where $z_0$ is the impact paramter and $\theta$ the track angle. Each lepton longitudinal impact parameter must be less than 0.5 mm. The significance of the transverse impact parameter is calculated with respect to the beam line ($|d_0|/\sigma_{d_0}$) and has a requirement of three (five) for muons (electrons) as recommended by the Muon and E/$\gamma$ combined performance groups. 
 
 \subsubsection{Electron}
-Electron identification utilizes energy deposits in the calorimeter and reconstructed tracks in the inner detector. An electron likelihood combines these quantities and sets recommended working points (\textit{Loose, Medium, Tight}) which correspond to increasing levels of background rejection. Further descriptions of the current $E/\gamma$ combined performance group recommendations and methods can be found here \cite{ElectronPhotonPerformance}.
-
-This analysis uses both the \textit{Medium} and \textit{Tight} identification selections which have 94\% and 88\% identification efficiency respectively for an electron with $E_T=100$ GeV. Electrons with $E_T>25$GeV must pass the \textit{Medium} identification while those with $15<E_T<25$GeV are required to pass the \textit{Tight} selection. This mimics the selection for the $H\rightarrow WW$ coupling analysis where optimization studies demonstrated its impact on overal significance. 
+This analysis uses both the \textit{Medium} and \textit{Tight} identification selections which have 94\% and 88\% identification efficiency respectively for an electron with $E_T=100$  GeV. Electrons with $E_T>25$ GeV must pass the \textit{Medium} identification while those with $15<E_T<25$ GeV are required to pass the \textit{Tight} selection. This selection is the same used in the $H\rightarrow WW$ coupling analysis where optimization studies demonstrated its impact on overall significance. 
 
 Electrons are identified in the range $|\eta|<2.47$, where the transition region between barrel and endcaps in the LAr calorimeter ($1.37<|\eta|<1.52$) is excluded.
 
-Electron isolation uses two different selections based on electron track $p_T$. For $p_T>25$GeV the \textit{IsoGradient} working point is used. This requires calorimeter and track isolation about cones of $\Delta R =0.2$ (\textit{topoetcone20}, \textit{ptvarcone20}). Electron isolation is changed to the fixed cut track cone isolation for $p_T <25$GeV to further eliminate fake background contributions. These require both track and calorimeter variables to fall below the $p_T$ dependent $0.1143\times p_T + 92.14$. 
+Electron isolation uses two different selections based on electron track $p_T$. The \textit{IsoGradient} working point is used for $p_T>25$ GeV. This requires calorimeter and track isolation about cones of $\Delta R =0.2$ (\textit{topoetcone20}, \textit{ptvarcone20}). Electron isolation is changed to the fixed cut track cone isolation for $p_T <25$ GeV to further eliminate fake background contributions. These require both track and calorimeter variables to fall below the $p_T$ dependent $0.1143\times p_T + 92.14$. 
 
-The following table summarizes electron selection criteria \ref{tab:ElecSelection}.
+Table \ref{tab:ElecSelection} summarizes electron selection criteria.
 
 \begin{table}[h!]
   \centering
@@ -204,8 +78,8 @@ The following table summarizes electron selection criteria \ref{tab:ElecSelectio
 
 \subsubsection{Muon}
 
-As described previously, muons can be reconstructed using inner detector tracks, calorimeter deposits, and muon spectrometer tracks. The muon combined performance group performs an overall fit using each of these physical quantites and recommends six muon identification working points- \textit{VeryLoose, Loose, Medium, Tight, High-pT, Low-pT}.  The combination is performed through an overall fit using the hits of the inner detector track, the energy loss in the calorimeter, and the hits of the track in the muon system. Muons in this analysis must fit the \textit{Tight} selection as well as pass cuts $p_T>15$GeV and $|\eta|<2.5$. Muon identification and isolation criteria match those used in the $H\rightarrow WW$ coupling analysis and optimize background rejection and signal efficiency. Muon isolation uses calorimeter and track isolation with a cone of $\Delta R=0.2$ (\textit{topoetcone20, ptvarcone20}). 
-Muon selection criteria are summarized in the table below \ref{tab:MuonSelection}. 
+As described previously, muons can be reconstructed using inner detector tracks, calorimeter deposits, and muon spectrometer tracks. Muons in this analysis must fit the \textit{Tight} selection as well as pass cuts $p_T>15$ GeV and $|\eta|<2.5$. Muon identification and isolation criteria match those used in the $H\rightarrow WW$ coupling analysis and optimize background rejection and signal efficiency. Muon isolation uses calorimeter and track isolation with a cone of $\Delta R=0.2$ (\textit{topoetcone20, ptvarcone20}). 
+Muon selection criteria are summarized in table \ref{tab:MuonSelection}. 
 
 \begin{table}[h]
   \centering
@@ -225,28 +99,28 @@ Muon selection criteria are summarized in the table below \ref{tab:MuonSelection
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Jets}
 
-Jets constitute an important part of the analysis both in their number and characteristics. Our signal region selection and most control regions require at least two jets but in order to estimate and reject $ggF$ Higgs background events, regions with less than two jets are also studied. ``Tagging'' jets refer to those considered in our jet requirement though others may be defined. As detailed in the previous chapter, jets reconstruction uses the anti-$k_t$ algorithm to create jet tracks from calorimeter energy deposits within a cone of $R = 0.4$ and this analysis uses particle flow jet reconstruction.   
+Jets constitute an important part of the analysis both in their number and characteristics. Our signal region selection and most control regions require at least two jets. In order to estimate and reject $ggF$ Higgs background events, regions with less than two jets are also studied. ``Tagging'' jets refer to those considered in our jet requirement, though others may be defined. As detailed in Section 4.4, jets reconstruction uses the anti-$k_t$ algorithm to create jet tracks from calorimeter energy deposits within a cone of $R = 0.4$ and this analysis uses particle flow jet reconstruction.   
 
-Jets are required to have $p_T > 30$GeV to eliminate high potential for pile-up jets in the full $\eta$ range, $|\eta| < 4.5$. ``Jet vertex tagger'' variables suppress pile-up events through combinations of multiple variables into a single jet tagger. For jets with $p_T < 60$GeV and $|\eta| < 2.4$, the JVT variable is required to be larger than 0.59. In the forward region a designated tagger called ``fJVT'' ought to be applied. However, the current analysis leaves out this requirement leading to more jet pile-up than expected. 
+Jets are required to have $p_T > 30$ GeV to eliminate high potential for pile-up jets in the full $\eta$ range, $|\eta| < 4.5$. ``Jet vertex tagger'' variables suppress pile-up events through combinations of multiple variables into a single jet tagger. For jets with $p_T < 60$ GeV and $|\eta| < 2.4$, the JVT variable is required to be larger than 0.59. In the forward region, a designated tagger called ``fJVT'' ought to be applied. However, the current analysis leaves out this requirement leading to more jet pile-up than expected. 
 
-The VBF signal region contains an additional jet observable, central jet veto (CJV), which cuts on events with additional jets (other than the two ``tagged'' jets) which have $p_T>20$GeV within the rapidity gap between two leading jets. These increase VBF sensitivity through removal of hadronic backgrounds.
+The VBF signal region contains an additional jet observable, the central jet veto (CJV), which rejects events with additional jets (other than the two ``tagged'' jets) with $p_T>20$ GeV within the rapidity gap between two leading jets. Cuts on these variables increase VBF sensitivity through removal of hadronic backgrounds.
 %%%%%%%%
 \subsubsection{$b$-tagged jet}
 
-The Jet/$E_T^{miss}$ group recommends tools to identify jets formed from bottom quarks. While the previous HWW analysis used the MV2C10 jet tagging algorithm, the current analysis utilizes the DL1 tagger. Both tools use jet kinematics, impact parameters, and secondary vertex variables as input to machine learning classifiers. The DL1 tagger uses a neural network training method (the MV2C10 a boosted decision tree) trained with $t\bar{t}$ signal to discriminate $b$-quarks from light and $c$-quarks. The DL1 tagger shows greater b-veto efficiency in isolating top background events and so is used in this analysis. This optimization follows that performed for the HWW coupling measurement \cite{HWWCoupling}. 
+The Jet/$E_T^{miss}$ group provides tools to identify jets formed from bottom quarks. While the previous HWW analysis \cite{Aaboud_2019} used the MV2C10 jet tagging algorithm, the current analysis utilizes the DL1 tagger. Both tools use jet kinematics, impact parameters, and secondary vertex variables as input to machine learning classifiers. The DL1 tagger uses a neural network training method (the MV2C10 a boosted decision tree) trained with $t\bar{t}$ signal to discriminate $b$-quarks from light and $c$-quarks. The DL1 tagger shows greater b-veto efficiency in isolating top background events and so is used in this analysis. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Missing transverse energy}
 
-Missing transverse energy is used to both suppress background and build other variables used in signal selection like $m_{tt}$ and $p_T^{tot}$. $E_T^{miss}$ definitions and calculations are explained in the previous chapter. This analysis uses the ``Tight'' $E_T^{miss}$ working point which has proven the most robust against increasing pile-up.
+Missing transverse energy is used to both suppress background and build other variables used in signal selection like $m_{tt}$ and $p_T^{tot}$. $E_T^{miss}$ definitions and calculations are explained in Section 4.5. This analysis uses the ``Tight'' $E_T^{miss}$ working point which has proven the most robust against increasing pile-up.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Overlap removal}
-Overlap removal is applied to electrons, muons, and jets following current recommendations and using the official ASG tool. Current removal steps can be summarized as followed:
+Overlap removal is applied to electrons, muons, and jets following the latest algorithm recommended by the Analysis Software Group (ASG). Current removal steps can be summarized as followed:
 \begin{itemize}
 \item If a muon and electron share an ID track the electron is removed and if a calo-tagged muon shares an ID track with an electron, the muon is removed.
-\item If $\Delta$ R(jet, e) $< 0.2$ the jet is removed (to eliminate overlap with the nearby electron). The electron is removed if $\Delta$ R(jet, e) $<$ min(0.4, 0.04 + 10 GeV/$p_T^e$).
-\item If $\Delta$ R(jet, $\mu$) $< 0.2$ and the jet has less than three associated tracks with $p_T>500$MeV the jet is removed. The jet is also removed if the $p_T$ ratio of the muon and jet is larger than 0.5 and the ratio of the muon $p_T$ and the sum of the $p_T$ of all jet tracks with $p_T>500$GeV is larger than 0.7. The muon is removed if $\Delta$ R(jet, $\mu$) $<$ min(0.4, 0.04 + 10 GeV/$p_\mathrm{{T}}^{\mu}$) for any surviving jets.
+\item If $\Delta$ R(jet, e) $< 0.2$ the jet is removed to eliminate overlap with the nearby electron. The electron is removed if $\Delta$ R(jet, e) $<$ min(0.4, 0.04 + 10 GeV/$p_T^e$).
+\item If $\Delta$ R(jet, $\mu$) $< 0.2$ and the jet has less than three associated tracks with $p_T>500$ MeV the jet is removed. The jet is also removed if the $p_T$ ratio of the muon and jet is larger than 0.5 and the ratio of the muon $p_T$ and the sum of the $p_T$ of all jet tracks with $p_T>500$ GeV is larger than 0.7. The muon is removed if $\Delta$R(jet, $\mu$) $<$ min(0.4, 0.04 + 10 GeV/$p_\mathrm{{T}}^{\mu}$) for any surviving jets.
 %\item Jets are discarded if they are within a cone of size $\Delta R < 0.2$ of an electron candidate, or if they have less than three associated tracks and are within a cone of size $\Delta R < 0.2$ of a muon candidate. However, if a jet with three or more associated tracks is within a cone of size $\Delta R < 0.4$ of a muon candidate, or any jet is within $0.2 < \Delta R < 0.4$ of an electron candidate, the corresponding electron or muon candidate is discarded. 
 \end{itemize}
 
@@ -257,36 +131,36 @@ Overlap removal is applied to electrons, muons, and jets following current recom
 Dedicated observables are used in this analysis to reject and isolate backgrounds as well as to enhance VBF signal strength. This section lists and describe key observables used in the analysis.
 
 \begin{itemize}
-\item $m_{\tau \tau}$: This can be defined as in the previous chapter's $E_T^{miss}$ section, if charged leptons are the products of a pair of $\tau$ leptons, the neutrinos are collinear with the charged leptons, and the neutrinos are the only source of the observed $E_\mathrm{{T}}^{miss}$ in the event. We cut on this variable to suppress $Z\rightarrow\tau\tau$  events. 
-\item $N_{b-jet}$: Defines number of jets with $p_T >20$ GeV identified as b-jets from the b-tagged algorithm (DL1) and used to reject $t\bar{t}$ background.
-\item $p_\mathrm{{T}}^{ll}$: Topological variable transverse momentum of the dilepton system. This cut targets Drell-Yan/$Z\rightarrow\tau\tau$ events through a cut at 70 GeV. 
+\item $m_{\tau \tau}$: This can be defined as in Section 4.5, if charged leptons are the products of a pair of $\tau$ leptons, the neutrinos are assumed to be collinear with the charged leptons, and the neutrinos are the only source of the observed $E_\mathrm{{T}}^{miss}$ in the event. We cut on this variable to suppress $Z\rightarrow\tau\tau$  events. 
+\item $N_{b-jet}$: Defines the number of jets with $p_T >20$ GeV identified as $b$-jets from the $b$-tagging algorithm (DL1) and is used to reject $t\bar{t}$ background.
+\item $p_\mathrm{{T}}^{ll}$: The transverse momentum of the dilepton system. This cut targets Drell-Yan/$Z\rightarrow\tau\tau$ events requiring $p_{\text{T}}^{ll}>$ GeV. 
 \item $\Delta \phi_{ll}$: The two leptons from HWW decays tend to be collimated especially compared to non-resonant WW backgrounds. This is due to the spin-zero initial state of the resonant process. 
-\item $m_{ll}$: The invariant mass of the two leptons from the hard scattering interaction. Similar to $p_T^{ll}$, targets Drell Yan events and is cut on at 70GeV in the control region.
-\item $m_\mathrm{{T}}$: Transverse mass is used as discriminant variable though not directly cut. Defined as
+\item $m_{ll}$: The invariant mass of the two leptons from the hard scattering interaction. Similar to $p_T^{ll}$, targets Drell Yan events and is cut on at 70 GeV in the control region.
+\item $m_\mathrm{{T}}$: Transverse mass is used as discriminant variable though not directly cut. It is defined as
 \begin{equation}
-m_\mathrm{{T}} = \sqrt{ {(E_{ll} + E_\mathrm{{T}}^{miss})}^2 - {|p_{ll} + E_\mathrm{{T}}^{miss}|}^2 }
+m_\mathrm{{T}} = \sqrt{ {(E_{ll} + E_\mathrm{{T}}^{miss})}^2 - {|p_{ll} + E_\mathrm{{T}}^{miss}|}^2 },
 \end{equation}
   where $E_{ll} = \sqrt{|p_{ll}|^2 + m_{ll}^2 }$ .
 \item $p_T^\mathrm{tot}$:
-Total transverse momentum $p_T^\mathrm{tot}$, defined in the targeted $E_T^{miss}$ chapter. Aids in rejecting events with significant soft gluon radiation but not high $p_T$ jets.
+Total transverse momentum $p_T^\mathrm{tot}$ is defined in Section 4.5. This variable isolates events with significant soft gluon radiation but not high $p_T$ jets.
 \item  $\Delta Y_{jj}$: VBF Higgs signal events are characterized by a large separation of the two tagging jets in rapidity. This variable is used as a signal region cut. 
 \item $m_{jj}$:
 VBF Higgs events end to have a high jet invariant mass ($m_{jj}$), defined by combining mass of tagged jets. This analysis applies a cut on $m_{jj}$ in our signal region. 
-\item $\eta_{lep}$ centrality: This analysis uses an outside lepton veto defined to reject events with leptons outside the rapidity gap between the two tag jets. The sum of the centralities of each lepton is used as a discriminant in various BDTs in the analysis. The OLV variable is defined using $\eta$ of the tagged jets and leptons as follows:
+\item $\eta_{lep}$ centrality: This analysis uses an outside lepton veto defined to reject events with leptons outside the rapidity gap between the two tag jets. The sum of the centralities of each lepton is used as a discriminant in various BDTs in the analysis. The OLV variable is defined using pseudorapidity of the tagged jets and leptons as follows:
 \begin{eqnarray}
-&& \textrm{OLV}_{l_0} = 2 \cdot |\frac{\eta_{l_0}-\bar{\eta}}{\eta_{j_0}-\eta_{j_1}}|  \nonumber\\
-&& \textrm{OLV}_{l_1} = 2 \cdot |\frac{\eta_{l_1}-\bar{\eta}}{\eta_{j_0}-\eta_{j_1}}|  \nonumber\\
+&& \textrm{OLV}_{l_0} = 2 \cdot |\frac{\eta_{l_0}-\bar{\eta}}{\eta_{j_0}-\eta_{j_1}}|,  \nonumber\\
+&& \textrm{OLV}_{l_1} = 2 \cdot |\frac{\eta_{l_1}-\bar{\eta}}{\eta_{j_0}-\eta_{j_1}}|,  \nonumber\\
 &&\nonumber \\
-&& \eta_{\mathrm{lep}} \, \textrm{centrality} = \textrm{OLV}_{l_0} + \textrm{OLV}_{l_1}
+&& \eta_{\mathrm{lep}} \, \textrm{centrality} = \textrm{OLV}_{l_0} + \textrm{OLV}_{l_1},
 \label{eqn:contOLV_def}
 \end{eqnarray}
 where $\bar{\eta} = (\eta_{j_0} + \eta_{j_1})/2$ and so for each lepton: 
  \begin{equation}
    \textrm{OLV}_l \left\{
    \begin{array} {ll}
-     = 0 & \quad \textrm{:  the lepton is right in the middle of the rapidity gap between the two tag jets.} \\
-     < 1 & \quad \textrm{:  the lepton lies within the rapidity gap between the two tag jets.} \\
-     >1  & \quad \textrm{:   the lepton is outside the rapidity gap between the two tag jets.} 
+     = 0 & \quad \rightarrow \textrm{  the lepton is right in the middle of the rapidity gap between the two tag jets.} \\
+     < 1 & \quad \rightarrow \textrm{  the lepton lies within the rapidity gap between the two tag jets.} \\
+     >1  & \quad \rightarrow \textrm{   the lepton is outside the rapidity gap between the two tag jets.} 
     \end{array} \right. 
  \end{equation}
 \item $\mathrm{\sum_{l,j} M_{lj}}$: The sum of the invariant masses of all possible lepton-jet pairs are used to train our signal discriminant as VBF Higgs signal peaks at a higher value than the dominant backgrounds. VBF signal jets tend to be very forward while lepton central so a large separation between lepton and jets is expected as opposed to typical background topologies. 
@@ -294,19 +168,20 @@ where $\bar{\eta} = (\eta_{j_0} + \eta_{j_1})/2$ and so for each lepton:
 
 
 \section{Event selection}
-Figure \ref{fig:FeynmanDiagram} shows the Feynman diagram for the vector boson fusion Higgs production mode. Two energetic jets with large separation in rapidity accompany the Higgs and its decay products. In addition, since the Higgs is created through the fusion of two electro-weak bosons, there is no QCD interaction between the jets and the Higgs boson or its decay products. The main backgrounds this analysis seeks to mitigate include top quark production, Drell-Yan/$Z$, di-bosons ($WW$, $WZ$, $ZZ$, and $W\gamma$), gluon-gluon fusion (ggF) Higgs production, and $W$+jets. 
+Figure \ref{fig:FeynmanDiagramVBF} shows the Feynman diagram for the vector boson fusion Higgs production mode. Two energetic jets with large separation in rapidity accompany the Higgs and its decay products. In addition, since the Higgs is created through the fusion of two electro-weak bosons, there is no QCD interaction between the jets and the Higgs boson or its decay products. The main backgrounds this analysis seeks to mitigate include top quark production, Drell-Yan/$Z$, di-bosons ($WW$, $WZ$, $ZZ$, and $W\gamma$), ggF Higgs production, and $W$+jets. 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.2\linewidth]{Pictures/fig_01b_2.pdf}
+    \includegraphics[width=0.4\linewidth]{Pictures/fig_01b_2.pdf}
     \caption{Feynman diagram for VBF Higgs production \cite{Djouadi}}
     \label{fig:FeynmanDiagramVBF}
 \end{figure}
 
-This analysis controls and estimates these backgrounds with a variety of methods depending on characteristics of each background. Major backgrounds are estimated in CRs and minor backgrounds are estimated using MC simuation. Top quark production is suppressed in the SR by a $b$-jet veto requirement, and can be studied in a very pure orthogonal set of bins in the signal region defined by a boosted decision tree discriminant. A pure validation region is also defined to cross-check top MC modelling. The Drell-Yan/$Z$ background is suppressed by kinematic requirements and is constrained in a dedicated and orthogonal CR and ultimately normalized in the signal phase space. The $ggF$ Higgs produciton mode is particularly difficult to separate from the VBF production mode, therefore several CRs are defined to constrain it in data, and ultimately its normalization is determined in the signal phase space. Other Higgs production modes ($VH$ and $ttH$) are analyzed and included as backgrounds, but play a very small role in our overall result. The $W$+jets background is estimated with data-driven techniques, as described in the next chapter's section on fake estimation, and then fixed in the simultaneous fit of SR and CRs.
+This analysis controls and estimates these backgrounds with a variety of methods depending on the characteristics of each background. Major backgrounds are estimated in CRs and minor backgrounds are estimated using MC simuation. Top quark production is suppressed in the SR by a $b$-jet veto requirement, and can be studied in a very pure orthogonal set of bins in the signal region defined by a boosted decision tree discriminant. A pure validation region is also defined to cross-check top MC modelling. The Drell-Yan/$Z$ background is suppressed by kinematic requirements and is constrained in a dedicated and orthogonal CR and ultimately normalized in the signal phase space. The $ggF$ Higgs produciton mode is particularly difficult to separate from the VBF production mode, therefore several CRs are defined to constrain it in data, and ultimately its normalization is determined in the signal phase space. Other Higgs production modes ($VH$ and $ttH$) are analyzed and included as backgrounds, but play a very small role in our overall result. The $W$+jets background is estimated with data-driven techniques, as described in the Chapter 6, and then fixed in the simultaneous fit of SR and CRs.
 
-The analysis employs multivariate analysis (MVA), more specifically 2D boosted decision trees trained to discriminate between samples. Specfically there are six trained BDTs used to separate: $WW+$top and $VBF$ events, ggF events from all other samples in each of their three control regions, $WW+$top events and VBF, and $WW$ and top events from one another. The use of these BDTs separates the backgrounds from our signal in the signal region and maintains discrimination between the two $WW$ and top background samples. The  $WW+$top vs. $VBF$ BDT is discussed in this section while the others are explained within in the next dedicated background chapter. In addition, two other types of BDT have been tested in this analysis: a $Z+$jets vs. VBF BDT and a 3D BDT to separate $ggF$, $WW$ and VBF events. Results from these tests showed that though these led to minimization of background (in the case of $Z+$jets vs. VBF) and good discrimination between key backgrounds in the signal region (in the case of the 3D BDT), when used in the final fit with systematic uncertainties they showed no significant decrease in calculated error in the VBF coupling value. Results from these studies are shown in the Appendix. 
+The analysis employs multivariate analysis (MVA), more specifically 2D boosted decision trees trained to discriminate between samples. Specfically there are seven trained BDTs used to separate: $WW+$top and $VBF$ events, $VBF$ and ggF events, ggF events from all other samples in each of their three control regions, $WW+$top events and all other samples, and $WW$ and top events from one another. The use of these BDTs separates the backgrounds from our signal in the signal region and maintains discrimination between the two $WW$ and top background samples. 
 
+The $WW+$top vs. VB BDT is discussed in this chapter while the others are explained with their associated backgrounds in Chapter 6. In addition, two other types of BDT have been tested in this analysis: a $Z+$jets vs. VBF BDT and a 3D BDT to separate $ggF$, $WW$ and VBF events. Results from these tests showed that though these led to minimization of background (in the case of $Z+$jets vs. VBF) and good discrimination between key backgrounds in the signal region (in the case of the 3D BDT), when used in the final fit with systematic uncertainties they showed no significant decrease in calculated error in the VBF coupling value. Results from these studies are shown in Appendix I and II.
 \begin{table}[h!]
 \centering
 \scalebox{0.8}{
@@ -348,7 +223,6 @@ Only two leptons       	&  Require exactly 2 leptons (in case of fakes make sure
 Lead lepton $p_T$	& $p_T^{lead} > 22 $GeV \\
 Sublead lepton $p_T$	& $p_T^{sublead} >15 $GeV \\
 Opposite sign leptons	&  Require zero dilepton charge \\
-$m_{ll}$ selection cut	&  $m_{ll} > 10$GeV \\
 Fake Factor	& W+jets weight applied \\
 \hline
 \end{tabular}
@@ -359,14 +233,14 @@ Fake Factor	& W+jets weight applied \\
 
 Yields for all samples as well as data for pre-selection cuts are shown in the following table.
 \begin{table}[h!]
-\scalebox{.3}{
+\scalebox{.45}{
 \input{Pictures/emme-vbf-presel.tex}
 }
-\caption{Cutflow in the pre-selection region.}
+\caption{Cutflow in the pre-selection region with statistical errors shown.}
 \label{tab:preselcut}
 \end{table}
 
-The following plots show kinematic distributions after all preselection cuts with fake factors applied directly after a 2-jet cut. These show good modelling with data over a variety of kinematic variables including those used in the Top$+WW$ vs. VBF BDT. We are not able to directly examine modelling of input variables to this BDT because we require blinding in the signal region. Modelling in the pre-selection region is studied in lieu of this and shows no evidence of bias.
+The following plots show kinematic distributions after all preselection cuts with fake factors applied directly after a 2-jet cut. These show good modelling with data over a variety of kinematic variables including those used in the Top$+WW$ vs. VBF BDT. We are not able to directly examine modelling of input variables to this BDT because we require blinding in the signal region. Modelling in the pre-selection region is studied in lieu of this and shows no evidence of bias. In addition, normalization factors (NF) are calculated by data/MC comparisons in top ($Z\rightarrow\tau\tau$) validation (control) regions. These scale factors are added to $Z\rightarrow\tau\tau$ background events in order to correct for MC mis-modelling and are calculated to be $0.99\pm0.01$ and $1.01\pm0.04$ respectively. 
 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{jj}$]{
@@ -413,18 +287,18 @@ The following plots show kinematic distributions after all preselection cuts wit
 \end{figure} 
 
 \subsection{Signal region selection}
-In addition to the pre-selection cuts described, a number of cuts are applied to the VBF signal region which differ from those used in the coupling ggF analysis. These cuts include a requirement for at least 2 jets ($n_{jets}>=2$) and a $b$-veto using the DL1r $b$-tagging algorithm. A central-jet-veto (CJV) and an outside-lepton-veto (OLV) are also applied. These cuts remove first events with $p_T >20$GeV which lie between the tagging jets in pseudo-rapidity and next any where the two charged leptons are not within the tag jets' rapidity gap. Two additional cuts that differ form the VBF HWW couplings analysis are also added. These are cuts on the mass of the two jets ($m_{jj}>200$GeV) and on the rapidity difference between the two jets ($DY_{jj}>2.1$). These further purify the signal region against a range of backgrounds, notably top. The plots below show signal and background yields as well as signal significance at a variety of $m_{jj}$ and $\Delta Y_{jj}$ values. The values used here are chosen for their effects on signal significance while retaining high signal statistics. 
+In addition to the pre-selection cuts which are in common with the ggF coupling analysis, additional selection criteria are applied to the VBF signal region. These selections include a requirement for at least 2 jets ($n_{jets}>=2$) and a $b$-veto using the DL1r $b$-tagging algorithm. A central-jet-veto (CJV) and an outside-lepton-veto (OLV) are also applied. These remove first events with $p_T >20$ GeV which lie between the tagging jets in pseudo-rapidity and next any event where the two charged leptons are not within the tag jets' rapidity gap. Two additional cuts that differ form the VBF HWW couplings analysis are also added. These require that the mass of the two jets be $>200$ GeV and that the rapidity difference between the two jets be $>2.1$. These further purify the signal region against a range of backgrounds, notably top. The plots below show signal and background yields as well as signal significance at a variety of $m_{jj}$ and $\Delta Y_{jj}$ values. The values used here are chosen for their effects on signal significance while retaining high signal statistics. 
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=.3\linewidth]{Pictures/MjjDYjjVBF.png}
 \includegraphics[width=.3\linewidth]{Pictures/MjjDYjjBackground.png}
 \includegraphics[width=.3\linewidth]{Pictures/MjjDYjjSig.png}
-\caption{Signal and background yields for VBF and total background (aside from fakes) at various $m_{jj}$ and $\Delta Y_{jj}$ cut values. MC simulation for mc16a campaign only. Choice of cut at $m_{jj}>200$GeV and $DY_{jj}>2.1$ nearly halves background yields while reducing signal by $<5\%$}
+\caption{Signal and be background yields for VBF and total background (aside from fakes) at various $m_{jj}$ and $\Delta Y_{jj}$ cut values. Simulated events for MC16a campaign only. Choice of cut at $m_{jj}>200$GeV and $DY_{jj}>2.1$ nearly halves background yields while reducing signal by $<5\%$.}
 \label{fig:MjjDYjjSig}
 \end{figure}
 
-Signal region cuts are listed and described in the table below.  
+Signal region cuts are listed in table \ref{tab:SRdef}.  
 
 \begin{table}[h!]
 \centering
@@ -449,16 +323,16 @@ $\Delta Y_{jj}$ cut	& $\Delta Y_{jj} > 2.1$ \\
 }
 \end{table}
 
-Yields for all samples as well as data for signal region cuts are shown in the following table.
+Yields for all samples, as well as data for signal region cuts are shown in table \ref{tab:srcut}.
 \begin{table}[h!]
-\scalebox{0.35}{
+\scalebox{0.5}{
 \input{Pictures/emme-vbf-SR.tex}
 }
 \caption{Cutflow in the signal region.}
 \label{tab:srcut}
 \end{table}
 
-The following plots show kinematic distributions after all signal region cuts. Here only MC predictions are shown since data is blinded in the signal region.
+The following plots \ref{fig:signalregion} show kinematic distributions after the described selection. Here only MC predictions are shown since data is blinded in the signal region. \textcolor{red}{Unblinded distributions will be added}. 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf}
@@ -498,13 +372,12 @@ The following plots show kinematic distributions after all signal region cuts. H
 \end{figure}
 
 \subsubsection{VBF signal boosted decision tree discriminant}
-Finally, this analysis uses a number of boosted decision trees (BDTs) to both amplify our VBF signal and discriminate and reject a number of specific backgrounds. In the next chapter each major background will be described along with their control or validation regions and the BDTs discriminants trained and used in the overall fit. This next section will focus on the BDT trained and used in the signal region to isolate the VBF signal from dominant backgrounds (top and $WW$ events). This discriminant is the results of numerous studies as to the best training parameters, input variables, and multivariate analysis techniques to increase discrimination. Appendix A shows some results from studies on using a multidimensional BDT to simultaneously discriminate VBF, ggF, and $WW$ background samples. While initially this showed promising results, estimation of ggF backgrounds through use of multiple control regions (summarized in the next chapter) showed better determination of the ggF background than the 3D BDT and so the one-dimensional method here was adopted. 
+This analysis uses a number of boosted decision trees (BDTs) to both amplify our VBF signal and discriminate and reject a number of specific backgrounds. A decision tree is a collection of cuts designed to classify events as signal-like or background-like. A given signal event is correctly identified if it is placed in a signal-dominated leaf and vice-cersa for background events. After the initial tree is built another tree is grown to better separate the signal and background events misidentified by the first tree. This proceeds iteratively until there is a collection of a specified number of trees, in a process known as boosting. A weighted average is taken from all these trees to form a BDT output discriminant with values ranging from -1 to 1.
 
-A decision tree is a collection of cuts designed to classify events as signal-like or background-like. A given signal event is correctly identified if it is placed in a signal-dominated leaf and vice-cersa for background events. After the initial tree is built another tree is grown to better separate the signal and background events misidentified by the first tree. This proceeds iteratively until there is a collection of a specified number of trees, in a process known as boosting. A weighted average is taken from all these trees to form a BDT output discriminant with values ranging from -1 to 1.
+This section will focus on the BDT trained and used in the signal region to isolate the VBF signal from dominant backgrounds (top and $WW$ events). The discriminant used in this analysis is the result of numerous studies on training parameters, input variables, and multivariate analysis techniques. Appendix II shows results from studies on using a multidimensional BDT to simultaneously discriminate VBF, ggF, and $WW$ background samples. While initially this 3D BDT showed promising results, estimation of ggF backgrounds through use of multiple control regions (summarized in the next chapter) showed better determination of the ggF background, so the one-dimensional method here was adopted. 
 
-This BDT is trained using $e\mu+\mu e$ events after the VBF selection and the signal regions cuts including that on $n_{jets}$, $b$-veto, OLV, CJV, $M_{jj}$ and $DY_{jj}$. In this way, the phase space in which we train the BDT is exactly the same as the one where we apply it. The training includes only the top and $WW$ backgrounds and the VBF signal. The MC statistics used in the training are half those available after all signal region cuts (as the other half are later used to test the training). This corresponds to $\approx$ 90,000 un-weighted $WW$ and top events and $\approx$ 100,000 raw VBF events. This training includes MC weights on events to best account for overall event distributions. There are $\approx$ 2000 total weighted top and $WW$ events used in the training and $\approx$ 80 weighted VBF events. 
-
-The TMVA BDTG interface is used to train and test the BDT. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:SRBDTparameters}.
+This BDT is trained using $e\mu+\mu e$ events after the VBF selection and the signal regions cuts including that on $n_{jets}$, $b$-veto, OLV, CJV, $M_{jj}$ and $DY_{jj}$. In this way, the phase space in which we train the BDT is exactly the same as the one where we apply it. The training includes only the top and $WW$ backgrounds and the VBF signal. Half of the available events are used for training and the other half are used to test the training. This corresponds to about 90,000 un-weighted $WW$ and top events and 100,000 raw VBF events. This training includes MC weights on events to best account for overall event distributions. There are approximately 2000 total weighted top and $WW$ events used in the training and 80 weighted VBF events. 
+The TMVA BDTG interface is used to train and test the BDT \cite{TMVA}. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:SRBDTparameters}.
 \begin{table}[h!]
 \centering
 \begin{tabular}{|l|c|}
@@ -532,12 +405,12 @@ This BDT utilizes a wide range of lepton and jet kinematic variables (12) to dis
 
 \begin{figure}[!htbp]
   \centering
-  \includegraphics[width=.4\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixS.eps}
-  \includegraphics[width=.4\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixB.eps}
+  \includegraphics[width=.6\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixS.eps}
+  \includegraphics[width=.6\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixB.eps}
 \caption{Correlations of input variables to VBF vs. top +$WW$ BDT. Signal represents VBF and background top+$WW$.*}
 \label{fig:SRcorrSB}
 \end{figure}
-The BDT training successfully separates VBF signal and top/$WW$ background. These backgrounds are considered together both because they have very similar signatures compared to the VBF signal and because our overall fit uses one parameter to estimate both $WW$ and top backgrounds together. In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.960. Comparisons between the test and training show that the BDT is un-biased- differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. Visually, once can see that the testing and trainings samples are quite similar. Additionally, a Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly. If the two distributions are random samples of the same parent distribution, the KS-test would give a uniformly distributed value between zero and one (or an average value of 0.5). The closer to 0.5 the KS-test, the greater likelihood the curves come from the same parent, however this calculation is heavily skewed toward lower values so any value above zero (or not very close to zero, on order $10^{-4}$) can be considered not indicative of overtraining. For signal and background we find KS-test values of 0.107 and 0.154, and so no evidence of over-training. We can visualize the BDT output variable both on weighted normalized samples and on samples with all event weights applied. The following plot shows BDT results applied to normalized samples of VBF signal and top/$WW$ backgrounds.
+The BDT training successfully separates VBF signal and top/$WW$ background. These backgrounds are considered together both because they have very similar signatures compared to the VBF signal and because our overall fit uses one parameter to estimate both $WW$ and top backgrounds together. In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.960. Comparisons between the test and training show that the BDT is un-biased as one can see that the testing and trainings samples are quite simila. Differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. A Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly. If the two distributions are random samples of the same parent distribution, the KS-test would give a uniformly distributed value between zero and one (or an average value of 0.5). The closer to 0.5 the KS-test, the greater likelihood the curves come from the same parent, however this calculation is heavily skewed toward lower values so any value above zero (or not very close to zero, on order $10^{-4}$) can be considered not indicative of overtraining. For signal and background we find KS-test values of 0.107 and 0.154, and so no evidence of over-training. We can visualize the BDT output variable both on weighted normalized samples and on samples with all event weights applied. The plot \ref{fig:SRBDTresult} shows BDT results applied to normalized samples of VBF signal and top/$WW$ backgrounds and applied to all fully weighted samples in the signal region. 
 
 \begin{figure}[!htbp]
 \centering
@@ -547,4 +420,4 @@ The BDT training successfully separates VBF signal and top/$WW$ background. Thes
 \label{fig:SRBDTresult}
 \end{figure}
 
-We aim to fit this distribution in the signal region with high significance in uppermost bins of the distribution. Since this BDT is trained and applied in the signal region we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables, shown earlier in the chapter show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result (using Asimov data) are shown in the final chapter. 
+We aim to fit this distribution in the signal region with high significance in uppermost bins of the distribution. Since this BDT is trained and applied in the signal region, we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables, shown earlier in the chapter show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result (using Asimov data) are shown in the final chapter. 
