@@ -24,30 +24,29 @@ I was expecting a `,' or a `}'---line 318 of file references.bib
  :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults?redirectedfrom=AtlasPublic.JetEtMissPublicCollisionResults}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-"{" immediately follows a field name---line 405 of file references.bib
- : ok
- :   {deFlorian:2227475,
+Warning--entry type for "lumigroup" isn't style-file defined
+--line 320 of file references.bib
+I was expecting a `,' or a `}'---line 324 of file references.bib
+ :         
+ :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 642 of file references.bib
-I was expecting a `,' or a `}'---line 646 of file references.bib
+--line 647 of file references.bib
+I was expecting a `,' or a `}'---line 651 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 649 of file references.bib
-Warning--I didn't find a database entry for "PDF4LHC"
+--line 654 of file references.bib
 Warning--I didn't find a database entry for "HWWCoupling"
 Warning--I didn't find a database entry for "?"
 Warning--empty publisher in HalzenMartin
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
 Warning--empty journal in Stirling
-Warning--empty author and editor in LHCCrossSectionWG
-Warning--empty title in LHCCrossSectionWG
 Warning--empty publisher in LHCCrossSectionWG
-Warning--empty year in LHCCrossSectionWG
 Warning--empty booktitle in Kibble
 Warning--empty author in ATLAS-CONF-2019-040
 Warning--empty journal in LHCInjector
@@ -65,45 +64,45 @@ Warning--empty journal in jetscaleres
 Warning--empty author in METSig
 Warning--empty journal in DrellYan
 Warning--empty author in ATLAS-CONF-2019-021
-You've used 58 entries,
+You've used 59 entries,
             1791 wiz_defined-function locations,
-            780 strings with 17528 characters,
-and the built_in function-call counts, 14567 in all, are:
-= -- 878
-> -- 1381
+            784 strings with 23942 characters,
+and the built_in function-call counts, 19616 in all, are:
+= -- 899
+> -- 2514
 < -- 9
-+ -- 487
-- -- 429
-* -- 1347
-:= -- 2652
-add.period$ -- 161
-call.type$ -- 58
-change.case$ -- 53
++ -- 865
+- -- 806
+* -- 2095
+:= -- 3814
+add.period$ -- 167
+call.type$ -- 59
+change.case$ -- 54
 chr.to.int$ -- 0
-cite$ -- 83
-duplicate$ -- 474
-empty$ -- 1086
-format.name$ -- 429
-if$ -- 2921
+cite$ -- 81
+duplicate$ -- 478
+empty$ -- 1104
+format.name$ -- 806
+if$ -- 3715
 int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 45
-newline$ -- 278
-num.names$ -- 49
-pop$ -- 158
+int.to.str$ -- 59
+missing$ -- 46
+newline$ -- 285
+num.names$ -- 51
+pop$ -- 159
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 185
+skip$ -- 186
 stack$ -- 0
 substring$ -- 531
-swap$ -- 49
+swap$ -- 51
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 25
-while$ -- 79
-width$ -- 60
-write$ -- 592
+warning$ -- 22
+while$ -- 81
+width$ -- 61
+write$ -- 608
 (There were 6 error messages)

@@ -73,7 +73,7 @@ John~M. Campbell, J.~W. Huston, and W.~J. Stirling.
 
 \bibitem{Stirling}
 W.J. Stirling.
-\newblock {Private Communication...}
+\newblock Private communication.
 \newblock 2018.
 
 \bibitem{Djouadi}
@@ -83,7 +83,81 @@ Abdelhak Djouadi.
 \newblock {\em Phys. Rept.}, 457:1--216, 2008.
 
 \bibitem{LHCCrossSectionWG}
+D.~de~Florian, C.~Grojean, F.~Maltoni, C.~Mariotti, A.~Nikitenko, M.~Pieri,
+  P.~Savard, M.~Schumacher, R.~Tanaka, R.~Aggleton, M.~Ahmad, B.~Allanach,
+  C.~Anastasiou, W.~Astill, S.~Badger, M.~Badziak, J.~Baglio, E.~Bagnaschi,
+  A.~Ballestrero, A.~Banfi, D.~Barducci, M.~Beckingham, C.~Becot, G.~Bélanger,
+  J.~Bellm, N.~Belyaev, F.U. Bernlochner, C.~Beskidt, A.~Biekötter,
+  F.~Bishara, W.~Bizon, N.E. Bomark, M.~Bonvini, S.~Borowka, V.~Bortolotto,
+  S.~Boselli, F.J. Botella, R.~Boughezal, G.C. Branco, J.~Brehmer, L.~Brenner,
+  S.~Bressler, I.~Brivio, A.~Broggio, H.~Brun, G.~Buchalla, C.D. Burgard,
+  A.~Calandri, L.~Caminada, R.~Caminal~Armadans, F.~Campanario, J.~Campbell,
+  F.~Caola, C.M. Carloni~Calame, S.~Carrazza, A.~Carvalho, M.~Casolino,
+  O.~Cata, A.~Celis, F.~Cerutti, N.~Chanon, M.~Chen, X.~Chen,
+  B.~Chokoufé~Nejad, N.~Christensen, M.~Ciuchini, R.~Contino, T.~Corbett, Raul
+  Costa, D.~Curtin, M.~Dall'Osso, A.~David, S.~Dawson, J.~de~Blas, W.~de~Boer,
+  P.~de~Castro~Manzano, C.~Degrande, R.L. Delgado, F.~Demartin, A.~Denner,
+  B.~Di~Micco, R.~Di~Nardo, S.~Dittmaier, A.~Dobado, T.~Dorigo, F.A. Dreyer,
+  M.~Dührssen, C.~Duhr, F.~Dulat, K.~Ecker, K.~Ellis, U.~Ellwanger,
+  C.~Englert, D.~Espriu, A.~Falkowski, L.~Fayard, R.~Feger, G.~Ferrera,
+  A.~Ferroglia, N.~Fidanza, T.~Figy, M.~Flechl, D.~Fontes, S.~Forte,
+  P.~Francavilla, E.~Franco, R.~Frederix, A.~Freitas, F.F. Freitas, F.~Frensch,
+  S.~Frixione, B.~Fuks, E.~Furlan, S.~Gadatsch, J.~Gao, Y.~Gao, M.V. Garzelli,
+  T.~Gehrmann, R.~Gerosa, M.~Ghezzi, D.~Ghosh, S.~Gieseke, D.~Gillberg, G.F.
+  Giudice, E.W.N. Glover, F.~Goertz, D.~Gonçalves, J.~Gonzalez-Fraile,
+  M.~Gorbahn, S.~Gori, C.A. Gottardo, M.~Gouzevitch, P.~Govoni, D.~Gray,
+  M.~Grazzini, N.~Greiner, A.~Greljo, J.~Grigo, A.V. Gritsan, R.~Gröber,
+  S.~Guindon, H.E. Haber, C.~Han, T.~Han, R.~Harlander, M.A. Harrendorf, H.B.
+  Hartanto, C.~Hays, S.~Heinemeyer, G.~Heinrich, M.~Herrero, F.~Herzog,
+  B.~Hespel, V.~Hirschi, S.~Hoeche, S.~Honeywell, S.J. Huber, C.~Hugonie,
+  J.~Huston, A.~Ilnicka, G.~Isidori, B.~Jäger, M.~Jaquier, S.P. Jones,
+  A.~Juste, S.~Kallweit, A.~Kaluza, A.~Kardos, A.~Karlberg, Z.~Kassabov,
+  N.~Kauer, D.I. Kazakov, M.~Kerner, W.~Kilian, F.~Kling, K.~Köneke,
+  R.~Kogler, R.~Konoplich, S.~Kortner, S.~Kraml, C.~Krause, F.~Krauss,
+  M.~Krawczyk, A.~Kulesza, S.~Kuttimalai, R.~Lane, A.~Lazopoulos, G.~Lee,
+  P.~Lenzi, I.M. Lewis, Y.~Li, S.~Liebler, J.~Lindert, X.~Liu, Z.~Liu, F.J.
+  Llanes-Estrada, H.E. Logan, D.~Lopez-Val, I.~Low, G.~Luisoni, P.~Maierhöfer,
+  E.~Maina, B.~Mansoulié, H.~Mantler, M.~Mantoani, A.C. Marini, V.I.
+  Martinez~Outschoorn, S.~Marzani, D.~Marzocca, A.~Massironi, K.~Mawatari,
+  J.~Mazzitelli, A.~McCarn, B.~Mellado, K.~Melnikov, S.B. Menari, L.~Merlo,
+  C.~Meyer, P.~Milenovic, K.~Mimasu, S.~Mishima, B.~Mistlberger, S.-O. Moch,
+  A.~Mohammadi, P.F. Monni, G.~Montagna, M.~Moreno~Llácer, N.~Moretti,
+  S.~Moretti, L.~Motyka, A.~Mück, M.~Mühlleitner, S.~Munir, P.~Musella,
+  P.~Nadolsky, D.~Napoletano, M.~Nebot, C.~Neu, M.~Neubert, R.~Nevzorov,
+  O.~Nicrosini, J.~Nielsen, K.~Nikolopoulos, J.M. No, C.~O'Brien, T.~Ohl,
+  C.~Oleari, T.~Orimoto, D.~Pagani, C.E. Pandini, A.~Papaefstathiou, A.S.
+  Papanastasiou, G.~Passarino, B.D. Pecjak, M.~Pelliccioni, G.~Perez,
+  L.~Perrozzi, F.~Petriello, G.~Petrucciani, E.~Pianori, F.~Piccinini,
+  M.~Pierini, A.~Pilkington, S.~Plätzer, T.~Plehn, R.~Podskubka, C.T. Potter,
+  S.~Pozzorini, K.~Prokofiev, A.~Pukhov, I.~Puljak, M.~Queitsch-Maitland,
+  J.~Quevillon, D.~Rathlev, M.~Rauch, E.~Re, M.N. Rebelo, D.~Rebuzzi, L.~Reina,
+  C.~Reuschle, J.~Reuter, M.~Riembau, F.~Riva, A.~Rizzi, T.~Robens,
+  R.~Röntsch, J.~Rojo, J.C. Romão, N.~Rompotis, J.~Roskes, R.~Roth, G.P.
+  Salam, R.~Salerno, M.O.P. Sampaio, R.~Santos, V.~Sanz, J.J. Sanz-Cillero,
+  H.~Sargsyan, U.~Sarica, P.~Schichtel, J.~Schlenk, T.~Schmidt, C.~Schmitt,
+  M.~Schönherr, U.~Schubert, M.~Schulze, S.~Sekula, M.~Sekulla, E.~Shabalina,
+  H.S. Shao, J.~Shelton, C.H. Shepherd-Themistocleous, S.Y. Shim, F.~Siegert,
+  A.~Signer, J.P. Silva, L.~Silvestrini, M.~Sjodahl, P.~Slavich, M.~Slawinska,
+  L.~Soffi, M.~Spannowsky, C.~Speckner, D.M. Sperka, M.~Spira, O.~Stål,
+  F.~Staub, T.~Stebel, T.~Stefaniak, M.~Steinhauser, I.W. Stewart, M.J.
+  Strassler, J.~Streicher, D.M. Strom, S.~Su, X.~Sun, F.J. Tackmann,
+  K.~Tackmann, A.M. Teixeira, R.~Teixeira~de Lima, V.~Theeuwes, R.~Thorne,
+  D.~Tommasini, P.~Torrielli, M.~Tosi, F.~Tramontano, Z.~Trócsányi, M.~Trott,
+  I.~Tsinikos, M.~Ubiali, P.~Vanlaer, W.~Verkerke, A.~Vicini, L.~Viliani,
+  E.~Vryonidou, D.~Wackeroth, C.E.M. Wagner, J.~Wang, S.~Wayand, G.~Weiglein,
+  C.~Weiss, M.~Wiesemann, C.~Williams, J.~Winter, D.~Winterbottom, R.~Wolf,
+  M.~Xiao, L.L. Yang, R.~Yohay, S.P.Y. Yuen, G.~Zanderighi, M.~Zaro,
+  D.~Zeppenfeld, R.~Ziegler, T.~Zirke, and J.~Zupan.
+\newblock {\em {Handbook of LHC Higgs Cross Sections: 4. Deciphering the Nature
+  of the Higgs Sector}}.
+\newblock CERN Yellow Reports: Monographs. Oct 2016.
+\newblock 869 pages, 295 figures, 248 tables and 1645 citations. Working Group
+  web page: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG.
 
+\bibitem{PDF4LHC15}
+Jon Butterworth et~al.
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em J. Phys.}, G43:023001, 2016.
 
 \bibitem{Higgsdiscovery}
 Georges Aad et~al.
@@ -116,6 +190,15 @@ Georges Aad et~al.
   the ATLAS detector at $ \sqrt{s}=8 $ TeV}.
 \newblock {\em JHEP}, 08:104, 2016.
 
+\bibitem{Aaboud_2019}
+M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D.K. Abhayasinghe, S.H.
+  Abidi, O.S. AbouZeid, N.L. Abraham, H.~Abramowicz, and et~al.
+\newblock Measurements of gluon–gluon fusion and vector-boson fusion higgs
+  boson production cross-sections in the $h \rightarrow ww^* \rightarrow
+  e\nu\mu\nu$ decay channel in $pp$ collisions at $\sqrt(s)$=13tev with the
+  atlas detector.
+\newblock {\em Physics Letters B}, 789:508–529, Feb 2019.
+
 \bibitem{CERNnews1}
 Rende Steerenberg.
 \newblock Lhc report: Protons: mission accomplished, 2018.
@@ -126,15 +209,6 @@ M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D.K. Abhayasinghe, S.H.
 \newblock Observation of h$\rightarrow$ bb$^-$ decays and vh production with
   the atlas detector.
 \newblock {\em Physics Letters B}, 786:59–86, Nov 2018.
-
-\bibitem{Aaboud_2019}
-M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D.K. Abhayasinghe, S.H.
-  Abidi, O.S. AbouZeid, N.L. Abraham, H.~Abramowicz, and et~al.
-\newblock Measurements of gluon–gluon fusion and vector-boson fusion higgs
-  boson production cross-sections in the $h \rightarrow ww^* \rightarrow
-  e\nu\mu\nu$ decay channel in $pp$ collisions at $\sqrt(s)$=13tev with the
-  atlas detector.
-\newblock {\em Physics Letters B}, 789:508–529, Feb 2019.
 
 \bibitem{Aaboud_2018}
 M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, S.~H. Abidi, O.~S.
@@ -156,7 +230,7 @@ M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, S. H. Abidi, O. S.
 M.~Aaboud, G.~Aad, B.~Abbott, O.~Abdinov, B.~Abeloos, D. K. Abhayasinghe,
   S. H. Abidi, O. S. AbouZeid, N. L. Abraham, H.~Abramowicz, and et~al.
 \newblock Cross-section measurements of the higgs boson decaying into a pair of
-  $\tau$-leptons in proton-proton collisions at $\sqrt(s)$=13 tev with the
+  $\tau$-leptons in proton-proton collisions at $\sqrt{s}$=13 tev with the
   atlas detector.
 \newblock {\em Physical Review D}, 99(7), Apr 2019.
 
@@ -204,7 +278,7 @@ ATLAS Collaboration.
   2017.
 
 \bibitem{tracking}
-{Early Inner Detector Tracking Performance in the 2015 data at $\sqrt s$ = 13
+{Early Inner Detector Tracking Performance in the 2015 data at $\sqrt{s}$ = 13
   TeV}.
 \newblock Technical Report ATL-PHYS-PUB-2015-051, CERN, Geneva, Dec 2015.
 
@@ -221,7 +295,7 @@ ATLAS Collaboration.
 G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, R.~Aben, M.~Abolins,
   O.~S. AbouZeid, N.~L. Abraham, and et~al.
 \newblock Muon reconstruction performance of the atlas detector in
-  proton–proton collision data at $$\sqrt{s}$$ s =13 tev.
+  proton–proton collision data at $\sqrt{s}$=13 tev.
 \newblock {\em The European Physical Journal C}, 76(5), May 2016.
 
 \bibitem{oldMCPpaper}
@@ -247,7 +321,7 @@ Johannes~Josef Junggeburth.
 G.~Aad, B.~Abbott, J.~Abdallah, A.~A. Abdelalim, A.~Abdesselam, O.~Abdinov,
   B.~Abi, M.~Abolins, H.~Abramowicz, and et~al.
 \newblock Jet energy measurement with the atlas detector in proton-proton
-  collisions at $\sqrt{\mathrm{s} }=7\ \mathrm{TeV}$.
+  collisions at $\sqrt{\mathrm{s}}=$7 tev.
 \newblock {\em The European Physical Journal C}, 73(3), Mar 2013.
 
 \bibitem{MCPPlots2}
@@ -256,7 +330,7 @@ Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
 
 \bibitem{JetRun1}
 {Jet global sequential corrections with the ATLAS detector in proton-proton
-  collisions at sqrt(s) = 8 TeV}.
+  collisions at $\sqrt{s}$ = 8 TeV}.
 \newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva, Mar 2015.
 
 \bibitem{ParticleFlow}
@@ -290,6 +364,10 @@ Morad Aaboud et~al.
   ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
 \newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
 
+\bibitem{lumigroup}
+Luminosity public results.
+\newblock Public plots, 2019.
+
 \bibitem{GEANT4}
 S.~Agostinelli et~al.
 \newblock {GEANT4: A Simulation toolkit}.
@@ -300,11 +378,6 @@ Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
 \newblock {A general framework for implementing NLO calculations in shower
   Monte Carlo programs: the POWHEG BOX}.
 \newblock {\em JHEP}, 06:043, 2010.
-
-\bibitem{PDF4LHC15}
-Jon Butterworth et~al.
-\newblock {PDF4LHC recommendations for LHC Run II}.
-\newblock {\em J. Phys.}, G43:023001, 2016.
 
 \bibitem{Ciccolini:2007jr}
 M.~Ciccolini, Ansgar Denner, and S.~Dittmaier.

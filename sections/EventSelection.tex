@@ -11,7 +11,7 @@ In 2015, 2016, 2017, and 2018 $3.86$~fb$^{-1}$, $35.6$~fb$^{-1}$, $46.9$~fb$^{-1
 \begin{figure}[!htbp]
     \centering 
     \includegraphics[width=0.55\linewidth]{Pictures/mu_2015_2018.eps}
-    \caption{The luminosity-weighted distribution of the mean number of interactions per crossing is shown for Run-2 pp collision data. }
+    \caption{The luminosity-weighted distribution of the mean number of interactions per crossing is shown for Run-2 pp collision data \cite{lumigroup}. }
     \label{fig:mu_profile}
 \end{figure}
 
@@ -103,7 +103,7 @@ Jets constitute an important part of the analysis both in their number and chara
 
 Jets are required to have $p_T > 30$ GeV to eliminate high potential for pile-up jets in the full $\eta$ range, $|\eta| < 4.5$. ``Jet vertex tagger'' variables suppress pile-up events through combinations of multiple variables into a single jet tagger. For jets with $p_T < 60$ GeV and $|\eta| < 2.4$, the JVT variable is required to be larger than 0.59. In the forward region, a designated tagger called ``fJVT'' ought to be applied. However, the current analysis leaves out this requirement leading to more jet pile-up than expected. 
 
-The VBF signal region contains an additional jet observable, the central jet veto (CJV), which rejects events with additional jets (other than the two ``tagged'' jets) with $p_T>20$ GeV within the rapidity gap between two leading jets. Cuts on these variables increase VBF sensitivity through removal of hadronic backgrounds.
+The VBF signal region contains an additional jet observable, the central jet veto (CJV), which rejects events with additional jets (other than the two ``tagged'' jets) with $p_T>20$ GeV within the rapidity gap between two leading jets. This veto increases VBF sensitivity through removal of hadronic backgrounds.
 %%%%%%%%
 \subsubsection{$b$-tagged jet}
 
@@ -133,9 +133,9 @@ Dedicated observables are used in this analysis to reject and isolate background
 \begin{itemize}
 \item $m_{\tau \tau}$: This can be defined as in Section 4.5, if charged leptons are the products of a pair of $\tau$ leptons, the neutrinos are assumed to be collinear with the charged leptons, and the neutrinos are the only source of the observed $E_\mathrm{{T}}^{miss}$ in the event. We cut on this variable to suppress $Z\rightarrow\tau\tau$  events. 
 \item $N_{b-jet}$: Defines the number of jets with $p_T >20$ GeV identified as $b$-jets from the $b$-tagging algorithm (DL1) and is used to reject $t\bar{t}$ background.
-\item $p_\mathrm{{T}}^{ll}$: The transverse momentum of the dilepton system. This cut targets Drell-Yan/$Z\rightarrow\tau\tau$ events requiring $p_{\text{T}}^{ll}>$ GeV. 
+%\item $p_\mathrm{{T}}^{ll}$: The transverse momentum of the dilepton system. This cut targets Drell-Yan/$Z\rightarrow\tau\tau$ events requiring $p_{\text{T}}^{ll}>$ GeV. 
 \item $\Delta \phi_{ll}$: The two leptons from HWW decays tend to be collimated especially compared to non-resonant WW backgrounds. This is due to the spin-zero initial state of the resonant process. 
-\item $m_{ll}$: The invariant mass of the two leptons from the hard scattering interaction. Similar to $p_T^{ll}$, targets Drell Yan events and is cut on at 70 GeV in the control region.
+\item $m_{ll}$: The invariant mass of the two leptons from the hard scattering interaction, this targets Drell Yan events and requires $m_{ll}>70$ GeV in the control region.
 \item $m_\mathrm{{T}}$: Transverse mass is used as discriminant variable though not directly cut. It is defined as
 \begin{equation}
 m_\mathrm{{T}} = \sqrt{ {(E_{ll} + E_\mathrm{{T}}^{miss})}^2 - {|p_{ll} + E_\mathrm{{T}}^{miss}|}^2 },
@@ -146,7 +146,7 @@ Total transverse momentum $p_T^\mathrm{tot}$ is defined in Section 4.5. This var
 \item  $\Delta Y_{jj}$: VBF Higgs signal events are characterized by a large separation of the two tagging jets in rapidity. This variable is used as a signal region cut. 
 \item $m_{jj}$:
 VBF Higgs events end to have a high jet invariant mass ($m_{jj}$), defined by combining mass of tagged jets. This analysis applies a cut on $m_{jj}$ in our signal region. 
-\item $\eta_{lep}$ centrality: This analysis uses an outside lepton veto defined to reject events with leptons outside the rapidity gap between the two tag jets. The sum of the centralities of each lepton is used as a discriminant in various BDTs in the analysis. The OLV variable is defined using pseudorapidity of the tagged jets and leptons as follows:
+\item $\eta_{lep}$ centrality: This analysis uses an outside lepton veto defined to reject events with leptons outside the rapidity gap between the two tagged jets. The sum of the centralities of each lepton is used as a discriminant in various BDTs in the analysis. The OLV variable is defined using pseudorapidity of the tagged jets and leptons as follows:
 \begin{eqnarray}
 && \textrm{OLV}_{l_0} = 2 \cdot |\frac{\eta_{l_0}-\bar{\eta}}{\eta_{j_0}-\eta_{j_1}}|,  \nonumber\\
 && \textrm{OLV}_{l_1} = 2 \cdot |\frac{\eta_{l_1}-\bar{\eta}}{\eta_{j_0}-\eta_{j_1}}|,  \nonumber\\
@@ -158,9 +158,9 @@ where $\bar{\eta} = (\eta_{j_0} + \eta_{j_1})/2$ and so for each lepton:
  \begin{equation}
    \textrm{OLV}_l \left\{
    \begin{array} {ll}
-     = 0 & \quad \rightarrow \textrm{  the lepton is right in the middle of the rapidity gap between the two tag jets.} \\
-     < 1 & \quad \rightarrow \textrm{  the lepton lies within the rapidity gap between the two tag jets.} \\
-     >1  & \quad \rightarrow \textrm{   the lepton is outside the rapidity gap between the two tag jets.} 
+     = 0 & \quad \rightarrow \textrm{  The lepton is right in the middle of the rapidity gap between the two tagged jets.} \\
+     < 1 & \quad \rightarrow \textrm{  The lepton lies within the rapidity gap between the two tagged jets.} \\
+     >1  & \quad \rightarrow \textrm{   The lepton is outside the rapidity gap between the two tagged jets.} 
     \end{array} \right. 
  \end{equation}
 \item $\mathrm{\sum_{l,j} M_{lj}}$: The sum of the invariant masses of all possible lepton-jet pairs are used to train our signal discriminant as VBF Higgs signal peaks at a higher value than the dominant backgrounds. VBF signal jets tend to be very forward while lepton central so a large separation between lepton and jets is expected as opposed to typical background topologies. 
@@ -179,7 +179,7 @@ Figure \ref{fig:FeynmanDiagramVBF} shows the Feynman diagram for the vector boso
 
 This analysis controls and estimates these backgrounds with a variety of methods depending on the characteristics of each background. Major backgrounds are estimated in CRs and minor backgrounds are estimated using MC simuation. Top quark production is suppressed in the SR by a $b$-jet veto requirement, and can be studied in a very pure orthogonal set of bins in the signal region defined by a boosted decision tree discriminant. A pure validation region is also defined to cross-check top MC modelling. The Drell-Yan/$Z$ background is suppressed by kinematic requirements and is constrained in a dedicated and orthogonal CR and ultimately normalized in the signal phase space. The $ggF$ Higgs produciton mode is particularly difficult to separate from the VBF production mode, therefore several CRs are defined to constrain it in data, and ultimately its normalization is determined in the signal phase space. Other Higgs production modes ($VH$ and $ttH$) are analyzed and included as backgrounds, but play a very small role in our overall result. The $W$+jets background is estimated with data-driven techniques, as described in the Chapter 6, and then fixed in the simultaneous fit of SR and CRs.
 
-The analysis employs multivariate analysis (MVA), more specifically 2D boosted decision trees trained to discriminate between samples. Specfically there are seven trained BDTs used to separate: $WW+$top and $VBF$ events, $VBF$ and ggF events, ggF events from all other samples in each of their three control regions, $WW+$top events and all other samples, and $WW$ and top events from one another. The use of these BDTs separates the backgrounds from our signal in the signal region and maintains discrimination between the two $WW$ and top background samples. 
+The analysis employs multivariate analysis (MVA), more specifically gradient boosted decision trees trained to discriminate between samples. There are seven trained BDTs used to separate: $WW+$top and $VBF$ events, $VBF$ and ggF events, ggF events from all other samples in each of their three control regions, $WW+$top events and all other samples, and $WW$ and top events from one another. The use of these BDTs separates the backgrounds from our signal in the signal region and maintains discrimination between the $WW$ and top background samples. 
 
 The $WW+$top vs. VB BDT is discussed in this chapter while the others are explained with their associated backgrounds in Chapter 6. In addition, two other types of BDT have been tested in this analysis: a $Z+$jets vs. VBF BDT and a 3D BDT to separate $ggF$, $WW$ and VBF events. Results from these tests showed that though these led to minimization of background (in the case of $Z+$jets vs. VBF) and good discrimination between key backgrounds in the signal region (in the case of the 3D BDT), when used in the final fit with systematic uncertainties they showed no significant decrease in calculated error in the VBF coupling value. Results from these studies are shown in Appendix I and II.
 \begin{table}[h!]
@@ -204,7 +204,7 @@ $W\gamma$,$W\gamma^{*}$       & $\sim1\%$		&  $\sim2.5\%$    & MC only          
 \end{table}
 
 \subsection{Pre-selection}
-The VBF differential analysis shares object definitions with the VBF and ggF coupling analysis and pre-selection cuts are based off of those used in the 2016 ggF and VBF $H\rightarrow WW$ 36.1fb$^{-1}$ cross-section paper \cite{Aaboud_2019}. The VBF selection utilizes observables defined in the previous section. Cuts applied in the preselection region are listed and described in the table below. 
+The VBF differential analysis shares object definitions with the VBF and ggF coupling analysis and pre-selection cuts are based off of those used in the 2016 ggF and VBF $H\rightarrow WW$ 36.1fb$^{-1}$ cross-section paper \cite{Aaboud_2019}. The VBF selection utilizes observables defined in the previous section. Cuts applied in the preselection region are listed and described in the table \ref{tab:preseldef}. 
 \begin{table}[h!]
 \centering
 \small{
@@ -231,7 +231,7 @@ Fake Factor	& W+jets weight applied \\
 }
 \end{table}
 
-Yields for all samples as well as data for pre-selection cuts are shown in the following table.
+Yields for all samples as well as data for pre-selection cuts are shown in the table \ref{tab:preselcut}
 \begin{table}[h!]
 \scalebox{.45}{
 \input{Pictures/emme-vbf-presel.tex}
@@ -240,7 +240,7 @@ Yields for all samples as well as data for pre-selection cuts are shown in the f
 \label{tab:preselcut}
 \end{table}
 
-The following plots show kinematic distributions after all preselection cuts with fake factors applied directly after a 2-jet cut. These show good modelling with data over a variety of kinematic variables including those used in the Top$+WW$ vs. VBF BDT. We are not able to directly examine modelling of input variables to this BDT because we require blinding in the signal region. Modelling in the pre-selection region is studied in lieu of this and shows no evidence of bias. In addition, normalization factors (NF) are calculated by data/MC comparisons in top ($Z\rightarrow\tau\tau$) validation (control) regions. These scale factors are added to $Z\rightarrow\tau\tau$ background events in order to correct for MC mis-modelling and are calculated to be $0.99\pm0.01$ and $1.01\pm0.04$ respectively. 
+The plots \ref{fig:preselection} show kinematic distributions after all preselection cuts with fake factors applied directly after a 2-jet cut. These show good modelling with data over a variety of kinematic variables including those used in the Top$+WW$ vs. VBF BDT. We are not able to directly examine modelling of input variables to this BDT because we require blinding in the signal region. Modelling in the pre-selection region is studied in lieu of this and shows no evidence of bias. In addition, normalization factors (NF) are calculated by data/MC comparisons in top ($Z\rightarrow\tau\tau$) validation (control) regions. These scale factors are added to $Z\rightarrow\tau\tau$ background events in order to correct for MC mis-modelling and are calculated to be $0.99\pm0.01$ and $1.01\pm0.04$ respectively. 
 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{jj}$]{
@@ -287,7 +287,7 @@ The following plots show kinematic distributions after all preselection cuts wit
 \end{figure} 
 
 \subsection{Signal region selection}
-In addition to the pre-selection cuts which are in common with the ggF coupling analysis, additional selection criteria are applied to the VBF signal region. These selections include a requirement for at least 2 jets ($n_{jets}>=2$) and a $b$-veto using the DL1r $b$-tagging algorithm. A central-jet-veto (CJV) and an outside-lepton-veto (OLV) are also applied. These remove first events with $p_T >20$ GeV which lie between the tagging jets in pseudo-rapidity and next any event where the two charged leptons are not within the tag jets' rapidity gap. Two additional cuts that differ form the VBF HWW couplings analysis are also added. These require that the mass of the two jets be $>200$ GeV and that the rapidity difference between the two jets be $>2.1$. These further purify the signal region against a range of backgrounds, notably top. The plots below show signal and background yields as well as signal significance at a variety of $m_{jj}$ and $\Delta Y_{jj}$ values. The values used here are chosen for their effects on signal significance while retaining high signal statistics. 
+In addition to the pre-selection cuts which are in common with the ggF coupling analysis, additional selection criteria are applied to the VBF signal region. These selections include a requirement for at least 2 jets ($n_{jets}>=2$) and a $b$-veto using the DL1r $b$-tagging algorithm. A central-jet-veto (CJV) and an outside-lepton-veto (OLV) are also applied. These remove first events with $p_T >20$ GeV which lie between the tagging jets in pseudo-rapidity and next any event where the two charged leptons are not within the tagging jets' rapidity gap. Two additional cuts that differ form the VBF HWW couplings analysis are also added. These require that the mass of the two jets be $>200$ GeV and that the rapidity difference between the two jets be $>2.1$. These further purify the signal region against a range of backgrounds, notably top. The plots \ref{fig:MjjDYjjSig} show signal and background yields as well as signal significance at a variety of $m_{jj}$ and $\Delta Y_{jj}$ values. The values used here are chosen for their effects on signal significance while retaining high signal statistics. 
 
 \begin{figure}[!htbp]
 \centering
@@ -332,7 +332,7 @@ Yields for all samples, as well as data for signal region cuts are shown in tabl
 \label{tab:srcut}
 \end{table}
 
-The following plots \ref{fig:signalregion} show kinematic distributions after the described selection. Here only MC predictions are shown since data is blinded in the signal region. \textcolor{red}{Unblinded distributions will be added}. 
+The following plots \ref{fig:signalregion} show kinematic distributions after the described selection. Here only MC predictions are shown since data is blinded in the signal region. \textcolor{red}{Unblinded distributions and cutflows will be added}. 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf}
@@ -376,7 +376,7 @@ This analysis uses a number of boosted decision trees (BDTs) to both amplify our
 
 This section will focus on the BDT trained and used in the signal region to isolate the VBF signal from dominant backgrounds (top and $WW$ events). The discriminant used in this analysis is the result of numerous studies on training parameters, input variables, and multivariate analysis techniques. Appendix II shows results from studies on using a multidimensional BDT to simultaneously discriminate VBF, ggF, and $WW$ background samples. While initially this 3D BDT showed promising results, estimation of ggF backgrounds through use of multiple control regions (summarized in the next chapter) showed better determination of the ggF background, so the one-dimensional method here was adopted. 
 
-This BDT is trained using $e\mu+\mu e$ events after the VBF selection and the signal regions cuts including that on $n_{jets}$, $b$-veto, OLV, CJV, $M_{jj}$ and $DY_{jj}$. In this way, the phase space in which we train the BDT is exactly the same as the one where we apply it. The training includes only the top and $WW$ backgrounds and the VBF signal. Half of the available events are used for training and the other half are used to test the training. This corresponds to about 90,000 un-weighted $WW$ and top events and 100,000 raw VBF events. This training includes MC weights on events to best account for overall event distributions. There are approximately 2000 total weighted top and $WW$ events used in the training and 80 weighted VBF events. 
+This BDT is trained using $e\mu+\mu e$ events after the VBF selection and the signal regions cuts including that on $n_{jets}$, $b$-veto, OLV, CJV, $M_{jj}$ and $\Delta Y_{jj}$. In this way, the phase space in which we train the BDT is exactly the same as the one where we apply it. The training includes only the top and $WW$ backgrounds and the VBF signal. Half of the available events are used for training and the other half are used to test the training. This corresponds to about 90,000 un-weighted $WW$ and top events and 100,000 raw VBF events. This training includes MC weights on events to best account for overall event distributions. There are approximately 2000 total weighted top and $WW$ events used in the training and 80 weighted VBF events. 
 The TMVA BDTG interface is used to train and test the BDT \cite{TMVA}. The optimal parameters were found through a scan of reasonable values and the final set is summarized in Table~\ref{tab:SRBDTparameters}.
 \begin{table}[h!]
 \centering
@@ -394,30 +394,30 @@ Number of cuts                               &  7        \\
 \caption{BDT parameters used for the VBF vs. top + $WW$ training.} 
 \label{tab:SRBDTparameters}
 \end{table}
-This BDT utilizes a wide range of lepton and jet kinematic variables (12) to distinguish between signal and background events. These include $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{jj}$, $m_{\ell\ell}$, $m_T$, $\eta_{j0}$, $\eta_{j1}$, $p^T_{j0}$, $p^T_{j1}$, $\Delta \Phi_{jj}$, and $\sum$ centralities (L). While a larger variety of variables have been tested, these demonstrated the highest discrimination between VBF and top/$WW$ background. Plots shown in \ref{fig:SRBDTinput} and \ref{fig:SRcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
+This BDT utilizes 12 lepton and jet kinematic variables to distinguish between signal and background events. These include $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{jj}$, $m_{\ell\ell}$, $m_T$, $\eta_{j0}$, $\eta_{j1}$, $p^T_{j0}$, $p^T_{j1}$, $\Delta \Phi_{jj}$, and $\sum$ centralities (L). While a larger variety of variables have been tested, these demonstrated the highest discrimination between VBF and top/$WW$ background. Plots shown in \ref{fig:SRBDTinput} and \ref{fig:SRcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.45\linewidth]{Pictures/VBFvsWW+Top/variables_id_c1.eps}
-    \includegraphics[width=0.45\linewidth]{Pictures/VBFvsWW+Top/variables_id_c2.eps}
-    \caption{Distributions of input variables to VBF vs. top+$WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background top+$WW$.*}.
+    \includegraphics[width=0.55\linewidth]{Pictures/VBFvsWW+Top/variables_id_c1.eps}
+    \includegraphics[width=0.55\linewidth]{Pictures/VBFvsWW+Top/variables_id_c2.eps}
+    \caption{Distributions of input variables to VBF vs. top+$WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background top+$WW$ (S. Addepalli).}.
     \label{fig:SRBDTinput}
 \end{figure}
 
 \begin{figure}[!htbp]
   \centering
-  \includegraphics[width=.6\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixS.eps}
-  \includegraphics[width=.6\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to VBF vs. top +$WW$ BDT. Signal represents VBF and background top+$WW$.*}
+  \includegraphics[width=.4\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixS.eps}
+  \includegraphics[width=.4\linewidth]{Pictures/VBFvsWW+Top/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to VBF vs. top +$WW$ BDT. Signal represents VBF and background top+$WW$ (S. Addepalli).}
 \label{fig:SRcorrSB}
 \end{figure}
-The BDT training successfully separates VBF signal and top/$WW$ background. These backgrounds are considered together both because they have very similar signatures compared to the VBF signal and because our overall fit uses one parameter to estimate both $WW$ and top backgrounds together. In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.960. Comparisons between the test and training show that the BDT is un-biased as one can see that the testing and trainings samples are quite simila. Differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. A Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly. If the two distributions are random samples of the same parent distribution, the KS-test would give a uniformly distributed value between zero and one (or an average value of 0.5). The closer to 0.5 the KS-test, the greater likelihood the curves come from the same parent, however this calculation is heavily skewed toward lower values so any value above zero (or not very close to zero, on order $10^{-4}$) can be considered not indicative of overtraining. For signal and background we find KS-test values of 0.107 and 0.154, and so no evidence of over-training. We can visualize the BDT output variable both on weighted normalized samples and on samples with all event weights applied. The plot \ref{fig:SRBDTresult} shows BDT results applied to normalized samples of VBF signal and top/$WW$ backgrounds and applied to all fully weighted samples in the signal region. 
+The BDT training successfully separates VBF signal and top/$WW$ background. These backgrounds are considered together because our overall fit uses one parameter to estimate both $WW$ and top backgrounds due to their similar signatures. One useful metric to test the success of a classifier is a receiver operating characteristic curve (ROC curve). This curve measures signal acceptance over background rejection and its integral for a perfect classifier would be 1. In order to quantify the discrimination we use the integrated-ROC calculated through TMVA for weighted normalized samples and find an optimal value of 0.960, showing very good classification. Comparisons between the test and training show that the BDT is un-biased as one can see that the testing and trainings samples are quite similar. Differences between testing and training samples would imply overtraining, or the BDT using to many parameters on too few events. A Kolmogorov-Smirnov test is performed to measure if the two test and training distributions differ significantly. If the two distributions are random samples of the same parent distribution, the KS-test would give a uniformly distributed value between zero and one (or an average value of 0.5). The closer to 0.5 the KS-test, the greater likelihood the curves come from the same parent, however this calculation is heavily skewed toward lower values so any value above zero (or not very close to zero, on order $10^{-4}$) can be considered not indicative of overtraining. For signal and background we find KS-test values of 0.107 and 0.154, and so no evidence of over-training. We can visualize the BDT output variable both on weighted normalized samples and on samples with all event weights applied. The plot \ref{fig:SRBDTresult} shows BDT results applied to normalized samples of VBF signal and top/$WW$ backgrounds and applied to all fully weighted samples in the signal region. 
 
 \begin{figure}[!htbp]
 \centering
   \includegraphics[width=.45\linewidth]{Pictures/VBFvsWW+Top/overtrain_BDTG.eps}
   \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf}
-\caption{Weighted, normalized samples of VBF (signal) and top$+WW$ samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of VBF signal and all backgrounds plotted over BDT output distribution after signal region selection. Data is blinded here*}
+\caption{Weighted, normalized samples of VBF (signal) and top$+WW$ samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of VBF signal and all backgrounds plotted over BDT output distribution after signal region selection. \textcolor{red}{Data is blinded here} (S. Addepalli).}
 \label{fig:SRBDTresult}
 \end{figure}
 
-We aim to fit this distribution in the signal region with high significance in uppermost bins of the distribution. Since this BDT is trained and applied in the signal region, we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables, shown earlier in the chapter show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result (using Asimov data) are shown in the final chapter. 
+We aim to fit this distribution in the signal region with high significance in uppermost bins of the distribution. Since this BDT is trained and applied in the signal region, we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables, shown earlier in the chapter show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result are shown in the final chapter. 
