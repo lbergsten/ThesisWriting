@@ -240,7 +240,7 @@ Yields for all samples as well as data for pre-selection cuts are shown in the t
 \label{tab:preselcut}
 \end{table}
 
-The plots \ref{fig:preselection} show kinematic distributions after all preselection cuts with fake factors applied directly after a 2-jet cut. These show good modelling with data over a variety of kinematic variables including those used in the Top$+WW$ vs. VBF BDT. We are not able to directly examine modelling of input variables to this BDT because we require blinding in the signal region. Modelling in the pre-selection region is studied in lieu of this and shows no evidence of bias. In addition, normalization factors (NF) are calculated by data/MC comparisons in top ($Z\rightarrow\tau\tau$) validation (control) regions. These scale factors are added to $Z\rightarrow\tau\tau$ background events in order to correct for MC mis-modelling and are calculated to be $0.99\pm0.01$ and $1.01\pm0.04$ respectively. 
+The plots \ref{fig:preselection} show kinematic distributions after all preselection cuts with fake factors applied directly after a 2-jet cut. These show good modelling with data over a variety of kinematic variables including those used in the Top$+WW$ vs. VBF BDT. We were not able to directly examine modelling of input variables to this BDT because blinding is required in the signal region. Modelling in the pre-selection region was studied in lieu of this and showed no evidence of bias. In addition, normalization factors (NF) are calculated by data/MC comparisons in top ($Z\rightarrow\tau\tau$) validation (control) regions. These scale factors are added to $Z\rightarrow\tau\tau$ background events in order to correct for MC mis-modelling and are calculated to be $0.99\pm0.01$ and $1.01\pm0.04$ respectively. 
 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{jj}$]{
@@ -282,7 +282,7 @@ The plots \ref{fig:preselection} show kinematic distributions after all preselec
 %  \subfloat[$\ensuremath{E_{\text{T,rel}}^{\text{miss}}}$]{
 %      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBF_2jet-MET-log.pdf}
 %  }%\hfill
-{\caption{Distributions of $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{jj}$, $m_{\ell\ell}$,$m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, and $\Delta \Phi_{jj}$ in the preselection region before blinding is applied. Distributions show good MC modelling of variables used in the signal region BDT.
+{\caption{Distributions of $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{jj}$, $m_{\ell\ell}$,$m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, and $\Delta \Phi_{jj}$ in the preselection region. Distributions show good MC modelling of variables used in the signal region BDT.
 \label{fig:preselection}}}
 \end{figure} 
 
@@ -332,7 +332,7 @@ Yields for all samples, as well as data for signal region cuts are shown in tabl
 \label{tab:srcut}
 \end{table}
 
-The following plots \ref{fig:signalregion} show kinematic distributions after the described selection. Here only MC predictions are shown since data is blinded in the signal region. \textcolor{red}{Unblinded distributions and cutflows will be added}. 
+The following plots \ref{fig:signalregion} show kinematic distributions after the described selection. MC predictions show good modelling of data. Uncertainties shown are purely statistical 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf}
@@ -416,7 +416,7 @@ The BDT training successfully separates VBF signal and top/$WW$ background. Thes
 \centering
   \includegraphics[width=.45\linewidth]{Pictures/VBFvsWW+Top/overtrain_BDTG.eps}
   \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf}
-\caption{Weighted, normalized samples of VBF (signal) and top$+WW$ samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of VBF signal and all backgrounds plotted over BDT output distribution after signal region selection. \textcolor{red}{Data is blinded here} (S. Addepalli).}
+\caption{Weighted, normalized samples of VBF (signal) and top$+WW$ samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of VBF signal and all backgrounds plotted over BDT output distribution after signal region selection (S. Addepalli).}
 \label{fig:SRBDTresult}
 \end{figure}
 
