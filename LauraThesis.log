@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  12 JUN 2020 09:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  12 JUN 2020 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2882,91 +2882,119 @@ Overfull \hbox (55.89835pt too wide) detected at line 40
  []
 
 [140]
-Overfull \hbox (8.8498pt too wide) in paragraph at lines 77--83
+Overfull \hbox (82.55832pt too wide) in paragraph at lines 77--83
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[141] <Pictures/fitresults/SRVBF.pdf, id=6121, 569.12625pt x 491.8375pt>
-File: Pictures/fitresults/SRVBF.pdf Graphic file (type pdf)
-
-<use Pictures/fitresults/SRVBF.pdf>
-Package pdftex.def Info: Pictures/fitresults/SRVBF.pdf used on input line 118.
-(pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
-
-<Pictures/fitresults/CRGGF1.pdf, id=6122, 569.12625pt x 491.8375pt>
-File: Pictures/fitresults/CRGGF1.pdf Graphic file (type pdf)
-
-<use Pictures/fitresults/CRGGF1.pdf>
-Package pdftex.def Info: Pictures/fitresults/CRGGF1.pdf used on input line 121.
-
-(pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
-
-<Pictures/fitresults/CRGGF2.pdf, id=6123, 569.12625pt x 491.8375pt>
-File: Pictures/fitresults/CRGGF2.pdf Graphic file (type pdf)
-
-<use Pictures/fitresults/CRGGF2.pdf>
-Package pdftex.def Info: Pictures/fitresults/CRGGF2.pdf used on input line 124.
-
-(pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
-
-<Pictures/fitresults/CRGGF3.pdf, id=6124, 569.12625pt x 491.8375pt>
-File: Pictures/fitresults/CRGGF3.pdf Graphic file (type pdf)
-
-<use Pictures/fitresults/CRGGF3.pdf>
-Package pdftex.def Info: Pictures/fitresults/CRGGF3.pdf used on input line 127.
-
-(pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
-
-<Pictures/fitresults/CRZjets.pdf, id=6125, 569.12625pt x 491.8375pt>
-File: Pictures/fitresults/CRZjets.pdf Graphic file (type pdf)
-
-<use Pictures/fitresults/CRZjets.pdf>
-Package pdftex.def Info: Pictures/fitresults/CRZjets.pdf used on input line 130
-.
-(pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
-
-<Pictures/fitresults/CRTop.pdf, id=6126, 569.12625pt x 491.8375pt>
-File: Pictures/fitresults/CRTop.pdf Graphic file (type pdf)
-
-<use Pictures/fitresults/CRTop.pdf>
-Package pdftex.def Info: Pictures/fitresults/CRTop.pdf used on input line 133.
-(pdftex.def)             Requested size: 140.92793pt x 121.78831pt.
+[141]
+Overfull \hbox (10.6779pt too wide) in paragraph at lines 117--128
+ [] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [142]
-<Pictures/fitresults/correlation_stat.pdf, id=6134, 569.12625pt x 355.3275pt>
-File: Pictures/fitresults/correlation_stat.pdf Graphic file (type pdf)
+Overfull \hbox (134.02132pt too wide) in paragraph at lines 141--152
+ [] 
+ []
 
-<use Pictures/fitresults/correlation_stat.pdf>
-Package pdftex.def Info: Pictures/fitresults/correlation_stat.pdf used on input
- line 142.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[143] <Pictures/fitresults/SRVBF.pdf, id=6139, 569.12625pt x 552.0625pt>
+File: Pictures/fitresults/SRVBF.pdf Graphic file (type pdf)
+
+<use Pictures/fitresults/SRVBF.pdf>
+Package pdftex.def Info: Pictures/fitresults/SRVBF.pdf used on input line 185.
+(pdftex.def)             Requested size: 140.92793pt x 136.70117pt.
+
+<Pictures/fitresults/CRGGF1.pdf, id=6140, 569.12625pt x 552.0625pt>
+File: Pictures/fitresults/CRGGF1.pdf Graphic file (type pdf)
+
+<use Pictures/fitresults/CRGGF1.pdf>
+Package pdftex.def Info: Pictures/fitresults/CRGGF1.pdf used on input line 188.
+
+(pdftex.def)             Requested size: 140.92793pt x 136.70117pt.
+
+<Pictures/fitresults/CRGGF2.pdf, id=6141, 569.12625pt x 552.0625pt>
+File: Pictures/fitresults/CRGGF2.pdf Graphic file (type pdf)
+
+<use Pictures/fitresults/CRGGF2.pdf>
+Package pdftex.def Info: Pictures/fitresults/CRGGF2.pdf used on input line 191.
+
+(pdftex.def)             Requested size: 140.92793pt x 136.70117pt.
+
+<Pictures/fitresults/CRGGF3.pdf, id=6142, 569.12625pt x 552.0625pt>
+File: Pictures/fitresults/CRGGF3.pdf Graphic file (type pdf)
+
+<use Pictures/fitresults/CRGGF3.pdf>
+Package pdftex.def Info: Pictures/fitresults/CRGGF3.pdf used on input line 194.
+
+(pdftex.def)             Requested size: 140.92793pt x 136.70117pt.
+
+<Pictures/fitresults/CRZjets.pdf, id=6143, 569.12625pt x 552.0625pt>
+File: Pictures/fitresults/CRZjets.pdf Graphic file (type pdf)
+
+<use Pictures/fitresults/CRZjets.pdf>
+Package pdftex.def Info: Pictures/fitresults/CRZjets.pdf used on input line 197
+.
+(pdftex.def)             Requested size: 140.92793pt x 136.70117pt.
+
+<Pictures/fitresults/CRTop.pdf, id=6144, 569.12625pt x 552.0625pt>
+File: Pictures/fitresults/CRTop.pdf Graphic file (type pdf)
+
+<use Pictures/fitresults/CRTop.pdf>
+Package pdftex.def Info: Pictures/fitresults/CRTop.pdf used on input line 200.
+(pdftex.def)             Requested size: 140.92793pt x 136.70117pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Pictures/fitresults/correlation_stat.eps>
+(epstopdf)                    date: 2020-06-12 12:54:35
+(epstopdf)                    size: 20672 bytes
+(epstopdf)             Output file: <Pictures/fitresults/correlation_stat-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2020-06-12 15:00:25
+(epstopdf)                    size: 10706 bytes
+(epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/correl
+ation_stat-eps-converted-to.pdf Pictures/fitresults/correlation_stat.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+<Pictures/fitresults/correlation_stat-eps-converted-to.pdf, id=6146, 569.12625p
+t x 355.3275pt>
+File: Pictures/fitresults/correlation_stat-eps-converted-to.pdf Graphic file (t
+ype pdf)
+
+<use Pictures/fitresults/correlation_stat-eps-converted-to.pdf>
+Package pdftex.def Info: Pictures/fitresults/correlation_stat-eps-converted-to.
+pdf used on input line 209.
 (pdftex.def)             Requested size: 211.38832pt x 131.97876pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[144]
 
-Overfull \hbox (10.6779pt too wide) in paragraph at lines 151--161
- [] 
- []
+LaTeX Warning: Text page 145 contains only floats.
 
-[143 <./Pictures/fitresults/SRVBF.pdf, page is rotated 90 degrees> <./Pictures/
+[145 <./Pictures/fitresults/SRVBF.pdf, page is rotated 90 degrees> <./Pictures/
 fitresults/CRGGF1.pdf, page is rotated 90 degrees> <./Pictures/fitresults/CRGGF
 2.pdf, page is rotated 90 degrees> <./Pictures/fitresults/CRGGF3.pdf, page is r
 otated 90 degrees> <./Pictures/fitresults/CRZjets.pdf, page is rotated 90 degre
-es> <./Pictures/fitresults/CRTop.pdf, page is rotated 90 degrees>] [144 <./Pict
-ures/fitresults/correlation_stat.pdf, page is rotated 90 degrees>]
-<Pictures/fitresults/afterfit.png, id=6460, 654.445pt x 625.33624pt>
+es> <./Pictures/fitresults/CRTop.pdf, page is rotated 90 degrees> <./Pictures/f
+itresults/correlation_stat-eps-converted-to.pdf>]
+<Pictures/fitresults/afterfit.png, id=6438, 654.445pt x 625.33624pt>
 File: Pictures/fitresults/afterfit.png Graphic file (type png)
 
 <use Pictures/fitresults/afterfit.png>
-Package pdftex.def Info: Pictures/fitresults/afterfit.png used on input line 17
-0.
+Package pdftex.def Info: Pictures/fitresults/afterfit.png used on input line 21
+8.
 (pdftex.def)             Requested size: 211.38832pt x 201.98189pt.
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_vbf.e
 ps>
@@ -2979,17 +3007,17 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/impact
 _asimov_mu_vbf-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_vbf.ep
 s>
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf, id=6461, 569.12
+<Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf, id=6439, 569.12
 625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_vbf-eps-converted
--to.pdf used on input line 179.
+-to.pdf used on input line 227.
 (pdftex.def)             Requested size: 140.92793pt x 161.80447pt.
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_ggf.e
 ps>
@@ -3002,17 +3030,17 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/impact
 _asimov_mu_ggf-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_ggf.ep
 s>
-(epstopdf)             \includegraphics on input line 182.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf, id=6462, 569.12
+<Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf, id=6440, 569.12
 625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use Pictures/fitresults/impact_asimov_mu_ggf-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_ggf-eps-converted
--to.pdf used on input line 182.
+-to.pdf used on input line 230.
 (pdftex.def)             Requested size: 140.92793pt x 161.80447pt.
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_ggf_1
 .eps>
@@ -3025,17 +3053,17 @@ Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_ggf_1
 (epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/impact
 _asimov_mu_ggf_1-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_ggf_
 1.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf, id=6463, 569.
+<Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf, id=6441, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/fitresults/impact_asimov_mu_ggf_1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_ggf_1-eps-convert
-ed-to.pdf used on input line 185.
+ed-to.pdf used on input line 233.
 (pdftex.def)             Requested size: 140.92793pt x 161.80447pt.
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_ggf_2
 .eps>
@@ -3048,17 +3076,17 @@ Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_ggf_2
 (epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/impact
 _asimov_mu_ggf_2-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_ggf_
 2.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf, id=6464, 569.
+<Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf, id=6442, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_ggf_2-eps-convert
-ed-to.pdf used on input line 188.
+ed-to.pdf used on input line 236.
 (pdftex.def)             Requested size: 140.92793pt x 161.80447pt.
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_wwTop
 .eps>
@@ -3071,17 +3099,17 @@ Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_wwTop
 (epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/impact
 _asimov_mu_wwTop-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_wwTo
 p.eps>
-(epstopdf)             \includegraphics on input line 191.
+(epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf, id=6465, 569.
+<Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf, id=6443, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_wwTop-eps-convert
-ed-to.pdf used on input line 191.
+ed-to.pdf used on input line 239.
 (pdftex.def)             Requested size: 140.92793pt x 161.80447pt.
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_Zjets
 .eps>
@@ -3094,113 +3122,68 @@ Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_Zjets
 (epstopdf)             Command: <repstopdf --outfile=Pictures/fitresults/impact
 _asimov_mu_Zjets-eps-converted-to.pdf Pictures/fitresults/impact_asimov_mu_Zjet
 s.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf, id=6466, 569.
+<Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf, id=6444, 569.
 12625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_Zjets-eps-convert
-ed-to.pdf used on input line 194.
+ed-to.pdf used on input line 242.
 (pdftex.def)             Requested size: 140.92793pt x 161.80447pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[145 <./Pictures/fitresults/afterfit.png>] [146 <./Pictures/fitresults/impact_a
+[146 <./Pictures/fitresults/afterfit.png>] [147 <./Pictures/fitresults/impact_a
 simov_mu_vbf-eps-converted-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf-
 eps-converted-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf_1-eps-convert
 ed-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf> 
 <./Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf> <./Pictures
-/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>] [147] [148] [149]
-<Pictures/unfolding/validation/higgs_pt_validation.pdf, id=6595, 569.12625pt x 
-555.07375pt>
-File: Pictures/unfolding/validation/higgs_pt_validation.pdf Graphic file (type 
-pdf)
- <use Pictures/unfolding/validation/higgs_pt_validation.pdf>
-Package pdftex.def Info: Pictures/unfolding/validation/higgs_pt_validation.pdf 
-used on input line 278.
-(pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
-
-<Pictures/unfolding/validation/MTll_validation.pdf, id=6596, 569.12625pt x 555.
-07375pt>
-File: Pictures/unfolding/validation/MTll_validation.pdf Graphic file (type pdf)
-
- <use Pictures/unfolding/validation/MTll_validation.pdf>
-Package pdftex.def Info: Pictures/unfolding/validation/MTll_validation.pdf used
- on input line 281.
-(pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
-
-<Pictures/unfolding/validation/DYll_validation.pdf, id=6597, 569.12625pt x 555.
-07375pt>
-File: Pictures/unfolding/validation/DYll_validation.pdf Graphic file (type pdf)
-
- <use Pictures/unfolding/validation/DYll_validation.pdf>
-Package pdftex.def Info: Pictures/unfolding/validation/DYll_validation.pdf used
- on input line 284.
-(pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
-
-<Pictures/unfolding/validation/Mjj_validation.pdf, id=6598, 569.12625pt x 555.0
-7375pt>
-File: Pictures/unfolding/validation/Mjj_validation.pdf Graphic file (type pdf)
- <use Pictures/unfolding/validation/Mjj_validation.pdf>
-Package pdftex.def Info: Pictures/unfolding/validation/Mjj_validation.pdf used 
-on input line 287.
-(pdftex.def)             Requested size: 187.89914pt x 183.25958pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6600, 346.896
+/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>] [148] [149] [150]
+[151]
+<Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6584, 346.896
 01pt x 346.89601pt>
 File: Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf Graphic file
  (type pdf)
 
 <use Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/higgs_pt_migratio
-ns.pdf used on input line 297.
+ns.pdf used on input line 353.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/MTll_migrations.pdf, id=6601, 346.89601pt
+<Pictures/unfolding/response_matrices/MTll_migrations.pdf, id=6585, 346.89601pt
  x 346.89601pt>
 File: Pictures/unfolding/response_matrices/MTll_migrations.pdf Graphic file (ty
 pe pdf)
  <use Pictures/unfolding/response_matrices/MTll_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/MTll_migrations.p
-df used on input line 300.
+df used on input line 356.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/DYll_migrations.pdf, id=6602, 346.89601pt
+<Pictures/unfolding/response_matrices/DYll_migrations.pdf, id=6586, 346.89601pt
  x 346.89601pt>
 File: Pictures/unfolding/response_matrices/DYll_migrations.pdf Graphic file (ty
 pe pdf)
  <use Pictures/unfolding/response_matrices/DYll_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/DYll_migrations.p
-df used on input line 303.
+df used on input line 359.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/Mjj_migrations.pdf, id=6603, 346.89601pt 
+<Pictures/unfolding/response_matrices/Mjj_migrations.pdf, id=6587, 346.89601pt 
 x 346.89601pt>
 File: Pictures/unfolding/response_matrices/Mjj_migrations.pdf Graphic file (typ
 e pdf)
  <use Pictures/unfolding/response_matrices/Mjj_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/Mjj_migrations.pd
-f used on input line 306.
+f used on input line 362.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[150] [151 <./Pictures/unfolding/validation/higgs_pt_validation.pdf, page is ro
-tated 90 degrees> <./Pictures/unfolding/validation/MTll_validation.pdf, page is
- rotated 90 degrees> <./Pictures/unfolding/validation/DYll_validation.pdf, page
- is rotated 90 degrees> <./Pictures/unfolding/validation/Mjj_validation.pdf, pa
-ge is rotated 90 degrees>] [152 <./Pictures/unfolding/response_matrices/higgs_p
-t_migrations.pdf> <./Pictures/unfolding/response_matrices/MTll_migrations.pdf
+[152 <./Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf> <./Pictur
+es/unfolding/response_matrices/MTll_migrations.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/unfolding/response_matrices/MTll_migr
 ations.pdf): PDF inclusion: multiple pdfs with page group included in a single 
@@ -3277,10 +3260,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 12723 strings out of 493033
- 219073 string characters out of 6134139
- 300356 words of memory out of 5000000
- 15255 multiletter control sequences out of 15000+600000
+ 12703 strings out of 493033
+ 218175 string characters out of 6134139
+ 300347 words of memory out of 5000000
+ 15240 multiletter control sequences out of 15000+600000
  15782 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,49p,2699b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3303,10 +3286,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (174 pages, 12335694 bytes).
+Output written on LauraThesis.pdf (174 pages, 12281660 bytes).
 PDF statistics:
- 7177 PDF objects out of 7423 (max. 8388607)
- 3818 compressed objects within 39 object streams
+ 6971 PDF objects out of 7423 (max. 8388607)
+ 3739 compressed objects within 38 object streams
  605 named destinations out of 1000 (max. 500000)
- 1211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

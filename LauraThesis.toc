@@ -68,8 +68,9 @@
 \contentsline {chapter}{\numberline {7}Results}{137}{chapter.7}
 \contentsline {section}{\numberline {7.1}Statistical analysis}{137}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{137}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Asimov results}{142}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{146}{section.7.2}
-\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{149}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future results and measurements}{152}{section.7.4}
+\contentsline {subsection}{\numberline {7.1.2}Asimov results}{141}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Unblinded results}{143}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{147}{section.7.2}
+\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{150}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future results and measurements}{153}{section.7.4}
 \contentsline {chapter}{\numberline {8}Conclusions}{155}{chapter.8}
