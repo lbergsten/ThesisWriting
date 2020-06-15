@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  12 JUN 2020 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  15 JUN 2020 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -612,23 +612,22 @@ File: Pictures/HiggsPotential.png Graphic file (type png)
 <use Pictures/HiggsPotential.png>
 Package pdftex.def Info: Pictures/HiggsPotential.png used on input line 166.
 (pdftex.def)             Requested size: 234.8775pt x 148.21179pt.
- [14] [15 <./Pictures/HiggsPotential.png>]
-[16] [17] [18] [19]
-<Pictures/protonproton.png, id=349, 766.865pt x 537.00626pt>
+ [14 <./Pictures/HiggsPotential.png>] [15]
+[16] [17] [18] <Pictures/protonproton.png, id=345, 766.865pt x 537.00626pt>
 File: Pictures/protonproton.png Graphic file (type png)
 
 <use Pictures/protonproton.png>
 Package pdftex.def Info: Pictures/protonproton.png used on input line 271.
 (pdftex.def)             Requested size: 234.8775pt x 164.47087pt.
- [20 <./Pictures/protonproton.png>] [21]
-<Pictures/crosssections.jpg, id=367, 634.5306pt x 823.27576pt>
+ [19] [20 <./Pictures/protonproton.png>]
+<Pictures/crosssections.jpg, id=361, 634.5306pt x 823.27576pt>
 File: Pictures/crosssections.jpg Graphic file (type jpg)
 
 <use Pictures/crosssections.jpg>
 Package pdftex.def Info: Pictures/crosssections.jpg used on input line 287.
 (pdftex.def)             Requested size: 234.8775pt x 304.74544pt.
-
-<Pictures/FeynmannHiggs.png, id=371, 798.985pt x 456.70625pt>
+ [21]
+<Pictures/FeynmannHiggs.png, id=372, 798.985pt x 456.70625pt>
 File: Pictures/FeynmannHiggs.png Graphic file (type png)
 
 <use Pictures/FeynmannHiggs.png>
@@ -3143,8 +3142,12 @@ simov_mu_vbf-eps-converted-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf-
 eps-converted-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf_1-eps-convert
 ed-to.pdf> <./Pictures/fitresults/impact_asimov_mu_ggf_2-eps-converted-to.pdf> 
 <./Pictures/fitresults/impact_asimov_mu_wwTop-eps-converted-to.pdf> <./Pictures
-/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>] [148] [149] [150]
-[151]
+/fitresults/impact_asimov_mu_Zjets-eps-converted-to.pdf>] [148]
+
+Package natbib Warning: Citation `YellowReport' on page 149 undefined on input 
+line 300.
+
+[149] [150] [151]
 <Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6584, 346.896
 01pt x 346.89601pt>
 File: Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf Graphic file
@@ -3246,9 +3249,12 @@ cmr/m/it/12 Eur. Phys. J. C\OT1/cmr/m/n/12 ,
  []
 
 [163] [164] [165] [166]) [167]
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
- (./LauraThesis.aux)
+(./LauraThesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `LauraThesis.out' has not changed.
@@ -3260,10 +3266,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 12703 strings out of 493033
- 218175 string characters out of 6134139
- 300347 words of memory out of 5000000
- 15240 multiletter control sequences out of 15000+600000
+ 12704 strings out of 493033
+ 218189 string characters out of 6134139
+ 300390 words of memory out of 5000000
+ 15241 multiletter control sequences out of 15000+600000
  15782 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,49p,2699b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3286,7 +3292,7 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (174 pages, 12281660 bytes).
+Output written on LauraThesis.pdf (174 pages, 12281369 bytes).
 PDF statistics:
  6971 PDF objects out of 7423 (max. 8388607)
  3739 compressed objects within 38 object streams

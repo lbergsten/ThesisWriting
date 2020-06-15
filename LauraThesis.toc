@@ -3,12 +3,12 @@
 \contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Standard Model}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Particles and forces}{4}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Gauge Invariance}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Gauge Invariance}{6}{subsection.2.1.2}
 \contentsline {subsubsection}{Quantum Electrodynamics}{7}{section*.3}
 \contentsline {subsubsection}{Quantum chromodynamics}{9}{section*.4}
-\contentsline {subsubsection}{Electroweak unification}{11}{section*.5}
+\contentsline {subsubsection}{Electroweak unification}{10}{section*.5}
 \contentsline {subsubsection}{Spontaneous Symmetry Breaking}{13}{section*.6}
-\contentsline {section}{\numberline {2.2}LHC Physics/Phenomenology}{19}{section.2.2}
+\contentsline {section}{\numberline {2.2}LHC Physics/Phenomenology}{18}{section.2.2}
 \contentsline {section}{\numberline {2.3}Brief history of SM tests}{26}{section.2.3}
 \contentsline {section}{\numberline {2.4}Measurement motivation}{31}{section.2.4}
 \contentsline {chapter}{\numberline {3}The LHC and the ATLAS detector}{33}{chapter.3}

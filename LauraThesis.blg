@@ -44,6 +44,7 @@ I was expecting a `,' or a `}'---line 669 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
 --line 672 of file references.bib
+Warning--I didn't find a database entry for "YellowReport"
 Warning--empty publisher in HalzenMartin
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
@@ -69,7 +70,7 @@ Warning--empty author in MT2
 Warning--empty author in ATLAS-CONF-2019-021
 You've used 61 entries,
             1791 wiz_defined-function locations,
-            789 strings with 24088 characters,
+            791 strings with 24112 characters,
 and the built_in function-call counts, 19847 in all, are:
 = -- 918
 > -- 2519
