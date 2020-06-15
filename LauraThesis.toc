@@ -8,69 +8,69 @@
 \contentsline {subsubsection}{Quantum chromodynamics}{9}{section*.4}
 \contentsline {subsubsection}{Electroweak unification}{10}{section*.5}
 \contentsline {subsubsection}{Spontaneous Symmetry Breaking}{13}{section*.6}
-\contentsline {section}{\numberline {2.2}LHC Physics/Phenomenology}{18}{section.2.2}
+\contentsline {section}{\numberline {2.2}LHC Physics/Phenomenology}{19}{section.2.2}
 \contentsline {section}{\numberline {2.3}Brief history of SM tests}{26}{section.2.3}
 \contentsline {section}{\numberline {2.4}Measurement motivation}{31}{section.2.4}
 \contentsline {chapter}{\numberline {3}The LHC and the ATLAS detector}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}ATLAS, A Toroidal LHC ApparatuS}{36}{section.3.1}
-\contentsline {section}{\numberline {3.2}The High-Luminosity LHC and Inner Tracker (ITk)}{38}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Inner Tracker (ITk)}{40}{subsection.3.2.1}
-\contentsline {subsubsection}{Building ITk Strip barrel staves}{41}{section*.19}
-\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{44}{section*.24}
-\contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{49}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tracking}{50}{section.4.1}
-\contentsline {section}{\numberline {4.2}Electrons}{51}{section.4.2}
-\contentsline {section}{\numberline {4.3}Muons}{55}{section.4.3}
-\contentsline {section}{\numberline {4.4}Jets}{65}{section.4.4}
-\contentsline {section}{\numberline {4.5}Missing transverse energy}{70}{section.4.5}
-\contentsline {chapter}{\numberline {5}Event Selection}{74}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{74}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Data samples}{74}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Monte Carlo samples}{75}{subsection.5.1.2}
-\contentsline {subsubsection}{Vector boson fusion Higgs samples}{76}{section*.41}
-\contentsline {subsubsection}{Other production mode Higgs samples}{76}{section*.42}
-\contentsline {subsubsection}{Background samples}{77}{section*.43}
-\contentsline {section}{\numberline {5.2}Object definitions}{77}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Lepton}{78}{subsection.5.2.1}
-\contentsline {subsubsection}{Electron}{78}{section*.44}
-\contentsline {subsubsection}{Muon}{79}{section*.46}
-\contentsline {subsection}{\numberline {5.2.2}Jets}{80}{subsection.5.2.2}
-\contentsline {subsubsection}{$b$-tagged jet}{81}{section*.48}
-\contentsline {subsection}{\numberline {5.2.3}Missing transverse energy}{81}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Overlap removal}{81}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Common Observables}{82}{section.5.3}
-\contentsline {section}{\numberline {5.4}Event selection}{84}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Pre-selection}{86}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Signal region selection}{87}{subsection.5.4.2}
-\contentsline {subsubsection}{VBF signal boosted decision tree discriminant}{90}{section*.58}
-\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{96}{chapter.6}
-\contentsline {section}{\numberline {6.1}Backgrounds}{96}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Drell-Yan background ($Z\rightarrow \tau \tau $)}{97}{subsection.6.1.1}
-\contentsline {subsubsection}{Drell-Yan Control Region}{98}{section*.64}
-\contentsline {subsection}{\numberline {6.1.2}Top background}{98}{subsection.6.1.2}
-\contentsline {subsubsection}{Top$+WW$ BDT discriminant}{100}{section*.69}
-\contentsline {subsection}{\numberline {6.1.3}Diboson background}{104}{subsection.6.1.3}
-\contentsline {subsubsection}{Top vs. $WW$ BDT discriminant}{105}{section*.76}
-\contentsline {subsection}{\numberline {6.1.4}ggF background}{109}{subsection.6.1.4}
-\contentsline {subsubsection}{Discriminant in ggF CR1}{110}{section*.81}
-\contentsline {subsubsection}{Discriminant in ggF CR2}{113}{section*.87}
-\contentsline {subsubsection}{Discriminant in ggF-CR3}{116}{section*.93}
-\contentsline {subsubsection}{Discriminant for ggF and VBF in the signal region}{119}{section*.99}
-\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{122}{subsection.6.1.5}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{125}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{126}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{128}{subsection.6.2.2}
-\contentsline {subsubsection}{Signal theory uncertainties}{128}{section*.109}
-\contentsline {subsubsection}{ggF background theory uncertainties}{130}{section*.112}
-\contentsline {subsubsection}{Top background theory uncertainties}{131}{section*.115}
-\contentsline {subsubsection}{$WW$ background theory uncertainties}{133}{section*.119}
-\contentsline {subsection}{\numberline {6.2.3}$Z\rightarrow \tau \tau $ background theory uncertainties}{135}{subsection.6.2.3}
-\contentsline {chapter}{\numberline {7}Results}{137}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{137}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{137}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Asimov results}{141}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Unblinded results}{143}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{147}{section.7.2}
-\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{150}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future results and measurements}{153}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{155}{chapter.8}
+\contentsline {section}{\numberline {3.1}ATLAS}{36}{section.3.1}
+\contentsline {section}{\numberline {3.2}The High-Luminosity LHC and Inner Tracker}{38}{section.3.2}
+\contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tracking}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Electrons}{42}{section.4.2}
+\contentsline {section}{\numberline {4.3}Muons}{46}{section.4.3}
+\contentsline {section}{\numberline {4.4}Jets}{56}{section.4.4}
+\contentsline {section}{\numberline {4.5}Missing transverse energy}{61}{section.4.5}
+\contentsline {chapter}{\numberline {5}Event Selection}{65}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{65}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Data samples}{65}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Monte Carlo samples}{66}{subsection.5.1.2}
+\contentsline {subsubsection}{Vector boson fusion Higgs samples}{67}{section*.30}
+\contentsline {subsubsection}{Other production mode Higgs samples}{67}{section*.31}
+\contentsline {subsubsection}{Background samples}{68}{section*.32}
+\contentsline {section}{\numberline {5.2}Object definitions}{68}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Lepton}{69}{subsection.5.2.1}
+\contentsline {subsubsection}{Electron}{69}{section*.33}
+\contentsline {subsubsection}{Muon}{70}{section*.35}
+\contentsline {subsection}{\numberline {5.2.2}Jets}{71}{subsection.5.2.2}
+\contentsline {subsubsection}{$b$-tagged jet}{72}{section*.37}
+\contentsline {subsection}{\numberline {5.2.3}Missing transverse energy}{72}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Overlap removal}{72}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Common Observables}{73}{section.5.3}
+\contentsline {section}{\numberline {5.4}Event selection}{75}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Pre-selection}{77}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Signal region selection}{78}{subsection.5.4.2}
+\contentsline {subsubsection}{VBF signal boosted decision tree discriminant}{81}{section*.47}
+\contentsline {chapter}{\numberline {6}Backgrounds and Systematics}{87}{chapter.6}
+\contentsline {section}{\numberline {6.1}Backgrounds}{87}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Drell-Yan background ($Z\rightarrow \tau \tau $)}{88}{subsection.6.1.1}
+\contentsline {subsubsection}{Drell-Yan Control Region}{89}{section*.53}
+\contentsline {subsection}{\numberline {6.1.2}Top background}{89}{subsection.6.1.2}
+\contentsline {subsubsection}{Top$+WW$ BDT discriminant}{91}{section*.58}
+\contentsline {subsection}{\numberline {6.1.3}Diboson background}{95}{subsection.6.1.3}
+\contentsline {subsubsection}{Top vs. $WW$ BDT discriminant}{96}{section*.65}
+\contentsline {subsection}{\numberline {6.1.4}ggF background}{100}{subsection.6.1.4}
+\contentsline {subsubsection}{Discriminant in ggF CR1}{101}{section*.70}
+\contentsline {subsubsection}{Discriminant in ggF CR2}{104}{section*.76}
+\contentsline {subsubsection}{Discriminant in ggF-CR3}{107}{section*.82}
+\contentsline {subsubsection}{Discriminant for ggF and VBF in the signal region}{110}{section*.88}
+\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{113}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{116}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{117}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{119}{subsection.6.2.2}
+\contentsline {subsubsection}{Signal theory uncertainties}{119}{section*.98}
+\contentsline {subsubsection}{ggF background theory uncertainties}{121}{section*.101}
+\contentsline {subsubsection}{Top background theory uncertainties}{122}{section*.104}
+\contentsline {subsubsection}{$WW$ background theory uncertainties}{124}{section*.108}
+\contentsline {subsection}{\numberline {6.2.3}$Z\rightarrow \tau \tau $ background theory uncertainties}{126}{subsection.6.2.3}
+\contentsline {chapter}{\numberline {7}Results}{128}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{128}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{128}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Asimov results}{132}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Unblinded results}{134}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{138}{section.7.2}
+\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{141}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future results and measurements}{144}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions}{146}{chapter.8}
+\contentsline {chapter}{\numberline {A}Inner Tracker}{158}{appendix.A}
+\contentsline {subsubsection}{Building ITk Strip barrel staves}{158}{section*.128}
+\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{163}{section*.133}

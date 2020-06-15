@@ -271,12 +271,6 @@ Apollinari G., Béjar~Alonso I., Brüning O., Fessia P., Lamont M., Rossi L.,
   Design Report V. 0.1}}.
 \newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2017.
 
-\bibitem{ITktech}
-ATLAS Collaboration.
-\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
-\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
-  2017.
-
 \bibitem{tracking}
 {Early Inner Detector Tracking Performance in the 2015 data at $\sqrt{s}$ = 13
   TeV}.
@@ -457,5 +451,11 @@ Kyle Cranmer.
 G.~D'Agostini.
 \newblock {A Multidimensional unfolding method based on Bayes' theorem}.
 \newblock {\em Nucl. Instrum. Meth. A}, 362:487--498, 1995.
+
+\bibitem{ITktech}
+ATLAS Collaboration.
+\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
+\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
+  2017.
 
 \end{thebibliography}
