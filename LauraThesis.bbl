@@ -322,6 +322,10 @@ G.~Aad, B.~Abbott, J.~Abdallah, A.~A. Abdelalim, A.~Abdesselam, O.~Abdinov,
 Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
 \newblock Technical report.
 
+\bibitem{CrystalBall}
+Souvik Das.
+\newblock A simple alternative to the crystal ball function, 2016.
+
 \bibitem{JetRun1}
 {Jet global sequential corrections with the ATLAS detector in proton-proton
   collisions at $\sqrt{s}$ = 8 TeV}.
@@ -413,6 +417,13 @@ Travis Martin and W~Martin.
 \newblock Analyzing new neutral gauge bosons at the lhc using third generation
   fermions.
 \newblock 05 2020.
+
+\bibitem{ourSupportNote}
+L.~Bergste C. Blocker J. Chen C. Piccola G. Iakovidis C. Kitsaki G. Rosin G.
+  Sciolla S.~Stucci S.~Addepalli, G.~Barone and A.~Tricoli.
+\newblock Measurements of the $h\rightarrow ww^*\rightarrow \ell\nu\ell\nu$
+  cross section in vector boson fusion at $\sqrt{s}=13$ tev with the atlas
+  detector, In preparation.
 
 \bibitem{MT2}
 {Top quark mass measurement in the $e\mu$ channel using the mT2 variable at

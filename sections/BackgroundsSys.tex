@@ -1,34 +1,35 @@
 %{Backgrounds and systematics}
 \section{Backgrounds}
-While the VBF $H\rightarrow WW\rightarrow \ell\nu\ell\nu$ channel gives a fairly clear signal with $E_{\text{T}}^{\text{miss}}$, two leptons, and 2 jets, there are substantial backgrounds with similar final states. These include Drell-Yan processes (in which a $Z$ boson is formed from quark anti-quark annihilation of the two colliding protons), top quark final states (predominantly $t\bar{t}$), diboson events (led by SM $WW$ events), Higgs decays from the other production modes (mainly ggF), and background from mis-identified leptons, called fakes. In this section I will detail each background and describe our methods for estimating their role in overall results. I will describe how this analysis estimates and minimizes contributions from each background process. Finally, I will measure the purity and validate the modelling of these backgrounds by using events in ``control'' and ``validation'' regions. These regions are designed to select for particular backgrounds to use in the final statistical fit, ``control regions'', orto test that backgrounds overall modelling, ``validation regions''.  I made key contributions in this analysis in optimizing and testing control region definitions and their effects on our overall results. 
+While the VBF $H\rightarrow WW\rightarrow \ell\nu\ell\nu$ channel gives a fairly clear signal with $E_{\text{T}}^{\text{miss}}$, two leptons, and 2 jets, there are substantial backgrounds with similar final states. These include Drell-Yan processes (in which a $Z$ boson is formed from quark anti-quark annihilation of the two colliding protons), top quark final states (predominantly $t\bar{t}$), diboson events (led by SM $WW$ events), Higgs decays from the other production modes (mainly ggF), and background from mis-identified leptons, called fakes. In this section I will detail each background and describe our methods for estimating their role in overall results. I will describe how this analysis estimates and minimizes contributions from each background process. Finally, I will measure the purity and validate the modeling of these backgrounds by using events in ``control'' and ``validation'' regions. These regions are designed to select for particular backgrounds to use in the final statistical fit, ``control regions'', or to test that backgrounds overall modeling, ``validation regions''.  I made key contributions in this analysis in optimizing and testing control region definitions and their effects on our overall results. 
 
 \subsection{Drell-Yan background ($Z\rightarrow \tau\tau$)}
-The Drell-Yan background is produced in the initial collision when two quarks produce a $Z$ boson which then decays to two leptons. In this analysis we select two different flavor leptons in order to reject large Drell-Yan backgrounds in which the $Z$ decays to two electrons or two muons. However, our signal is still contaminated by Drell-Yan decays where the $Z$ decays to two $\tau$ leptons. We select events where one $\tau$ decays to an electron and the other to a muon. There are two jets and two leptons in this the Drell-Yan final state as well as missing energy from neutrinos, all of which are indicative of signal VBF Higgs events. The Feynman diagram for a typical Drell-Yan event is shown in Figure \ref{fig:DrellYan}. 
+The Drell-Yan background is produced in the initial collision when two quarks produce a $Z$ boson which then decays to two leptons. In this analysis we select two different flavor leptons in order to reject large Drell-Yan backgrounds in which the $Z$ decays to two electrons or two muons. However, our signal is still contaminated by Drell-Yan decays where the $Z$ decays to two $\tau$ leptons. We select events where one $\tau$ decays to an electron and the other to a muon. There are two jets and two leptons in this the Drell-Yan final state as well as missing energy from neutrinos, all of which are indicative of signal VBF Higgs events. The Feynman diagram for a typical Drell-Yan event is shown in Figure~\ref{fig:DrellYan}. 
 
 \begin{figure}
 \centering
   \includegraphics[width=.35\linewidth]{Pictures/FeynmanDrellYan.png}
-\caption{Feynman diagram for Drell-Yan process in which two quarks produce a photon or $Z$-boson that then decays leptonically \cite{DrellYan}.}
+\caption{Feynman diagram for Drell-Yan process in which two quarks produce a photon or $Z$-boson that then decays leptonically~\cite{DrellYan}.}
 \label{fig:DrellYan}
 \end{figure}
 
 Removing events in a 25 GeV window about the $Z$-mass peak drastically improves $Z+$jets purity from only 19$\%$ of total events to approximately $52\%$. 
 
-We have also tested and trained a secondary discriminant for $Z+$jets in our analysis, a BDT trained to discriminate $Z+$jets and VBF signal events. This BDT significantly decreases overall $Z+$jets background in our signal region but we found that the subsequent decrease in statistics from using this cut leads to very similar overall results. The results from this comparison are shown in Appendix II. 
+We have also tested and trained a secondary discriminant for $Z+$jets in our analysis, a BDT trained to discriminate between $Z+$jets and VBF signal events. This BDT significantly decreases overall $Z+$jets background in our signal region but we found that the subsequent decrease in statistics from using this cut leads to very similar overall results. The results from this comparison are shown in Appendix B. 
 
 \subsubsection{Drell-Yan Control Region}
 
-The $Z+$jets control region definition is quite similar to the VBF signal region except that the $Z+$jets veto cut is inverted. Thus instead of removing events near the $Z$-mass window we select for them by applying a cut on $m_{ll}<80$ GeV,  66.2 GeV $< m_{\tau\tau}< 116.2$ GeV, and the same OLV and CJV cuts as in the VBF signal region. The $Z+$jets control region has a purity of $\approx 82\%$ and yields in this region are shown in the table \ref{tab:zttcr}.
+The $Z+$jets control region definition is quite similar to the VBF signal region except that the $Z+$jets veto cut is inverted. Thus instead of removing events near the $Z$-mass window we select for them by applying a cut on $m_{ll}<80$ GeV,  66.2 GeV $< m_{\tau\tau}< 116.2$ GeV, and the same OLV and CJV cuts as in the VBF signal region. The $Z+$jets control region has a purity of $\approx 82\%$ and yields in this region are shown in the Table~\ref{tab:zttcr}.
 
 \begin{table}[h!]
-\scalebox{0.55}{
+\centering
+\scalebox{0.65}{
 \input{Pictures/emme-vbf-ZttCR.tex}
 }
 \caption{Cutflow in the $Z+$jets control region.}
 \label{tab:zttcr}
 \end{table}
 
-Data/MC shows decent agreement over various variable distributions as seen in the plots \ref{fig:DYCR3}. Some of these variables are also used in the BDT described in Appendix II. 
+Data/MC shows agreement over various variable distributions as seen in Figures~\ref{fig:DYCR3}. Some of these variables are also used in the BDT described in Appendix B. 
 
 \begin{figure}[!h]
 \centering
@@ -63,22 +64,23 @@ Data/MC shows decent agreement over various variable distributions as seen in th
 \label{fig:DYCR3}}}
 \end{figure}
 
-Normalization factors (NF) are derived in the $Z+$jets control region to correct for Data/MC mis-modelling. These factors are applied to the $Z+$jets sample in the signal region. The NF factor used in this analysis is $1.01 \pm 0.04$. 
+Normalization factors (NF) are derived in the $Z+$jets control region to correct for Data/MC mis-modeling. These factors are applied to the $Z+$jets sample in the signal region. The NF factor used in this analysis is $1.01 \pm 0.04$. 
 
 \subsection{Top background}
 The top background consists of two main components, $Wt$ and $t\bar{t}$ events, where the $W$ decays leptonically and the top quarks decay to jets (notably $b$-jets). The top background is dominated by $t\bar{t}$ and is the largest background in our signal region, composing about $60\%$ of the total background. Though top backgrounds are numerous, discrimination between top and signal Higgs events is possible through training a BDT on variables that have very different discributions between these two types of events like $m_{\ell\ell}$ and $\Delta Y_{jj}$. As demonstrated in Chapter 4, our BDT discriminates between signal and top background quite well. The top background is therefore defined in the signal region and separated using the VBF vs. top$+WW$ discriminant. The final statistical fit seven total BDT discriminant and three of these are assocated with the top background: VBF vs. top$+WW$, top$+WW$ vs. all other samples, and top vs. $WW$. The overall statistical fit strategy is discussed in the following chapter but in this section I will describe the BDT used as the top discriminant: top$+WW$ vs. all other samples. 
 
-We define a top validation region to test top Monte Carlo modelling and calculate a normalization factor used to correct top mis-modelling in the signal region. The top validation region is described similarly to the signal region with one major difference: the $b$- tagging selection applied in the signal region is (almost) reversed. Instead, we require exactly one $b$-tagged jet. The result is a highly pure top validation region, approximately $97\%$, where the flavor composition of the tagged jets is close to the signal region. Yields in this region are shown in the table \ref{tab:topcr}.
+We define a top validation region to test top Monte Carlo modeling and calculate a normalization factor used to correct top mis-modeling in the signal region. The top validation region is described similarly to the signal region with one major difference: the $b$- tagging selection applied in the signal region is (almost) reversed. Instead, we require exactly one $b$-tagged jet. The result is a highly pure top validation region, approximately $97\%$, where the flavor composition of the tagged jets is close to the signal region. Yields in this region are shown in the Table \ref{tab:topcr}.
 
 \begin{table}[h!]
-\scalebox{0.55}{
+\centering
+\scalebox{0.65}{
 \input{Pictures/emme-vbf-TopCR.tex}
 }
 \caption{Cutflow in the top control region.}
 \label{tab:topcr}
 \end{table}
 
-Data/MC in the top validation region shows good agreement over various variable distributions as seen in the  below. Many of these distributions are used as inputs to the top$+WW$ vs. all BDT. 
+Data/MC in the top validation region shows good agreement over various variable distributions as seen in Figure~\ref{fig:TopCR3}. Many of these distributions are used as inputs to the top$+WW$ vs. all BDT. 
 
 \begin{figure}[!h]
 \centering
@@ -121,7 +123,7 @@ Data/MC in the top validation region shows good agreement over various variable 
 
 \subsubsection{Top$+WW$ BDT discriminant}
 
-The top$+WW$ BDT is trained after the VBF selection and applied in the same phase space. The training includes top and $WW$ trained against weighted samples of VBF, ggF, $Z+$jets, and $V\gamma$ events. There are about 90,000 un-weighted $WW$ and top events corresponding to approximately 2000 weighted events and about 115,000 un-weighted VBF, ggF, $Z+$jets and $V\gamma$ events corresponding to 550 weighted events. The same BDT training interface and strategy discussed in Chapter 5 is used again here. The final set of testing parameters is summarized in Table~\ref{tab:TopBDTparameters}.
+The top$+WW$ BDT is trained after the VBF selection and applied in the same phase space. The training includes top and $WW$ trained against weighted samples of VBF, ggF, $Z+$jets, and $V\gamma$ events. There are about 90,000 un-weighted $WW$ and top events corresponding to approximately 2,000 weighted events and about 115,000 un-weighted VBF, ggF, $Z+$jets and $V\gamma$ events corresponding to 550 weighted events. The same BDT training interface and strategy discussed in Chapter 5 is used again here. The final set of testing parameters is summarized in Table~\ref{tab:TopBDTparameters}.
 
 \begin{table}[h!]
 \centering
@@ -140,33 +142,39 @@ Number of cuts                               &  7        \\
 \label{tab:TopBDTparameters}
 \end{table}
 
-This BDT utilizes 8 lepton and jet kinematic variables to distinguish between top$+WW$ and other events. These include $\Delta Y_{jj}$, the combination of lepton/jet masses $M_{l0j0}$ for leading and subleading leptons and jets, $\Delta \Phi_{\ell\ell}$, $m_T$, $\eta_{j0}$, $\eta_{j1}$, $\Delta \Phi_{jj}$, and $\sum$ centralities (L). Plots shown in \ref{fig:TopBDTinput} and \ref{fig:TopcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
+This BDT utilizes 8 lepton and jet kinematic variables to distinguish between top$+WW$ and other events. These include $\Delta Y_{jj}$, the combination of lepton/jet masses $M_{l0j0}$ for leading and subleading leptons and jets, $\Delta \Phi_{\ell\ell}$, $m_T$, $\eta_{j0}$, $\eta_{j1}$, $\Delta \Phi_{jj}$, and $\sum$ centralities (L). Figures~\ref{fig:TopBDTinput} and ~\ref{fig:TopcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.55\linewidth]{Pictures/Top+WWvsEverything/variables_id_c1.eps}
-    \includegraphics[width=0.55\linewidth]{Pictures/Top+WWvsEverything/variables_id_c2.eps}
-    \caption{Distributions of input variables to top+$WW$ vs. other samples BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents top+$WW$ and background all other samples (S. Addepalli).}.
+    \includegraphics[width=0.7\linewidth]{Pictures/Top+WWvsEverything/variables_id_c1.eps}
+    \includegraphics[width=0.7\linewidth]{Pictures/Top+WWvsEverything/variables_id_c2.eps}
+    \caption{Distributions of input variables to top+$WW$ vs. other samples BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents top+$WW$ and background all other samples~\cite{ourSupportNote}.}
     \label{fig:TopBDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.3\linewidth]{Pictures/Top+WWvsEverything/CorrelationMatrixS.eps}
-  \includegraphics[width=.3\linewidth]{Pictures/Top+WWvsEverything/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to top +$WW$ vs other samples BDT. Signal represents top+$WW$ and background other samples (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/Top+WWvsEverything/CorrelationMatrixS.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/Top+WWvsEverything/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to top +$WW$ vs other samples BDT. Signal represents top+$WW$ and background other samples~\cite{ourSupportNote}.}
 \label{fig:TopcorrSB}
 \end{figure}
-The BDT training successfully separates top/$WW$ background and other samples (ggF, VBF, $Z+$jets, and $V\gamma$). We calculate an integrated-ROC value of 0.920. For signal and background we find KS-test values of 0.107 and 0.154 respectively, and so no evidence of over-training. The BDT output variables are shown both on weighted normalized samples and on samples with full event weights applied in \ref{fig:TopBDTresult}.
+The BDT training successfully separates top/$WW$ background and other samples (ggF, VBF, $Z+$jets, and $V\gamma$). We calculate an integrated-ROC value of 0.920. For signal and background we find KS-test values of 0.107 and 0.154 respectively, and so no evidence of over-training. The BDT output variables are shown both on weighted normalized samples and on samples with full event weights applied in Figures~\ref{fig:TopBDTresult} and ~\ref{fig:TopBDTresult2}.
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/Top+WWvsEverything/overtrain_BDTG.eps}
-  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf}
-\caption{Weighted, normalized samples of top$+WW$ samples (signal) and other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of all signal and background events plotted over BDT output distribution after signal region selection (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/Top+WWvsEverything/overtrain_BDTG.eps}
+\caption{Weighted, normalized samples of top$+WW$ samples (signal) and other samples (background) plotted over BDT output distribution~\cite{ourSupportNote}.}
 \label{fig:TopBDTresult}
 \end{figure}
 
-We aim to fit this distribution in the signal region with high significance for top/$WW$ events in the uppermost bins of the distribution. Since this BDT is trained and applied in the signal region, we cannot directly test the modelling of input variables. However, modelling at the pre-selection level for each of these variables as well as in the top validation region described eariler show no evidence of mis-modelling. The binning for this discriminant used in the statistical fit and its result are shown in Chapter 7.
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf}
+\caption{Full weighted samples of all signal and background events plotted over BDT output distribution after signal region selection.}
+\label{fig:TopBDTresult2}
+\end{figure}
+
+We aim to fit this distribution in the signal region with high significance for top/$WW$ events in the uppermost bins of the distribution. Since this BDT is trained and applied in the signal region, we cannot directly test the modeling of input variables. However, modeling at the pre-selection level for each of these variables as well as in the top validation region described eariler show no evidence of mis-modeling. The binning for this discriminant used in the statistical fit and its result are shown in Chapter 7.
 
 %\begin{figure}[!htbp]
 %\centering
@@ -193,25 +201,26 @@ We aim to fit this distribution in the signal region with high significance for 
 %\label{fig:TopWWBDTVR}
 %\end{figure}
 
-Normalization factors (NF) are derived in the top validation region to correct for data/MC mis-modelling. These factors are applied to the top sample in the signal region. The NF factor used in this analysis is $0.99\pm0.01$. 
+Normalization factors (NF) are derived in the top validation region to correct for data/MC mis-modeling. These factors are applied to the top sample in the signal region. The NF factor used in this analysis is $0.99\pm0.01$. 
 
 \subsection{Diboson background}
 
-The $WW$ background consists primarily of QCD $WW$+jets events (highly dominating electroweak vertices). This background is estimated along with the top background using a joint parameter due to their similarities in signature as well as the difficulty in defining a pure $WW$ control region without top contamination. A $WW$ validation region is defined to demonstrate $WW$ MC modelling in a targeted $WW$ region.  The $WW$ validation region is defined by requiring at least 2 jets, a $b$-veto ($N_{b-jet}<1$) and a central-jet-veto of below $20$ GeV as in the signal region. Two additional cuts differ from the signal region: $m_T>130$ GeV and $m_{T2}>160$ GeV. $m_{T2}$, or the stransverse mass, is used to describe a lower bound on a pair-production parent particle's mass. $m_{T2}$ is calculated as the minimum $m_T(m_{\text{inv}},\vec{p_T^i})$ for all values of $p_T^1$ and $p_T^2$ which satisfy $\vec{p_T^1}+\vec{p_T^2}=\vec{p_T^{\text{miss}}}$ \cite{MT2}. This can be summarized as
+The $WW$ background consists primarily of QCD $WW$+jets events (highly dominating electroweak vertices). This background is estimated along with the top background using a joint parameter due to their similarities in signature as well as the difficulty in defining a pure $WW$ control region without top contamination. A $WW$ validation region is defined to demonstrate $WW$ MC modeling in a targeted $WW$ region.  The $WW$ validation region is defined by requiring at least 2 jets, a $b$-veto ($N_{b-jet}<1$) and a central-jet-veto of below $20$ GeV as in the signal region. Two additional cuts differ from the signal region: $m_T>130$ GeV and $m_{T2}>160$ GeV. $m_{T2}$, or the stransverse mass, is used to describe a lower bound on a pair-production parent particle's mass. $m_{T2}$ is calculated as the minimum $m_T(m_{\text{inv}},\vec{p_T^i})$ for all values of $p_T^1$ and $p_T^2$ which satisfy $\vec{p_T^1}+\vec{p_T^2}=\vec{p_T^{\text{miss}}}$~\cite{MT2}. This can be summarized as
 \begin{equation}
 m_{T2}=\text{min}_{\vec{p_T^1},\vec{p_T^2}}(\text{max}(m_T(m_{\text{inv}},\vec{p_T^1}),m_T(m_{\text{inv}},\vec{p_T^2}))).
 \end{equation}
-where $m_{\text{inv}}$ is zero in this analysis. Requiring $m_{T2}>160$ GeV eliminates contamination from many $t\bar{t}$ decays which have an upper limit near the top mass. The purity of the $WW$ validation region is $\approx 37\%$ and the cutflow for this region is shown \ref{tab:wwvr}.
+where $m_{\text{inv}}$ is zero in this analysis. Requiring $m_{T2}>160$ GeV eliminates contamination from many $t\bar{t}$ decays which have an upper limit near the top mass. The purity of the $WW$ validation region is $\approx 37\%$ and the cutflow for this region is shown Table~\ref{tab:wwvr}.
 
 \begin{table}[h!]
-\scalebox{0.55}{
+\centering
+\scalebox{0.63}{
 \input{Pictures/emme-vbf-wwVR.tex}
 }
 \caption{Cutflow in the $WW$ validation region.}
 \label{tab:wwvr}
 \end{table}
 
-Data/MC shows good agreement over various variable distributions as shown in \ref{fig:WWCR3}.
+Data/MC shows good agreement over various variable distributions as shown in Figure~\ref{fig:WWCR3}.
 \begin{figure}[!h]
 \centering
 %  \subfloat[$m_{\ell\ell}$]{
@@ -253,65 +262,73 @@ Data/MC shows good agreement over various variable distributions as shown in \re
 {\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta Y_{jj}$, $\sum$ centralities, $M_{l0j0}$, $M_{l1j1}$, $p_T^{j0}$, $\Delta\Phi_{jj}$, $p^T_{tot}$, and $m_T$ in the $WW$ validation region.
 \label{fig:WWCR3}}}
 \end{figure}
+%
+%\subsubsection{Top vs. $WW$ BDT discriminant}
+%
+%Another BDT discriminant is trained in the signal region to differentiate between $top$ and $WW$ background events. Both the $top$ and $WW$ backgrounds are estimated with one parameter within the signal region. Within the signal region phase space we split the top and $WW$ events into control regions based on the top vs. $WW$ BDT discriminant. This training is not as successful at classification as the BDTs discussed previously, but its use in the final statistical fit is still beneficial. The training includes weighted samples of top and $WW$ events trained against one another. The training uses about 35,000 un-weighted and 1,500 weighted top events and approximately 55,000 un-weighted and 500 weighted $WW$ events. Optimal parameters for the training are summarized in Table~\ref{tab:WWBDTparameters}.
+%\begin{table}[h!]
+%\centering
+%\begin{tabular}{|l|c|}
+%\hline
+%%Parameter                                    & Value     \\
+%%\hline
+%Boosting algorithm                           &  Gradient  \\
+%Maximum tree depth                           &  22       \\
+%Number of trees                              &  200     \\
+%Minimum number of events requires per mode   &  5\%      \\
+%Number of cuts                               &  7        \\
+%\hline
+%\end{tabular}
+%\caption{Parameters used for the top vs. $WW$ BDT training.} 
+%\label{tab:WWBDTparameters}
+%\end{table}
 
-\subsubsection{Top vs. $WW$ BDT discriminant}
-
-Another BDT discriminant is trained in the signal region to differentiate between $top$ and $WW$ background events. Both the $top$ and $WW$ backgrounds are estimated with one parameter within the signal region. Within the signal region phase space we split the top and $WW$ events into control regions based on the top vs. $WW$ BDT discriminant. This training is not as successful at classification as the BDTs discussed previously, but its use in the final statistical fit is still beneficial. The training includes weighted samples of top and $WW$ events trained against one another. The training uses about 35,000 un-weighted and 1500 weighted top events and approximately 55,000 un-weighted and 500 weighted $WW$ events. Optimal parameters for the training are summarized in Table~\ref{tab:WWBDTparameters}.
-\begin{table}[h!]
-\centering
-\begin{tabular}{|l|c|}
-\hline
-Parameter                                    & Value     \\
-\hline
-Boosting algorithm                           &  Gradient  \\
-Maximum tree depth                           &  22       \\
-Number of trees                              &  200     \\
-Minimum number of events requires per mode   &  5\%      \\
-Number of cuts                               &  7        \\
-\hline
-\end{tabular}
-\caption{Parameters used for the top vs. $WW$ BDT training.} 
-\label{tab:WWBDTparameters}
-\end{table}
-
-This BDT employs 14 kinematic variables to distinguish between top and $WW$ events. These include $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_T$, $\eta_{l0}$, $\eta_{l1}$, $p^T_{j0}$, $p^T_{j1}$, $\Delta \Phi_{jj}$, $\sum$ centralities (L), and combined masses $M_{l0j0}$, $M_{l0j1}$, $M_{l1j0}$, $M_{l1j1}$. Plots shown in \ref{fig:WWBDTinput} and \ref{fig:WWcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
-\begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=0.55\linewidth]{Pictures/TopvsWW/variables_id_c1.eps}
-    \includegraphics[width=0.55\linewidth]{Pictures/TopvsWW/variables_id_c2.eps}
-    \caption{Distributions of input variables to top vs. $WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents top and background $WW$ (S. Addepalli).}.
-    \label{fig:WWBDTinput}
-\end{figure}
-\begin{figure}[!htbp]
-\centering
-  \includegraphics[width=.3\linewidth]{Pictures/TopvsWW/CorrelationMatrixS.eps}
-  \includegraphics[width=.3\linewidth]{Pictures/TopvsWW/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to top vs. $WW$ BDT. Signal represents top and background $WW$ (S. Addepalli).}
-\label{fig:WWcorrSB}
-\end{figure}
-
-Despite the BDT training, it is difficult to separate top and $WW$ backgrounds because the signals have similar kinematic distributions that make high discrimination difficult. The integrated-ROC calculated for weighted normalized samples is 0.653. While relatively low, this shows some minimal amount of discrimination. This is useful in the fit to differentiate top and $WW$ backgrounds, though high levels of separation are not necessary because top and $WW$ are estimated together with a shared parameter in the simultaneous fit. For signal and background we find KS-test values of 0.067 and 0.037 showing no evidence of over-training. The BDT output variable is visualized on weighted normalized samples and on samples with all event weights applied in \ref{fig:WWBDTresult}. 
-
-\begin{figure}[!htbp]
-\centering
-  \includegraphics[width=.45\linewidth]{Pictures/TopvsWW/overtrain_BDTG.eps}
-  \includegraphics[width=.35\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWW-lin.pdf}
-\caption{Weighted, normalized samples of top samples (signal) and $WW$ samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of all signal and background events plotted over the BDT output distribution after signal region selection (S. Addepalli).}
-\label{fig:WWBDTresult}
-\end{figure}
+%This BDT employs 14 kinematic variables to distinguish between top and $WW$ events. These include $\Delta Y_{jj}$, $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_T$, $\eta_{l0}$, $\eta_{l1}$, $p^T_{j0}$, $p^T_{j1}$, $\Delta \Phi_{jj}$, $\sum$ centralities (L), and combined masses $M_{l0j0}$, $M_{l0j1}$, $M_{l1j0}$, $M_{l1j1}$. Figures~\ref{fig:WWBDTinput} and ~\ref{fig:WWcorrSB} demonstrate the input distributions used to train the BDT and their correlations.
+%\begin{figure}[!htbp]
+%    \centering
+%    \includegraphics[width=0.70\linewidth]{Pictures/TopvsWW/variables_id_c1.eps}
+%    \includegraphics[width=0.70\linewidth]{Pictures/TopvsWW/variables_id_c2.eps}
+%    \caption{Distributions of input variables to top vs. $WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents top and background $WW$~\cite{ourSupportNote}.}.
+%    \label{fig:WWBDTinput}
+%\end{figure}
+%\begin{figure}[!htbp]
+%\centering
+%  \includegraphics[width=.45\linewidth]{Pictures/TopvsWW/CorrelationMatrixS.eps}
+%  \includegraphics[width=.45\linewidth]{Pictures/TopvsWW/CorrelationMatrixB.eps}
+%\caption{Correlations of input variables to top vs. $WW$ BDT. Signal represents top and background $WW$~\cite{ourSupportNote}.}
+%\label{fig:WWcorrSB}
+%\end{figure}
+%
+%Despite the BDT training, it is difficult to separate top and $WW$ backgrounds because the signals have similar kinematic distributions that make high discrimination difficult. The integrated-ROC calculated for weighted normalized samples is 0.653. While relatively low, this shows some minimal amount of discrimination. This is useful in the fit to differentiate top and $WW$ backgrounds, though high levels of separation are not necessary because top and $WW$ are estimated together with a shared parameter in the simultaneous fit. For signal and background we find KS-test values of 0.067 and 0.037 showing no evidence of over-training. The BDT output variable is visualized on weighted normalized samples and on samples with all event weights applied in Figures~\ref{fig:WWBDTresult} and ~\ref{fig:WWBDTresult2}. 
+%
+%\begin{figure}[!htbp]
+%\centering
+%  \includegraphics[width=.45\linewidth]{Pictures/TopvsWW/overtrain_BDTG.eps}
+%\caption{Weighted, normalized samples of top samples (signal) and $WW$ samples (background) plotted over BDT output distribution~\cite{ourSupportNote}.}
+%\label{fig:WWBDTresult}
+%\end{figure}
+%
+%\begin{figure}[!htbp]
+%\centering
+%  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWW-lin.pdf}
+%\caption{Full weighted samples of all signal and background events plotted over the BDT output distribution after signal region selection.}
+%\label{fig:WWBDTresult2}
+%\end{figure}
 
 \subsection{ggF background}
-Other Higgs production modes are considered backgrounds in this analysis. Vector mediated Higgs production ($VH$) and top produced Higgs ($ttH$) are small in our signal region so do not play a large role in the analysis. ggF Higgs production, however, does represent a significant background. Signal region cuts requiring at least 2-jets and the central jet veto significantly reduce background yields, but because ggF is kinematically very similar to VBF signal, it still has a large effect on the VBF coupling measurement. To mitigate these effects, ggF events are simultaneously estimated from three control regions and the signal region. The control regions are chosen to minimize both the statistical and the modelling uncertainties, in particular those originating from the modelling of higher order QCD corrections. The regions begin with a subdivision based on the jet multiplicity. The first two regions, ggF CR1 and ggF CR2, are built from all preselection cuts and cuts requiring at least two jets, a $b$-veto, $Z\rightarrow\tau\tau$-veto, and orthogonal cuts on the central jet veto (CJV) and opposite lepton veto (OLV). The third ggF control region, ggF CR3, uses all preselection cuts, a $b$ veto, $Z\rightarrow \tau\tau$ veto, and requirement for less than 2 jets. The full definitions are described:  
+Other Higgs production modes are considered backgrounds in this analysis. Vector mediated Higgs production ($VH$) and top produced Higgs ($ttH$) are small in our signal region so do not play a large role in the analysis. ggF Higgs production, however, represents a significant background. Signal region cuts requiring at least 2-jets and the central jet veto significantly reduce background yields, but because ggF is kinematically very similar to VBF signal, it still has a large effect on the VBF fiducial cross-section measurement. To mitigate these effects, ggF events are simultaneously estimated from three control regions and the signal region. The control regions are chosen to minimize both the statistical and the modeling uncertainties, in particular those originating from the modeling of higher order QCD corrections. The definition begins with a subdivision based on the jet multiplicity and creates three orthogonal regions that are similarly orthogonal to the signal region. The full definitions are described:  
 \begin{itemize} 
 \item {\textbf GGF-CR1:} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV} > 1$ and $\text{OLV} > 1$. 
 \item {\textbf GGF-CR2:} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV}<1$ and $\text{OLV}>1$ or $\text{CJV}>1$ and $\text{OLV}<1$.
 \item {\textbf GGF-CR3:} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, and $Z\rightarrow\tau\tau$ veto. 
 \end{itemize} 
-The full ggF expectation in the signal region is built from the following ratio (inspired by the ABCD method \cite{ABCD}) 
+The full ggF expectation in the signal region is built from the following ratio, inspired by the ABCD method~\cite{ABCD}: 
 \begin{equation}
-	\mu_{{\text GGF-SR}} = \frac{\mu^{{\text GGF-CR}}_{1} \cdot\mu^{{\text GGF-CR}}_{3}}{ \mu^{{\text GGF-CR}}_{2}}.
+	\mu_{{\text GGF-SR}} = \frac{\mu^{{\text GGF-CR}}_{1} \cdot\mu^{{\text GGF-CR}}_{3}}{ \mu^{{\text GGF-CR}}_{2}},
 \end{equation}
-where $\mu_{\text{ggF}}$ represents the yield modifier in each ggF control region. In each ggF category the ggF yield is extracted from simulation-extracted template fits based on dedicated discriminants. For each control region a dedicated multivariate discriminant is trained and applied to discriminate between ggF and all other samples. Results and training parameters from each of these discriminants is summarized next.
+where $\mu_{\text{ggF}}$ represents the yield modifier in each ggF control region. In each ggF category, the ggF yield is extracted from simulation-extracted template fits based on dedicated discriminants. For each control region a dedicated multivariate discriminant is trained and applied to discriminate between ggF and all other samples. Results and training parameters from each of these discriminants is summarized next.
+
+\newpage
 
 \subsubsection{Discriminant in ggF CR1}
 The multivariate discriminant used for ggF CR1 is a boosted decision tree (BDT) trained after the ggF CR1 selection. The training includes ggF events trained against VBF signal and all backgrounds with about 8,000 ggF events (70 weighted) and 250,000 other events (5,000 weighted). The optimal parameters for training are summarized in Table~\ref{tab:ggFCR1BDTparameters}.
@@ -332,7 +349,7 @@ Number of cuts                               &  7       \\
 \label{tab:ggFCR1BDTparameters}
 \end{table}
  
-For this BDT 8 kinematic distributions are used to take advantage of differences in distributions between ggF events and other sample types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR1 region where the BDT is trained are shown in \ref{fig:ggFCR1} demonstrating data/MC modelling for each.
+For this BDT, 8 kinematic distributions are used to take advantage of differences in distributions between ggF events and other sample types. These variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{\ell\ell}$, $m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR1 region where the BDT is trained are shown in Figure~\ref{fig:ggFCR1} demonstrating data/MC modeling for each.
 
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
@@ -359,40 +376,47 @@ For this BDT 8 kinematic distributions are used to take advantage of differences
   \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf}
   }%\hfill
-{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the ggF CR1 used as input to the BDT discriminating ggF from all other samples.
+{\caption{Distributions of $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{\ell\ell}$, $m_T$, jet $p^T_{\text{lead}}$, jet $p^T_{\text{sublead}}$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the ggF CR1 used as input to the BDT discriminating ggF from all other samples.
 \label{fig:ggFCR1}}}
 \end{figure} 
 
-Plots shown in \ref{fig:ggFCR1BDTinput} and \ref{fig:ggFCR1corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is normalized to equal number of background and signal events. 
+Figure~\ref{fig:ggFCR1BDTinput} and Figure~\ref{fig:ggFCR1corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is normalized to equal number of background and signal events. 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.55\linewidth]{Pictures/ggFCR1/variables_id_c1.eps}
-    \includegraphics[width=0.55\linewidth]{Pictures/ggFCR1/variables_id_c2.eps}
-    \caption{Distributions of input variables to ggF CR1 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples (S. Addepalli).}.
+    \includegraphics[width=0.70\linewidth]{Pictures/ggFCR1/variables_id_c1.eps}
+    \includegraphics[width=0.70\linewidth]{Pictures/ggFCR1/variables_id_c2.eps}
+    \caption{Distributions of input variables to ggF CR1 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples~\cite{ourSupportNote}.}
     \label{fig:ggFCR1BDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.3\linewidth]{Pictures/ggFCR1/CorrelationMatrixS.eps}
-  \includegraphics[width=.3\linewidth]{Pictures/ggFCR1/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to ggF CR1 BDT. Signal represents ggF and background all other samples (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR1/CorrelationMatrixS.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR1/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to ggF CR1 BDT. Signal represents ggF and background all other samples~\cite{ourSupportNote}.}
 \label{fig:ggFCR1corrSB}
 \end{figure}
 
-The BDT has an integrated-ROC value of 0.898, demonstrating successful classification. Comparisons between the test and training show that the BDT is un-biased and a KS-test (values 0.191, 0.049 for signal, background) demonstrates this. The BDT output variable is visualized on weighted normalized samples and on samples without normalization in \ref{fig:ggFCR1BDTresult}.
+The BDT has an integrated-ROC value of 0.898, demonstrating successful classification. Comparisons between the test and training show that the BDT is un-biased and a KS-test (values 0.191, 0.049 for signal, background) demonstrates this. The BDT output variable is visualized on weighted normalized samples and on samples without normalization in Figures~\ref{fig:ggFCR1BDTresult} and ~\ref{fig:ggFCR1BDTresult2}.
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/ggFCR1/overtrain_BDTG.eps}
-  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf}
-\caption{Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 1 (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR1/overtrain_BDTG.eps}
+\caption{Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown~\cite{ourSupportNote}.}
 \label{fig:ggFCR1BDTresult}
 \end{figure}
 
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf}
+\caption{Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 1~\cite{ourSupportNote}.}
+\label{fig:ggFCR1BDTresult2}
+\end{figure}
+
+\newpage
 \subsubsection{Discriminant in ggF CR2}
 
-The ggF CR2 BDT discriminant is trained using all ggF CR2 selection criteria. The training includes about 2,000 unweighted (300 weighted) ggF events trained against 90,000 un-weighted (1500 weighted) other samples. The optimal training parameters are summarized in Table~\ref{tab:ggFCR2BDTparameters}.
+The ggF CR2 BDT discriminant is trained using all ggF CR2 selection criteria. The training includes about 2,000 unweighted (300 weighted) ggF events trained against 90,000 un-weighted (1,500 weighted) other samples. The optimal training parameters are summarized in Table~\ref{tab:ggFCR2BDTparameters}.
 \begin{table}[h!]
 \centering
 \begin{tabular}{|l|c|c|}
@@ -410,7 +434,7 @@ Number of cuts                               &  7       \\
 \label{tab:ggFCR2BDTparameters}
 \end{table}
 
-Six lepton and jet kinematic distributions are used, including $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$,$m_{\ell\ell}$,$m_T$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR2 region are shown in \ref{fig:ggFCR2} and demonstrate data/MC modelling.
+Six lepton and jet kinematic distributions are used, including $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{\ell\ell}$, $m_T$, $\Delta \Phi_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$. Distributions for these variables in the ggF CR2 region are shown in Figure~\ref{fig:ggFCR2} and demonstrate data/MC modeling.
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf}
@@ -449,34 +473,42 @@ Six lepton and jet kinematic distributions are used, including $\Delta Y_{\ell\e
 \label{fig:ggFCR2}}}
 \end{figure} 
 
-Plots shown in \ref{fig:ggFCR2BDTinput} and \ref{fig:ggFCR2corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is weighted and normalized to equal number of background and signal events. 
+Figures~\ref{fig:ggFCR2BDTinput} and \ref{fig:ggFCR2corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is normalized to equal numbers of background and signal events.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.5\linewidth]{Pictures/ggFCR2/variables_id_c1.eps}
-    \caption{Distributions of input variables to ggF CR2 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples (S. Addepalli).}.
+    \includegraphics[width=0.7\linewidth]{Pictures/ggFCR2/variables_id_c1.eps}
+    \caption{Distributions of input variables to ggF CR2 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples~\cite{ourSupportNote}.}
     \label{fig:ggFCR2BDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.3\linewidth]{Pictures/ggFCR2/CorrelationMatrixS.eps}
-  \includegraphics[width=.3\linewidth]{Pictures/ggFCR2/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to ggF CR2 BDT. Signal represents ggF and background all other samples (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR2/CorrelationMatrixS.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR2/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to ggF CR2 BDT. Signal represents ggF and background all other samples~\cite{ourSupportNote}.}
 \label{fig:ggFCR2corrSB}
 \end{figure}
 
-The integrated-ROC calculated weighted normalized samples is 0.902, demonstrating good discrimination in the ggF CR2. KS tests measure values of 0.012 (0.303) for signal (background), which shows the BDT training is un-biased. The BDT output variable for ggF CR2 is shown for weighted normalized samples and fully weighted events in \ref{fig:ggFCR2BDTresult}. 
+The integrated-ROC calculated with normalized samples is 0.902, demonstrating good discrimination in the ggF CR2. KS tests measure values of 0.012 (0.303) for signal (background), which shows the BDT training is un-biased. The BDT output variable for ggF CR2 is shown for weighted normalized samples and fully weighted events in Figures~\ref{fig:ggFCR2BDTresult} and ~\ref{fig:ggFCR2BDTresult2}. 
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/ggFCR2/overtrain_BDTG.eps}
-  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf}
-\caption{Weighted, normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR2 cuts (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR2/overtrain_BDTG.eps}
+\caption{Weighted, normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown~\cite{ourSupportNote}.}
 \label{fig:ggFCR2BDTresult}
 \end{figure}
 
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf}
+\caption{Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR2 cuts~\cite{ourSupportNote}.}
+\label{fig:ggFCR2BDTresult2}
+\end{figure}
+
+\newpage
+
 \subsubsection{Discriminant in ggF-CR3}
-The ggF CR3 is the only region which requires less than two jets. The training discriminates ggF events from all other samples within the ggF CR3 and very high statistics: 200,000 un-weighted (4000 weighted) ggF events and about 2,800,000 un-weighted (10000 weighted) other events. The training uses 1000 trees and only four variables to take advantage of the high statistics. Training parameters are listed in Table~\ref{tab:ggFCR3BDTparameters}.
+The ggF CR3 is the only region which requires less than two jets. The training discriminates ggF events from all other samples within the ggF CR3 and very high statistics: 200,000 un-weighted (4,000 weighted) ggF events and about 2,800,000 un-weighted (10,000 weighted) other events. The training uses 1,000 trees and only four variables to take advantage of the high statistics. Training parameters are listed in Table~\ref{tab:ggFCR3BDTparameters}.
 
 \begin{table}[h!]
 \centering
@@ -495,19 +527,19 @@ Number of cuts                               &  7       \\
 \label{tab:ggFCR3BDTparameters}
 \end{table}
 
-The training variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{\ell\ell}$, and $m_T$. Distributions for these variables in the ggF CR3 region are shown in \ref{fig:ggFCR3} and demonstrate data/MC modelling.
+The training variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, $m_{\ell\ell}$, and $m_T$. Distributions for these variables in the ggF CR3 region are shown in Figure~\ref{fig:ggFCR3} and demonstrate data/MC modeling.
 \begin{figure}[!h]
   \subfloat[$\Delta Y_{\ell\ell}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf}
+      \includegraphics[width=0.35\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf}
   }\hfill
   \subfloat[$\Delta \Phi_{\ell\ell}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf}
+      \includegraphics[width=0.35\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf}
   }\hfill
   \subfloat[$m_{\ell\ell}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pdf}
+      \includegraphics[width=0.35\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pdf}
   }\hfill
   \subfloat[$m_T$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf}
+      \includegraphics[width=0.35\textwidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf}
   }\hfill
 %  \subfloat[$p^T_{tot}$]{
 %      \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-PtTot-lin.pdf}
@@ -525,33 +557,40 @@ The training variables include $\Delta Y_{\ell\ell}$, $\Delta \Phi_{\ell\ell}$, 
 \label{fig:ggFCR3}}}
 \end{figure} 
 
-Plots shown in \ref{fig:ggFCR3BDTinput} and \ref{fig:ggFCR3corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is weighted and normalized to equal number of background and signal events. 
+Figures~\ref{fig:ggFCR3BDTinput} and ~\ref{fig:ggFCR3corrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is normalized to equal number of background and signal events. 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.45\linewidth]{Pictures/ggFCR3/variables_id_c1.eps}
+    \includegraphics[width=0.7\linewidth]{Pictures/ggFCR3/variables_id_c1.eps}
 %    \includegraphics[width=0.45\linewidth]{Pictures/ggFCR3/variables_id_c2.eps}
-    \caption{Distributions of input variables to the ggF CR3 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples (S. Addepalli).}
+    \caption{Distributions of input variables to the ggF CR3 BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents ggF and background all other samples~\cite{ourSupportNote}.}
     \label{fig:ggFCR3BDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.3\linewidth]{Pictures/ggFCR3/CorrelationMatrixS.eps}
-  \includegraphics[width=.3\linewidth]{Pictures/ggFCR3/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to the ggF CR3 BDT. Signal represents ggF and background all other samples (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR3/CorrelationMatrixS.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR3/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to the ggF CR3 BDT. Signal represents ggF and background all other samples~\cite{ourSupportNote}.}
 \label{fig:ggFCR3corrSB}
 \end{figure}
 
-The discrimination is quantified using the integrated-ROC calculated at 0.888, which shows good separation. Comparisons between the test and training show that the BDT is un-biased, and KS-test values of 0.276 (0.673) for signal (background) support this. The BDT output variable is visualized both on weighted normalized samples and on samples with full event weights applied in \ref{fig:ggFCR3BDTresult}.
+The discrimination is quantified using the integrated-ROC and calculated at 0.888, which shows good separation. Comparisons between the test and training show that the BDT is un-biased, and KS-test values of 0.276 (0.673) for signal (background) support this. The BDT output variable is visualized both on weighted normalized samples and on samples with full event weights applied in Figures~\ref{fig:ggFCR3BDTresult} and ~\ref{fig:ggFCR3BDTresult2}.
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/ggFCR3/overtrain_BDTG.eps}
-  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-BDT_ggFCR3-log.pdf}
-\caption{Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR3 cuts (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFCR3/overtrain_BDTG.eps}
+\caption{Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown~\cite{ourSupportNote}.}
 \label{fig:ggFCR3BDTresult}
 \end{figure}
 
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf}
+\caption{Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR3 cuts.}
+\label{fig:ggFCR3BDTresult2}
+\end{figure}
+
+\newpage
 \subsubsection{Discriminant for ggF and VBF in the signal region}
 There is one final multivariate discriminant used to discriminate ggF backgrounds. This BDT is trained to differentiate ggF and VBF events in the signal region. Roughly 6,000 un-weighted (60 weighted) ggF events and 95,000 un-weighted (80 weighted) signal events. Training parameters for the ggF vs. VBF BDT are summarized in Table~\ref{tab:ggFVBFBDTparameters}.
 \begin{table}[h!]
@@ -571,34 +610,40 @@ Number of cuts                               &  7       \\
 \label{tab:ggFVBFBDTparameters}
 \end{table}
 
-Seven distributions are used to take advantage of differences in distributions between ggF and VBF events. These variables include $\Delta Y_{jj}$, $\Delta \Phi_{jj}$, $m_T$, $p_T^{j0}$, $p_T^{j1}$, $\sum$ centralities, and $\sum M_{lj}$. Plots shown in \ref{fig:ggFVBFBDTinput} and \ref{fig:ggFVBFcorrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is weighted and normalized to equal number of background and signal events.
+Seven distributions are used to take advantage of differences in distributions between ggF and VBF events. These variables include $\Delta Y_{jj}$, $\Delta \Phi_{jj}$, $m_T$, $p_T^{j0}$, $p_T^{j1}$, $\sum$ centralities, and $\sum M_{lj}$. Figures~\ref{fig:ggFVBFBDTinput} and ~\ref{fig:ggFVBFcorrSB} demonstrate the input distributions used to train the BDT and their correlations where each distribution is normalized to equal number of background and signal events.
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.55\linewidth]{Pictures/ggFVBF/variables_id_c1.eps}
-    \includegraphics[width=0.55\linewidth]{Pictures/ggFVBF/variables_id_c2.eps}
-    \caption{Distributions of input variables to the ggF vs. VBF BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background ggF samples (S. Addepalli).}
+    \includegraphics[width=0.7\linewidth]{Pictures/ggFVBF/variables_id_c1.eps}
+    \includegraphics[width=0.7\linewidth]{Pictures/ggFVBF/variables_id_c2.eps}
+    \caption{Distributions of input variables to the ggF vs. VBF BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background ggF samples~\cite{ourSupportNote}.}
     \label{fig:ggFVBFBDTinput}
 \end{figure}
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.3\linewidth]{Pictures/ggFVBF/CorrelationMatrixS.eps}
-  \includegraphics[width=.3\linewidth]{Pictures/ggFVBF/CorrelationMatrixB.eps}
-\caption{Correlations of input variables to the ggF vs. VBF BDT. Signal represents VBF and background ggF samples (S. Addepalli).}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFVBF/CorrelationMatrixS.eps}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFVBF/CorrelationMatrixB.eps}
+\caption{Correlations of input variables to the ggF vs. VBF BDT. Signal represents VBF and background ggF samples~\cite{ourSupportNote}.}
 \label{fig:ggFVBFcorrSB}
 \end{figure}
 
-The integrated-ROC calculated for this BDT is 0.785, which shows decent discrimination. KS test values of 0.008 (0.047) for signal (background) show no evidence of bias. The BDT output variable is shown both on weighted normalized samples and on samples with full event weights applied in \ref{fig:ggFVBFBDTresult}. 
+The integrated-ROC calculated for this BDT is 0.785, which shows moderate discrimination. KS test values of 0.008 (0.047) for signal (background) show no evidence of bias. The BDT output variable is shown both on weighted normalized samples and on samples with full event weights applied in Figures~\ref{fig:ggFVBFBDTresult} and ~\ref{fig:ggFVBFBDTresult2}. 
 
 \begin{figure}[!htbp]
 \centering
-  \includegraphics[width=.4\linewidth]{Pictures/ggFVBF/overtrain_BDTG.eps}
-  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf}
-\caption{Normalized samples of VBF (signal) and ggF (background) plotted over BDT output distribution on left, overlaid testing and training samples shown. Right, full weighted samples of VBF signal and ggF background plotted over BDT output distribution after SR cuts.}
+  \includegraphics[width=.45\linewidth]{Pictures/ggFVBF/overtrain_BDTG.eps}
+\caption{Normalized samples of VBF (signal) and ggF (background) plotted over BDT output distribution, overlaid testing and training samples shown.}
 \label{fig:ggFVBFBDTresult}
 \end{figure}
 
-%\subsubsection{Dependance on the modelling of the simulation} 
+\begin{figure}[!htbp]
+\centering
+  \includegraphics[width=.45\linewidth]{Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf}
+\caption{Full weighted samples of VBF signal and ggF background plotted over BDT output distribution after SR cuts.}
+\label{fig:ggFVBFBDTresult2}
+\end{figure}
+
+%\subsubsection{Dependance on the modeling of the simulation} 
 %
 %This method determines ggF the background entirely from data and so sensitivity to migration of events from one region to the other is greatly reduced. In order to study this, pseudo-experiments were thrown using Asimov data-sets. For each toy set the input yield for each region was varied independently in the range of $0<\mu_{\text{GGF-X}}<2$ at generation level. The measured variation of the VBF yield in the signal region with respect to the nominal conditions corresponds to the sensitivity to event-migration across categories in simulation due to systematic uncertainties in the predictions. 
 
@@ -639,48 +684,57 @@ The integrated-ROC calculated for this BDT is 0.785, which shows decent discrimi
 %\end{table}
 
 \subsection{Fake backgrounds}
-One last substantial background in the VBF HWW cross-section measurement is that from mis-identified leptons. These are jets that are mistakenly identified as leptons in reconstruction and in this analysis these predominantly come from $W+$jet events. In these events a $W$ boson decays leptonically leading to one true lepton and one mistaken lepton, which is actually a jet from the primary vertex. This event mirrors our desired two lepton signature and so creates an additional HWW background sample. This background is estimated as in the HWW coupling analysis using the fake factor method, similarly to in the 2016 HWW coupling analysis. Further detail on the overall fake factor method and its mathematical formulation can be found \cite{fakefactormethod} while further details on HWW-specific fake background studies are \cite{Aaboud_2019}. In this section I will give a brief summary of fake estimations along with the slightly augmented fake factor control region definition used in the HWW fiducial cross-section analysis. 
+One last substantial background in the VBF HWW cross-section measurement is from mis-identified leptons. These are jets that are mistakenly identified as leptons in reconstruction and in this analysis these predominantly come from $W+$jet events. In these events a $W$ boson decays leptonically leading to one true lepton and one mistaken lepton, which is actually a jet from the primary vertex. This event mirrors our desired two lepton signature and so creates an additional HWW background sample. This background is estimated with the same methodology used in the 2015--2016 HWW coupling measurement \cite{Aaboud_2019},  refered to as the fake factor method. Further detail on the overall fake factor method and its mathematical formulation can be found in Ref.~\cite{fakefactormethod} while further details on HWW-specific fake background studies are discussed in Ref.~\cite{Aaboud_2019}. In this section I will give a brief summary of how the so-called ``fake background'' is estimated. 
 
-The fake background is estimated using data which is measured in a region defined by signal region cuts with one important distinction- one or both of the leptons used are ``anti-identified'' meaning they pass some looser lepton identification criteria and not that used in the analysis signal region. These fakes are then extrapolated to the true signal region (with two ``identified'' leptons) using fake factors. Fake factors are measured as functions of $p_T$ and $\eta$ in jet-enriched $Z+$jets samples and are defined as the ratio of identified to anti-identified leptons. The fake backgrounds can be considered split between ``single-fake'' (with one ``anti-ID'' lepton) from the predominant $W+$jets background and ``double-fake'' (with two ``anti-ID'' leptons) from QCD processes. The total signal sample can be defined as: 
+The fake background is estimated using data measured in a region defined by signal region cuts with one important distinction---one or both of the leptons used are ``anti-identified'', meaning they pass some looser lepton identification criteria and not that used in the analysis signal region. These fakes are then extrapolated to the true signal region (with two ``identified'' leptons) using ``fake factors''. Fake factors are defined as the ratio of identified to anti-identified leptons and measured as functions of $p_T$ and $\eta$ in jet-enriched $Z+$jets samples. The fake backgrounds can be considered split between ``single-fake'' (with one ``anti-ID'' lepton) from the predominant $W+$jets background and ``double-fake'' (with two ``anti-ID'' leptons) from QCD processes. The total signal sample can be defined as: 
 \begin{equation}
 N_{id+id} = N^{EW}_{id+id}+N^{W+jets}_{id+id}+N^{QCD}_{id+id},
 \end{equation} 
-so that the total events include all electroweak processes ($N^{EW}_{id+id}$) as well as fake backgrounds from $W+$jets and QCD events. In order to estimate the total fake background in the signal region we need to estimate the number of $W+$jets and QCD events in ``id+anti-id'' events and then apply the fake factor to extrapolate into the ``id+id'' region. The $N_{id+anti-id}$ for fake backgrounds is calculated after subtraction of electroweak backgrounds (two true leptons that contaminate the ``id+anti-id region'') from Monte Carlo simulations as follows:
+so that the total events include all electroweak processes ($N^{EW}_{id+id}$) as well as fake backgrounds from $W+$jets and QCD events. In order to estimate the total fake background in the signal region, we need to estimate the number of $W+$jets and QCD events in ``id+anti-id'' events and then apply the fake factor to extrapolate into the ``id+id'' region. The $N_{id+anti-id}$ for fake backgrounds is calculated after subtraction of electroweak backgrounds (two true leptons that contaminate the ``id+anti-id region'') from Monte Carlo simulations as follows:
 \begin{equation}
-N^{W+jets}_{id+anti-id}+N^{QCD}_{id+anti-id}=N_{id+anti-id}-N^{EW MC}_{id+anti-id}
+N^{W+jets}_{id+anti-id}+N^{QCD}_{id+anti-id}=N_{id+anti-id}-N^{EW MC}_{id+anti-id}.
 \end{equation}
  
-Fake factors are derived from $Z+$jets samples and then applied to $W+$jets regions so the differences between these two samples are important to understand fully. The fake factor is defined 
+Fake factors are derived from $Z+$jets samples and then applied to $W+$jets regions so the differences between these two samples are important to understand fully. The fake factor, FF, is defined as
 \begin{equation}
-F.F. = \frac{N_{id}}{N_{anti-id}}
+FF = \frac{N_{id}}{N_{anti-id}}
 \end{equation}
-and is measured separately for electron and muons and measured in bins of $\eta$ and $p_T$. The table \ref{tab:idantiid} summarizes to ``id'' and ``anti-id'' requirements. 
+and is measured separately for electron and muons in bins of $\eta$ and $p_T$. Table~\ref{tab:idantiid} summarizes ``id'' and ``anti-id'' requirements. 
 \begin{table}[tb]
 \caption{Requirements for ``identified'' and ``anti-identified'' electrons and muons.}
 \label{tab:idantiid}
 \scalebox{0.7}{
 \centering
-\begin{tabular}{c|c||c|c}
+\begin{tabular}{|c|c|c|c|}
   \hline
-  ``id'' electron & ``anti-id'' electron & ``id'' muon & ``anti-id'' muon   \\
+  \textbf{``id'' electron} & \textbf{``anti-id'' electron} & \textbf{``id'' muon} & \textbf{``anti-id'' muon}   \\
   \hline
-  \multicolumn{2}{c|}{\centering $p_T>15$ GeV} & \multicolumn{2}{l|}{\centering $p_T>15$ GeV} \\
-  \multicolumn{2}{c|}{\centering $|\eta| <$2.47, excluding 1.37$<|\eta|<$1.52} & \multicolumn{2}{c|}{\centering $|\eta|<$2.45} \\
-  \multicolumn{2}{c|}{\centering $|z_0$sin$\theta|<$ 0.5mm} & \multicolumn{2}{c|}{\centering $|z_0$sin$\theta|<$ 0.5mm} \\
-  Pass \textit{Tight} if $p_T<25$ GeV & \multirow{2}{*}{ \centering Pass \textit{Loose}} & \multirow{2}{*}{ \centering Pass \textit{Tight}} & \multirow{2}{*}{\centering Pass \textit{Medium}} \\
-  Pass \textit{Medium} if $p_T>25$ GeV & & & \\
-  \multicolumn{2}{c|}{\centering $|d_0|\sigma(d_0)<5$} & $|d_0|\sigma(d_0)<3$ & $|d_0|\sigma(d_0)<15$ \\
+  \hline
+  \multicolumn{2}{|c|}{\centering $p_T>15$ GeV} & \multicolumn{2}{l|}{\centering $p_T>15$ GeV} \\
+  \hline
+  \multicolumn{2}{|c|}{\centering $|\eta| <$2.47, excluding 1.37$<|\eta|<$1.52} & \multicolumn{2}{c|}{\centering $|\eta|<$2.45} \\
+   \hline
+  \multicolumn{2}{|c|}{\centering $|z_0$sin$\theta|<$ 0.5mm} & \multicolumn{2}{c|}{\centering $|z_0$sin$\theta|<$ 0.5mm} \\
+  \hline
+  Pass \textit{Tight} if $p_T<25$ GeV & Pass \textit{Loose}& Pass \textit{Tight} & Pass \textit{Medium} \\
+  \hline
+  Pass \textit{Medium} if $p_T>25$ GeV & Pass \textit{Loose}& Pass \textit{Tight} & Pass \textit{Medium} \\
+  \hline
+  \multicolumn{2}{|c|}{\centering $|d_0|\sigma(d_0)<5$} & $|d_0|\sigma(d_0)<3$ & $|d_0|\sigma(d_0)<15$ \\
+  \hline
   Pass FixedCutTrackCone40 if $p_T<25$GeV & & $E_T^{cone20}/p_T < 0.09$ & \\
+  \hline
   Pass IsoGradient if $p_T<25$GeV & & $p_T^{varcone30}/p_T<0.06$ & \\
+  \hline
    & Veto against identified electron & & Veto against identified muon \\
 \hline
 \hline
 \end{tabular}
 }
 \end{table}
-$Z+$jets event are selected to contain exactly three loosely identified leptons with $p_T>15$GeV. They also need to contain an opposite sign $ee$ or $\mu\mu$ lepton pair with 7-GeV$< m_{\ell\ell} < 110$GeV. Both $Z$ candidate leptons must be ``identified'' so that the third is the fake candidate. An additional $WZ$ veto is applied using $m_T>50$GeV to mitigate electroweak background in the $Z+$jets sample. Dedicated MC simulations model electroweak backgrounds in the $Z+$jets region and include $V+\gamma$, diboson ($WW$, $WZ$, and $ZZ$), single top and $t\bar{t}$. $WZ$ backgrounds are normalized to their measured cross-sections. Fake yields for the $Z+$jets samples are finally calculated by subtracting MC electroweak backgrounds from data. 
+$Z+$jets event are selected to contain exactly three loosely identified leptons with $p_T>15$ GeV. They also need to contain an opposite sign $ee$ or $\mu\mu$ lepton pair with 7$< m_{\ell\ell} < 110$ GeV. Both lepton candidates from the $Z$ decay must be ``identified'' so that the third is the fake candidate. An additional $WZ$ veto is applied using $m_T>50$ GeV to mitigate electroweak background in the $Z+$jets sample. Dedicated MC simulations model electroweak backgrounds in the $Z+$jets region and include $V+\gamma$, diboson ($WW$, $WZ$, and $ZZ$), single top and $t\bar{t}$. $WZ$ backgrounds are normalized to their measured cross-sections. Fake yields for the $Z+$jets samples are finally calculated by subtracting MC electroweak backgrounds from data. 
 
-The fake factor is computed as a binned ratio in $p_T$, $[15,20,25,35,\inf]$ and for muons also in $\eta$ for $[0,1.5,2.5]$ exluding the electromagnetic calorimeter crack region. The table \ref{tab:FakeFactors} summarizes fake factors used in this analysis.
+The fake factor is computed as a ratio between ``id'' and ``anti-id'' leptons and is binned in $p_T$, $[15,20,25,35,\inf]$, and for muons also in $\eta$, $[0,1.5,2.5]$, excluding the electromagnetic calorimeter crack region. Table~\ref{tab:FakeFactors} summarizes fake factors used in this analysis.
 
 \begin{table}[tb]
 \centering
@@ -689,26 +743,26 @@ The fake factor is computed as a binned ratio in $p_T$, $[15,20,25,35,\inf]$ and
 \begin{tabular}{c|c|c|c}
 $p_T$(GeV) & Muon FF ($|\eta|<1.5$) & Muon FF ($1.5<|\eta|<2.5$) & Electron FF \\
 \hline
-15-25 & 0.038$\pm$ 0.004 & 0.057$\pm$0.005 & 0.079$\pm$0.005 \\
-20-25 & 0.021$\pm$ 0.007 & 0.0357$\pm$0.0077 & 0.097$\pm$0.001 \\
-25-35 & 0.029$\pm$ 0.011 & 0.064$\pm$0.014 & 0.157$\pm$0.017 \\
-35-$\inf$ & 0.049$\pm$ 0.023 & 0.11$\pm$0.04 & 0.19$\pm$0.026 \\
+15--25 & 0.038$\pm$ 0.004 & 0.057$\pm$0.005 & 0.079$\pm$0.005 \\
+20--25 & 0.021$\pm$ 0.007 & 0.036$\pm$0.008 & 0.097$\pm$0.001 \\
+25--35 & 0.029$\pm$ 0.011 & 0.064$\pm$0.014 & 0.157$\pm$0.017 \\
+35--$\inf$ & 0.049$\pm$ 0.023 & 0.110$\pm$0.040 & 0.190$\pm$0.026 \\
 \end{tabular}
 \end{table}
 
-Further studies on fake factors include comparisons to their MC simulation expectations and studies on differences between the $Z+$jets control sample used to calculate fake factors and the $W+$jets sample on which they are applied. These studies are beyond the scope of this thesis but support the use of the fake factor method in our analysis. Specifically, jet kinematics and heavy flavor fraction in both samples are have been studied by the HWW coupling analysis group and factor into a correction factor applied to transfer between $Z+$jets and $W+$jets samples. More information on these studies and correction factors can be found in \cite{Aaboud_2019}.
+Further studies on fake factors include comparisons to their MC simulation expectations and studies on differences between the $Z+$jets control sample used to calculate fake factors and the $W+$jets sample on which they are applied. These studies are beyond the scope of this thesis but support the use of the fake factor method in our analysis. Specifically, jet kinematics and heavy flavor fraction in both samples are studied by the HWW coupling analysis group and factor into a correction factor applied to transfer between $Z+$jets and $W+$jets samples. More information on these studies and correction factors can be found in Ref.~\cite{Aaboud_2019}.
 
 The $W+$jets control region is defined as in the signal region, with cuts specifying at least 2 jets, a $b$-veto, $m_{\tau\tau}$ based Z-veto, an opposite lepton veto, central jet veto, and cuts on $m_{jj}$ and $\Delta Y_{jj}$. Unlike the signal region, this region specifies one ``id'' and one ``anti-id'' lepton instead of two identified leptons. The cutflow for this region is shown below where fakes are defined from the subtraction of total electroweak background from data. Once fake factors are applied, these events constitute the fake background estimate in the signal region. Fake purity in this control region is $74\%$ after all signal region-like cuts are applied.
 
 \begin{table}[h!]
-\scalebox{0.6}{
+\scalebox{0.7}{
 \input{Pictures/emme-vbf-fakesCR.tex}
 }
-\caption{Cutflow in the $W+$jets control region.}
+\caption{Cutflow in the $W+$jets control region. Lepton ID/anti-ID describes the selection of fake candidates with either one or two ``anti-id'' leptons}
 \label{tab:fakescr}
 \end{table}
 
-Distributions \ref{fig:WCR} show the electroweak background processes (blue) in the fake control region along with data (black). The $W+$jets or fake background is taken as the difference between data and EW background and shown in the plots as light blue points. High fake purity is shown and these backgrounds are used along with fake factors to estimate fakes contaminating our signal region.
+Distributions shown in Figure~\ref{fig:WCR} show the electroweak background processes (blue) in the fake control region along with data (black). The $W+$jets or fake background is taken as the difference between data and EW background and shown in the plots as light blue points. This selection achieves high purity of the ``fake background'' sample which, along with fake factors, is used to estimate fakes contaminating our signal region.
 
 \begin{figure}[!h]
   \subfloat[$p_T^{\ell\ell}$]{
@@ -744,25 +798,25 @@ Distributions \ref{fig:WCR} show the electroweak background processes (blue) in 
   \subfloat[$\ensuremath{E_{\text{T}}^{\text{miss}}}$]{
       \includegraphics[width=0.3\textwidth]{Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf}
   }%\hfill
-{\caption{Distributions of $p_T^{\ell\ell}$, $m_{\ell\ell}$,$m_T$,$p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, $m_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the differential VBF $W+$jets control region.
+{\caption{Distributions of $p_T^{\ell\ell}$, $m_{\ell\ell}$, $m_T$, $p^T_{tot}$, lep $p^T_{\text{lead}}$, lep $p^T_{\text{sublead}}$, $m_{jj}$, and $\ensuremath{E_{\text{T}}^{\text{miss}}}$ in the differential VBF $W+$jets control region.
 \label{fig:WCR}}}
 \end{figure}  
 
 \section{Systematic uncertainties}
-The experimental, theoretical, and statistical uncertainties in this analysis all impact the final measurement substantially. In this section I describe first the experimental systematic uncertainties then the theoretical in detail. Statistical uncertainties are derived from the limited number of MC events used to model each of signal and background samples in the fiducial cross-section measurement. A single MC-stat nuisance parameter is implemented based on Poisson statistics and used in our overall statistical fit. 
+The experimental, theoretical, and statistical uncertainties in this analysis all impact the final measurement substantially. In this section I describe both the experimental and theoretical systematic uncertainties in detail. Statistical uncertainties are derived from the limited number of MC events used to model each of signal and background samples in the fiducial cross-section measurement. A single MC-stat nuisance parameter is implemented based on Poisson statistics and used in our overall statistical fit. 
 
 \subsection{Experimental uncertainties}
-Several types of experimental systematics uncertainties affect this analysis. Each systematic estimate follows the current prescriptions from performance groups and can be split into those derived from muons, electrons, Jet/$E_T^{miss}$, Trigger, flavor tagging and pile-up. The current set of experimental systematics uses 102 nuisance parameters, each of are briefly described with their associated names in the \ref{tab:expSyst}. The impact of these systematics on our overall result as well as their ranking and interpretation is included in the next Chapter 7. 
+Several types of experimental systematics uncertainties affect this analysis. Each systematic estimate follows the current prescriptions from performance groups and can be split into those derived for muons, electrons, Jet/$E_T^{miss}$, Trigger, flavor tagging and pile-up. The current set of experimental systematics uses 102 nuisance parameters, each briefly described with their associated names in Table~\ref{tab:expSyst}. The impact of these systematics on our overall result, as well as their ranking and interpretation, is included in the next Chapter 7. 
  
-Systematic uncertainties on the energy of jets and electrons and momentum of muons are based on scale and resolution values. These uncertainties are evaluated by testing the number of events in the final state affected by shifting energy/momentum by a scale factor. This ``smearing'' procedure is done for a nominal scaling value and values with $\pm 1 \sigma$. Systematic uncertainty on scale factors is calculated by comparing nominal event numbers to those after particular weights are applied. These weights are derived from data-MC agreement and their uncertainty is the relative difference between nominal and modified weight sums.  
+Systematic uncertainties on the energy of jets and electrons as well as on the momentum of muons are based on scale and resolution values. These uncertainties are evaluated by testing the number of events in the final state affected by shifting energy/momentum by a scale factor. This ``smearing'' procedure is done for a nominal scaling value and values with $\pm 1 \sigma$. Systematic uncertainty on scale factors is calculated by comparing nominal event numbers to those after particular weights are applied. These weights are derived from data-MC agreement and their uncertainty is the relative difference between nominal and modified weight sums.  
  
-There are four nuisance parameters associated with muon reconstruction and identification, these are the reconstruction efficiency statistical and systematic uncertainties along with additional separate uncertainties for low $p_T$ muons, or those with $3 < p_T <20$ GeV. Muon momentum resolution uncertainties are divided into those from the Inner Detector and those from the muon spectrometer. Muon momentum scale uncertainties are contained in one parameter and two additional systematic uncertainties come from a correction applied to muons to account for residual ID/MS misalignments which create a charge dependent bias. Two nuisance parameters account for muon isolation uncertainties and an additional two account for muon trigger uncertainties.  
+There are four nuisance parameters associated with muon reconstruction and identification. Muon momentum resolution uncertainties are divided into those from the Inner Detector and those from the muon spectrometer. Muon momentum scale uncertainties are contained in one parameter and two additional systematic uncertainties come from a correction applied to muons to account for residual ID/MS misalignments which create a charge dependent bias. Two nuisance parameters account for muon isolation uncertainties and an additional two account for muon trigger uncertainties~\cite{MCPpaper}.  
 
-Electron reconstruction and identification uncertainties are contained in 35 recommended nuisance parameters. There are three additional standard systematics included for electron energy scale and resolution and a final two are included for electron isolation and trigger efficiency.
+Electron reconstruction and identification uncertainties are contained in 35 recommended nuisance parameters. There are three additional standard systematics included for electron energy scale and resolution and a final two are included for electron isolation and trigger efficiency~\cite{ElectronPhotonPerformance}.
 
-There are a number of jet energy scale and resolution systematics in the analysis including parameters to estimate energy scale and resolution uncertainties, $b$-jet scale and efficiency uncertainties, flavor composition, response, energy scale dependence on pile-up, and $\eta$ calibrations.
+There are a number of jet energy scale and resolution systematics in the analysis including parameters to estimate energy scale and resolution uncertainties, $b$-jet scale and efficiency uncertainties, flavor composition, response, energy scale dependence on pile-up, and $\eta$ calibrations~\cite{JETEtmiss}.
 
-Systematics from the pileup $<\mu>$ value are determined by varying the data scale factor and are accounted for with one overall nuisance parameter (though pile-up effects on jets are considered independently). Overall integrated luminosity uncertainty is $\pm 1.7\%$ as calculated for the complete 2015-2018 dataset \cite{ATLAS-CONF-2019-021}.
+Systematics from the pileup $<\mu>$ value are determined by varying the data scale factor and are accounted for with one overall nuisance parameter (though pile-up effects on jets are considered independently). Overall integrated luminosity uncertainty is $\pm 1.7\%$ as calculated for the complete 2015-2018 dataset~\cite{ATLAS-CONF-2019-021}.
 
 \begin{table}
 \resizebox{\textwidth}{!}{
@@ -795,7 +849,7 @@ Systematics from the pileup $<\mu>$ value are determined by varying the data sca
   MUON\_EFF\_STAT\_LOWPT         & \multirow{2}{*}{reconstruction and ID efficiency uncertainty for muons with $p_T$ < 20 GeV} \\
   MUON\_EFF\_SYST\_LOWPT         &                                                                      \\
 % MUON\_ISO\_STAT                &  \multirow{2}{*}{isolation efficiency uncertainty}                   \\
-% MUON\_ISO\_SYS                 &                                                                      \\
+T% MUON\_ISO\_SYS                 &                                                                      \\
 % MUON\_TTVA\_STAT               &  \multirow{2}{*}{track-to-vertex association efficiency uncertainty} \\
 % MUON\_TTVA\_SYS                &                                                                      \\
   MUON\_ID                       & momentum resolution uncertainty from inner detector                  \\
@@ -808,7 +862,7 @@ Systematics from the pileup $<\mu>$ value are determined by varying the data sca
   \hline         
   JET\_EffectiveNP\_Detector (1 to 2) & detector related energy scale uncertainty \\
   JET\_JER\_EffectiveNP\_ (1 to 7) & energy resolution uncertainty  \\
-  JET\_JER\_DataVsMC 	& energy resolution modelling uncertainty \\
+  JET\_JER\_DataVsMC 	& energy resolution modeling uncertainty \\
   JET\_BJES\_Response & energy scale uncertainty on b-jets \\
   JET\_EffectiveNP\_Mixed (1 to 3) & energy resolution uncertainty \\
   JET\_EffectiveNP\_Modelling (1 to 4) &  energy scale uncertainty on eta-intercalibration (modeling) \\
@@ -838,72 +892,75 @@ Systematics from the pileup $<\mu>$ value are determined by varying the data sca
 \end{table}
 
 \subsection{Theoretical uncertainties}
-Theoretical uncertainties are determined and evaluated per sample rather than on reconstructed physics objects and determine the accuracy of each of our Monte Carlo generated signal and background samples. In this analysis theoretical uncertainties are calculated and included in our overall fit for VBF signal and ggF, top, $WW$ and $Z\rightarrow\tau\tau$ background events. In this section I will briefly discuss the uncertainties associated with each of these samples and demonstrate the scale of their effects. Their impacts on the overall results is further discussed in the next chapter. 
+Theoretical uncertainties determine the accuracy of each of our Monte Carlo generated signal and background samples and are evaluated per sample rather than on reconstructed physics objects. In this analysis, theoretical uncertainties are calculated and included in our overall fit for VBF signal and ggF, top, $WW$ and $Z\rightarrow\tau\tau$ background events. For this measurement, I use global normalization uncertainties estimated within the signal region, which are dominant over shape effects. In this section, I will briefly discuss the uncertainties associated with each sample and show how they affect the cross-section measurement. Their impacts on the overall result are further discussed in the next chapter.  
 
-\subsubsection{Signal theory uncertainties}
-The VBF theoretical uncertainties include shower, PDF, $\alpha_s$, and QCD scale variations. Parton shower uncertainties are derived from comparison between different parton shower generators (Powheg$+$Pythia8, nominal, and Powheg$+$Herwig7) and constitute the largest theoretical uncertainties in the signal region. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales and are found with an 8-point envelope scheme. VBF signal theory systematics within the signal region, control/validation regions are shown in \ref{tab:vbftheory}.
+\subsubsection{Theory uncertainties uncertainties on VBF Higgs production}
+The VBF theoretical uncertainties include parton shower, PDF, $\alpha_s$, and QCD scale. Shower uncertainties are derived from comparisons between different Parton Shower generators (Powheg$+$Pythia8, nominal, and Powheg$+$Herwig7) and constitute the largest theoretical uncertainties in the signal region. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales and are found with an 8-point envelope scheme. VBF signal theory systematics within the signal region, control/validation regions are shown in Table \ref{tab:vbftheory}.
 
 \begin{table}[h!]
-\scalebox{0.6}{
+\centering
+\scalebox{1.0}{
 \input{Pictures/theory_systematics/VBF/table-VBF.tex}
 }
 \caption{VBF theory uncertainties breakdown}
 \label{tab:vbftheory}
 \end{table}
 
-We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:vbftheor} show very little shape effects.
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. The distributions shown in Figure \ref{fig:vbftheor} show very little shape effects.
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf}
   }\hfill
   \subfloat[$\alpha_s$ uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf}
   }\hfill
   \subfloat[Shower uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf}
   }\hfill
   \subfloat[QCD uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf}
   }\hfill
-{\caption{Up and down variations shown for four theoretical uncertainties from the VBF signal displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts (S. Addepalli).
+{\caption{Up and down variations shown for four theoretical uncertainties from the VBF signal displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts~\cite{ourSupportNote}.
 \label{fig:vbftheor}}}
 \end{figure} 
 
-\subsubsection{ggF background theory uncertainties}
-The ggF theoretical uncertainties come also include shower, PDF, $\alpha_s$, and QCD scale variations. Parton shower uncertainties use the same prescription described for the VBF samples and similarly constitute the largest theoretical uncertainties from ggF events. PDF uncertainties are derived from internal re-weighting as for VBF and QCD uncertainties include factorization and renormalization scales and are derived using the WG1 scheme \cite{WG1}. ggF theory uncertainties derived in the signal and validation regions are show in the table \ref{tab:ggftheory}.
+\subsubsection{Theoretical uncertainties on ggF Higgs production}
+The ggF theoretical uncertainties come also include Parton Shower, PDF, $\alpha_s$, and QCD scale variations. Parton Shower uncertainties use the same prescription described for the VBF samples and similarly constitute the largest theoretical uncertainties from ggF events. PDF uncertainties are derived from internal re-weighting as for VBF and QCD uncertainties include factorization and renormalization scales and are derived using the WG1 scheme~\cite{WG1}. ggF theory uncertainties derived in the signal and validation regions are show in Table~\ref{tab:ggftheory}.
 \begin{table}[h!]
-\scalebox{0.6}{
-\input{Pictures/table-ggfinvbfdiff.tex}
+\centering
+\scalebox{1.0}{
+\input{Pictures/theory_systematics/ggF/table-ggfinvbfdiff.tex}
 }
-\caption{ggF theory uncertainties- NP breakdown}
+\caption{ggF theory uncertainties breakdown}
 \label{tab:ggftheory}
 \end{table}
 
-We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:ggftheor} show very little shape effects. 
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Figure~\ref{fig:ggftheor} shows very little shape effects. 
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf}
   }\hfill
   \subfloat[$\alpha_s$ uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf}
   }\hfill
   \subfloat[Shower uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf}
   }\hfill
   \subfloat[QCD scale uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf}
   }\hfill
 {\caption{Up and down variations shown for four theoretical uncertainties from the ggF background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts.
 \label{fig:ggftheor}}}
 \end{figure}
 
-\subsubsection{Top background theory uncertainties}
-The top background considered in this analysis includes $t\bar{t}$ and $Wt$ where $t\bar{t}$ is the dominant sample by far. Theoretical uncertainties are produced for both single top and $t\bar{t}$ independently and both include those from a variety of sources including hard scatter generation, parton shower, factorization and renormalization scales, initial state radiation (ISR), final state radiation (FSR), and PDFs. For parton shower uncertainties, the same scheme used in ggF and VBF samples is used. Hard scatter generation uncertainties are similarly derived from comparing the nominal generation method with aMcAtNlo$+$Pythia8. QCD scale uncertainties from renormalization and factorization are added with a 6-point envelope scheme. ISR and FSR uncertainties are determined through varying internal weights and the PDF uncertainty is completed with internal reweighting and errors produced within the nominal Powheg$+$Pythia8 samples. $Wt$ events contain one additonal systematic uncertainty - interference. This is derived from removing $t\bar{t}$-like contributions at the level of amplitude (DR) or matrix elements (DS) \cite{Wttheory}. Table \ref{tab:ttbartheory} shows theory uncertainty from $t\bar{t}$ events in the signal, control and validation regions while table \ref{tab:singletoptheory} shows the same for $Wt$. While $Wt$ uncertainties are large, the background has a minimal contribution to the analysis so these do not have a large effect on overall results.
+\subsubsection{Theoretical uncertainties on top decays}
+The top background considered in this analysis includes $t\bar{t}$ and $Wt$ where $t\bar{t}$ is the dominant sample by far. Theoretical uncertainties are produced for both single top and $t\bar{t}$ independently and both include those from a variety of sources including hard scatter generation, parton shower, factorization and renormalization scales, initial state radiation (ISR), final state radiation (FSR), and PDFs. For parton shower uncertainties, the same scheme used in ggF and VBF samples is used. Hard scatter generation uncertainties are similarly derived from comparing the nominal generation method with aMcAtNlo$+$Pythia8. QCD scale uncertainties from renormalization and factorization are added with a 6-point envelope scheme. ISR and FSR uncertainties are determined through varying internal weights and the PDF uncertainty is completed with internal reweighting and errors produced within the nominal Powheg$+$Pythia8 samples. $Wt$ events contain one additonal systematic uncertainty - interference. This is derived from removing $t\bar{t}$-like contributions at the level of amplitude (DR) or matrix elements (DS)~\cite{Wttheory}. Table \ref{tab:ttbartheory} shows theory uncertainty from $t\bar{t}$ events in the signal, control and validation regions while table \ref{tab:singletoptheory} shows the same for $Wt$. While $Wt$ uncertainties are large, the background has a minimal contribution to the analysis so these do not have a large effect on overall results. \textcolor{red}{Looking into ttbar uncertainties, slightly larger generator/scale than expected}. 
 
 \begin{table}[h!]
-\scalebox{0.6}{
+\centering
+\scalebox{1.0}{
 \input{Pictures/theory_systematics/ttbar/table-ttbar_vbf.tex}
 }
 \caption{$t\bar{t}$ theory uncertainties breakdown}
@@ -911,14 +968,15 @@ The top background considered in this analysis includes $t\bar{t}$ and $Wt$ wher
 \end{table}
 
 \begin{table}[h!]
-\scalebox{0.6}{
+\centering
+\scalebox{1.0}{
 \input{Pictures/theory_systematics/wt/table-Wt_vbf.tex}
 }
 \caption{$Wt$ theory uncertainties breakdown}
 \label{tab:singletoptheory}
 \end{table}
 
-%We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:wttheory} show too little statistics to discern any shape effects.
+%We examine these uncertainties for any shape effects on the BDT output used in the final fit. Figures~\ref{fig:wttheory} show too little statistics to discern any shape effects.
 %
 %\begin{figure}[!h]
 %  \subfloat[PDF uncertainty]{
@@ -946,7 +1004,7 @@ The top background considered in this analysis includes $t\bar{t}$ and $Wt$ wher
 %\label{fig:wttheor}}}
 %\end{figure}
 
-Plots \ref{fig:ttbartheory} show very little shape effects from theoretical uncertainties on $t\bar{t}$ backgrounds. $Wt$ distributions have too little statistics in the signal region for theory systematics to have shape effects.
+Figure ~\ref{fig:ttbartheory} shows very little shape effects from theoretical uncertainties on $t\bar{t}$ backgrounds. $Wt$ distributions have too little statistics in the signal region for theory systematics to have shape effects.
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{
@@ -967,23 +1025,24 @@ Plots \ref{fig:ttbartheory} show very little shape effects from theoretical unce
   \subfloat[FSR uncertainty]{
       \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr.pdf}
   }%\hfill
-{\caption{Up and down variations shown for four theoretical uncertainties from the $t\bar{t}$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts (S. Addepalli).
-\label{fig:ttbartheor}}}
+{\caption{Up and down variations shown for four theoretical uncertainties from the $t\bar{t}$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts~\cite{ourSupportNote}.
+\label{fig:ttbartheory}}}
 \end{figure}
 
-\subsubsection{$WW$ background theory uncertainties}
+\subsubsection{Theoretical uncertainties on $WW$ production}
 
-The $WW$ background theoretical uncertainties include PDF, $\alpha_s$, and QCD scale variations. \textcolor{red}{Add CKKM uncertainties and generator?}. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales, and generator uncertainties are derived from a comparison with $MG5_aMC@NLO$ interfaced with Pythia8 (and so include shower uncertainty). $WW$ theory systematics within the signal region, control/validation regions are shown in \ref{tab:wwtheory}.
+The $WW$ background theoretical uncertainties include PDF, $\alpha_s$, and QCD scale variations. \textcolor{red}{Add CKKM uncertainties and generator?}. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales, and generator uncertainties are derived from a comparison with $MG5_aMC@NLO$ interfaced with Pythia8 (and so include shower uncertainty). $WW$ theory systematics within the signal region, control/validation regions are shown in Table~\ref{tab:wwtheory}.
 
 \begin{table}[h!]
-\scalebox{0.6}{
+\centering
+\scalebox{1.0}{
 \input{Pictures/theory_systematics/WW/table-WW_vbf.tex}
 }
 \caption{$WW$ theory uncertainties breakdown}
 \label{tab:wwtheory}
 \end{table}
 
-We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:wwtheor} show no shape effects.
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Figure~\ref{fig:wwtheor} shows no shape effects.
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{
@@ -995,37 +1054,38 @@ We examine these uncertainties for any shape effects on the BDT output used in t
   \subfloat[QCD scale uncertainty]{
       \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf}
   }%\hfill
-{\caption{Up and down variations shown for four theoretical uncertainties from the $WW$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts (S. Addepalli).
+{\caption{Up and down variations shown for four theoretical uncertainties from the $WW$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts~\cite{ourSupportNote}.
 \label{fig:wwtheor}}}
 \end{figure}
 
-\subsection{$Z\rightarrow\tau\tau$ background theory uncertainties}
+\subsubsection{Theoretical uncertainties on $Z\rightarrow\tau\tau$}
 
 The $Z\rightarrow\tau\tau$ theoretical uncertainties include PDF, $\alpha_s$, QCD scale, and generator variations. PDF uncertainties are derived from internal re-weighting within the nominal Powheg$+$Pythia8 samples, QCD uncertainties include factorization and renormalization scales and use a seven-point envelope, $\alpha_s$ uncertainties use an up-down comparion with two $NNPDF3.0$ NNLO $\alpha_s$ variations, and generator uncertainties are derived from a comparison with $MG5_aMC@NLO$ interfaced with Pythia8. $Z\rightarrow\tau\tau$ theory systematics within the signal region, control/validation regions are shown in \ref{tab:ztttheory}.
 
 \begin{table}[h!]
-\scalebox{0.6}{
+\centering
+\scalebox{1.0}{
 \input{Pictures/theory_systematics/Ztautau/table-ztautau_VBF.tex}
 }
 \caption{$Z\rightarrow\tau\tau$ theory uncertainties breakdown}
 \label{tab:ztttheory}
 \end{table}
 
-We examine these uncertainties for any shape effects on the BDT output used in the final fit. Plots \ref{fig:ztttheor} show very little shape effects.
+We examine these uncertainties for any shape effects on the BDT output used in the final fit. Figure~\ref{fig:ztttheor} shows very little shape effects.
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_pdf.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_pdf.pdf}
   }\hfill
   \subfloat[$\alpha_s$ uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_alphas.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_alphas.pdf}
   }\hfill
   \subfloat[Generator uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_generator.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_generator.pdf}
   }\hfill
   \subfloat[QCD scale uncertainty]{
-      \includegraphics[width=0.3\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_scale.pdf}
+      \includegraphics[width=0.4\textwidth]{Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_scale.pdf}
   }\hfill
-{\caption{Up and down variations shown for four theoretical uncertainties from the $Z\rightarrow\tau\tau$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts (S. Addepalli).
+{\caption{Up and down variations shown for four theoretical uncertainties from the $Z\rightarrow\tau\tau$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts~\cite{ourSupportNote}.
 \label{fig:ztttheor}}}
 \end{figure}

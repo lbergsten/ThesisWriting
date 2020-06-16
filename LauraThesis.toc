@@ -14,12 +14,12 @@
 \contentsline {chapter}{\numberline {3}The LHC and the ATLAS detector}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}ATLAS}{36}{section.3.1}
 \contentsline {section}{\numberline {3.2}The High-Luminosity LHC and Inner Tracker}{38}{section.3.2}
-\contentsline {chapter}{\numberline {4}Tracking and Isolation in ATLAS}{40}{chapter.4}
+\contentsline {chapter}{\numberline {4}Reconstruction of Physics Objects}{40}{chapter.4}
 \contentsline {section}{\numberline {4.1}Tracking}{41}{section.4.1}
 \contentsline {section}{\numberline {4.2}Electrons}{42}{section.4.2}
 \contentsline {section}{\numberline {4.3}Muons}{46}{section.4.3}
 \contentsline {section}{\numberline {4.4}Jets}{56}{section.4.4}
-\contentsline {section}{\numberline {4.5}Missing transverse energy}{61}{section.4.5}
+\contentsline {section}{\numberline {4.5}Missing transverse energy}{60}{section.4.5}
 \contentsline {chapter}{\numberline {5}Event Selection}{65}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data and Monte Carlo samples}{65}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Data samples}{65}{subsection.5.1.1}
@@ -47,30 +47,29 @@
 \contentsline {subsection}{\numberline {6.1.2}Top background}{89}{subsection.6.1.2}
 \contentsline {subsubsection}{Top$+WW$ BDT discriminant}{91}{section*.58}
 \contentsline {subsection}{\numberline {6.1.3}Diboson background}{95}{subsection.6.1.3}
-\contentsline {subsubsection}{Top vs. $WW$ BDT discriminant}{96}{section*.65}
-\contentsline {subsection}{\numberline {6.1.4}ggF background}{100}{subsection.6.1.4}
-\contentsline {subsubsection}{Discriminant in ggF CR1}{101}{section*.70}
-\contentsline {subsubsection}{Discriminant in ggF CR2}{104}{section*.76}
-\contentsline {subsubsection}{Discriminant in ggF-CR3}{107}{section*.82}
-\contentsline {subsubsection}{Discriminant for ggF and VBF in the signal region}{110}{section*.88}
-\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{113}{subsection.6.1.5}
-\contentsline {section}{\numberline {6.2}Systematic uncertainties}{116}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{117}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.1.4}ggF background}{96}{subsection.6.1.4}
+\contentsline {subsubsection}{Discriminant in ggF CR1}{99}{section*.66}
+\contentsline {subsubsection}{Discriminant in ggF CR2}{100}{section*.73}
+\contentsline {subsubsection}{Discriminant in ggF-CR3}{104}{section*.80}
+\contentsline {subsubsection}{Discriminant for ggF and VBF in the signal region}{110}{section*.87}
+\contentsline {subsection}{\numberline {6.1.5}Fake backgrounds}{111}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Systematic uncertainties}{117}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Experimental uncertainties}{118}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Theoretical uncertainties}{119}{subsection.6.2.2}
-\contentsline {subsubsection}{Signal theory uncertainties}{119}{section*.98}
-\contentsline {subsubsection}{ggF background theory uncertainties}{121}{section*.101}
-\contentsline {subsubsection}{Top background theory uncertainties}{122}{section*.104}
-\contentsline {subsubsection}{$WW$ background theory uncertainties}{124}{section*.108}
-\contentsline {subsection}{\numberline {6.2.3}$Z\rightarrow \tau \tau $ background theory uncertainties}{126}{subsection.6.2.3}
-\contentsline {chapter}{\numberline {7}Results}{128}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{128}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{128}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Asimov results}{132}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Unblinded results}{134}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{138}{section.7.2}
-\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{141}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future results and measurements}{144}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusions}{146}{chapter.8}
-\contentsline {chapter}{\numberline {A}Inner Tracker}{158}{appendix.A}
-\contentsline {subsubsection}{Building ITk Strip barrel staves}{158}{section*.128}
-\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{163}{section*.133}
+\contentsline {subsubsection}{Theory uncertainties uncertainties on VBF Higgs production}{121}{section*.98}
+\contentsline {subsubsection}{Theoretical uncertainties on ggF Higgs production}{121}{section*.101}
+\contentsline {subsubsection}{Theoretical uncertainties on top decays}{123}{section*.104}
+\contentsline {subsubsection}{Theoretical uncertainties on $WW$ production}{125}{section*.108}
+\contentsline {subsubsection}{Theoretical uncertainties on $Z\rightarrow \tau \tau $}{126}{section*.111}
+\contentsline {chapter}{\numberline {7}Results}{129}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{129}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{129}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Asimov results}{133}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Unblinded results}{135}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{139}{section.7.2}
+\contentsline {section}{\numberline {7.3}Differential cross-section measurements}{142}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future results and measurements}{145}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusions}{147}{chapter.8}
+\contentsline {chapter}{\numberline {A}Inner Tracker}{160}{appendix.A}
+\contentsline {subsubsection}{Building ITk Strip barrel staves}{160}{section*.129}
+\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{165}{section*.134}
