@@ -68,7 +68,7 @@
 \contentsline {subsection}{\numberline {7.1.3}Unblinded results}{135}{subsection.7.1.3}
 \contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{139}{section.7.2}
 \contentsline {section}{\numberline {7.3}Differential cross-section measurements}{142}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future results and measurements}{145}{section.7.4}
+\contentsline {section}{\numberline {7.4}Future results and measurements}{144}{section.7.4}
 \contentsline {chapter}{\numberline {8}Conclusions}{147}{chapter.8}
 \contentsline {chapter}{\numberline {A}Inner Tracker}{160}{appendix.A}
 \contentsline {subsubsection}{Building ITk Strip barrel staves}{160}{section*.129}

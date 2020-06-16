@@ -67,13 +67,13 @@ Data/MC shows agreement over various variable distributions as seen in Figures~\
 Normalization factors (NF) are derived in the $Z+$jets control region to correct for Data/MC mis-modeling. These factors are applied to the $Z+$jets sample in the signal region. The NF factor used in this analysis is $1.01 \pm 0.04$. 
 
 \subsection{Top background}
-The top background consists of two main components, $Wt$ and $t\bar{t}$ events, where the $W$ decays leptonically and the top quarks decay to jets (notably $b$-jets). The top background is dominated by $t\bar{t}$ and is the largest background in our signal region, composing about $60\%$ of the total background. Though top backgrounds are numerous, discrimination between top and signal Higgs events is possible through training a BDT on variables that have very different discributions between these two types of events like $m_{\ell\ell}$ and $\Delta Y_{jj}$. As demonstrated in Chapter 4, our BDT discriminates between signal and top background quite well. The top background is therefore defined in the signal region and separated using the VBF vs. top$+WW$ discriminant. The final statistical fit seven total BDT discriminant and three of these are assocated with the top background: VBF vs. top$+WW$, top$+WW$ vs. all other samples, and top vs. $WW$. The overall statistical fit strategy is discussed in the following chapter but in this section I will describe the BDT used as the top discriminant: top$+WW$ vs. all other samples. 
+The top background consists of two main components, $Wt$ and $t\bar{t}$ events, where the $W$ decays leptonically and the top quarks decay to jets (notably $b$-jets). The top background is dominated by $t\bar{t}$ and is the largest background in our signal region, composing about $60\%$ of the total background. Though top backgrounds are numerous, discrimination between top and signal Higgs events is possible through training a BDT on variables that have very different discributions between these two types of events like $m_{\ell\ell}$ and $\Delta Y_{jj}$. As demonstrated in Chapter 5, our BDT discriminates between signal and top background quite well. The top background is therefore defined in the signal region and separated using the VBF vs. top$+WW$ discriminant. The final statistical fit uses six total BDT discriminants and two of these are associated with the top background: VBF vs. top$+WW$ and top$+WW$ vs. all other samples. The overall statistical fit strategy is discussed in the following chapter but in this section I will describe the BDT used as the top discriminant: top$+WW$ vs. all other samples. 
 
-We define a top validation region to test top Monte Carlo modeling and calculate a normalization factor used to correct top mis-modeling in the signal region. The top validation region is described similarly to the signal region with one major difference: the $b$- tagging selection applied in the signal region is (almost) reversed. Instead, we require exactly one $b$-tagged jet. The result is a highly pure top validation region, approximately $97\%$, where the flavor composition of the tagged jets is close to the signal region. Yields in this region are shown in the Table \ref{tab:topcr}.
+We define a top validation region to test top Monte Carlo modeling and calculate a normalization factor used to correct top mis-modeling in the signal region. The top validation region is described similarly to the signal region with one major difference: the $b$- tagging selection applied in the signal region is (almost) reversed. Instead, we require exactly one $b$-tagged jet. The result is a highly pure top validation region, approximately $97\%$, where the flavor composition of the tagged jets is close to the signal region. Yields in this region are shown in the Table~\ref{tab:topcr}.
 
 \begin{table}[h!]
 \centering
-\scalebox{0.65}{
+\scalebox{0.63}{
 \input{Pictures/emme-vbf-TopCR.tex}
 }
 \caption{Cutflow in the top control region.}
@@ -213,7 +213,7 @@ where $m_{\text{inv}}$ is zero in this analysis. Requiring $m_{T2}>160$ GeV elim
 
 \begin{table}[h!]
 \centering
-\scalebox{0.63}{
+\scalebox{0.60}{
 \input{Pictures/emme-vbf-wwVR.tex}
 }
 \caption{Cutflow in the $WW$ validation region.}
@@ -318,9 +318,9 @@ Data/MC shows good agreement over various variable distributions as shown in Fig
 \subsection{ggF background}
 Other Higgs production modes are considered backgrounds in this analysis. Vector mediated Higgs production ($VH$) and top produced Higgs ($ttH$) are small in our signal region so do not play a large role in the analysis. ggF Higgs production, however, represents a significant background. Signal region cuts requiring at least 2-jets and the central jet veto significantly reduce background yields, but because ggF is kinematically very similar to VBF signal, it still has a large effect on the VBF fiducial cross-section measurement. To mitigate these effects, ggF events are simultaneously estimated from three control regions and the signal region. The control regions are chosen to minimize both the statistical and the modeling uncertainties, in particular those originating from the modeling of higher order QCD corrections. The definition begins with a subdivision based on the jet multiplicity and creates three orthogonal regions that are similarly orthogonal to the signal region. The full definitions are described:  
 \begin{itemize} 
-\item {\textbf GGF-CR1:} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV} > 1$ and $\text{OLV} > 1$. 
-\item {\textbf GGF-CR2:} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV}<1$ and $\text{OLV}>1$ or $\text{CJV}>1$ and $\text{OLV}<1$.
-\item {\textbf GGF-CR3:} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, and $Z\rightarrow\tau\tau$ veto. 
+\item {\textbf{GGF-CR1:}} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV} > 1$ and $\text{OLV} > 1$. 
+\item {\textbf{GGF-CR2:}} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, $Z\rightarrow\tau\tau$ veto, $\text{CJV}<1$ and $\text{OLV}>1$ or $\text{CJV}>1$ and $\text{OLV}<1$.
+\item {\textbf{GGF-CR3:}} Preselection criteria and $N_{ \text{jet}}>=2$, $b$ veto, and $Z\rightarrow\tau\tau$ veto. 
 \end{itemize} 
 The full ggF expectation in the signal region is built from the following ratio, inspired by the ABCD method~\cite{ABCD}: 
 \begin{equation}
@@ -1004,7 +1004,7 @@ The top background considered in this analysis includes $t\bar{t}$ and $Wt$ wher
 %\label{fig:wttheor}}}
 %\end{figure}
 
-Figure ~\ref{fig:ttbartheory} shows very little shape effects from theoretical uncertainties on $t\bar{t}$ backgrounds. $Wt$ distributions have too little statistics in the signal region for theory systematics to have shape effects.
+Figure~\ref{fig:ttbartheory} shows very little shape effects from theoretical uncertainties on $t\bar{t}$ backgrounds. $Wt$ distributions have too little statistics in the signal region for theory systematics to have shape effects.
 
 \begin{figure}[!h]
   \subfloat[PDF uncertainty]{

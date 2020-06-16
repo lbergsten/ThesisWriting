@@ -2,36 +2,36 @@
 Thus far I have outlined all reconstruction-level inputs to our analysis including event selection, backgrounds and their estimation methods, and systematic uncertainties. Each of these components is critical to our final result and this section will focus on the methods used to use these to extract VBF $H\rightarrow WW^*$ cross-section measurements. 
 \section{Statistical analysis}
 \subsection{Likelihood functions}
-This analysis rests on the estimation of a parameter $\mu$ which describes the statistical significance of our signal yield relative to its Standard Model prediction and in this particular analysis defines the signal cross-section and signal and background yields. We build a likelihood function $\mathcal{L}(\mu,\Theta)$ where the signal strength $\mu$ is a parameter of interest (POI) and nuisance parameters (NPs) $\Theta=\Theta_a,\Theta_b,...$ represent all relevant uncertainties. None of these values are known a priori so the likelihood is built to represent the probability of particular values for the POIs and NPs. The analysis uses a maximum likelihood estimator to find the inputs which maximize the likelihood or equivalently and more mathematically tractable, minimize the negative log of the likelihood. Here I will briefly outline how a likelihood function can incorporate regions of interest. This discussion uses \cite{cranmer2015practical} as a guide. First, the Poisson distribution $\mathcal{P}(n|\lambda)$ describes the probability of $n$ events with a true unknown yield $\lambda$:
+This analysis rests on the estimation of a parameter $\mu$ which describes the statistical significance of our signal yield relative to its Standard Model prediction and in this particular analysis defines the signal cross-section and signal and background yields. We build a likelihood function $\mathcal{L}(\mu,\Theta)$ where the signal strength $\mu$ is a parameter of interest (POI) and nuisance parameters (NPs) $\Theta=\Theta_a,\Theta_b,...$ represent all relevant uncertainties. None of these values are known a priori so the likelihood is built to represent the probability of particular values for the POIs and NPs. The analysis uses a maximum likelihood estimator to find the inputs which maximize the likelihood or equivalently and more mathematically tractable, minimize the negative log of the likelihood. Here I will briefly outline how a likelihood function can incorporate regions of interest. This discussion uses Ref.~\cite{cranmer2015practical} as a guide. First, the Poisson distribution $\mathcal{P}(n|\lambda)$ describes the probability of $n$ events with a true unknown yield $\lambda$:
 \begin{equation}
 \mathcal{P}(n|\lambda)= \lambda^n\frac{e^{-\lambda}}{n!}
 \end{equation}
 Next we can define a variable observable $x$ with probability density $f(x)$ hence with $n$ events the probability density of each is multiplied. The likelihood of $\lambda$ can now be written
 \begin{equation}
-\mathcal{L}(\lambda)=\mathcal{P}(n|\lambda)\prod_{\text{event}}^n f(x)
+\mathcal{L}(\lambda)=\mathcal{P}(n|\lambda)\prod_{\text{event}}^n f(x).
 \end{equation}
-Our likelihood also must take into account multiple regions (the signal region as well as the control regions) and so these likelihoods are multiplied together with their own distinct Poisson distributions
+Our likelihood also must take into account multiple regions (the signal region as well as the control regions) and these likelihoods are multiplied together with their own distinct Poisson distributions,
 \begin{equation}
-\mathcal{L}(\lambda)=\prod_r^{\text{regions}}(\mathcal{P}(n_r|\lambda_r)\prod_{\text{event}}^n f(x))
+\mathcal{L}(\lambda)=\prod_r^{\text{regions}}(\mathcal{P}(n_r|\lambda_r)\prod_{\text{event}}^n f(x)).
 \end{equation}
-A simultaneous fit maximizes this likelihood function and so produces yield $\lambda$ for each free parameter simultaneously. The $\lambda$ values here represent predicted yields where $\lambda_{r,b} = \mu \lambda_{\text{sig}}+\lambda_{\text{bkg}}$. Maximizing the overall likelihood is made simpler by applying the natural logarithm (as the products between Poisson distributions become summations) and negating the likelihood, so as to take advantage of minimizing software.  
+Our statistical fit maximizes this likelihood function and so produces yield $\lambda$ for each free parameter simultaneously. The $\lambda$ values represent predicted yields where $\lambda_{r,b} = \mu \lambda_{\text{sig}}+\lambda_{\text{bkg}}$. Maximizing the overall likelihood is made simpler by applying the natural logarithm, as the products between Poisson distributions become summations, and negating the likelihood to take advantage of minimizing software.  
 
-Particle physics defines discovery with rigorous standards using hypothesis testing. The null hypothesis is considered $\mu=0$ and is considered ``background-only" while the alternative hypothesis is that there is a signal above this background. The probability that the null hypothesis is rejected (or that the signal is discovered) is defined using a $p$-value. The $p$-value can be converted to a number of Gaussian standard deviations and in high energy physics three $\sigma$ significance (or a $p$-value of $1.35 \times 10^{-3}$) shows evidence while a five $\sigma$ result ($p$-value $2.87\times10^{-7}$) is considered a discovery.
+Particle physics defines discovery with rigorous standards using hypothesis testing. The null hypothesis is considered $\mu=0$ and is considered ``background-only'' while the alternative hypothesis is that there is a signal above this background. The probability that the null hypothesis is rejected (or that the signal is discovered) is defined using a $p$-value. The $p$-value can be converted to a number of Gaussian standard deviations and in high energy physics three $\sigma$ significance, a $p$-value of $1.35 \times 10^{-3}$, shows evidence while a five $\sigma$ result, $p$-value $2.87\times10^{-7}$, is considered a discovery.
 
-In this analysis we use HistFitter software which is compiled with RooStats, RooFit, and HistFactory to complete our likelihood fit. We calculate the signal VBF Higgs cross-section in the fiducial space defined with signal region cuts (described in Chapter 4) with a simultaneous fit of the signal and control regions. Each region has a different distribution used in the fit to maximize that samples' discrimination against all other events. Overall we include seven floating parameters: signal strength for $\mu_{VBF}$, $\mu_{TopWW}$, $\mu_{Z+jets}$, and $\mu_{ggF}$, $\mu_{ggF1}$, $\mu_{ggF2}$, and $\mu_{ggF3}$. Other backgrounds (fakes, $V/\gamma$, $VH$, and $ttH$) are included as fixed parameters in the fit. 
+In this analysis we use HistFitter software which is compiled with RooStats, RooFit, and HistFactory to complete our likelihood maximization. We calculate the signal VBF Higgs cross-section in the fiducial space defined with signal region selection with a simultaneous fit of the signal and control regions. Each region has a different distribution used in the fit to maximize that samples' discrimination against all other events. Overall we include seven floating parameters: signal strength for $\mu_{VBF}$, $\mu_{TopWW}$, $\mu_{Z+jets}$, and $\mu_{ggF}$, $\mu_{ggF1}$, $\mu_{ggF2}$, and $\mu_{ggF3}$. Other backgrounds fakes, $V/\gamma$, $VH$, and $ttH$ are included as fixed parameters. 
 
-The background treatment differs depending on the particular region and sample. For $Z+$jets, a designated control region is used and so the yield in the signal region can be found by including a transfer factor which maps the yield in the $Z+$jets control region to its yield in the signal region. The ggF signal strengths are split and derived as in shown in Chapter 5. Transfer factors to extrapolate yields from one region to another are derived by normalizing to the MC simulation. For backgrounds estimated within the signal region (Top/$WW$) the transfer factor is used only to extrapolate using simulations in the control regions where the contributions enters (other than the signal region) and so uncertainties associated with transfer factors are reduced. For the backgrounds included as fixed parameters in the fit, their predicted MC value is used (in the case of $V\gamma$, $VH$, and $ttH$) and for fakes their data-driven estimate is used. 
+The background treatment differs depending on the particular region and sample. For $Z+$jets, a designated control region is used and so the yield in the signal region can be found by including a transfer factor, which maps the yield in the $Z+$jets control region to that in the signal region. The ggF signal strengths are split and derived as in shown in Chapter 6. Transfer factors to extrapolate yields are derived by normalizing to MC simulation. For backgrounds estimated within the signal region (Top/$WW$) the transfer factor is used only to extrapolate into the control regions where the contributions enters and so uncertainties associated with transfer factors are reduced. For the backgrounds included as fixed parameters in the fit, their predicted MC value is used in the case of $V\gamma$, $VH$, and $ttH$ and for fakes we use their data-driven estimate. 
 
-Events in the $e\mu$ and $\mu e$ channels are combined in the analysis and the likelihood is defined as the product of the Poissonians over BDT output bins in the signal region multiplied by the product of Poissonians over discriminant distributions in the controls regions (ggF CRs, $Z+$jets CR and Top/WW CR- within the signal region). The likelihood can then be calculated: 
+Events in the $e\mu$ and $\mu e$ channels are combined in the analysis and the likelihood is defined as the product of the Poissonians over BDT output bins in the signal region multiplied by the product of Poissonians over discriminant distributions in the controls regions (ggF CRs, $Z+$jets CR and Top/WW CR- within the signal region). The likelihood can then be calculated 
 
 \begin{equation}
   \begin{aligned}
 \mathcal{L}(\mu) = \displaystyle\prod_{j=0}^{N_{\text{sig BDT bins}}} \mathcal{P} (n_{j}|\lambda_r) \times \displaystyle\prod_{k=1}^{N_{\text{CR-bins}}} P(n_{k}|\lambda_b) \\
-\qquad = \displaystyle\prod_{j=0}^{N_{\text{sig BDT bins}}} \mathcal{P} (n_{j}|\mu_s \lambda_{sig,j} + \displaystyle\sum_{n}^{N_{\text{bkg}}}\mu_b^{n} \lambda_{bkg}^{nj}) \times \displaystyle\prod_{k=1}^{N_{\text{CR-bins}}} P(n_{k}|\mu_s \lambda_{sig,k} + \displaystyle\sum_{n}^{N_{\text{bkg}}}\mu_b^{n} \lambda_{bkg}^{nk})
+\qquad = \displaystyle\prod_{j=0}^{N_{\text{sig BDT bins}}} \mathcal{P} (n_{j}|\mu_s \lambda_{sig,j} + \displaystyle\sum_{n}^{N_{\text{bkg}}}\mu_b^{n} \lambda_{bkg}^{nj}) \times \displaystyle\prod_{k=1}^{N_{\text{CR-bins}}} P(n_{k}|\mu_s \lambda_{sig,k} + \displaystyle\sum_{n}^{N_{\text{bkg}}}\mu_b^{n} \lambda_{bkg}^{nk}).
   \end{aligned}
 \end{equation}
 
-Here the signal and background strengths are denoted $\mu$ and yields $\lambda$. Sums over all backgrounds $n$ include $Z+$jets, top/$WW$, and ggF; the minor backgrounds and data-driven $W+$jets estimate are added to Poisson expectations as fixed parameters. The last important addition to this likelihood is that of the numerous nuisance parameters affecting the analysis. These parameters $\Theta$ come in two general types: systematics which do not affect the shape of discriminating variables and those that do. Flat systematics are constrained with a unit Gaussian and their effects are measured for $\Theta=\pm1$. Shape systematics are split into purely flat and shape components and are again constrained with a unit Gaussian though their effects are measured through $\nu_{\text{shape}}(\Theta)= 1+\epsilon\Theta$ where $\epsilon$ is determined by measuring $\nu_{\text{shape}}$ at $\Theta=\pm 1$. Adding nuisance parameters $\Theta$ our final likelihood can be written 
+The signal and background strengths are denoted $\mu$ and yields $\lambda$. Sums over all backgrounds $n$ include $Z+$jets, top/$WW$, and ggF; the minor backgrounds and data-driven $W+$jets estimate are added to Poisson expectations as fixed parameters. The last important additions to this likelihood are nuisance parameters. These parameters $\Theta$ come in two general types: systematics which do not affect the shape of discriminating variables and those that do. Flat systematics are constrained with a unit Gaussian and their effects are measured for $\Theta=\pm1$. Shape systematics are split into purely flat and shape components and are again constrained with a unit Gaussian though their effects are measured through $\nu_{\text{shape}}(\Theta)= 1+\epsilon\Theta$ where $\epsilon$ is determined by measuring $\nu_{\text{shape}}$ at $\Theta=\pm 1$. Adding nuisance parameters $\Theta$ our final likelihood can be written 
 \begin{equation}
   \begin{aligned}
 \mathcal{L}(\mu,\vec{\Theta}) = \displaystyle\prod_{j=0}^{N_{\text{sig BDT bins}}} \mathcal{P} (n_{j}|\mu_s \lambda_{sig,j} + \displaystyle\sum_{n}^{N_{\text{bkg}}}\mu_b^{n} \lambda_{bkg}^{nj}) \times \displaystyle\prod_{k=1}^{N_{\text{CR-bins}}} P(n_{k}|\mu_s \lambda_{sig,k} + \displaystyle\sum_{n}^{N_{\text{bkg}}}\mu_b^{n} \lambda_{bkg}^{nk})  \times
@@ -40,30 +40,31 @@ Here the signal and background strengths are denoted $\mu$ and yields $\lambda$.
 \end{equation}
 where $G(\tilde{\Theta_i}|\Theta_i,1) = \frac{1}{\sqrt{2\pi}}e^{\frac{(\tilde{\Theta}-\Theta)^2}{2}}$ is the unit Gaussian and $\tilde{\Theta}$ is an auxiliary measurement of $\Theta$.
 
-The fit is performed for a signal region, three ggF control regions, a $Z+$jets control region, and a shared top/$WW$ control defined within the signal region estimated in one half of the binned region defined by the signal region discriminant. Table \ref{tab:regiondefinitions} summarizes the regions used with in the fit and their cuts. These are discussed in more detail in Chapters 4 and 5. 
+The fit is performed for a signal region, three ggF control regions, a $Z+$jets control region, and a shared top/$WW$ control defined within the signal region. Table~\ref{tab:regiondefinitions} summarizes the regions used within the fit and their defining selections. These are discussed in more detail in Chapters 5 and 6. 
 
 \begin{table}[h!]
 \begin{center}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|c|c|c|c|}
 \hline
-Signal region   & Top/$WW$ control region & $Z+$jets control region & ggF SR & ggF CR 1 & ggF CR 2 & ggF CR 3 \\
+\textbf{Signal region}   & \textbf{Top/$WW$ CR} & \textbf{$Z+$jets control region} & \textbf{ggF SR} & \textbf{ggF CR 1} & \textbf{ggF CR 2} & \textbf{ggF CR 3} \\
+\hline
 \hline
 \multicolumn{6}{|c|}{$n_{jets} \geq 2$}   & $n_{jets} <2$ \\
 \hline
 \multicolumn{7}{|c|}{b-veto} \\
 \hline
-\multicolumn{4}{|c|}{CJV $\geq20$GeV} & CJV$\geq 20$GeV and OLV$=1$ or CJV$<20$GeV and OLV$\neq1$ & CJV$\geq 20$GeV & - \\
+\multicolumn{4}{|c|}{CJV $\geq20$GeV} & CJV$\geq 20$GeV/OLV$=1$ or CJV$<20$GeV/OLV$\neq1$ & CJV$\geq 20$GeV & - \\
 \hline
 \multicolumn{4}{|c|}{OLV$=1$} & - & OLV$\neq1$ & - \\
 \hline
 \multicolumn{2}{|c|}{$m_{\tau\tau}<m_Z-25$ GeV} & $|m_{\tau\tau}|-m_Z\leq 25$GeV &\multicolumn{4}{|c|}{$m_{\tau\tau}<m_Z-25$GeV} \\
 \hline
-\multicolumn{2}{|c|}{$m_{jj}>00$ GeV} & $m_{\ell\ell}<80$GeV & \multicolumn{4}{|c|}{$m_{jj}>00$ GeV} \\
+\multicolumn{2}{|c|}{$m_{jj}>200$ GeV} & $m_{\ell\ell}<80$GeV & \multicolumn{4}{|c|}{$m_{jj}>200$ GeV} \\
 \hline
 \multicolumn{2}{|c|}{$\Delta Y_{jj}>2.1$}     & - & \multicolumn{4}{|c|}{$\Delta Y_{jj}>2.1$} \\
 \hline
-BDT$_{\text{VBF}} \geq 0$  & BDT$_{\text{VBF}} < 0$ & -0.5$<$BDT$_{\text{VBF}}>0.0$ & -  & -  & - \\
+BDT$_{\text{VBF}} \geq 0$  & BDT$_{\text{VBF}} < 0$ & -& -0.5$<$BDT$_{\text{VBF}}<0.0$ & -  & -  & - \\
 \hline
 \end{tabular}}
 \end{center}
@@ -71,15 +72,16 @@ BDT$_{\text{VBF}} \geq 0$  & BDT$_{\text{VBF}} < 0$ & -0.5$<$BDT$_{\text{VBF}}>0
 \label{tab:regiondefinitions}
 \end{table}
 
-Each of the regions included in the fit uses a different discriminant to best characterize that sample's contribution. These discriminants are almost all BDT outputs trained on various kinematic distributions to characterize certain background and signal samples. These are discussed in Chapters 4 and 5. The $Z+$jets control region is defined with $m_T$ instead of a designated BDT after studies showed its success at mitigating uncertainty on $\mu_{Z+\text{jets}}$. These studies are included in Appendix A. Table \ref{tab:fitinputs} summarizes the regions used in the fit and shows their discriminant and number of bins. Table \ref{tab:cryields} shows MC event yields in all regions included in the fit. 
+Each of the regions included in the fit uses a different discriminant to best characterize that sample's contribution. These discriminants are almost all BDT outputs trained on various kinematic distributions to characterize certain background and signal samples. These are discussed in Chapters 5 and 6. The $Z+$jets control region is defined with $m_T$ instead of a designated BDT after studies showed its success at mitigating uncertainty on $\mu_{Z+\text{jets}}$. These studies are included in Appendix B. Table~\ref{tab:fitinputs} summarizes the regions and shows their discriminant and number of bins. Table~\ref{tab:cryields} shows MC event yields in all regions included in the statistical analysis. 
 \begin{table}[!h]
   \begin{center}
+   \resizebox{\textwidth}{!}{
     \begin{tabular}{l|ccccccc}
        Category		& SR 	& Top/$WW$ CR 	& $Z+$jets CR 	& ggF-SR & ggF-CR1 		& ggF-CR2 	& ggF-CR3 \\
       \hline
-      Discriminant	& BDT$_{VBF}$ &  BDT$_{TopWWAll}$	& $m_{\text{T}}$ & BDT$_{ggFVBF}$ & BDT$_{ggF1}$	& BDT$_{ggF2}$ & BDT$_{ggF1}$ \\
+      Discriminant	& BDT$_{\text{VBF}}$ &  BDT$_{\text{TopWW}}$	& $m_{\text{T}}$ & BDT$_{\text{ggFVBF}}$ & BDT$_{\text{ggF1}}$	& BDT$_{\text{ggF2}}$ & BDT$_{\text{ggF1}}$ \\
       Number of bins    &  25 	      & 8 	& 20 		& 25	& 8 			& 8 		& 8  \\	
-    \end{tabular}
+    \end{tabular}}
     \caption{Fit categories, including SR and CRs, distributions and number of bins used in the fit.}
     \label{tab:fitinputs}
   \end{center}
@@ -89,6 +91,7 @@ Each of the regions included in the fit uses a different discriminant to best ch
   \begin{center}
     \begin{tabular}{l|cccccc}
       Category         & SR    & Top/$WW$ CR   & $Z+$jets CR           & ggF-CR1               & ggF-CR2       & ggF-CR3 \\
+      \hline
       \hline
       VBF      & 149.7 & 14.1 & 16.1 & 100.4 & 8.6 & 192.3 \\
       Top    &  385.9 & 2878.7 & 331.3 & 34110.4 & 10546.4 & 40206.3 \\
@@ -107,10 +110,9 @@ Each of the regions included in the fit uses a different discriminant to best ch
 \end{table}
 
 \subsection{Asimov results}
-The results contained in this thesis are preliminary and data this analysis has been privately unblinded. Results shown first use the Asimov dataset approach to deduce expected performance of the fit. Using this approach, a representative dataset is formed with Monte Carlo pseudo-experiments, which returns the true value for each estimated parameter. In this way we gain an understanding for the contraints on our nuisance parameters and so determine and correct any over-constraints from inputs into the fit. Using the Asimov datasets all floating parameters should be calculated to be 1 and all nuisance parameters found to be 0. Results of the fitted nuisance parameters to the Asimov dataset are made under the hypothesis that VBF Higgs boson cross-sections follow our Standard Model predictions. 
+The Asimov dataset is formed with Monte Carlo pseudo-experiments and by design returns the true value for each estimated parameter. We use the Asimov dataset to test analysis strategies and deduce expected performance of the fit without using true data. We ``blind'' the data with by removing events in the uppermost bins of the BDT$_{\text{VBF}}$ and use only Monte Carlo events in the signal region to eliminate any potential biases. Using this approach, we gain an understanding for the constraints on our nuisance parameters and so can determine and correct any over-constraints from inputs into the fit. Using the Asimov dataset, all floating parameters will are measured to be 1 and all nuisance parameters 0. Results of the fitted nuisance parameters to the Asimov dataset are made under the hypothesis that VBF Higgs boson cross-sections follow our Standard Model predictions. 
 
-
-Fit results for each of the signal strength parameters in our statistical fit are shown for both stat-only and statistical $+$ systematic uncertainties. The current fit including all systematic uncertainties gives an error on the $\mu_{VBF}$ or $\pm 0.20$. This corresponds to a null p-value of $1.5\times10^{-9}$ or a signficance of 5.9$\sigma$ which is more than twice the expected significance in the last published ATLAS VBF Higgs $\rightarrow \ell\nu\ell\nu$ results \cite{Aaboud_2019}. The table below \ref{tab:muresults} shows the stat-only and combined systematic resulting signal strengths and their expected uncertainties based on Asimov fits. 
+Fit results for each of the signal strength parameters in our statistical fit are shown with both statistical uncertainties only and statistical$+$systematic uncertainties. The Asimov dataset after including all uncertainties provides an uncertainty $\pm22\%$ on $\mu_{VBF}$. This corresponds to a null p-value of $1.5\times10^{-9}$ or a signficance of 5.9$\sigma$ which is more than twice the expected significance in the last published ATLAS VBF Higgs $\rightarrow \ell\nu\ell\nu$ result ~\cite{Aaboud_2019}. Table~\ref{tab:muresults} shows the stat-only and combined systematic resulting signal strengths and their expected uncertainties based on Asimov fits. 
 
 \begin{table}[!h]
   \begin{center}
@@ -130,16 +132,17 @@ Fit results for each of the signal strength parameters in our statistical fit ar
   \end{center}
 \end{table}
 
-Using the Asimov dataset, nuisance parameters are centered at zero and floating $\mu$ values center at 1. There are a number of systematic uncertainties that play large roles in this measurement including jet flavor NPs, which play a large role in rejecting dominant top background events, and jet pile-up which causes potential errors in the jet kinematics which are key to this analysis.
+We used the Asimov dataset to find these optimal results through comparing fit strategies and selection criteria. We also determined which uncertainies play large roles in this measurement. These include jet flavor nuisance parameters, which play a large role in rejecting dominant top background events, and jet pile-up nuisance parameters, which causes potential errors in the jet kinematics.
 
 \subsection{Unblinded results}
 
-The analysis was tested and optimized using the MC simulations and the Asimov dataset. For this thesis, data is unblinded and used in the analysis to extract observed yields and final cross-section measurements. Fit parameters measured with MC and data are shown in the table \ref{tab:datamuresults}. These correspond to fit and observed yields signal region shown in \ref{tab:postfityields}.
+After examining and testing Asimov results, we unblind the analysis, or incorporate data. For this thesis, this is done privately without ATLAS collaboration approval. \textcolor{red}{Does this need to be added?} Fit parameters measured with MC and data are shown in Table~\ref{tab:datamuresults}. These correspond to fit and observed yields signal region shown in Figure~\ref{tab:postfityields}.
 
 \begin{table}[!h]
   \begin{center}
+   \resizebox{\textwidth}{!}{
     \begin{tabular}{l|c|c|c|c|}
-       Floating parameter & Fit value (stat-only) & Uncertainty (stat-only)    & Fit value (stat+sys) & Uncertainty (stat+sys) \\
+       Floating parameter & Fit value (stat-only) & Uncertainty (stat-only) & Fit value (stat+sys) & Uncertainty (stat+sys) \\
       \hline
        $\mu_{\text{VBF}}$ & 1.11 & 19.7$\%$ & to add & to add\\
        $\mu_{\text{top/}WW}$ & 0.96 & 0.5$\%$ & to add & to add\\
@@ -148,7 +151,7 @@ The analysis was tested and optimized using the MC simulations and the Asimov da
        $\mu_{\text{ggF2}}$ & 0.46 & 46.3$\%$ & to add & to add \\
        $\mu_{\text{ggF3}}$ & 1.13 & 22.7$\%$ & to add & to add \\
        $\mu_{Z+\text{jets}}$& 0.90 & 2.0 $\%$ & to add & to add \\
-    \end{tabular}
+    \end{tabular}}
     \caption{Fit results for all floating parameters in stat-only and full systematic fits.}
     \label{tab:datamuresults}
   \end{center}
@@ -176,7 +179,7 @@ The analysis was tested and optimized using the MC simulations and the Asimov da
   \end{center}
 \end{table}
 
-The distributions shown in \ref{fig:fitresultsregions} demonstrate the post-fitdistributions for each of the signal and control regions included in the fit. 
+The distributions in Figure~\ref{fig:fitresultsregions} show the post-fit distributions for each of the signal and control regions included in the fit. Data (black) closely matches MC simulations except for some individual bins where deviations are at the level of expected uncertainty. 
 
 \begin{figure}[!h]
 \centering
@@ -198,20 +201,20 @@ The distributions shown in \ref{fig:fitresultsregions} demonstrate the post-fitd
   \subfloat[Top/$WW$ control region]{
       \includegraphics[width=0.3\textwidth]{Pictures/fitresults/CRTop.pdf}
   }%hfill
-{\caption{Binned distributions for each signal and control region shown after stat-only fit where ratio between data and MC predictions is shown (black). Red points show VBF signal significance per bin.
+{\caption{Binned distributions for each signal and control region shown after stat-only fit where ratio between data and MC predictions is shown (black). Red points show VBF signal significance per bin. Error bands show statistical uncertainties. \textcolor{red}{The red points are incorrect..to fix.}
 \label{fig:fitresultsregions}}}
 \end{figure}
 
-The first fits performed use no nuisance parameters, only statistical uncertainties, to show both how the overall fit performs at its most basic level and to deduce the overall impact of adding systematics to the fit. The plot \ref{fig:correlations} shows correlations between floating parameters in the fit using a stat-only scheme where only the seven floating signal strength parameters are fit.
+The first results shown use only statistical uncertainties to show both how the overall fit performs at its most basic level and to deduce the overall impact of adding systematics to the fit. Figure~\ref{fig:correlations} shows correlations between floating parameters in the fit using a stat-only scheme where only the seven floating signal strength parameters are included.
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.45\textwidth]{Pictures/fitresults/correlation_stat.eps}
+\includegraphics[width=0.75\textwidth]{Pictures/fitresults/correlation_stat.eps}
 \caption{Correlations between floating parameters after a stat-only fit}
 \label{fig:correlations}
 \end{figure}
 
-We can visualize and better understand these results through a 1D scan of our parameter of interest ($\mu_{\text{VBF}}$). Using the inputs and distributions of of our fit we can view the minimization of the total likelihood and and its width the see the impact of systematics and constraints from the other floating parameters. Plots \ref{fig:scan} shows fit results for $\mu_{\text{VBF}}$ if we use all systematics, only statistical uncertainties, and finally if were to leave only $\mu_{\text{VBF}}$ as a floating parameter and all other constant. These results demonstrate the substantial role systematics play in our analysis. We break down these impacts to assess which nuisance parameters have the greatest effects on each measured parameter so that we can find any that seem unduly high and find ways to control their effects through our event selection and fit techniques. The following plots \ref{fig:impacts} show the 40 largest impact parameters for each measured signal strength. These effects are derived post-fit which means that at the maximum of the likelihood each parameter is changed by $\pm 1\sigma$ individually. The measured effects of these changes are shown in blue on the plots and ranked in order of total combined positive and negative impact. 
+We can visualize and better understand these results through a 1D scan of our parameter of interest ($\mu_{\text{VBF}}$). Using the inputs and distributions of of our fit we can view the minimization of the total likelihood and and its width the see the impact of systematics and constraints from the other floating parameters. Figure~\ref{fig:scan} shows fit results for $\mu_{\text{VBF}}$ if we use all systematics, only statistical uncertainties, and finally if we were to leave only $\mu_{\text{VBF}}$ as a floating parameter and all others constant. These results demonstrate the substantial role both statistical and systematic uncertainties play in our analysis. The stat-only analysis has an expected uncertainty of $16.8/-16.2\%$ while including all systematics gives an expected $19.0/-19.3\%$. We break down these impacts to assess which nuisance parameters have the greatest effects on each measured parameter so that we can find any that seem unduly high and find ways to control their effects through our event selection and fit techniques. Figure~\ref{fig:impacts} shows the 40 largest impact parameters for the measured signal strength. These effects are derived post-fit which means that at the maximum of the likelihood each parameter is changed by $\pm 1\sigma$ individually. The measured effects of these changes are shown in blue on the plots and ranked in order of their total combined positive and negative impact. 
 
 \begin{figure}[!h]
 \centering
@@ -222,36 +225,36 @@ We can visualize and better understand these results through a 1D scan of our pa
 
 \begin{figure}[!h]
 \centering
-  \subfloat[$\mu_{\text{VBF}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_vbf.eps}
-  }\hfill
-  \subfloat[$\mu_{\text{ggF}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_ggf.eps}
-  }\hfill
-  \subfloat[$\mu_{\text{ggF1}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_ggf_1.eps}
-  }\hfill
-  \subfloat[$\mu_{\text{ggF2}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_ggf_2.eps}
-  }\hfill
-  \subfloat[$\mu_{\text{Top/}WW}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_wwTop.eps}
-  }\hfill
-  \subfloat[$\mu_{Z+\text{jets}}$]{
-      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_Zjets.eps}
-  }%hfill
-{\caption{Impacts of top 40 most impactful nuisance parameters for each fit $\mu$ using Asimov data. \textcolor{red}{Will replace with unblinded, real plots}
+%  \subfloat[$\mu_{\text{VBF}}$]{
+      \includegraphics[width=0.6\textwidth]{Pictures/fitresults/impact_asimov_mu_vbf.eps}
+%  }\hfill
+%  \subfloat[$\mu_{\text{ggF}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_ggf.eps}
+%  }\hfill
+%  \subfloat[$\mu_{\text{ggF1}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_ggf_1.eps}
+%  }\hfill
+%  \subfloat[$\mu_{\text{ggF2}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_ggf_2.eps}
+%  }\hfill
+%  \subfloat[$\mu_{\text{Top/}WW}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_wwTop.eps}
+%  }\hfill
+%  \subfloat[$\mu_{Z+\text{jets}}$]{
+%      \includegraphics[width=0.3\textwidth]{Pictures/fitresults/impact_asimov_mu_Zjets.eps}
+%  }%hfill
+{\caption{Impacts of top 40 most impactful nuisance parameters on $\mu_{\text{VBF}}$. \textcolor{red}{Will replace with unblinded, real plot}
 \label{fig:impacts}}}
 \end{figure}
 
-The fit results shown in this thesis demonstrate the most recent calculations and developments from the VBF $H\rightarrow WW$ fiducial cross-section measurement but they are not yet complete. Additional theoretical uncertainties (as described in the previous chapter) need to be considered and evaluated. Final fit parameters may also continue to change before the analysis is published. 
+The fit results shown in this thesis demonstrate the most recent calculations and developments from the VBF $H\rightarrow WW$ fiducial cross-section measurement but they are not yet complete. Final fit parameters may continue to change before the analysis is published. 
 
 \section{Fiducial and inclusive cross sections}
-This analysis aims to measure the total VBF $H\rightarrow WW^*\rightarrow\ell\nu\ell\nu$ cross-section in both a particular fiducial region and in a more inclusive region in addition to the fiducial differential cross-section over a range of kinematic variables. In each case the measurement must be translated from one that only represents conditions in the ATLAS detector to values that can be understood with broad range of theoretical models. For fiducial measurements this can be done simply with a $C$ factor. First a fiducial region must be defined that is applicable to both reconstructed and purely theoretical (truth level) events. This fiducial region defines the conditions under which the cross-section is measured. The fiducial cross-section is defined:
+This analysis aims to measure the total VBF $H\rightarrow WW^*\rightarrow\ell\nu\ell\nu$ cross-section in both a particular fiducial region and in a more inclusive region. The analysis team also continues toward the goal of measuring fiducial differential $H\rightarrow WW^*$ cross-sections over a range of kinematic variables, though this is beyond the scope of this thesis. In each case, the measurement must be translated from one that only represents conditions in the ATLAS detector to values that can be understood with a broad range of theoretical models. For fiducial measurements, this can be done simply with a $C$ factor. First a fiducial region must be defined that is applicable to both reconstructed and purely theoretical, called truth level, events. This fiducial region defines the conditions under which the cross-section is measured. The fiducial cross-section is defined
 \begin{equation}
-\sigma_{\text{VBF}H\rightarrow WW^*\rightarrow\ell\nu\ell\nu}^{\text{fig}} = \frac{N_{\text{obs}}-N_{\text{bkg}}}{C\times\mathcal{L}}
+\sigma_{\text{VBF}H\rightarrow WW^*\rightarrow\ell\nu\ell\nu}^{\text{fig}} = \frac{N_{\text{obs}}-N_{\text{bkg}}}{C\times\mathcal{L}},
 \end{equation} 
-where $\mathcal{L}$ is the integrated luminosity, and $N$ (obs,bkg) is the observed and estimated background number of events respectively. $N_{\text{bkg}}$ is the fit value of total background events from \ref{tab:postfityields}. $C$ is a factor that accounts for detector effects that would lower the overall cross-section like detector inefficiences and resolution effects. To minimize any necessary theoretical extrapolation, the fiducial phase space is defined as close to the reconstruction-level signal region as possible. The table \ref{tab:fiducial} lists all fiducial cuts that describe the phase space. These include requirements on lepton number, flavor, sign, and kinematics, missing energy, jet number, as well as other VBF specific requirements (OLV and CJV cuts). 
+where $\mathcal{L}$ is the integrated luminosity and $N$ (obs,bkg) is the observed and estimated background number of events, respectively. $N_{\text{bkg}}$ is the fit value of total background events from Table~\ref{tab:postfityields}. $C$ is a factor that accounts for detector effects that would lower the overall cross-section like detector inefficiences and resolution effects. To minimize any necessary theoretical extrapolation, the fiducial phase space is defined as close to the reconstruction-level signal region as possible. Table~\ref{tab:fiducial} lists all fiducial cuts that describe the phase space. These include requirements on lepton number, flavor, sign, and kinematics, missing energy, jet number, as well as other VBF specific requirements (OLV and CJV cuts). 
 %Fiducial Volume
 \begin{table}[!ht]
 \centering
@@ -283,68 +286,47 @@ CJV$>20$GeV \\
 \end{table}
 These cuts represent the space within which both reconstruction-level and truth-level cross-sections are measured. Using yields extracted from the statistical fit and a $C$-factor we define with 
 \begin{equation}
-C = \frac{N_\text{fid}}{N_{\text{reco}}}
+C = \frac{N_\text{fid}}{N_{\text{reco}}},
 \end{equation}
-where $N_\text{fid}$ is extacted from theoretical simulation. $Powheg+Pythia8$ are used to extract theoretical yields in the fiducial region. There are $371.5$ truth VBF Higgs events in the fiducial region. Using the fit yield from \ref{tab:postfityields} gives $C=2.23$
+where $N_\text{fid}$ is extacted from theoretical simulation. Powheg$+$Pythia8 are used to extract theoretical yields in the fiducial region. The truth-level cutflow is shown in Table~\ref{tab:truth}. There are $371.5\pm0.57$ truth VBF Higgs events in the final fiducial region. Using the fit yield from Table~\ref{tab:postfityields} we find $C=2.23\pm 0.396$. 
 
-Using this value for $C$ and a fit on the VBF parameter using the Powheg fiducial cross-section estimate as a central point, we find a fiducial cross-section measurement:
+Using this value for $C$ and a fit on the VBF parameter where the initial value is 2.76 fb, from the Powheg$+$Pythia8 fiducial cross-section truth estimate, we find a final cross-section measurement:
 \begin{equation}
 \sigma_{fid,obs} = 2.76 \pm 0.41 \text{fb} 
 \end{equation}
 \textcolor{red}{This is stat-only}
 
-The inclusive cross-section requires one additional acceptance correction factor $A$, which is estimated from theoretical calculations and extrapolates the fiducial cross section to a more inclusive phase space defined solely by a requirement for $N_{\text{jets}}\geq2$ where each jet has $p_T>30$GeV. This will be calculated from
+This measured value closely matches our expected truth value and its error of $20\%$ is well below the previous $50\%$ uncertainty measured in 2016~\cite{Aaboud_2019}. This corresponds to a 6$\sigma$ observation with $p= $. The VBF $H\rightarrow\ell\nu\ell\nu$ cross-section is observed with a 1/100000 chance of statistical anomaly. \textcolor{red}{Need correct values and interpretation here}. 
+
+The inclusive cross-section requires one additional acceptance correction factor, $A$, which is estimated from theoretical calculations and extrapolates the fiducial cross section to a more inclusive phase space defined solely by a requirement for $N_{\text{jets}}\geq2$, where each jet has $p_T>30$GeV. This will be calculated from
 \begin{equation}
 \sigma_{VBF}^{\text{incl}} = \frac{\sigma_{VBF}^{\text{fid}}}{A}.
 \end{equation}
-The inclusive cross-section widens the applicable phase space of the measurement and provides another useful metric to compare data with expected Standard Model results. The $A$ factor is found through theoretical calculations which use Powheg to estimate VBF processes at next-to-leading order in QCD as in the $C$ factor calculation as well as inclusive cross-section calculations from the Yellow Report \cite{YellowReport}. The theoretical fiducial cross section is found to be $2.67$ fb and the inclusive VBF $H\rightarrow WW^*\rightarrow \ell\nu\ell\nu$ cross section is measured at 85.79 fb. The acceptance factor is therefore measured at $0.0311$. Using this factor we calculate an inclusive cross-section:
+The inclusive cross-section widens the applicable phase space of the measurement and provides another useful metric to compare data with expected Standard Model results. The $A$ factor is found through theoretical calculations which use Powheg to estimate VBF processes at next-to-leading order in QCD and inclusive cross-section calculations from the Yellow Report \cite{YellowReport}. The theoretical fiducial cross section is found to be $2.67\pm--$ fb and the inclusive VBF $H\rightarrow WW^*\rightarrow \ell\nu\ell\nu$ cross section is measured at 85.79$\pm --$ fb. The acceptance factor is therefore measured to be $0.0311 \pm ---$. Using this factor we calculate an inclusive cross-section:
 \begin{equation}
 \sigma_{incl,obs} = 93.89 \pm \text{fb}
 \end{equation} 
 
-\textcolor{red}{Include fit value, MC value and compare. P-value, sigma, error on $C$ and $A$}
-
 \section{Differential cross-section measurements}
-The differential cross-section measurement requires a more rigorous unfolding procedure than the total fiducial and inclusive cross-sections. Monte Carlo simulations processed in a pseudo-detector with all its expected inefficencies and limits (reconstruction-level) are compared to Monte Carlo simulations processed solely at the particle level (truth-level). The detector effects that influence reconstruction-level events are unfolded so that they match their truth-level counterparts. This reco-truth matching is a test that the unfolding process works as expected and does not bias results. After the analysis is unblinded, data will be unfolded using the same mechanisms to create a differential measurement that can be utilized beyond ATLAS. This analysis employs the iterative bayesian unfolding method\cite{bayesian} whose goal is to determine the probability that each bin $j$ in a reconstruction-level distribution corresponds to bin $i$ in a truth-level distribution. Using Bayes' theorem, this probability can be attained with knowledge of the true spectrum $T$ and the measured or reco-level spectrum $R$. We begin with Bayes' theorem: 
+The differential cross-section measurement requires a more rigorous unfolding procedure than the total fiducial and inclusive cross-sections. Monte Carlo simulations processed in a pseudo-detector with all its expected inefficencies and limits (reconstruction-level) are compared to Monte Carlo simulations processed solely at the particle level (truth-level). The detector effects that influence reconstruction-level events are unfolded so that they match their truth-level counterparts. This reco-truth matching is a test that the unfolding process works as expected and does not bias results. This analysis employs the iterative bayesian unfolding method \cite{bayesian} whose goal is to determine the probability that each bin $j$ in a reconstruction-level distribution corresponds to bin $i$ in a truth-level distribution. Using Bayes' theorem, this probability can be attained with knowledge of the true spectrum $T$ and the measured or reco-level spectrum $R$. We begin with Bayes' theorem: 
 \begin{equation}
-P(T_i|R)=\frac{P(R,T_i)P(T_i)}{\sum_{t} P(R,T_t)P(T_t)}
+P(T_i|R)=\frac{P(R,T_i)P(T_i)}{\sum_{t} P(R,T_t)P(T_t)},
 \end{equation}
-where the demoninator is a normalization factor, $P(R,T_i)$ represents the likelihood and $P(T_i)$ the prior. The prior here is vague and so we begin with the assumption that $P(T_i)$ is constant. Hence the most probable spectrum for $T$ maximizes the likelihood. If we observe $n$ reco-level events, we can assign the probability of their true distributions through
+where the denominator is a normalization factor, $P(R,T_i)$ represents the likelihood and $P(T_i)$ the prior. The prior here is vague and so we begin with the assumption that $P(T_i)$ is constant. Hence the most probable spectrum for $T$ maximizes the likelihood. If we observe $n$ reco-level events, we can assign the probability of their true distributions through
 \begin{equation}
 \hat{n}(T_i)=n(R)\prod P(T_i|R).
 \end{equation}
-We then use resultant possibilities in the Bayes formula to evaluate $P(T_i|R_j)$. These values constitute the smearing matrix $M$. This matrix can then be used in turn to estimate the truth-level events in each bin of a distribution with
+We then use resultant possibilities in the Bayes formula to evaluate $P(T_i|R_j)$. These values constitute the smearing matrix $M$. This matrix can then be used to estimate the truth-level events in each bin of a distribution with
 \begin{equation}
-\hat{n}(T_i)=\frac{1}{\epsilon_i}\sum_{j=1}^{n_R} n(R_j)\prod P(T_i|R_j).
+\hat{n}(T_i)=\frac{1}{\epsilon_i}\sum_{j=1}^{n_R} n(R_j)\prod P(T_i|R_j),
 \end{equation}
 where $\epsilon$ is the inefficiency, or ratio of events that pass both truth and reco-level selection by those that pass only truth. Finally the truth can be determined by the reconstructed bin-by-bin yields through
 \begin{equation}
 n(T_i)=\sum_j M_{ij} \prod n(R_j).
 \end{equation}
-The migration matrix thus directly maps reco-level distributions to truth-level. In order to calculate this matrix iteratively we first allow $P(T_i)$ to be a constant distribution, say $1/n_T$, which gives an expected number of truth events $n_0(C_i)=P_0(C_i)\prod n_R$. Next, calculate $\hat{n}(C)$ using the efficiency equation, and finally use $\chi^2$ to compare $\hat{n}(C)$ and $n_0(C)$. In the next iteration, $n_0$ is replaced by $\hat{n}$ and $P_0$ by $\hat{P}$ ($\hat{P(C_i)}=\hat{n}(C_i)/\hat{N_{true}}$) and the procedure continues until $\chi^2$ falls below a set threshold. 
+The migration matrix directly maps reco-level distributions to truth-level. In order to calculate this matrix iteratively we first allow $P(T_i)$ to be a constant distribution, say $1/n_T$, which gives an expected number of truth events $n_0(C_i)=P_0(C_i)\prod n_R$. Next, we calculate $\hat{n}(C)$ using the efficiency equation, and finally we use $\chi^2$ to compare $\hat{n}(C)$ and $n_0(C)$. In the next iteration, $n_0$ is replaced by $\hat{n}$ and $P_0$ by $\hat{P}$, $\hat{P(C_i)}=\hat{n}(C_i)/\hat{N_{true}}$, and the procedure continues until $\chi^2$ falls below a set threshold. 
 
-While the final unfolding results fall beyond the scope of thesis, results for four kinematic variables are shown here. 
-%ents. The figures below demonstrate that truth distribution (blue) and unfolded truth distributions (black) perfectly match as expected. Reco-level distributions are similarly shown, though these clearly differ from truth distributions. 
-
-%\begin{figure}[!h]
-%\centering
-%\centering
-%  \subfloat[$p^T_H$]{
-%      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/higgs_pt_validation.pdf}
-%  }\hfill
-%  \subfloat[$m_T^{\ell\ell}$]{
-%      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/MTll_validation.pdf}
-%  }\hfill
-%  \subfloat[$\Delta Y_{\ell\ell}$]{
-%      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/DYll_validation.pdf}
-%  }\hfill
-%  \subfloat[$m_{jj}$]{
-%      \includegraphics[width=.4\textwidth]{Pictures/unfolding/validation/Mjj_validation.pdf}
-%  }%hfill
-%\caption{\label{fig:unfoldingvalidation}Validation for unfolding mechanism, truth (blue) and unfolded truth distributions (black) overlap while reconstruction level distributions (green) fall separately. Distributions shown for $p^T_H$, $m_T^{\ell\ell}$, $\Delta Y_{\ell\ell}$ and $m_{jj}$**}
-%\end{figure}
-
-We use reconstruction-level Monte Carlo events and their truth counterparts to calculate migration matrices for each differential observable through the iterative Bayesian unfolding process. Four example migration matrices are shown in \ref{fig:unfoldingmatrices}. 
+While the final unfolding results fall beyond the scope of thesis, results for four kinematic variables are shown in Figure~\ref{fig:unfoldingmatrices}. We use reconstruction-level Monte Carlo events and their truth counterparts to calculate migration matrices for each differential observable through the iterative Bayesian unfolding process. 
 
 \begin{figure}[!h]
 \centering
@@ -360,16 +342,16 @@ We use reconstruction-level Monte Carlo events and their truth counterparts to c
   \subfloat[$m_{jj}$]{
       \includegraphics[width=.4\textwidth]{Pictures/unfolding/response_matrices/Mjj_migrations.pdf}
   }%hfill
-\caption{\label{fig:unfoldingmatrices}Unfolding matrices shown for $p^T_H$, $m_T^{\ell\ell}$, $\Delta Y_{\ell\ell}$ and $m_{jj}$ distributions. Each bin value corresponds to normalized Bayesian probabilities and the x-axis represents reconstruction-level distributions while the y-axis shows truth distributions. **}
+\caption{\label{fig:unfoldingmatrices}Unfolding matrices shown for $p^T_H$, $m_T^{\ell\ell}$, $\Delta Y_{\ell\ell}$ and $m_{jj}$ distributions. Each bin value corresponds to normalized Bayesian probabilities and the x-axis represents reconstruction-level distributions while the y-axis shows truth distributions~\cite{ourSupportNote}.}
 \end{figure}  
 
-Further developments in unfolding are underway currently and include estimating error added by the procedure (both statistical and systematic in the case of potential mismodelling), testing for potential biases toward the truth distribution, and understanding unfolding reconstruction level uncertainties as well as nominal distributions. 
+Further developments in unfolding are underway currently and include estimating error added by the procedure, testing for potential biases toward the truth distribution, and understanding unfolding reconstruction level uncertainties as well as nominal distributions. 
 
 \section{Future results and measurements}
 
-This thesis detailed the HWW VBF fiducial cross-section analysis as it currently stands, but there are further developments still underway. This analysis plans to measure differential cross-sections and the full unfolding procedure is almost complete. In addition, Chapter 5 discussed some theoretical uncertainties (VBF and ggF Higgs as well as top, WW, and $Z\rightarrow \tau\tau$) but these have not been added to the overall statistical fit. These additional uncertainties are expected to play a significant role in the overall results, particularly the large shower uncertainties. 
+This thesis detailed the HWW VBF fiducial cross-section analysis as it currently stands, but there are further developments still underway. This analysis plans to measure differential cross-sections and the full unfolding procedure is almost complete. In addition, Chapter 6 discussed some theoretical uncertainties (VBF and ggF Higgs as well as top, WW, and $Z\rightarrow \tau\tau$) but these are currently estimated through global floating values. In the final analysis the uncertainties shape effects will be taken into account as well as their normalization variations.  
 
-Signal and background yields will be used within the unfolding mechanism to extract final differential distributions. The variables used in the differential analysis will also be finalized in coming months. We aim to unfold 14 variables which are listed with their planned bin edges in \ref{tab:observablebins}. These variables probe the kinematics of the final state particles measured through this channel and add sensitivity to the total fiducial and inclusive cross-sections. The invariant mass of the two jets that accompany the $W$ bosons ($m_{jj}$) and the angular separation between them ($\Delta y_{jj}$) are particularly sensitive to the electroweak symmetry breaking mechanism. Deviations between data and theoretical predictions in the distribution of these variables may be signs of new physics that alter the HWW coupling, like new resonances at high energy scales not accessible by direct searches.                
+Signal and background yields will be used within the unfolding mechanism to extract final differential distributions. The variables used in the differential analysis will also be finalized in coming months. We aim to unfold 14 variables which are listed with their planned bin edges in Table~\ref{tab:observablebins}. These variables probe the kinematics of the final state particles measured through this channel and add sensitivity to the total fiducial and inclusive cross-sections. The invariant mass of the two jets that accompany the $W$ bosons ($m_{jj}$) and the angular separation between them ($\Delta y_{jj}$) are particularly sensitive to the electroweak symmetry breaking mechanism. Deviations between data and theoretical predictions in the distribution of these variables may be signs of new physics that alter the HWW coupling, like new resonances at high energy scales not accessible by direct searches.                
 
 \begin{table}[h!]
 \begin{center}
@@ -398,7 +380,7 @@ Signal and background yields will be used within the unfolding mechanism to extr
 \label{tab:observablebins}
 \end{table}
 
-This analysis uses the full Run-2 dataset for VBF HWW cross-sections and new statistical methods. These have led to expected results which show that large increases in sensitivity with respect to the most recent Run-1 measurements. The VBF differential cross-sections measured for $H\rightarrow WW^*\ell\nu\ell\nu$ will be the first analyzed with the ATLAS experiment. 
+This analysis uses the full Run 2 dataset for VBF HWW cross-sections and new statistical methods. These have led to expected results which demonstrate large increases in sensitivity with respect to the most recent measurements. The VBF differential cross-sections measured for $H\rightarrow WW^*\ell\nu\ell\nu$ will be the first analyzed with the ATLAS experiment. 
 
 %This analysis has an additional motivation as well. It is the first step in a larger measurement of both the VBF HWW differential cross-section and the Standard Model VBF $W+jj$ production cross-section. In the $W+$ jets production in the $\ell+$jets final state, the invariant mass of the two jets that accompany the $W$ bosons and the rapidity separation between them are particularly sensitive to the electroweak symmetry breaking mechanism just as in the VBF HWW cross-section. The final-state jets also have similar kinematics. Therefore the ratio of cross sections measurement allows for the cancellations of correlated systematic uncertainties. As both process are characterized by large ($10\%-20\%$) jet-related uncertainties, a reduction via the ratio cancellation would greatly improve the sensitivity to the VBF Higgs process and to the search for new phenomena in the context of EFT. This ratio measurement falls beyond the scope of this thesis but represents a complementary motivation to the measurements shown here. 
 
