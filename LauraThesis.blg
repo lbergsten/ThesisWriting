@@ -44,7 +44,6 @@ I was expecting a `,' or a `}'---line 683 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
 --line 686 of file references.bib
-Warning--I didn't find a database entry for "YellowReport"
 Warning--empty publisher in HalzenMartin
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
@@ -65,7 +64,6 @@ Warning--empty year in MCPPlots2
 Warning--empty author in JetRun1
 Warning--empty journal in jetscaleres
 Warning--empty author in METSig
-Warning--empty journal in DrellYan
 Name 1 in "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" has a comma at the end for entry ourSupportNote
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
@@ -84,11 +82,12 @@ Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J
 while executing---line 944 of file unsrt.bst
 Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
 while executing---line 944 of file unsrt.bst
+Warning--empty journal in DrellYan
 Warning--empty author in MT2
 Warning--empty author in ATLAS-CONF-2019-021
 You've used 63 entries,
             1791 wiz_defined-function locations,
-            800 strings with 24525 characters,
+            798 strings with 24501 characters,
 and the built_in function-call counts, 20101 in all, are:
 = -- 935
 > -- 2531

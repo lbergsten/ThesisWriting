@@ -412,18 +412,18 @@ A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, H.~Voss,
   F.~Tegenfeldt, A.~Voigt, K.~Voss, M.~Wolter, and A.~Zemla.
 \newblock Tmva - toolkit for multivariate data analysis, 2007.
 
-\bibitem{DrellYan}
-Travis Martin and W~Martin.
-\newblock Analyzing new neutral gauge bosons at the lhc using third generation
-  fermions.
-\newblock 05 2020.
-
 \bibitem{ourSupportNote}
 L.~Bergste C. Blocker J. Chen C. Piccola G. Iakovidis C. Kitsaki G. Rosin G.
   Sciolla S.~Stucci S.~Addepalli, G.~Barone and A.~Tricoli.
 \newblock Measurements of the $h\rightarrow ww^*\rightarrow \ell\nu\ell\nu$
   cross section in vector boson fusion at $\sqrt{s}=13$ tev with the atlas
   detector, In preparation.
+
+\bibitem{DrellYan}
+Travis Martin and W~Martin.
+\newblock Analyzing new neutral gauge bosons at the lhc using third generation
+  fermions.
+\newblock 05 2020.
 
 \bibitem{MT2}
 {Top quark mass measurement in the $e\mu$ channel using the mT2 variable at
