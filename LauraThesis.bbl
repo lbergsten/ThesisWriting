@@ -45,12 +45,6 @@ M.~Tanabashi, K.~Hagiwara, K.~Hikasa, K.~Nakamura, Y.~Sumino, F.~Takahashi,
 \newblock Review of particle physics.
 \newblock {\em Phys. Rev. D}, 98:030001, Aug 2018.
 
-\bibitem{HalzenMartin}
-F.~Halzen and A.~Martin.
-\newblock {\em {Quarks and Leptons: An Introductory Course in Modern Particle
-  Physics}}.
-\newblock 1984.
-
 \bibitem{HiggsPotential}
 John Ellis.
 \newblock {Higgs Physics}.
@@ -65,11 +59,6 @@ Jonathan~M. Butterworth, Guenther Dissertori, and Gavin~P. Salam.
 \newblock {Hard Processes in Proton-Proton Collisions at the Large Hadron
   Collider}.
 \newblock {\em Ann. Rev. Nucl. Part. Sci.}, 62:387--405, 2012.
-
-\bibitem{Campbell}
-John~M. Campbell, J.~W. Huston, and W.~J. Stirling.
-\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
-\newblock {\em Rept. Prog. Phys.}, 70:89, 2007.
 
 \bibitem{Stirling}
 W.J. Stirling.
@@ -154,6 +143,96 @@ D.~de~Florian, C.~Grojean, F.~Maltoni, C.~Mariotti, A.~Nikitenko, M.~Pieri,
 \newblock 869 pages, 295 figures, 248 tables and 1645 citations. Working Group
   web page: https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG.
 
+\bibitem{HiggsCurrent}
+Georges Aad et~al.
+\newblock {Combined measurements of Higgs boson production and decay using up
+  to $80$ fb$^{-1}$ of proton-proton collision data at $\sqrt{s}=$ 13 TeV
+  collected with the ATLAS experiment}.
+\newblock {\em Phys. Rev.}, D101(1):012002, 2020.
+
+\bibitem{LHCref}
+Lyndon Evans.
+\newblock The large hadron collider.
+\newblock {\em New Journal of Physics}, 9(9):335--335, sep 2007.
+
+\bibitem{detector}
+G~Aad et~al.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock {\em JINST}, 3:S08003. 437 p, 2008.
+\newblock Also published by CERN Geneva in 2010.
+
+\bibitem{ElectronPhotonPerformance}
+ATLAS Collaboration.
+\newblock 14(12):P12006--P12006, dec 2019.
+
+\bibitem{MCPPlots}
+Johannes~Josef Junggeburth.
+\newblock {Muon identification and reconstruction efficiencies in full Run-2
+  dataset}.
+\newblock Technical Report ATL-COM-PHYS-2019-1001, CERN, Geneva, Aug 2019.
+
+\bibitem{MCPPlots2}
+Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
+\newblock Technical report.
+
+\bibitem{ParticleFlow}
+Morad Aaboud et~al.
+\newblock {Jet reconstruction and performance using particle flow with the
+  ATLAS Detector}.
+\newblock {\em Eur. Phys. J.}, C77(7):466, 2017.
+
+\bibitem{JETEtmiss}
+JET~ETmiss group.
+\newblock Public plots, 2019.
+
+\bibitem{lumigroup}
+Luminosity public results.
+\newblock Public plots, 2019.
+
+\bibitem{ourSupportNote}
+L.~Bergste C. Blocker J. Chen C. Piccola G. Iakovidis C. Kitsaki G. Rosin G.
+  Sciolla S.~Stucci S.~Addepalli, G.~Barone and A.~Tricoli.
+\newblock Measurements of the $h\rightarrow ww^*\rightarrow \ell\nu\ell\nu$
+  cross section in vector boson fusion at $\sqrt{s}=13$ tev with the atlas
+  detector, In preparation.
+
+\bibitem{DrellYan}
+Travis Martin and W~Martin.
+\newblock Analyzing new neutral gauge bosons at the lhc using third generation
+  fermions.
+\newblock 05 2020.
+
+\bibitem{ITktech}
+ATLAS Collaboration.
+\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
+\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
+  2017.
+
+\bibitem{MCPpaper}
+G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, R.~Aben, M.~Abolins,
+  O.~S. AbouZeid, N.~L. Abraham, and et~al.
+\newblock Muon reconstruction performance of the atlas detector in
+  proton–proton collision data at $\sqrt{s}$=13 tev.
+\newblock {\em The European Physical Journal C}, 76(5), May 2016.
+
+\bibitem{HWW2016}
+Morad Aaboud et~al.
+\newblock {Measurements of gluon-gluon fusion and vector-boson fusion Higgs
+  boson production cross-sections in the $H \to WW^{\ast} \to e\nu\mu\nu$ decay
+  channel in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}.
+\newblock {\em Phys. Lett. B}, 789:508--529, 2019.
+
+\bibitem{HalzenMartin}
+F.~Halzen and A.~Martin.
+\newblock {\em {Quarks and Leptons: An Introductory Course in Modern Particle
+  Physics}}.
+\newblock 1984.
+
+\bibitem{Campbell}
+John~M. Campbell, J.~W. Huston, and W.~J. Stirling.
+\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
+\newblock {\em Rept. Prog. Phys.}, 70:89, 2007.
+
 \bibitem{PDF4LHC15}
 Jon Butterworth et~al.
 \newblock {PDF4LHC recommendations for LHC Run II}.
@@ -175,13 +254,6 @@ N.R. Council, D.E.P. Sciences, B.P. Astronomy, and C.E.P. Physics.
 \newblock {\em Elementary-Particle Physics: Revealing the Secrets of Energy and
   Matter}.
 \newblock Physics in a New Era: A Series. National Academies Press, 1998.
-
-\bibitem{HiggsCurrent}
-Georges Aad et~al.
-\newblock {Combined measurements of Higgs boson production and decay using up
-  to $80$ fb$^{-1}$ of proton-proton collision data at $\sqrt{s}=$ 13 TeV
-  collected with the ATLAS experiment}.
-\newblock {\em Phys. Rev.}, D101(1):012002, 2020.
 
 \bibitem{HiggsDifferential}
 Georges Aad et~al.
@@ -253,17 +325,6 @@ M.~Benedikt, P.~Collier, V.~Mertens, J.~Poole, and K.~Schindl.
 {Radiofrequency cavities}.
 \newblock Sep 2012.
 
-\bibitem{LHCref}
-Lyndon Evans.
-\newblock The large hadron collider.
-\newblock {\em New Journal of Physics}, 9(9):335--335, sep 2007.
-
-\bibitem{detector}
-G~Aad et~al.
-\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
-\newblock {\em JINST}, 3:S08003. 437 p, 2008.
-\newblock Also published by CERN Geneva in 2010.
-
 \bibitem{HLLHCYellow}
 Apollinari G., Béjar~Alonso I., Brüning O., Fessia P., Lamont M., Rossi L.,
   and Tavian L.
@@ -281,17 +342,6 @@ Apollinari G., Béjar~Alonso I., Brüning O., Fessia P., Lamont M., Rossi L.,
   Simulation at $\sqrt{s} = 7$ TeV}.
 \newblock Technical Report ATLAS-CONF-2010-072, CERN, Geneva, Jul 2010.
 
-\bibitem{ElectronPhotonPerformance}
-ATLAS Collaboration.
-\newblock 14(12):P12006--P12006, dec 2019.
-
-\bibitem{MCPpaper}
-G.~Aad, B.~Abbott, J.~Abdallah, O.~Abdinov, B.~Abeloos, R.~Aben, M.~Abolins,
-  O.~S. AbouZeid, N.~L. Abraham, and et~al.
-\newblock Muon reconstruction performance of the atlas detector in
-  proton–proton collision data at $\sqrt{s}$=13 tev.
-\newblock {\em The European Physical Journal C}, 76(5), May 2016.
-
 \bibitem{oldMCPpaper}
 Georges Aad et~al.
 \newblock {Measurement of the muon reconstruction performance of the ATLAS
@@ -305,22 +355,12 @@ Georges Aad et~al.
   figures are available at
   http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/PERF-2014-05/.
 
-\bibitem{MCPPlots}
-Johannes~Josef Junggeburth.
-\newblock {Muon identification and reconstruction efficiencies in full Run-2
-  dataset}.
-\newblock Technical Report ATL-COM-PHYS-2019-1001, CERN, Geneva, Aug 2019.
-
 \bibitem{jets}
 G.~Aad, B.~Abbott, J.~Abdallah, A.~A. Abdelalim, A.~Abdesselam, O.~Abdinov,
   B.~Abi, M.~Abolins, H.~Abramowicz, and et~al.
 \newblock Jet energy measurement with the atlas detector in proton-proton
   collisions at $\sqrt{\mathrm{s}}=$7 tev.
 \newblock {\em The European Physical Journal C}, 73(3), Mar 2013.
-
-\bibitem{MCPPlots2}
-Miha Zgubi\v{c}, Johannes~Josef Junggeburth, and K\.
-\newblock Technical report.
 
 \bibitem{CrystalBall}
 Souvik Das.
@@ -330,16 +370,6 @@ Souvik Das.
 {Jet global sequential corrections with the ATLAS detector in proton-proton
   collisions at $\sqrt{s}$ = 8 TeV}.
 \newblock Technical Report ATLAS-CONF-2015-002, CERN, Geneva, Mar 2015.
-
-\bibitem{ParticleFlow}
-Morad Aaboud et~al.
-\newblock {Jet reconstruction and performance using particle flow with the
-  ATLAS Detector}.
-\newblock {\em Eur. Phys. J.}, C77(7):466, 2017.
-
-\bibitem{JETEtmiss}
-JET~ETmiss group.
-\newblock Public plots, 2019.
 
 \bibitem{antikt}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
@@ -361,10 +391,6 @@ Morad Aaboud et~al.
 \newblock {Performance of missing transverse momentum reconstruction with the
   ATLAS detector using proton-proton collisions at $\sqrt{s}$ = 13 TeV}.
 \newblock {\em Eur. Phys. J.}, C78(11):903, 2018.
-
-\bibitem{lumigroup}
-Luminosity public results.
-\newblock Public plots, 2019.
 
 \bibitem{GEANT4}
 S.~Agostinelli et~al.
@@ -412,19 +438,6 @@ A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, H.~Voss,
   F.~Tegenfeldt, A.~Voigt, K.~Voss, M.~Wolter, and A.~Zemla.
 \newblock Tmva - toolkit for multivariate data analysis, 2007.
 
-\bibitem{ourSupportNote}
-L.~Bergste C. Blocker J. Chen C. Piccola G. Iakovidis C. Kitsaki G. Rosin G.
-  Sciolla S.~Stucci S.~Addepalli, G.~Barone and A.~Tricoli.
-\newblock Measurements of the $h\rightarrow ww^*\rightarrow \ell\nu\ell\nu$
-  cross section in vector boson fusion at $\sqrt{s}=13$ tev with the atlas
-  detector, In preparation.
-
-\bibitem{DrellYan}
-Travis Martin and W~Martin.
-\newblock Analyzing new neutral gauge bosons at the lhc using third generation
-  fermions.
-\newblock 05 2020.
-
 \bibitem{MT2}
 {Top quark mass measurement in the $e\mu$ channel using the mT2 variable at
   ATLAS}.
@@ -462,11 +475,5 @@ Kyle Cranmer.
 G.~D'Agostini.
 \newblock {A Multidimensional unfolding method based on Bayes' theorem}.
 \newblock {\em Nucl. Instrum. Meth. A}, 362:487--498, 1995.
-
-\bibitem{ITktech}
-ATLAS Collaboration.
-\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
-\newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
-  2017.
 
 \end{thebibliography}

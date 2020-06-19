@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  18 JUN 2020 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  19 JUN 2020 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -556,7 +556,7 @@ LaTeX Info: Redefining \nameref on input line 39.
  [1
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
 ]
@@ -567,16 +567,16 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
- [4
+ [3
 
 
-] [5
+] [4
 
 
 
 
 ]
-(./LauraThesis.toc [6
+(./LauraThesis.toc [5
 
 
 
@@ -585,56 +585,80 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 \tf@toc=\write4
 \openout4 = `LauraThesis.toc'.
 
- [7]
-Chapter 1.
-(./sections/Introduction.tex [1
+ [6] (./LauraThesis.lof [1
 
 
-
-
-]) [2]
-Chapter 2.
-(./sections/Theory.tex [3
 
 
 ]
-<Pictures/SMparticles.png, id=210, 803.0pt x 767.86874pt>
+Overfull \hbox (2.5971pt too wide) in paragraph at lines 23--23
+ [][] [][][]\OT1/cmr/m/n/12 Isolation ef-fi-ciency for the Gra-di-ent-Loose (le
+ft) and Fixed-Cut-Track-Only (right) 
+ []
+
+[2] [3] [4] [5]
+Overfull \hbox (7.91095pt too wide) in paragraph at lines 183--183
+ [][] [][][]\OT1/cmr/m/n/12 Electrical stave pro-to-type at Brookhaven Na-tiona
+l Lab-o-ra-tory (G. van Nieuwen- 
+ []
+
+)
+\tf@lof=\write5
+\openout5 = `LauraThesis.lof'.
+
+ [6] (./LauraThesis.lot [7
+
+])
+\tf@lot=\write6
+\openout6 = `LauraThesis.lot'.
+
+ [8]
+Chapter 1.
+(./sections/Introduction.tex [9
+
+]) [10]
+Chapter 2.
+(./sections/Theory.tex [11
+
+
+]
+<Pictures/SMparticles.png, id=675, 803.0pt x 767.86874pt>
 File: Pictures/SMparticles.png Graphic file (type png)
 
 <use Pictures/SMparticles.png>
 Package pdftex.def Info: Pictures/SMparticles.png used on input line 15.
 (pdftex.def)             Requested size: 328.82707pt x 314.44157pt.
- [4] [5 <./Pictures/SMparticles.png>] [6]
-[7] [8] [9] [10] [11] [12] [13]
-<Pictures/HiggsPotential.png, id=301, 563.10374pt x 355.3275pt>
+ [12] [13 <./Pictures/SMparticles.png>] [14]
+[15] [16] [17] [18] [19] [20] [21]
+<Pictures/HiggsPotential.png, id=762, 563.10374pt x 355.3275pt>
 File: Pictures/HiggsPotential.png Graphic file (type png)
 
 <use Pictures/HiggsPotential.png>
 Package pdftex.def Info: Pictures/HiggsPotential.png used on input line 166.
 (pdftex.def)             Requested size: 234.8775pt x 148.21179pt.
- [14 <./Pictures/HiggsPotential.png>] [15]
-[16] [17] [18] <Pictures/protonproton.png, id=350, 766.865pt x 537.00626pt>
+ [22 <./Pictures/HiggsPotential.png>] [23]
+[24] [25] [26] <Pictures/protonproton.png, id=808, 766.865pt x 537.00626pt>
 File: Pictures/protonproton.png Graphic file (type png)
 
 <use Pictures/protonproton.png>
 Package pdftex.def Info: Pictures/protonproton.png used on input line 273.
 (pdftex.def)             Requested size: 234.8775pt x 164.47087pt.
- [19] [20 <./Pictures/protonproton.png>]
-<Pictures/crosssections.jpg, id=367, 634.5306pt x 823.27576pt>
+ [27] [28 <./Pictures/protonproton.png>]
+<Pictures/crosssections.jpg, id=823, 634.5306pt x 823.27576pt>
 File: Pictures/crosssections.jpg Graphic file (type jpg)
 
 <use Pictures/crosssections.jpg>
 Package pdftex.def Info: Pictures/crosssections.jpg used on input line 289.
 (pdftex.def)             Requested size: 234.8775pt x 304.74544pt.
- [21]
-<Pictures/FeynmannHiggs.png, id=379, 798.985pt x 456.70625pt>
+ [29]
+<Pictures/FeynmannHiggs.png, id=834, 798.985pt x 456.70625pt>
 File: Pictures/FeynmannHiggs.png Graphic file (type png)
 
 <use Pictures/FeynmannHiggs.png>
 Package pdftex.def Info: Pictures/FeynmannHiggs.png used on input line 298.
 (pdftex.def)             Requested size: 234.8775pt x 134.26025pt.
- [22 <./Pictures/crosssections.jpg>] [23 <./Pictures/FeynmannHiggs.png>]
-<Pictures/HiggsCrosssectionMH.png, id=398, 600.2425pt x 577.15625pt>
+ [30 <./Pictures/crosssections.jpg>] [31 <./Pictures/FeynmannHiggs.png>]
+<Pictures/HiggsCrosssectionMH.png, id=849, 600.2425pt x 577.15625pt>
 File: Pictures/HiggsCrosssectionMH.png Graphic file (type png)
 
 <use Pictures/HiggsCrosssectionMH.png>
@@ -642,7 +666,7 @@ Package pdftex.def Info: Pictures/HiggsCrosssectionMH.png used on input line 30
 9.
 (pdftex.def)             Requested size: 187.89914pt x 180.66911pt.
 
-<Pictures/HiggsCrosssectionCOM.png, id=399, 600.2425pt x 577.15625pt>
+<Pictures/HiggsCrosssectionCOM.png, id=850, 600.2425pt x 577.15625pt>
 File: Pictures/HiggsCrosssectionCOM.png Graphic file (type png)
 
 <use Pictures/HiggsCrosssectionCOM.png>
@@ -650,44 +674,44 @@ Package pdftex.def Info: Pictures/HiggsCrosssectionCOM.png used on input line 3
 11.
 (pdftex.def)             Requested size: 187.89914pt x 180.66911pt.
 
-<Pictures/HiggsBranching.png, id=404, 600.2425pt x 571.13374pt>
+<Pictures/HiggsBranching.png, id=855, 600.2425pt x 571.13374pt>
 File: Pictures/HiggsBranching.png Graphic file (type png)
 
 <use Pictures/HiggsBranching.png>
 Package pdftex.def Info: Pictures/HiggsBranching.png used on input line 320.
 (pdftex.def)             Requested size: 211.38832pt x 201.1373pt.
- [24 <./Pictures/HiggsCrosssectionMH.png> <./Pictures/HiggsCrosssectionCOM.png>
-] [25 <./Pictures/HiggsBranching.png>]
-[26] [27] [28]
-<Pictures/productioncrosssection.png, id=443, 481.8pt x 364.36125pt>
+ [32 <./Pictures/HiggsCrosssectionMH.png> <./Pictures/HiggsCrosssectionCOM.png>
+] [33 <./Pictures/HiggsBranching.png>]
+[34] [35] [36]
+<Pictures/productioncrosssection.png, id=893, 481.8pt x 364.36125pt>
 File: Pictures/productioncrosssection.png Graphic file (type png)
 
 <use Pictures/productioncrosssection.png>
 Package pdftex.def Info: Pictures/productioncrosssection.png used on input line
  345.
 (pdftex.def)             Requested size: 234.8775pt x 177.62677pt.
- [29]
-<Pictures/branchingratio.png, id=454, 481.8pt x 592.2125pt>
+ [37]
+<Pictures/branchingratio.png, id=901, 481.8pt x 592.2125pt>
 File: Pictures/branchingratio.png Graphic file (type png)
 
 <use Pictures/branchingratio.png>
 Package pdftex.def Info: Pictures/branchingratio.png used on input line 352.
 (pdftex.def)             Requested size: 234.8775pt x 288.70468pt.
- [30 <./Pictures/productioncrosssection.png> <./Pictures/branchingratio.png>] [
-31]) [32]
+ [38 <./Pictures/productioncrosssection.png> <./Pictures/branchingratio.png>] [
+39]) [40]
 Chapter 3.
-(./sections/LHCandATLAS.tex [33
+(./sections/LHCandATLAS.tex [41
 
 
-] [34]
-<Pictures/LHClayout.PNG, id=505, 790.27245pt x 561.5379pt>
+] [42]
+<Pictures/LHClayout.PNG, id=950, 790.27245pt x 561.5379pt>
 File: Pictures/LHClayout.PNG Graphic file (type png)
 
 <use Pictures/LHClayout.PNG>
 Package pdftex.def Info: Pictures/LHClayout.PNG used on input line 14.
 (pdftex.def)             Requested size: 281.85587pt x 200.27701pt.
 
-<Pictures/dipolemagnet.jpg, id=509, 381.425pt x 271.0125pt>
+<Pictures/dipolemagnet.jpg, id=954, 381.425pt x 271.0125pt>
 File: Pictures/dipolemagnet.jpg Graphic file (type jpg)
 
 <use Pictures/dipolemagnet.jpg>
@@ -697,28 +721,28 @@ Package pdftex.def Info: Pictures/dipolemagnet.jpg used on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35 <./Pictures/LHClayout.PNG>]
-<Pictures/ATLASdetector.PNG, id=521, 639.13782pt x 433.62pt>
+[43 <./Pictures/LHClayout.PNG>]
+<Pictures/ATLASdetector.PNG, id=965, 639.13782pt x 433.62pt>
 File: Pictures/ATLASdetector.PNG Graphic file (type png)
 
 <use Pictures/ATLASdetector.PNG>
 Package pdftex.def Info: Pictures/ATLASdetector.PNG used on input line 34.
 (pdftex.def)             Requested size: 328.82707pt x 223.08852pt.
- [36 <./Pictures/dipolemagnet.jpg>] [37 <./Pictures/ATLASdetector.PNG>] [38]) [
-39]
+ [44 <./Pictures/dipolemagnet.jpg>] [45 <./Pictures/ATLASdetector.PNG>] [46]) [
+47]
 Chapter 4.
-(./sections/TrackingIso.tex [40
+(./sections/TrackingIso.tex [48
 
 
-] [41] [42]
-<Pictures/ElectroReco.png, id=571, 783.92876pt x 559.08875pt>
+] [49] [50]
+<Pictures/ElectroReco.png, id=1011, 783.92876pt x 559.08875pt>
 File: Pictures/ElectroReco.png Graphic file (type png)
 
 <use Pictures/ElectroReco.png>
 Package pdftex.def Info: Pictures/ElectroReco.png used on input line 21.
 (pdftex.def)             Requested size: 281.85587pt x 201.01585pt.
- [43 <./Pictures/ElectroReco.png>]
-<Pictures/ElectroEff.png, id=582, 1242.6425pt x 587.19376pt>
+ [51 <./Pictures/ElectroReco.png>]
+<Pictures/ElectroEff.png, id=1022, 1242.6425pt x 587.19376pt>
 File: Pictures/ElectroEff.png Graphic file (type png)
 
 <use Pictures/ElectroEff.png>
@@ -728,7 +752,7 @@ Package pdftex.def Info: Pictures/ElectroEff.png used on input line 32.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44] <Pictures/ElectronIsoEff.png, id=592, 1245.65375pt x 596.2275pt>
+[52] <Pictures/ElectronIsoEff.png, id=1031, 1245.65375pt x 596.2275pt>
 File: Pictures/ElectronIsoEff.png Graphic file (type png)
 
 <use Pictures/ElectronIsoEff.png>
@@ -738,28 +762,28 @@ Package pdftex.def Info: Pictures/ElectronIsoEff.png used on input line 45.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[45 <./Pictures/ElectroEff.png>] [46 <./Pictures/ElectronIsoEff.png>] [47]
-[48] [49] [50]
-<Pictures/efficiencyoverpt.PNG, id=631, 569.0058pt x 408.3255pt>
+[53 <./Pictures/ElectroEff.png>] [54 <./Pictures/ElectronIsoEff.png>] [55]
+[56] [57] [58]
+<Pictures/efficiencyoverpt.PNG, id=1067, 569.0058pt x 408.3255pt>
 File: Pictures/efficiencyoverpt.PNG Graphic file (type png)
 
 <use Pictures/efficiencyoverpt.PNG>
 Package pdftex.def Info: Pictures/efficiencyoverpt.PNG used on input line 107.
 (pdftex.def)             Requested size: 211.38832pt x 151.69489pt.
 
-<Pictures/efficiencyovereta.PNG, id=632, 569.0058pt x 408.3255pt>
+<Pictures/efficiencyovereta.PNG, id=1068, 569.0058pt x 408.3255pt>
 File: Pictures/efficiencyovereta.PNG Graphic file (type png)
 
 <use Pictures/efficiencyovereta.PNG>
 Package pdftex.def Info: Pictures/efficiencyovereta.PNG used on input line 111.
 
 (pdftex.def)             Requested size: 211.38832pt x 151.69489pt.
- [51 <./Pictures/efficiencyoverpt.PNG> <./Pictures/efficiencyovereta.PNG>]
+ [59 <./Pictures/efficiencyoverpt.PNG> <./Pictures/efficiencyovereta.PNG>]
 
-LaTeX Warning: Reference `tab:datasetdef' on page 52 undefined on input line 12
+LaTeX Warning: Reference `tab:datasetdef' on page 60 undefined on input line 12
 3.
 
-[52] <Pictures/isolationworkingpoints.PNG, id=655, 1162.3425pt x 421.575pt>
+[60] <Pictures/isolationworkingpoints.PNG, id=1087, 1162.3425pt x 421.575pt>
 File: Pictures/isolationworkingpoints.PNG Graphic file (type png)
 
 <use Pictures/isolationworkingpoints.PNG>
@@ -767,7 +791,7 @@ Package pdftex.def Info: Pictures/isolationworkingpoints.PNG used on input line
  127.
 (pdftex.def)             Requested size: 422.77664pt x 153.33646pt.
 
-<Pictures/isolationefficiency1.png, id=658, 1986.42125pt x 1429.34pt>
+<Pictures/isolationefficiency1.png, id=1090, 1986.42125pt x 1429.34pt>
 File: Pictures/isolationefficiency1.png Graphic file (type png)
 
 <use Pictures/isolationefficiency1.png>
@@ -775,7 +799,7 @@ Package pdftex.def Info: Pictures/isolationefficiency1.png used on input line 1
 35.
 (pdftex.def)             Requested size: 220.78543pt x 158.86363pt.
 
-<Pictures/isolationefficiency2.png, id=659, 1986.42125pt x 1429.34pt>
+<Pictures/isolationefficiency2.png, id=1091, 1986.42125pt x 1429.34pt>
 File: Pictures/isolationefficiency2.png Graphic file (type png)
 
 <use Pictures/isolationefficiency2.png>
@@ -790,32 +814,32 @@ y/m/n/12 ! \OML/cmm/m/it/12 WW$ \OT1/cmr/m/n/12 anal-y-sis are $\OML/cmm/m/it/1
 m/m/it/12 p[]=p[] <
  []
 
-[53 <./Pictures/isolationworkingpoints.PNG> <./Pictures/isolationefficiency1.pn
-g> <./Pictures/isolationefficiency2.png>] [54]
-<Pictures/parametrizationIDeta.PNG, id=682, 442.65375pt x 176.91093pt>
+[61 <./Pictures/isolationworkingpoints.PNG> <./Pictures/isolationefficiency1.pn
+g> <./Pictures/isolationefficiency2.png>] [62]
+<Pictures/parametrizationIDeta.PNG, id=1113, 442.65375pt x 176.91093pt>
 File: Pictures/parametrizationIDeta.PNG Graphic file (type png)
 
 <use Pictures/parametrizationIDeta.PNG>
 Package pdftex.def Info: Pictures/parametrizationIDeta.PNG used on input line 1
 69.
 (pdftex.def)             Requested size: 399.29463pt x 159.59088pt.
- [55] [56 <./Pictures/parametrizationIDeta.PNG>] <Pictures/ParticleFlow.png, id
-=698, 989.6975pt x 172.645pt>
+ [63] [64 <./Pictures/parametrizationIDeta.PNG>] <Pictures/ParticleFlow.png, id
+=1128, 989.6975pt x 172.645pt>
 File: Pictures/ParticleFlow.png Graphic file (type png)
 
 <use Pictures/ParticleFlow.png>
 Package pdftex.def Info: Pictures/ParticleFlow.png used on input line 181.
 (pdftex.def)             Requested size: 399.29463pt x 69.65213pt.
- [57 <./Pictures/ParticleFlow.png>] [58]
-<Pictures/ParticleFlowExample.png, id=718, 1987.425pt x 1910.13625pt>
+ [65 <./Pictures/ParticleFlow.png>] [66]
+<Pictures/ParticleFlowExample.png, id=1146, 1987.425pt x 1910.13625pt>
 File: Pictures/ParticleFlowExample.png Graphic file (type png)
 
 <use Pictures/ParticleFlowExample.png>
 Package pdftex.def Info: Pictures/ParticleFlowExample.png used on input line 20
 2.
 (pdftex.def)             Requested size: 187.89914pt x 180.59044pt.
- [59 <./Pictures/ParticleFlowExample.png>] <Pictures/ParticleFlowScale.png, id=
-731, 1986.42125pt x 1349.04pt>
+ [67 <./Pictures/ParticleFlowExample.png>] <Pictures/ParticleFlowScale.png, id=
+1159, 1986.42125pt x 1349.04pt>
 File: Pictures/ParticleFlowScale.png Graphic file (type png)
 
 <use Pictures/ParticleFlowScale.png>
@@ -823,7 +847,7 @@ Package pdftex.def Info: Pictures/ParticleFlowScale.png used on input line 223.
 
 (pdftex.def)             Requested size: 234.8775pt x 159.51057pt.
 
-<Pictures/ParticleFlowResolution.png, id=732, 1987.425pt x 1928.20375pt>
+<Pictures/ParticleFlowResolution.png, id=1160, 1987.425pt x 1928.20375pt>
 File: Pictures/ParticleFlowResolution.png Graphic file (type png)
 
 <use Pictures/ParticleFlowResolution.png>
@@ -834,23 +858,23 @@ Package pdftex.def Info: Pictures/ParticleFlowResolution.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60] [61 <./Pictures/ParticleFlowScale.png> <./Pictures/ParticleFlowResolution.
-png>] [62] <Pictures/ETMissPerf.png, id=761, 1987.425pt x 2059.695pt>
+[68] [69 <./Pictures/ParticleFlowScale.png> <./Pictures/ParticleFlowResolution.
+png>] [70] <Pictures/ETMissPerf.png, id=1186, 1987.425pt x 2059.695pt>
 File: Pictures/ETMissPerf.png Graphic file (type png)
 
 <use Pictures/ETMissPerf.png>
 Package pdftex.def Info: Pictures/ETMissPerf.png used on input line 254.
 (pdftex.def)             Requested size: 211.38832pt x 219.05577pt.
 
-<Pictures/ETMissSig.png, id=762, 1987.425pt x 2059.695pt>
+<Pictures/ETMissSig.png, id=1187, 1987.425pt x 2059.695pt>
 File: Pictures/ETMissSig.png Graphic file (type png)
 
 <use Pictures/ETMissSig.png>
 Package pdftex.def Info: Pictures/ETMissSig.png used on input line 258.
 (pdftex.def)             Requested size: 211.38832pt x 219.05577pt.
- [63 <./Pictures/ETMissPerf.png> <./Pictures/ETMissSig.png>]) [64]
+ [71 <./Pictures/ETMissPerf.png> <./Pictures/ETMissSig.png>]) [72]
 Chapter 5.
-(./sections/EventSelection.tex [65
+(./sections/EventSelection.tex [73
 
 
 ]
@@ -866,13 +890,14 @@ converted-to.pdf Pictures/mu_2015_2018.eps>
 (epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/mu_2015_2018-eps-converted-to.pdf, id=786, 569.12625pt x 408.52625pt>
+<Pictures/mu_2015_2018-eps-converted-to.pdf, id=1211, 569.12625pt x 408.52625pt
+>
 File: Pictures/mu_2015_2018-eps-converted-to.pdf Graphic file (type pdf)
-<use Pictures/mu_2015_2018-eps-converted-to.pdf>
+ <use Pictures/mu_2015_2018-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/mu_2015_2018-eps-converted-to.pdf used on inp
 ut line 13.
 (pdftex.def)             Requested size: 258.36668pt x 185.4683pt.
- [66 <./Pictures/mu_2015_2018-eps-converted-to.pdf>] [67] [68] [69]
+ [74 <./Pictures/mu_2015_2018-eps-converted-to.pdf>] [75] [76] [77]
 Overfull \hbox (9.04793pt too wide) in paragraph at lines 75--77
  [][] 
  []
@@ -891,18 +916,18 @@ Overfull \hbox (20.91566pt too wide) in paragraph at lines 94--96
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[70] [71] [72] [73]
+[78] [79] [80] [81]
 Overfull \hbox (20.61679pt too wide) detected at line 165
 [][][] []
  []
 
-[74] <Pictures/fig_01b_2.pdf, id=878, 422.57875pt x 275.0275pt>
+[82] <Pictures/fig_01b_2.pdf, id=1299, 422.57875pt x 275.0275pt>
 File: Pictures/fig_01b_2.pdf Graphic file (type pdf)
 
 <use Pictures/fig_01b_2.pdf>
 Package pdftex.def Info: Pictures/fig_01b_2.pdf used on input line 175.
 (pdftex.def)             Requested size: 187.89914pt x 122.29242pt.
- [75] [76 <./Pictures/fig_01b_2.pdf>]
+ [83] [84 <./Pictures/fig_01b_2.pdf>]
 Overfull \hbox (29.96022pt too wide) in paragraph at lines 202--203
  [][] 
  []
@@ -916,15 +941,11 @@ Overfull \hbox (19.0729pt too wide) in paragraph at lines 212--230
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 (./Pictures/emme-vbf-presel.tex)
-Overfull \hbox (57.8846pt too wide) in paragraph at lines 239--240
-[][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77]
-<Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf, id=915, 569.12625pt x 546.04pt>
+[85]
+<Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf, id=1331, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf>
@@ -932,7 +953,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf used on in
 put line 249.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-DYll-log.pdf, id=916, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBF_2jet-DYll-log.pdf, id=1332, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBF_2jet-DYll-log.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBF_2jet-DYll-log.pdf>
@@ -940,14 +961,15 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-DYll-log.pdf used on in
 put line 252.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf, id=917, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf, id=1333, 569.12625pt x 546.04pt
+>
 File: Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf Graphic file (type pdf)
-<use Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf>
+ <use Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf used on 
 input line 255.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-Mjj-log.pdf, id=918, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBF_2jet-Mjj-log.pdf, id=1334, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBF_2jet-Mjj-log.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBF_2jet-Mjj-log.pdf>
@@ -955,7 +977,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-Mjj-log.pdf used on inp
 ut line 258.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-Mll-log.pdf, id=919, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBF_2jet-Mll-log.pdf, id=1335, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBF_2jet-Mll-log.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBF_2jet-Mll-log.pdf>
@@ -963,7 +985,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-Mll-log.pdf used on inp
 ut line 261.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-MT-log.pdf, id=920, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBF_2jet-MT-log.pdf, id=1336, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBF_2jet-MT-log.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBF_2jet-MT-log.pdf>
@@ -971,16 +993,16 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-MT-log.pdf used on inpu
 t line 264.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-leadJetPt-log.pdf, id=921, 569.12625pt x 546.04
-pt>
+<Pictures/run2-emme-CutVBF_2jet-leadJetPt-log.pdf, id=1337, 569.12625pt x 546.0
+4pt>
 File: Pictures/run2-emme-CutVBF_2jet-leadJetPt-log.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBF_2jet-leadJetPt-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-leadJetPt-log.pdf used 
 on input line 273.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-subleadJetPt-log.pdf, id=922, 569.12625pt x 546
-.04pt>
+<Pictures/run2-emme-CutVBF_2jet-subleadJetPt-log.pdf, id=1338, 569.12625pt x 54
+6.04pt>
 File: Pictures/run2-emme-CutVBF_2jet-subleadJetPt-log.pdf Graphic file (type pd
 f)
  <use Pictures/run2-emme-CutVBF_2jet-subleadJetPt-log.pdf>
@@ -988,9 +1010,10 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-subleadJetPt-log.pdf us
 ed on input line 279.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBF_2jet-DPhijj-log.pdf, id=923, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBF_2jet-DPhijj-log.pdf, id=1339, 569.12625pt x 546.04pt
+>
 File: Pictures/run2-emme-CutVBF_2jet-DPhijj-log.pdf Graphic file (type pdf)
-<use Pictures/run2-emme-CutVBF_2jet-DPhijj-log.pdf>
+ <use Pictures/run2-emme-CutVBF_2jet-DPhijj-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBF_2jet-DPhijj-log.pdf used on 
 input line 282.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
@@ -998,11 +1021,11 @@ input line 282.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78]
+[86]
 
-LaTeX Warning: Text page 79 contains only floats.
+LaTeX Warning: Text page 87 contains only floats.
 
-[79 <./Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf, page is rotated 90 degrees>
+[87 <./Pictures/run2-emme-CutVBF_2jet-DYjj-log.pdf, page is rotated 90 degrees>
  <./Pictures/run2-emme-CutVBF_2jet-DYll-log.pdf, page is rotated 90 degrees> <.
 /Pictures/run2-emme-CutVBF_2jet-DPhill-log.pdf, page is rotated 90 degrees> <./
 Pictures/run2-emme-CutVBF_2jet-Mjj-log.pdf, page is rotated 90 degrees> <./Pict
@@ -1011,14 +1034,14 @@ ures/run2-emme-CutVBF_2jet-Mll-log.pdf, page is rotated 90 degrees> <./Pictures
 -emme-CutVBF_2jet-leadJetPt-log.pdf, page is rotated 90 degrees> <./Pictures/ru
 n2-emme-CutVBF_2jet-subleadJetPt-log.pdf, page is rotated 90 degrees> <./Pictur
 es/run2-emme-CutVBF_2jet-DPhijj-log.pdf, page is rotated 90 degrees>]
-<Pictures/MjjDYjjVBF.png, id=1332, 588.1975pt x 342.27875pt>
+<Pictures/MjjDYjjVBF.png, id=1748, 588.1975pt x 342.27875pt>
 File: Pictures/MjjDYjjVBF.png Graphic file (type png)
 
 <use Pictures/MjjDYjjVBF.png>
 Package pdftex.def Info: Pictures/MjjDYjjVBF.png used on input line 295.
 (pdftex.def)             Requested size: 140.92793pt x 82.00755pt.
 
-<Pictures/MjjDYjjBackground.png, id=1333, 634.37pt x 382.42876pt>
+<Pictures/MjjDYjjBackground.png, id=1749, 634.37pt x 382.42876pt>
 File: Pictures/MjjDYjjBackground.png Graphic file (type png)
 
 <use Pictures/MjjDYjjBackground.png>
@@ -1026,22 +1049,18 @@ Package pdftex.def Info: Pictures/MjjDYjjBackground.png used on input line 296.
 
 (pdftex.def)             Requested size: 140.92793pt x 84.95737pt.
 
-<Pictures/MjjDYjjSig.png, id=1334, 667.49374pt x 383.4325pt>
+<Pictures/MjjDYjjSig.png, id=1750, 667.49374pt x 383.4325pt>
 File: Pictures/MjjDYjjSig.png Graphic file (type png)
 
 <use Pictures/MjjDYjjSig.png>
 Package pdftex.def Info: Pictures/MjjDYjjSig.png used on input line 297.
 (pdftex.def)             Requested size: 140.92793pt x 80.9503pt.
  (./Pictures/emme-vbf-SR.tex)
-Overfull \hbox (61.0241pt too wide) in paragraph at lines 331--332
-[][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf, id=1338, 569.12625pt x 546.04pt
+<Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf, id=1754, 569.12625pt x 546.04pt
 >
 File: Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf>
@@ -1049,7 +1068,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf used on
 input line 340.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-DPhill-log.pdf, id=1339, 569.12625pt x 546.04
+<Pictures/run2-emme-CutVBFDYjjMin-DPhill-log.pdf, id=1755, 569.12625pt x 546.04
 pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-DPhill-log.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFDYjjMin-DPhill-log.pdf>
@@ -1057,14 +1076,14 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-DPhill-log.pdf used o
 n input line 343.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-Mll-log.pdf, id=1340, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFDYjjMin-Mll-log.pdf, id=1756, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-Mll-log.pdf Graphic file (type pdf)
 <use Pictures/run2-emme-CutVBFDYjjMin-Mll-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-Mll-log.pdf used on i
 nput line 346.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-MT-log.pdf, id=1341, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFDYjjMin-MT-log.pdf, id=1757, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-MT-log.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFDYjjMin-MT-log.pdf>
@@ -1072,7 +1091,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-MT-log.pdf used on in
 put line 349.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-PtTot-log.pdf, id=1342, 569.12625pt x 546.04p
+<Pictures/run2-emme-CutVBFDYjjMin-PtTot-log.pdf, id=1758, 569.12625pt x 546.04p
 t>
 File: Pictures/run2-emme-CutVBFDYjjMin-PtTot-log.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFDYjjMin-PtTot-log.pdf>
@@ -1080,7 +1099,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-PtTot-log.pdf used on
  input line 352.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-leadLepPt-log.pdf, id=1343, 569.12625pt x 546
+<Pictures/run2-emme-CutVBFDYjjMin-leadLepPt-log.pdf, id=1759, 569.12625pt x 546
 .04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-leadLepPt-log.pdf Graphic file (type pdf
 )
@@ -1089,7 +1108,7 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-leadLepPt-log.pdf use
 d on input line 355.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-leadJetPt-log.pdf, id=1344, 569.12625pt x 546
+<Pictures/run2-emme-CutVBFDYjjMin-leadJetPt-log.pdf, id=1760, 569.12625pt x 546
 .04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-leadJetPt-log.pdf Graphic file (type pdf
 )
@@ -1098,22 +1117,22 @@ Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-leadJetPt-log.pdf use
 d on input line 358.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-MET-log.pdf, id=1345, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFDYjjMin-MET-log.pdf, id=1761, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-MET-log.pdf Graphic file (type pdf)
 <use Pictures/run2-emme-CutVBFDYjjMin-MET-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-MET-log.pdf used on i
 nput line 370.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
- [80 <./Pictures/MjjDYjjVBF.png> <./Pictures/MjjDYjjBackground.png> <./Pictures
+ [88 <./Pictures/MjjDYjjVBF.png> <./Pictures/MjjDYjjBackground.png> <./Pictures
 /MjjDYjjSig.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[81]
+[89]
 
-LaTeX Warning: Text page 82 contains only floats.
+LaTeX Warning: Text page 90 contains only floats.
 
-[82 <./Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf, page is rotated 90 degree
+[90 <./Pictures/run2-emme-CutVBFDYjjMin-DYll-log.pdf, page is rotated 90 degree
 s> <./Pictures/run2-emme-CutVBFDYjjMin-DPhill-log.pdf, page is rotated 90 degre
 es> <./Pictures/run2-emme-CutVBFDYjjMin-Mll-log.pdf, page is rotated 90 degrees
 > <./Pictures/run2-emme-CutVBFDYjjMin-MT-log.pdf, page is rotated 90 degrees> <
@@ -1134,7 +1153,7 @@ bles_id_c1-eps-converted-to.pdf Pictures/VBFvsWW+Top/variables_id_c1.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/VBFvsWW+Top/variables_id_c1-eps-converted-to.pdf, id=1721, 569.12625p
+<Pictures/VBFvsWW+Top/variables_id_c1-eps-converted-to.pdf, id=2132, 569.12625p
 t x 295.1025pt>
 File: Pictures/VBFvsWW+Top/variables_id_c1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1155,7 +1174,7 @@ bles_id_c2-eps-converted-to.pdf Pictures/VBFvsWW+Top/variables_id_c2.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/VBFvsWW+Top/variables_id_c2-eps-converted-to.pdf, id=1722, 569.12625p
+<Pictures/VBFvsWW+Top/variables_id_c2-eps-converted-to.pdf, id=2133, 569.12625p
 t x 295.1025pt>
 File: Pictures/VBFvsWW+Top/variables_id_c2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1178,7 +1197,7 @@ lationMatrixS-eps-converted-to.pdf Pictures/VBFvsWW+Top/CorrelationMatrixS.eps>
 (epstopdf)             \includegraphics on input line 409.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/VBFvsWW+Top/CorrelationMatrixS-eps-converted-to.pdf, id=1725, 569.126
+<Pictures/VBFvsWW+Top/CorrelationMatrixS-eps-converted-to.pdf, id=2136, 569.126
 25pt x 546.04pt>
 File: Pictures/VBFvsWW+Top/CorrelationMatrixS-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1201,7 +1220,7 @@ lationMatrixB-eps-converted-to.pdf Pictures/VBFvsWW+Top/CorrelationMatrixB.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/VBFvsWW+Top/CorrelationMatrixB-eps-converted-to.pdf, id=1726, 569.126
+<Pictures/VBFvsWW+Top/CorrelationMatrixB-eps-converted-to.pdf, id=2137, 569.126
 25pt x 546.04pt>
 File: Pictures/VBFvsWW+Top/CorrelationMatrixB-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1210,9 +1229,9 @@ File: Pictures/VBFvsWW+Top/CorrelationMatrixB-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: Pictures/VBFvsWW+Top/CorrelationMatrixB-eps-converted-
 to.pdf used on input line 410.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [83]
-[84 <./Pictures/VBFvsWW+Top/variables_id_c1-eps-converted-to.pdf> <./Pictures/V
-BFvsWW+Top/variables_id_c2-eps-converted-to.pdf>] [85 <./Pictures/VBFvsWW+Top/C
+ [91]
+[92 <./Pictures/VBFvsWW+Top/variables_id_c1-eps-converted-to.pdf> <./Pictures/V
+BFvsWW+Top/variables_id_c2-eps-converted-to.pdf>] [93 <./Pictures/VBFvsWW+Top/C
 orrelationMatrixS-eps-converted-to.pdf> <./Pictures/VBFvsWW+Top/CorrelationMatr
 ixB-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/VBFvsWW+Top/overtrain_BDTG.eps>
@@ -1227,7 +1246,7 @@ rain_BDTG-eps-converted-to.pdf Pictures/VBFvsWW+Top/overtrain_BDTG.eps>
 (epstopdf)             \includegraphics on input line 419.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/VBFvsWW+Top/overtrain_BDTG-eps-converted-to.pdf, id=1798, 569.12625pt
+<Pictures/VBFvsWW+Top/overtrain_BDTG-eps-converted-to.pdf, id=2205, 569.12625pt
  x 420.57124pt>
 File: Pictures/VBFvsWW+Top/overtrain_BDTG-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1236,123 +1255,118 @@ Package pdftex.def Info: Pictures/VBFvsWW+Top/overtrain_BDTG-eps-converted-to.p
 df used on input line 419.
 (pdftex.def)             Requested size: 211.38832pt x 156.21216pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf, id=1801, 569.12625pt x 546.0
+<Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf, id=2208, 569.12625pt x 546.0
 4pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf used 
 on input line 426.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
-) [86 <./Pictures/VBFvsWW+Top/overtrain_BDTG-eps-converted-to.pdf>] [87 <./Pict
+) [94 <./Pictures/VBFvsWW+Top/overtrain_BDTG-eps-converted-to.pdf>] [95 <./Pict
 ures/run2-emme-CutVBFDYjjMin-BDT_VBF-log.pdf, page is rotated 90 degrees>]
 Chapter 6.
-(./sections/BackgroundsSys.tex [88
+(./sections/BackgroundsSys.tex [96
 
 
 ]
-<Pictures/FeynmanDrellYan.png, id=1869, 680.5425pt x 403.5075pt>
+<Pictures/FeynmanDrellYan.png, id=2274, 680.5425pt x 403.5075pt>
 File: Pictures/FeynmanDrellYan.png Graphic file (type png)
 
 <use Pictures/FeynmanDrellYan.png>
 Package pdftex.def Info: Pictures/FeynmanDrellYan.png used on input line 10.
 (pdftex.def)             Requested size: 164.41711pt x 97.4841pt.
- [89 <./Pictures/FeynmanDrellYan.png>]
+ [97 <./Pictures/FeynmanDrellYan.png>]
 (./Pictures/emme-vbf-ZttCR.tex)
-Overfull \hbox (61.26457pt too wide) in paragraph at lines 27--28
- [][] 
- []
-
-
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mtt-lin.pdf, id=1882, 569.
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mtt-lin.pdf, id=2286, 569.
 12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mtt-lin.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mtt-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mt
-t-lin.pdf used on input line 38.
+t-lin.pdf used on input line 37.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-PtTot-lin.pdf, id=1883, 56
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-PtTot-lin.pdf, id=2287, 56
 9.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-PtTot-lin.pdf Graphic
  file (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-PtTot-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-Pt
-Tot-lin.pdf used on input line 41.
+Tot-lin.pdf used on input line 40.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MT-lin.pdf, id=1884, 569.1
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MT-lin.pdf, id=2288, 569.1
 2625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MT-lin.pdf Graphic fi
 le (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MT
--lin.pdf used on input line 44.
+-lin.pdf used on input line 43.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MET-lin.pdf, id=1885, 569.
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MET-lin.pdf, id=2289, 569.
 12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MET-lin.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-MET-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-ME
-T-lin.pdf used on input line 47.
+T-lin.pdf used on input line 46.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METRel-lin.pdf, id=1886, 5
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METRel-lin.pdf, id=2290, 5
 69.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METRel-lin.pdf Graphi
 c file (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METRel-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-ME
-TRel-lin.pdf used on input line 50.
+TRel-lin.pdf used on input line 49.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METSig-lin.pdf, id=1887, 5
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METSig-lin.pdf, id=2291, 5
 69.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METSig-lin.pdf Graphi
 c file (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-METSig-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-ME
-TSig-lin.pdf used on input line 53.
+TSig-lin.pdf used on input line 52.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMET-lin.pdf, id=1888,
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMET-lin.pdf, id=2292,
  569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMET-lin.pdf Grap
 hic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMET-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-Tr
-ackMET-lin.pdf used on input line 56.
+ackMET-lin.pdf used on input line 55.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMETRel-lin.pdf, id=18
-89, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMETRel-lin.pdf, id=22
+93, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMETRel-lin.pdf G
 raphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-TrackMETRel-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-Tr
-ackMETRel-lin.pdf used on input line 59.
+ackMETRel-lin.pdf used on input line 58.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.6457pt too wide) in paragraph at lines 67--68
+Overfull \hbox (6.6457pt too wide) in paragraph at lines 66--67
 []\OT1/cmr/m/n/12 Normalization fac-tors (NF) are de-rived in the $\OML/cmm/m/i
 t/12 Z\OT1/cmr/m/n/12 +$jets con-trol re-gion to cor-rect for Data/MC
  []
 
-[90] [91 <./Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mtt-lin.pdf, pa
+[98] [99 <./Pictures/run2-emme-CutVBFZtautauControl_2jetinclOLV-mtt-lin.pdf, pa
 ge is rotated 90 degrees> <./Pictures/run2-emme-CutVBFZtautauControl_2jetinclOL
 V-PtTot-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFZtauta
 uControl_2jetinclOLV-MT-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-e
@@ -1363,117 +1377,112 @@ g-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFZtautauContr
 ol_2jetinclOLV-TrackMET-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-e
 mme-CutVBFZtautauControl_2jetinclOLV-TrackMETRel-lin.pdf, page is rotated 90 de
 grees>] (./Pictures/emme-vbf-TopCR.tex)
-Overfull \hbox (60.79945pt too wide) in paragraph at lines 78--79
- [][] 
- []
-
-
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Mll-lin.pdf, id=2259, 569.
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Mll-lin.pdf, id=2660, 569.
 12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Mll-lin.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Mll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml
-l-lin.pdf used on input line 89.
+l-lin.pdf used on input line 87.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYll-lin.pdf, id=2260, 569
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYll-lin.pdf, id=2661, 569
 .12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYll-lin.pdf Graphic 
 file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DY
-ll-lin.pdf used on input line 92.
+ll-lin.pdf used on input line 90.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYjj-lin.pdf, id=2261, 569
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYjj-lin.pdf, id=2662, 569
 .12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYjj-lin.pdf Graphic 
 file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DYjj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DY
-jj-lin.pdf used on input line 95.
+jj-lin.pdf used on input line 93.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-sumOfCentralitiesL-lin.pdf
-, id=2262, 569.12625pt x 546.04pt>
+, id=2663, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-sumOfCentralitiesL-li
 n.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-sumOfCentralitiesL-lin
 .pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-su
-mOfCentralitiesL-lin.pdf used on input line 98.
+mOfCentralitiesL-lin.pdf used on input line 96.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml0j0-lin.pdf, id=2263, 56
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml0j0-lin.pdf, id=2664, 56
 9.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml0j0-lin.pdf Graphic
  file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml0j0-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml
-0j0-lin.pdf used on input line 104.
+0j0-lin.pdf used on input line 102.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml1j1-lin.pdf, id=2264, 56
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml1j1-lin.pdf, id=2665, 56
 9.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml1j1-lin.pdf Graphic
  file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml1j1-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml
-1j1-lin.pdf used on input line 107.
+1j1-lin.pdf used on input line 105.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DPhijj-lin.pdf, id=2265, 5
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DPhijj-lin.pdf, id=2666, 5
 69.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DPhijj-lin.pdf Graphi
 c file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DPhijj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-DP
-hijj-lin.pdf used on input line 110.
+hijj-lin.pdf used on input line 108.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-PtTot-lin.pdf, id=2266, 56
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-PtTot-lin.pdf, id=2667, 56
 9.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-PtTot-lin.pdf Graphic
  file (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-PtTot-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Pt
-Tot-lin.pdf used on input line 113.
+Tot-lin.pdf used on input line 111.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT-lin.pdf, id=2267, 569.1
+<Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT-lin.pdf, id=2668, 569.1
 2625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT-lin.pdf Graphic fi
 le (type pdf)
 
 <use Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT
--lin.pdf used on input line 116.
+-lin.pdf used on input line 114.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[92] [93 <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Mll-lin.pdf, pa
-ge is rotated 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVet
-o-DYll-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFTopCont
-rol_2jetinclZttVeto-DYjj-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-
-emme-CutVBFTopControl_2jetinclZttVeto-sumOfCentralitiesL-lin.pdf, page is rotat
-ed 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml0j0-lin
-.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetin
-clZttVeto-Ml1j1-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutV
-BFTopControl_2jetinclZttVeto-DPhijj-lin.pdf, page is rotated 90 degrees> <./Pic
-tures/run2-emme-CutVBFTopControl_2jetinclZttVeto-PtTot-lin.pdf, page is rotated
- 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT-lin.pdf,
- page is rotated 90 degrees>]
+[100] [101 <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Mll-lin.pdf, 
+page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttV
+eto-DYll-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFTopCo
+ntrol_2jetinclZttVeto-DYjj-lin.pdf, page is rotated 90 degrees> <./Pictures/run
+2-emme-CutVBFTopControl_2jetinclZttVeto-sumOfCentralitiesL-lin.pdf, page is rot
+ated 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-Ml0j0-l
+in.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jet
+inclZttVeto-Ml1j1-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-Cu
+tVBFTopControl_2jetinclZttVeto-DPhijj-lin.pdf, page is rotated 90 degrees> <./P
+ictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-PtTot-lin.pdf, page is rotat
+ed 90 degrees> <./Pictures/run2-emme-CutVBFTopControl_2jetinclZttVeto-MT-lin.pd
+f, page is rotated 90 degrees>]
 Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/variables_id_c
 1.eps>
 (epstopdf)                    date: 2020-05-27 19:03:55
@@ -1485,17 +1494,17 @@ Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/variables_id_c
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Top+WWvsEverythin
 g/variables_id_c1-eps-converted-to.pdf Pictures/Top+WWvsEverything/variables_id
 _c1.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/Top+WWvsEverything/variables_id_c1-eps-converted-to.pdf, id=2680, 569
+<Pictures/Top+WWvsEverything/variables_id_c1-eps-converted-to.pdf, id=3079, 569
 .12625pt x 295.1025pt>
 File: Pictures/Top+WWvsEverything/variables_id_c1-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use Pictures/Top+WWvsEverything/variables_id_c1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/Top+WWvsEverything/variables_id_c1-eps-conver
-ted-to.pdf used on input line 149.
+ted-to.pdf used on input line 147.
 (pdftex.def)             Requested size: 328.82707pt x 170.51114pt.
 Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/variables_id_c
 2.eps>
@@ -1508,17 +1517,17 @@ Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/variables_id_c
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Top+WWvsEverythin
 g/variables_id_c2-eps-converted-to.pdf Pictures/Top+WWvsEverything/variables_id
 _c2.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/Top+WWvsEverything/variables_id_c2-eps-converted-to.pdf, id=2681, 568
+<Pictures/Top+WWvsEverything/variables_id_c2-eps-converted-to.pdf, id=3080, 568
 .1225pt x 144.54pt>
 File: Pictures/Top+WWvsEverything/variables_id_c2-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use Pictures/Top+WWvsEverything/variables_id_c2-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/Top+WWvsEverything/variables_id_c2-eps-conver
-ted-to.pdf used on input line 150.
+ted-to.pdf used on input line 148.
 (pdftex.def)             Requested size: 328.82707pt x 83.66121pt.
 Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/CorrelationMat
 rixS.eps>
@@ -1531,17 +1540,17 @@ rixS-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Top+WWvsEverythin
 g/CorrelationMatrixS-eps-converted-to.pdf Pictures/Top+WWvsEverything/Correlati
 onMatrixS.eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/Top+WWvsEverything/CorrelationMatrixS-eps-converted-to.pdf, id=2684, 
+<Pictures/Top+WWvsEverything/CorrelationMatrixS-eps-converted-to.pdf, id=3083, 
 569.12625pt x 546.04pt>
 File: Pictures/Top+WWvsEverything/CorrelationMatrixS-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use Pictures/Top+WWvsEverything/CorrelationMatrixS-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/Top+WWvsEverything/CorrelationMatrixS-eps-con
-verted-to.pdf used on input line 156.
+verted-to.pdf used on input line 154.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/CorrelationMat
 rixB.eps>
@@ -1554,21 +1563,18 @@ rixB-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Top+WWvsEverythin
 g/CorrelationMatrixB-eps-converted-to.pdf Pictures/Top+WWvsEverything/Correlati
 onMatrixB.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/Top+WWvsEverything/CorrelationMatrixB-eps-converted-to.pdf, id=2685, 
+<Pictures/Top+WWvsEverything/CorrelationMatrixB-eps-converted-to.pdf, id=3084, 
 569.12625pt x 546.04pt>
 File: Pictures/Top+WWvsEverything/CorrelationMatrixB-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use Pictures/Top+WWvsEverything/CorrelationMatrixB-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/Top+WWvsEverything/CorrelationMatrixB-eps-con
-verted-to.pdf used on input line 157.
+verted-to.pdf used on input line 155.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
-
-[94 <./Pictures/Top+WWvsEverything/variables_id_c1-eps-converted-to.pdf> <./Pic
-tures/Top+WWvsEverything/variables_id_c2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/overtrain_BDTG
 .eps>
 (epstopdf)                    date: 2020-05-22 15:18:05
@@ -1580,202 +1586,197 @@ Package epstopdf Info: Source file: <Pictures/Top+WWvsEverything/overtrain_BDTG
 (epstopdf)             Command: <repstopdf --outfile=Pictures/Top+WWvsEverythin
 g/overtrain_BDTG-eps-converted-to.pdf Pictures/Top+WWvsEverything/overtrain_BDT
 G.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 163.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/Top+WWvsEverything/overtrain_BDTG-eps-converted-to.pdf, id=2717, 569.
+<Pictures/Top+WWvsEverything/overtrain_BDTG-eps-converted-to.pdf, id=3089, 569.
 12625pt x 420.57124pt>
 File: Pictures/Top+WWvsEverything/overtrain_BDTG-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use Pictures/Top+WWvsEverything/overtrain_BDTG-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/Top+WWvsEverything/overtrain_BDTG-eps-convert
-ed-to.pdf used on input line 165.
+ed-to.pdf used on input line 163.
 (pdftex.def)             Requested size: 211.38832pt x 156.21216pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf, id=2720, 569.12625pt x 
+<Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf, id=3092, 569.12625pt x 
 546.04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf Graphic file (type 
 pdf)
  <use Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf 
-used on input line 172.
+used on input line 170.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [95 <./Pictures/Top+WWvsEverything/CorrelationMatrixS-eps-converted-to.pdf> <.
-/Pictures/Top+WWvsEverything/CorrelationMatrixB-eps-converted-to.pdf> <./Pictur
-es/Top+WWvsEverything/overtrain_BDTG-eps-converted-to.pdf>]
-Overfull \hbox (0.12631pt too wide) in paragraph at lines 204--205
+
+Overfull \hbox (0.12631pt too wide) in paragraph at lines 202--203
 []\OT1/cmr/m/n/12 Normalization fac-tors (NF) are de-rived in the top val-i-da-
 tion re-gion to cor-rect for data/MC
  []
 
-[96 <./Pictures/run2-emme-CutVBFDYjjMin-BDT_TopWWAll-lin.pdf, page is rotated 9
-0 degrees>] (./Pictures/emme-vbf-wwVR.tex)
-Overfull \hbox (50.16093pt too wide) in paragraph at lines 218--219
- [][] 
- []
-
-
-<Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf, id=2812, 569.12625pt x 
+[102] [103 <./Pictures/Top+WWvsEverything/variables_id_c1-eps-converted-to.pdf>
+ <./Pictures/Top+WWvsEverything/variables_id_c2-eps-converted-to.pdf> <./Pictur
+es/Top+WWvsEverything/CorrelationMatrixS-eps-converted-to.pdf> <./Pictures/Top+
+WWvsEverything/CorrelationMatrixB-eps-converted-to.pdf>] [104 <./Pictures/Top+W
+WvsEverything/overtrain_BDTG-eps-converted-to.pdf> <./Pictures/run2-emme-CutVBF
+DYjjMin-BDT_TopWWAll-lin.pdf, page is rotated 90 degrees>]
+(./Pictures/emme-vbf-wwVR.tex)
+<Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf, id=3206, 569.12625pt x 
 546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf Graphic file (type 
 pdf)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf 
-used on input line 231.
+used on input line 229.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf, id=2813, 569.12625pt x 
+<Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf, id=3207, 569.12625pt x 
 546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf Graphic file (type 
 pdf)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf 
-used on input line 234.
+used on input line 232.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentralitiesL-lin.pdf, id=2814, 
+<Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentralitiesL-lin.pdf, id=3208, 
 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentralitiesL-lin.pdf Graph
 ic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentralitiesL-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentrali
-tiesL-lin.pdf used on input line 237.
+tiesL-lin.pdf used on input line 235.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-Ml0j0-lin.pdf, id=2815, 569.12625pt x
+<Pictures/run2-emme-CutVBFWWControl_CJV20-Ml0j0-lin.pdf, id=3209, 569.12625pt x
  546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-Ml0j0-lin.pdf Graphic file (type
  pdf)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-Ml0j0-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-Ml0j0-lin.pdf
- used on input line 240.
+ used on input line 238.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-Ml1j1-lin.pdf, id=2816, 569.12625pt x
+<Pictures/run2-emme-CutVBFWWControl_CJV20-Ml1j1-lin.pdf, id=3210, 569.12625pt x
  546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-Ml1j1-lin.pdf Graphic file (type
  pdf)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-Ml1j1-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-Ml1j1-lin.pdf
- used on input line 243.
+ used on input line 241.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-leadJetPt-lin.pdf, id=2817, 569.12625
+<Pictures/run2-emme-CutVBFWWControl_CJV20-leadJetPt-lin.pdf, id=3211, 569.12625
 pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-leadJetPt-lin.pdf Graphic file (
 type pdf)
 
 <use Pictures/run2-emme-CutVBFWWControl_CJV20-leadJetPt-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-leadJetPt-lin
-.pdf used on input line 246.
+.pdf used on input line 244.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pdf, id=2818, 569.12625pt 
+<Pictures/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pdf, id=3212, 569.12625pt 
 x 546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pdf Graphic file (typ
 e pdf)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pd
-f used on input line 252.
+f used on input line 250.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf, id=2819, 569.12625pt x
+<Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf, id=3213, 569.12625pt x
  546.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf Graphic file (type
  pdf)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf
- used on input line 255.
+ used on input line 253.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf, id=2820, 569.12625pt x 54
+<Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf, id=3214, 569.12625pt x 54
 6.04pt>
 File: Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf Graphic file (type pd
 f)
  <use Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf us
-ed on input line 258.
+ed on input line 256.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[97] [98 <./Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf, page is rota
-ted 90 degrees> <./Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf, page 
-is rotated 90 degrees> <./Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentral
-itiesL-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFWWContr
-ol_CJV20-Ml0j0-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVB
-FWWControl_CJV20-Ml1j1-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-em
-me-CutVBFWWControl_CJV20-leadJetPt-lin.pdf, page is rotated 90 degrees> <./Pict
-ures/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pdf, page is rotated 90 degrees
-> <./Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf, page is rotated 90
- degrees> <./Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf, page is rotat
-ed 90 degrees>] [99]
-<Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf, id=3241, 569.12625pt x 546.04pt>
+ [105]
+[106 <./Pictures/run2-emme-CutVBFWWControl_CJV20-DYll-lin.pdf, page is rotated 
+90 degrees> <./Pictures/run2-emme-CutVBFWWControl_CJV20-DYjj-lin.pdf, page is r
+otated 90 degrees> <./Pictures/run2-emme-CutVBFWWControl_CJV20-sumOfCentralitie
+sL-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFWWControl_C
+JV20-Ml0j0-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFWWC
+ontrol_CJV20-Ml1j1-lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-C
+utVBFWWControl_CJV20-leadJetPt-lin.pdf, page is rotated 90 degrees> <./Pictures
+/run2-emme-CutVBFWWControl_CJV20-DPhijj-lin.pdf, page is rotated 90 degrees> <.
+/Pictures/run2-emme-CutVBFWWControl_CJV20-PtTot-lin.pdf, page is rotated 90 deg
+rees> <./Pictures/run2-emme-CutVBFWWControl_CJV20-MT-lin.pdf, page is rotated 9
+0 degrees>] [107] [108]
+<Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf, id=3638, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf Graphic file (type pdf)
 <use Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf used on i
-nput line 357.
+nput line 355.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-DPhill-lin.pdf, id=3242, 569.12625pt x 546.04p
+<Pictures/run2-emme-CutVBFggFCR1-DPhill-lin.pdf, id=3639, 569.12625pt x 546.04p
 t>
 File: Pictures/run2-emme-CutVBFggFCR1-DPhill-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFggFCR1-DPhill-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-DPhill-lin.pdf used on
- input line 360.
+ input line 358.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-Mll-lin.pdf, id=3243, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR1-Mll-lin.pdf, id=3640, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-Mll-lin.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR1-Mll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-Mll-lin.pdf used on in
-put line 363.
+put line 361.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-MT-lin.pdf, id=3244, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR1-MT-lin.pdf, id=3641, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-MT-lin.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR1-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-MT-lin.pdf used on inp
-ut line 366.
+ut line 364.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-leadJetPt-lin.pdf, id=3245, 569.12625pt x 546.
+<Pictures/run2-emme-CutVBFggFCR1-leadJetPt-lin.pdf, id=3642, 569.12625pt x 546.
 04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-leadJetPt-lin.pdf Graphic file (type pdf)
 
  <use Pictures/run2-emme-CutVBFggFCR1-leadJetPt-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-leadJetPt-lin.pdf used
- on input line 369.
+ on input line 367.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-lin.pdf, id=3246, 569.12625pt x 5
+<Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-lin.pdf, id=3643, 569.12625pt x 5
 46.04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-lin.pdf Graphic file (type p
 df)
  <use Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-lin.pdf u
-sed on input line 372.
+sed on input line 370.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-DPhijj-lin.pdf, id=3247, 569.12625pt x 546.04p
+<Pictures/run2-emme-CutVBFggFCR1-DPhijj-lin.pdf, id=3644, 569.12625pt x 546.04p
 t>
 File: Pictures/run2-emme-CutVBFggFCR1-DPhijj-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFggFCR1-DPhijj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-DPhijj-lin.pdf used on
- input line 375.
+ input line 373.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf, id=3248, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf, id=3645, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf used on in
-put line 378.
+put line 376.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 
@@ -1790,16 +1791,16 @@ ted-to.pdf>
 (epstopdf)                    size: 22545 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR1/variables_
 id_c1-eps-converted-to.pdf Pictures/ggFCR1/variables_id_c1.eps>
-(epstopdf)             \includegraphics on input line 387.
+(epstopdf)             \includegraphics on input line 385.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf, id=3251, 569.12625pt x 2
+<Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf, id=3648, 569.12625pt x 2
 95.1025pt>
 File: Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf Graphic file (type p
 df)
  <use Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf u
-sed on input line 387.
+sed on input line 385.
 (pdftex.def)             Requested size: 328.82707pt x 170.51114pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR1/variables_id_c2.eps>
 (epstopdf)                    date: 2020-06-16 12:56:11
@@ -1810,16 +1811,16 @@ ted-to.pdf>
 (epstopdf)                    size: 14023 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR1/variables_
 id_c2-eps-converted-to.pdf Pictures/ggFCR1/variables_id_c2.eps>
-(epstopdf)             \includegraphics on input line 388.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR1/variables_id_c2-eps-converted-to.pdf, id=3252, 568.1225pt x 15
+<Pictures/ggFCR1/variables_id_c2-eps-converted-to.pdf, id=3649, 568.1225pt x 15
 1.56625pt>
 File: Pictures/ggFCR1/variables_id_c2-eps-converted-to.pdf Graphic file (type p
 df)
  <use Pictures/ggFCR1/variables_id_c2-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR1/variables_id_c2-eps-converted-to.pdf u
-sed on input line 388.
+sed on input line 386.
 (pdftex.def)             Requested size: 328.82707pt x 87.72809pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR1/CorrelationMatrixS.eps>
 (epstopdf)                    date: 2020-05-27 19:04:21
@@ -1830,16 +1831,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12074 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR1/Correlatio
 nMatrixS-eps-converted-to.pdf Pictures/ggFCR1/CorrelationMatrixS.eps>
-(epstopdf)             \includegraphics on input line 394.
+(epstopdf)             \includegraphics on input line 392.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR1/CorrelationMatrixS-eps-converted-to.pdf, id=3255, 569.12625pt 
+<Pictures/ggFCR1/CorrelationMatrixS-eps-converted-to.pdf, id=3652, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFCR1/CorrelationMatrixS-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFCR1/CorrelationMatrixS-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR1/CorrelationMatrixS-eps-converted-to.pd
-f used on input line 394.
+f used on input line 392.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR1/CorrelationMatrixB.eps>
 (epstopdf)                    date: 2020-05-27 19:04:21
@@ -1850,16 +1851,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12331 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR1/Correlatio
 nMatrixB-eps-converted-to.pdf Pictures/ggFCR1/CorrelationMatrixB.eps>
-(epstopdf)             \includegraphics on input line 395.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR1/CorrelationMatrixB-eps-converted-to.pdf, id=3256, 569.12625pt 
+<Pictures/ggFCR1/CorrelationMatrixB-eps-converted-to.pdf, id=3653, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFCR1/CorrelationMatrixB-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFCR1/CorrelationMatrixB-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR1/CorrelationMatrixB-eps-converted-to.pd
-f used on input line 395.
+f used on input line 393.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR1/overtrain_BDTG.eps>
 (epstopdf)                    date: 2020-05-27 19:04:21
@@ -1870,31 +1871,31 @@ ed-to.pdf>
 (epstopdf)                    size: 18448 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR1/overtrain_
 BDTG-eps-converted-to.pdf Pictures/ggFCR1/overtrain_BDTG.eps>
-(epstopdf)             \includegraphics on input line 404.
+(epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf, id=3261, 569.12625pt x 42
+<Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf, id=3658, 569.12625pt x 42
 0.57124pt>
 File: Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf Graphic file (type pd
 f)
  <use Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf us
-ed on input line 404.
+ed on input line 402.
 (pdftex.def)             Requested size: 211.38832pt x 156.21216pt.
 
-<Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf, id=3264, 569.12625pt x 546
+<Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf, id=3661, 569.12625pt x 546
 .04pt>
 File: Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf Graphic file (type pdf
 )
  <use Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf use
-d on input line 411.
+d on input line 409.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [100]
+ [109]
 Overfull \vbox (19.83069pt too high) has occurred while \output is active []
 
 
-[101 <./Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf, page is rotated 90 degree
+[110 <./Pictures/run2-emme-CutVBFggFCR1-DYll-lin.pdf, page is rotated 90 degree
 s> <./Pictures/run2-emme-CutVBFggFCR1-DPhill-lin.pdf, page is rotated 90 degree
 s> <./Pictures/run2-emme-CutVBFggFCR1-Mll-lin.pdf, page is rotated 90 degrees> 
 <./Pictures/run2-emme-CutVBFggFCR1-MT-lin.pdf, page is rotated 90 degrees> <./P
@@ -1902,56 +1903,56 @@ ictures/run2-emme-CutVBFggFCR1-leadJetPt-lin.pdf, page is rotated 90 degrees> <
 ./Pictures/run2-emme-CutVBFggFCR1-subleadJetPt-lin.pdf, page is rotated 90 degr
 ees> <./Pictures/run2-emme-CutVBFggFCR1-DPhijj-lin.pdf, page is rotated 90 degr
 ees> <./Pictures/run2-emme-CutVBFggFCR1-MET-lin.pdf, page is rotated 90 degrees
->] [102 <./Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf> <./Pictures/gg
+>] [111 <./Pictures/ggFCR1/variables_id_c1-eps-converted-to.pdf> <./Pictures/gg
 FCR1/variables_id_c2-eps-converted-to.pdf> <./Pictures/ggFCR1/CorrelationMatrix
 S-eps-converted-to.pdf> <./Pictures/ggFCR1/CorrelationMatrixB-eps-converted-to.
-pdf>] [103 <./Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf> <./Pictures/
+pdf>] [112 <./Pictures/ggFCR1/overtrain_BDTG-eps-converted-to.pdf> <./Pictures/
 run2-emme-CutVBFggFCR1-BDT_ggFCR1-log.pdf, page is rotated 90 degrees>]
-<Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf, id=3752, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf, id=4142, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf Graphic file (type pdf)
 <use Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf used on i
-nput line 441.
+nput line 439.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR2-DPhill-lin.pdf, id=3753, 569.12625pt x 546.04p
+<Pictures/run2-emme-CutVBFggFCR2-DPhill-lin.pdf, id=4143, 569.12625pt x 546.04p
 t>
 File: Pictures/run2-emme-CutVBFggFCR2-DPhill-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFggFCR2-DPhill-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-DPhill-lin.pdf used on
- input line 444.
+ input line 442.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR2-Mll-lin.pdf, id=3754, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR2-Mll-lin.pdf, id=4144, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR2-Mll-lin.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR2-Mll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-Mll-lin.pdf used on in
-put line 447.
+put line 445.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR2-MT-lin.pdf, id=3755, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR2-MT-lin.pdf, id=4145, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR2-MT-lin.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR2-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-MT-lin.pdf used on inp
-ut line 450.
+ut line 448.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR2-DPhijj-lin.pdf, id=3756, 569.12625pt x 546.04p
+<Pictures/run2-emme-CutVBFggFCR2-DPhijj-lin.pdf, id=4146, 569.12625pt x 546.04p
 t>
 File: Pictures/run2-emme-CutVBFggFCR2-DPhijj-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFggFCR2-DPhijj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-DPhijj-lin.pdf used on
- input line 468.
+ input line 466.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<Pictures/run2-emme-CutVBFggFCR2-MET-lin.pdf, id=3757, 569.12625pt x 546.04pt>
+<Pictures/run2-emme-CutVBFggFCR2-MET-lin.pdf, id=4147, 569.12625pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR2-MET-lin.pdf Graphic file (type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR2-MET-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-MET-lin.pdf used on in
-put line 471.
+put line 469.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 
@@ -1966,16 +1967,16 @@ ted-to.pdf>
 (epstopdf)                    size: 22819 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR2/variables_
 id_c1-eps-converted-to.pdf Pictures/ggFCR2/variables_id_c1.eps>
-(epstopdf)             \includegraphics on input line 480.
+(epstopdf)             \includegraphics on input line 478.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf, id=3760, 569.12625pt x 2
+<Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf, id=4150, 569.12625pt x 2
 95.1025pt>
 File: Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf Graphic file (type p
 df)
  <use Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf u
-sed on input line 480.
+sed on input line 478.
 (pdftex.def)             Requested size: 328.82707pt x 170.51114pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR2/CorrelationMatrixS.eps>
 (epstopdf)                    date: 2020-05-27 19:04:22
@@ -1986,16 +1987,16 @@ verted-to.pdf>
 (epstopdf)                    size: 11091 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR2/Correlatio
 nMatrixS-eps-converted-to.pdf Pictures/ggFCR2/CorrelationMatrixS.eps>
-(epstopdf)             \includegraphics on input line 486.
+(epstopdf)             \includegraphics on input line 484.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR2/CorrelationMatrixS-eps-converted-to.pdf, id=3763, 569.12625pt 
+<Pictures/ggFCR2/CorrelationMatrixS-eps-converted-to.pdf, id=4153, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFCR2/CorrelationMatrixS-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFCR2/CorrelationMatrixS-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR2/CorrelationMatrixS-eps-converted-to.pd
-f used on input line 486.
+f used on input line 484.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR2/CorrelationMatrixB.eps>
 (epstopdf)                    date: 2020-05-27 19:04:22
@@ -2006,16 +2007,16 @@ verted-to.pdf>
 (epstopdf)                    size: 11445 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR2/Correlatio
 nMatrixB-eps-converted-to.pdf Pictures/ggFCR2/CorrelationMatrixB.eps>
-(epstopdf)             \includegraphics on input line 487.
+(epstopdf)             \includegraphics on input line 485.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR2/CorrelationMatrixB-eps-converted-to.pdf, id=3764, 569.12625pt 
+<Pictures/ggFCR2/CorrelationMatrixB-eps-converted-to.pdf, id=4154, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFCR2/CorrelationMatrixB-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFCR2/CorrelationMatrixB-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR2/CorrelationMatrixB-eps-converted-to.pd
-f used on input line 487.
+f used on input line 485.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR2/overtrain_BDTG.eps>
 (epstopdf)                    date: 2020-05-27 19:04:22
@@ -2026,80 +2027,80 @@ ed-to.pdf>
 (epstopdf)                    size: 19517 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR2/overtrain_
 BDTG-eps-converted-to.pdf Pictures/ggFCR2/overtrain_BDTG.eps>
-(epstopdf)             \includegraphics on input line 496.
+(epstopdf)             \includegraphics on input line 494.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR2/overtrain_BDTG-eps-converted-to.pdf, id=3769, 569.12625pt x 42
+<Pictures/ggFCR2/overtrain_BDTG-eps-converted-to.pdf, id=4159, 569.12625pt x 42
 0.57124pt>
 File: Pictures/ggFCR2/overtrain_BDTG-eps-converted-to.pdf Graphic file (type pd
 f)
  <use Pictures/ggFCR2/overtrain_BDTG-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR2/overtrain_BDTG-eps-converted-to.pdf us
-ed on input line 496.
+ed on input line 494.
 (pdftex.def)             Requested size: 211.38832pt x 156.21216pt.
 
-<Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf, id=3772, 569.12625pt x 546
+<Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf, id=4162, 569.12625pt x 546
 .04pt>
 File: Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf Graphic file (type pdf
 )
  <use Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf use
-d on input line 503.
+d on input line 501.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [104]
+ [113]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf, id=3787, 569.12625pt
+<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf, id=4171, 569.12625pt
  x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf Graphic file (ty
 pe pdf)
  <use Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.p
-df used on input line 534.
+df used on input line 532.
 (pdftex.def)             Requested size: 164.41711pt x 157.74765pt.
 
-<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf, id=3788, 569.12625
+<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf, id=4172, 569.12625
 pt x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf Graphic file (
 type pdf)
 
 <use Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin
-.pdf used on input line 537.
+.pdf used on input line 535.
 (pdftex.def)             Requested size: 164.41711pt x 157.74765pt.
 
-<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pdf, id=3789, 569.12625pt 
+<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pdf, id=4173, 569.12625pt 
 x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pdf Graphic file (typ
 e pdf)
  <use Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-lin.pd
-f used on input line 540.
+f used on input line 538.
 (pdftex.def)             Requested size: 164.41711pt x 157.74765pt.
 
-<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf, id=3790, 569.12625pt x
+<Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf, id=4174, 569.12625pt x
  546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf Graphic file (type
  pdf)
  <use Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-MT-lin.pdf
- used on input line 543.
+ used on input line 541.
 (pdftex.def)             Requested size: 164.41711pt x 157.74765pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[105 <./Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf, page is rotated 90 degree
+[114 <./Pictures/run2-emme-CutVBFggFCR2-DYll-lin.pdf, page is rotated 90 degree
 s> <./Pictures/run2-emme-CutVBFggFCR2-DPhill-lin.pdf, page is rotated 90 degree
 s> <./Pictures/run2-emme-CutVBFggFCR2-Mll-lin.pdf, page is rotated 90 degrees> 
 <./Pictures/run2-emme-CutVBFggFCR2-MT-lin.pdf, page is rotated 90 degrees> <./P
 ictures/run2-emme-CutVBFggFCR2-DPhijj-lin.pdf, page is rotated 90 degrees> <./P
 ictures/run2-emme-CutVBFggFCR2-MET-lin.pdf, page is rotated 90 degrees>]
-[106 <./Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf> <./Pictures/ggFCR
+[115 <./Pictures/ggFCR2/variables_id_c1-eps-converted-to.pdf> <./Pictures/ggFCR
 2/CorrelationMatrixS-eps-converted-to.pdf> <./Pictures/ggFCR2/CorrelationMatrix
-B-eps-converted-to.pdf>] [107 <./Pictures/ggFCR2/overtrain_BDTG-eps-converted-t
+B-eps-converted-to.pdf>] [116 <./Pictures/ggFCR2/overtrain_BDTG-eps-converted-t
 o.pdf> <./Pictures/run2-emme-CutVBFggFCR2-BDT_ggFCR2-log.pdf, page is rotated 9
 0 degrees>]
 Package epstopdf Info: Source file: <Pictures/ggFCR3/variables_id_c1.eps>
@@ -2111,18 +2112,18 @@ ted-to.pdf>
 (epstopdf)                    size: 19362 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR3/variables_
 id_c1-eps-converted-to.pdf Pictures/ggFCR3/variables_id_c1.eps>
-(epstopdf)             \includegraphics on input line 564.
+(epstopdf)             \includegraphics on input line 562.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf, id=4162, 569.12625pt x 5
+<Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf, id=4545, 569.12625pt x 5
 46.04pt>
 File: Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf Graphic file (type p
 df)
  <use Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf u
-sed on input line 564.
+sed on input line 562.
 (pdftex.def)             Requested size: 328.82707pt x 315.50363pt.
- [108 <./Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf, page is rota
+ [117 <./Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DYll-lin.pdf, page is rota
 ted 90 degrees> <./Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-DPhill-lin.pdf, 
 page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFggFCR3ZttVeto_2jet-Mll-
 lin.pdf, page is rotated 90 degrees> <./Pictures/run2-emme-CutVBFggFCR3ZttVeto_
@@ -2136,16 +2137,16 @@ verted-to.pdf>
 (epstopdf)                    size: 10200 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR3/Correlatio
 nMatrixS-eps-converted-to.pdf Pictures/ggFCR3/CorrelationMatrixS.eps>
-(epstopdf)             \includegraphics on input line 571.
+(epstopdf)             \includegraphics on input line 569.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR3/CorrelationMatrixS-eps-converted-to.pdf, id=4349, 569.12625pt 
+<Pictures/ggFCR3/CorrelationMatrixS-eps-converted-to.pdf, id=4729, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFCR3/CorrelationMatrixS-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFCR3/CorrelationMatrixS-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR3/CorrelationMatrixS-eps-converted-to.pd
-f used on input line 571.
+f used on input line 569.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR3/CorrelationMatrixB.eps>
 (epstopdf)                    date: 2020-05-27 19:04:23
@@ -2156,16 +2157,16 @@ verted-to.pdf>
 (epstopdf)                    size: 10578 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR3/Correlatio
 nMatrixB-eps-converted-to.pdf Pictures/ggFCR3/CorrelationMatrixB.eps>
-(epstopdf)             \includegraphics on input line 572.
+(epstopdf)             \includegraphics on input line 570.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR3/CorrelationMatrixB-eps-converted-to.pdf, id=4350, 569.12625pt 
+<Pictures/ggFCR3/CorrelationMatrixB-eps-converted-to.pdf, id=4730, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFCR3/CorrelationMatrixB-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFCR3/CorrelationMatrixB-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR3/CorrelationMatrixB-eps-converted-to.pd
-f used on input line 572.
+f used on input line 570.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFCR3/overtrain_BDTG.eps>
 (epstopdf)                    date: 2020-05-27 19:04:23
@@ -2176,31 +2177,31 @@ ed-to.pdf>
 (epstopdf)                    size: 18805 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFCR3/overtrain_
 BDTG-eps-converted-to.pdf Pictures/ggFCR3/overtrain_BDTG.eps>
-(epstopdf)             \includegraphics on input line 581.
+(epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFCR3/overtrain_BDTG-eps-converted-to.pdf, id=4355, 569.12625pt x 42
+<Pictures/ggFCR3/overtrain_BDTG-eps-converted-to.pdf, id=4735, 569.12625pt x 42
 0.57124pt>
 File: Pictures/ggFCR3/overtrain_BDTG-eps-converted-to.pdf Graphic file (type pd
 f)
  <use Pictures/ggFCR3/overtrain_BDTG-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFCR3/overtrain_BDTG-eps-converted-to.pdf us
-ed on input line 581.
+ed on input line 579.
 (pdftex.def)             Requested size: 211.38832pt x 156.21216pt.
 
-<Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf, id=4358, 569.12625p
+<Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf, id=4738, 569.12625p
 t x 546.04pt>
 File: Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf Graphic file (t
 ype pdf)
  <use Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.
-pdf used on input line 588.
+pdf used on input line 586.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-[109 <./Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf>] [110 <./Pictures
+[118 <./Pictures/ggFCR3/variables_id_c1-eps-converted-to.pdf>] [119 <./Pictures
 /ggFCR3/CorrelationMatrixS-eps-converted-to.pdf> <./Pictures/ggFCR3/Correlation
 MatrixB-eps-converted-to.pdf> <./Pictures/ggFCR3/overtrain_BDTG-eps-converted-t
-o.pdf>] [111 <./Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf, page
+o.pdf>] [120 <./Pictures/run2-emme-CutVBFggFCR3_ZttBDT-BDT_ggFCR3-log.pdf, page
  is rotated 90 degrees>]
 Package epstopdf Info: Source file: <Pictures/ggFVBF/variables_id_c1.eps>
 (epstopdf)                    date: 2020-05-27 19:04:20
@@ -2211,16 +2212,16 @@ ted-to.pdf>
 (epstopdf)                    size: 24759 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFVBF/variables_
 id_c1-eps-converted-to.pdf Pictures/ggFVBF/variables_id_c1.eps>
-(epstopdf)             \includegraphics on input line 617.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf, id=4468, 569.12625pt x 2
+<Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf, id=4844, 569.12625pt x 2
 95.1025pt>
 File: Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf Graphic file (type p
 df)
  <use Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf u
-sed on input line 617.
+sed on input line 615.
 (pdftex.def)             Requested size: 328.82707pt x 170.51114pt.
 Package epstopdf Info: Source file: <Pictures/ggFVBF/variables_id_c2.eps>
 (epstopdf)                    date: 2020-06-16 14:01:53
@@ -2231,16 +2232,16 @@ ted-to.pdf>
 (epstopdf)                    size: 10515 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFVBF/variables_
 id_c2-eps-converted-to.pdf Pictures/ggFVBF/variables_id_c2.eps>
-(epstopdf)             \includegraphics on input line 618.
+(epstopdf)             \includegraphics on input line 616.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFVBF/variables_id_c2-eps-converted-to.pdf, id=4469, 569.12625pt x 1
+<Pictures/ggFVBF/variables_id_c2-eps-converted-to.pdf, id=4845, 569.12625pt x 1
 44.54pt>
 File: Pictures/ggFVBF/variables_id_c2-eps-converted-to.pdf Graphic file (type p
 df)
  <use Pictures/ggFVBF/variables_id_c2-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFVBF/variables_id_c2-eps-converted-to.pdf u
-sed on input line 618.
+sed on input line 616.
 (pdftex.def)             Requested size: 328.82707pt x 83.51566pt.
 Package epstopdf Info: Source file: <Pictures/ggFVBF/CorrelationMatrixS.eps>
 (epstopdf)                    date: 2020-05-27 19:04:20
@@ -2251,16 +2252,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12678 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFVBF/Correlatio
 nMatrixS-eps-converted-to.pdf Pictures/ggFVBF/CorrelationMatrixS.eps>
-(epstopdf)             \includegraphics on input line 624.
+(epstopdf)             \includegraphics on input line 622.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFVBF/CorrelationMatrixS-eps-converted-to.pdf, id=4472, 569.12625pt 
+<Pictures/ggFVBF/CorrelationMatrixS-eps-converted-to.pdf, id=4848, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFVBF/CorrelationMatrixS-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFVBF/CorrelationMatrixS-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFVBF/CorrelationMatrixS-eps-converted-to.pd
-f used on input line 624.
+f used on input line 622.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFVBF/CorrelationMatrixB.eps>
 (epstopdf)                    date: 2020-05-27 19:04:20
@@ -2271,16 +2272,16 @@ verted-to.pdf>
 (epstopdf)                    size: 12992 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFVBF/Correlatio
 nMatrixB-eps-converted-to.pdf Pictures/ggFVBF/CorrelationMatrixB.eps>
-(epstopdf)             \includegraphics on input line 625.
+(epstopdf)             \includegraphics on input line 623.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFVBF/CorrelationMatrixB-eps-converted-to.pdf, id=4473, 569.12625pt 
+<Pictures/ggFVBF/CorrelationMatrixB-eps-converted-to.pdf, id=4849, 569.12625pt 
 x 546.04pt>
 File: Pictures/ggFVBF/CorrelationMatrixB-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Pictures/ggFVBF/CorrelationMatrixB-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFVBF/CorrelationMatrixB-eps-converted-to.pd
-f used on input line 625.
+f used on input line 623.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 Package epstopdf Info: Source file: <Pictures/ggFVBF/overtrain_BDTG.eps>
 (epstopdf)                    date: 2020-05-27 19:04:20
@@ -2291,200 +2292,196 @@ ed-to.pdf>
 (epstopdf)                    size: 20776 bytes
 (epstopdf)             Command: <repstopdf --outfile=Pictures/ggFVBF/overtrain_
 BDTG-eps-converted-to.pdf Pictures/ggFVBF/overtrain_BDTG.eps>
-(epstopdf)             \includegraphics on input line 634.
+(epstopdf)             \includegraphics on input line 632.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf, id=4478, 569.12625pt x 42
+<Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf, id=4854, 569.12625pt x 42
 0.57124pt>
 File: Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf Graphic file (type pd
 f)
  <use Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf>
 Package pdftex.def Info: Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf us
-ed on input line 634.
+ed on input line 632.
 (pdftex.def)             Requested size: 211.38832pt x 156.21216pt.
 
-<Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf, id=4479, 569.12625pt x 54
+<Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf, id=4855, 569.12625pt x 54
 6.04pt>
 File: Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf Graphic file (type pd
 f)
  <use Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf us
-ed on input line 641.
+ed on input line 639.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [112 <./Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf> <./Pictures/ggFV
-BF/variables_id_c2-eps-converted-to.pdf>] [113 <./Pictures/ggFVBF/CorrelationMa
+ [121 <./Pictures/ggFVBF/variables_id_c1-eps-converted-to.pdf> <./Pictures/ggFV
+BF/variables_id_c2-eps-converted-to.pdf>] [122 <./Pictures/ggFVBF/CorrelationMa
 trixS-eps-converted-to.pdf> <./Pictures/ggFVBF/CorrelationMatrixB-eps-converted
--to.pdf> <./Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf>] [114 <./Pictu
+-to.pdf> <./Pictures/ggFVBF/overtrain_BDTG-eps-converted-to.pdf>] [123 <./Pictu
 res/run2-emme-CutVBFDYjjMin-BDT_VBFGGF-log.pdf, page is rotated 90 degrees>]
-Overfull \hbox (8.41498pt too wide) in paragraph at lines 733--734
+Overfull \hbox (8.41498pt too wide) in paragraph at lines 729--730
 [][] 
  []
 
-[115] [116] (./Pictures/emme-vbf-fakesCR.tex)
-<Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf, id=4614, 569.12625pt x 408.5
+[124] [125] (./Pictures/emme-vbf-fakesCR.tex) [126]
+<Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf, id=4991, 569.12625pt x 408.5
 2625pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf used 
-on input line 770.
+on input line 768.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
 
-<Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf, id=4615, 569.12625pt x 408.52
+<Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf, id=4992, 569.12625pt x 408.52
 625pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf used o
-n input line 776.
+n input line 774.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
 
-<Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf, id=4616, 569.12625pt x 408.526
+<Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf, id=4993, 569.12625pt x 408.526
 25pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf used on
- input line 779.
+ input line 777.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
 
-<Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf, id=4617, 569.12625pt x 408.
+<Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf, id=4994, 569.12625pt x 408.
 52625pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf Graphic file (type pdf)
 
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf used
- on input line 782.
+ on input line 780.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
 
-<Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf, id=4618, 569.12625pt x 
+<Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf, id=4995, 569.12625pt x 
 408.52625pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf Graphic file (type 
 pdf)
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf 
-used on input line 785.
+used on input line 783.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
 
-<Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf, id=4619, 569.12625pt x 408.52
+<Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf, id=4996, 569.12625pt x 408.52
 625pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf used o
-n input line 797.
+n input line 795.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
 
-<Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf, id=4620, 569.12625pt x 408.52
+<Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf, id=4997, 569.12625pt x 408.52
 625pt>
 File: Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf Graphic file (type pdf)
  <use Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf>
 Package pdftex.def Info: Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf used o
-n input line 800.
+n input line 798.
 (pdftex.def)             Requested size: 140.92793pt x 101.15886pt.
- [117] [118 <./Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf, page is rotate
-d 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf, page is rotat
-ed 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf, page is rotat
-ed 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf, page is ro
-tated 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf, pag
-e is rotated 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf, pa
-ge is rotated 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf, p
-age is rotated 90 degrees>] [119]
-Underfull \hbox (badness 1394) in paragraph at lines 889--889
+ [127 <./Pictures/run2-emme-CutVBFWCRDYjjMin-Ptll-lin.pdf, page is rotated 90 d
+egrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-Mll-lin.pdf, page is rotated 90 
+degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-MT-lin.pdf, page is rotated 90 
+degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-PtTot-lin.pdf, page is rotated 
+90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-leadLepPt-lin.pdf, page is r
+otated 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-Mjj-lin.pdf, page is 
+rotated 90 degrees> <./Pictures/run2-emme-CutVBFWCRDYjjMin-MET-lin.pdf, page is
+ rotated 90 degrees>] [128]
+Underfull \hbox (badness 1394) in paragraph at lines 887--887
 []$\OML/cmm/m/it/12 b$\OT1/cmr/m/n/12 -tagging ef-fi-ciency un-cer-tain-ties (`
 `BTAG[]MEDIUM''): 3
  []
 
-[120] [121] (./Pictures/theory_systematics/VBF/table-VBF.tex)
-<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf, id=496
-5, 569.12625pt x 546.04pt>
+[129] [130] (./Pictures/theory_systematics/VBF/table-VBF.tex)
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf, id=533
+4, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf Gr
 aphic file (type pdf)
 
 <use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
-_VBF_pdf4lhc.pdf used on input line 914.
+_VBF_pdf4lhc.pdf used on input line 912.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf, id=4966
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf, id=5335
 , 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf Gra
 phic file (type pdf)
 
 <use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_alphas.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
-_VBF_alphas.pdf used on input line 917.
+_VBF_alphas.pdf used on input line 915.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf, id=4967
+<Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf, id=5336
 , 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf Gra
 phic file (type pdf)
 
 <use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
-_VBF_shower.pdf used on input line 920.
+_VBF_shower.pdf used on input line 918.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
 <Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf, id=
-4968, 569.12625pt x 546.04pt>
+5337, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf
  Graphic file (type pdf)
 
 <use Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo
-_VBF_qcd_muRmuF.pdf used on input line 923.
+_VBF_qcd_muRmuF.pdf used on input line 921.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./Pictures/theory_systematics/ggF/table-ggfinvbfdiff.tex) [122]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf, id=4983, 569.12625pt x 54
+(./Pictures/theory_systematics/ggF/table-ggfinvbfdiff.tex) [131] [132 <./Pictur
+es/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf, page is rotat
+ed 90 degrees> <./Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_al
+phas.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/VBF/plots/
+CutVBF_SRCR/theo_VBF_shower.pdf, page is rotated 90 degrees> <./Pictures/theory
+_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf, page is rotated 90 
+degrees>]
+<Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf, id=5531, 569.12625pt x 54
 6.04pt>
 File: Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf Graphic file (type pd
 f)
  <use Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf us
-ed on input line 944.
+ed on input line 942.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf, id=4984, 569.12625pt x
+<Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf, id=5532, 569.12625pt x
  546.04pt>
 File: Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf Graphic file (type
  pdf)
  <use Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf
- used on input line 947.
+ used on input line 945.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf, id=4985, 569.12625pt x
+<Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf, id=5533, 569.12625pt x
  546.04pt>
 File: Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf Graphic file (type
  pdf)
  <use Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf
- used on input line 950.
+ used on input line 948.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf, id=4986, 569.12625pt x
+<Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf, id=5534, 569.12625pt x
  546.04pt>
 File: Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf Graphic file (type
  pdf)
  <use Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu.pdf
- used on input line 953.
+ used on input line 951.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[123 <./Pictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_pdf4lhc.pdf,
- page is rotated 90 degrees> <./Pictures/theory_systematics/VBF/plots/CutVBF_SR
-CR/theo_VBF_alphas.pdf, page is rotated 90 degrees> <./Pictures/theory_systemat
-ics/VBF/plots/CutVBF_SRCR/theo_VBF_shower.pdf, page is rotated 90 degrees> <./P
-ictures/theory_systematics/VBF/plots/CutVBF_SRCR/theo_VBF_qcd_muRmuF.pdf, page 
-is rotated 90 degrees>]
-(./Pictures/theory_systematics/ttbar/table-ttbar_vbf.tex)
+[133] (./Pictures/theory_systematics/ttbar/table-ttbar_vbf.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2492,116 +2489,119 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[124]
+[134 <./Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf, page is rotated 90
+ degrees> <./Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf, page is ro
+tated 90 degrees> <./Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf, pa
+ge is rotated 90 degrees> <./Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu
+.pdf, page is rotated 90 degrees>]
 <Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf.pdf,
- id=5183, 569.12625pt x 546.04pt>
+ id=5729, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf
 .pdf Graphic file (type pdf)
 
 <use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_pdf.
 pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
-2jet/theo_ttbar_pdf.pdf used on input line 1012.
+2jet/theo_ttbar_pdf.pdf used on input line 1010.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_generato
-r.pdf, id=5184, 569.12625pt x 546.04pt>
+r.pdf, id=5730, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_gen
 erator.pdf Graphic file (type pdf)
 
 <use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_gene
 rator.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
-2jet/theo_ttbar_generator.pdf used on input line 1015.
+2jet/theo_ttbar_generator.pdf used on input line 1013.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_shower.p
-df, id=5185, 569.12625pt x 546.04pt>
+df, id=5731, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_sho
 wer.pdf Graphic file (type pdf)
 
 <use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_show
 er.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
-2jet/theo_ttbar_shower.pdf used on input line 1018.
+2jet/theo_ttbar_shower.pdf used on input line 1016.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_scale.pd
-f, id=5186, 569.12625pt x 546.04pt>
+f, id=5732, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_sca
 le.pdf Graphic file (type pdf)
 
 <use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_scal
 e.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
-2jet/theo_ttbar_scale.pdf used on input line 1021.
+2jet/theo_ttbar_scale.pdf used on input line 1019.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.pdf,
- id=5187, 569.12625pt x 546.04pt>
+ id=5733, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr
 .pdf Graphic file (type pdf)
 
 <use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.
 pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
-2jet/theo_ttbar_isr.pdf used on input line 1024.
+2jet/theo_ttbar_isr.pdf used on input line 1022.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr.pdf,
- id=5188, 569.12625pt x 546.04pt>
+ id=5734, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr
 .pdf Graphic file (type pdf)
 
 <use Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_fsr.
 pdf>
 Package pdftex.def Info: Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_
-2jet/theo_ttbar_fsr.pdf used on input line 1027.
+2jet/theo_ttbar_fsr.pdf used on input line 1025.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[125 <./Pictures/theory_systematics/ggF/SR/theo_ggf_pdf.pdf, page is rotated 90
- degrees> <./Pictures/theory_systematics/ggF/SR/theo_ggf_alphas.pdf, page is ro
-tated 90 degrees> <./Pictures/theory_systematics/ggF/SR/theo_ggf_shower.pdf, pa
-ge is rotated 90 degrees> <./Pictures/theory_systematics/ggF/SR/theo_ggf_qcd_mu
-.pdf, page is rotated 90 degrees>]
-(./Pictures/theory_systematics/WW/table-WW_vbf.tex) [126]
-<Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf, id=53
-81, 569.12625pt x 546.04pt>
+(./Pictures/theory_systematics/WW/table-WW_vbf.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[135]
+<Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf, id=57
+44, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf G
 raphic file (type pdf)
 
 <use Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2je
-t/theo_ww_pdf.pdf used on input line 1050.
+t/theo_ww_pdf.pdf used on input line 1048.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pdf, id
-=5382, 569.12625pt x 546.04pt>
+=5745, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pd
 f Graphic file (type pdf)
 
 <use Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_alphas.pdf
 >
 Package pdftex.def Info: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2je
-t/theo_ww_alphas.pdf used on input line 1053.
+t/theo_ww_alphas.pdf used on input line 1051.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 <Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf, id=
-5383, 569.12625pt x 546.04pt>
+5746, 569.12625pt x 546.04pt>
 File: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf
  Graphic file (type pdf)
 
 <use Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf>
 Package pdftex.def Info: Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2je
-t/theo_ww_scale.pdf used on input line 1056.
+t/theo_ww_scale.pdf used on input line 1054.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[127 <./Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_p
+[136 <./Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_p
 df.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/ttbar/plots/
 CutVBFZttVeto_2jet/theo_ttbar_generator.pdf, page is rotated 90 degrees> <./Pic
 tures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_shower.pdf, 
@@ -2610,83 +2610,79 @@ tVeto_2jet/theo_ttbar_scale.pdf, page is rotated 90 degrees> <./Pictures/theory
 _systematics/ttbar/plots/CutVBFZttVeto_2jet/theo_ttbar_isr.pdf, page is rotated
  90 degrees> <./Pictures/theory_systematics/ttbar/plots/CutVBFZttVeto_2jet/theo
 _ttbar_fsr.pdf, page is rotated 90 degrees>]
-(./Pictures/theory_systematics/Ztautau/table-ztautau_VBF.tex)
-<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_pdf.
-pdf, id=5659, 569.12625pt x 546.04pt>
-File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
-_pdf.pdf Graphic file (type pdf)
+(./Pictures/theory_systematics/Ztautau/table-ztautau_VBF.tex) [137 <./Pictures/
+theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.pdf, page is rotated
+ 90 degrees> <./Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww
+_alphas.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/WW/plot
+s/CutVBFZttVeto_2jet/theo_ww_scale.pdf, page is rotated 90 degrees>]
+<Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2jet/t
+heo_ztautau_pdf.pdf, id=6158, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2
+jet/theo_ztautau_pdf.pdf Graphic file (type pdf)
 
-<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
-pdf.pdf>
-Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
-o_2jet/theo_ztautau_pdf.pdf used on input line 1079.
+<use Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2j
+et/theo_ztautau_pdf.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/pl
+ots/CutVBFZttVeto_2jet/theo_ztautau_pdf.pdf used on input line 1077.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_alph
-as.pdf, id=5660, 569.12625pt x 546.04pt>
-File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
-_alphas.pdf Graphic file (type pdf)
+<Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2jet/t
+heo_ztautau_alphas.pdf, id=6159, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2
+jet/theo_ztautau_alphas.pdf Graphic file (type pdf)
 
-<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
-alphas.pdf>
-Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
-o_2jet/theo_ztautau_alphas.pdf used on input line 1082.
+<use Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2j
+et/theo_ztautau_alphas.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/pl
+ots/CutVBFZttVeto_2jet/theo_ztautau_alphas.pdf used on input line 1080.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_gene
-rator.pdf, id=5661, 569.12625pt x 546.04pt>
-File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
-_generator.pdf Graphic file (type pdf)
+<Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2jet/t
+heo_ztautau_generator.pdf, id=6160, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2
+jet/theo_ztautau_generator.pdf Graphic file (type pdf)
 
-<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
-generator.pdf>
-Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
-o_2jet/theo_ztautau_generator.pdf used on input line 1085.
+<use Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2j
+et/theo_ztautau_generator.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/pl
+ots/CutVBFZttVeto_2jet/theo_ztautau_generator.pdf used on input line 1083.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
 
-<Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_scal
-e.pdf, id=5662, 569.12625pt x 546.04pt>
-File: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau
-_scale.pdf Graphic file (type pdf)
+<Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2jet/t
+heo_ztautau_scale.pdf, id=6161, 569.12625pt x 546.04pt>
+File: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2
+jet/theo_ztautau_scale.pdf Graphic file (type pdf)
 
-<use Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_
-scale.pdf>
-Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/CutVBFZttVet
-o_2jet/theo_ztautau_scale.pdf used on input line 1088.
+<use Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2j
+et/theo_ztautau_scale.pdf>
+Package pdftex.def Info: Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/pl
+ots/CutVBFZttVeto_2jet/theo_ztautau_scale.pdf used on input line 1086.
 (pdftex.def)             Requested size: 187.89914pt x 180.27707pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [128 <./Pictures/theory_systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_pdf.p
-df, page is rotated 90 degrees> <./Pictures/theory_systematics/WW/plots/CutVBFZ
-ttVeto_2jet/theo_ww_alphas.pdf, page is rotated 90 degrees> <./Pictures/theory_
-systematics/WW/plots/CutVBFZttVeto_2jet/theo_ww_scale.pdf, page is rotated 90 d
-egrees>] [129 <./Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/t
-heo_ztautau_pdf.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics
-/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_alphas.pdf, page is rotated 90 d
-egrees> <./Pictures/theory_systematics/Ztautau/plots/CutVBFZttVeto_2jet/theo_zt
-autau_generator.pdf, page is rotated 90 degrees> <./Pictures/theory_systematics
-/Ztautau/plots/CutVBFZttVeto_2jet/theo_ztautau_scale.pdf, page is rotated 90 de
-grees>]
+) [138 <./Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVe
+to_2jet/theo_ztautau_pdf.pdf, page is rotated 90 degrees> <./Pictures/theory_sy
+stematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZttVeto_2jet/theo_ztautau_alphas.
+pdf, page is rotated 90 degrees> <./Pictures/theory_systematics/Ztautau/plots/b
+dt_Zjets/plots/CutVBFZttVeto_2jet/theo_ztautau_generator.pdf, page is rotated 9
+0 degrees> <./Pictures/theory_systematics/Ztautau/plots/bdt_Zjets/plots/CutVBFZ
+ttVeto_2jet/theo_ztautau_scale.pdf, page is rotated 90 degrees>]
 Chapter 7.
-(./sections/Results.tex [130
+(./sections/Results.tex [139
 
 
-] [131] [132]
+] [140] [141]
 Overfull \hbox (55.89835pt too wide) detected at line 44
 [][] []
  []
 
-[133]
+[142]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[134]
+[143]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[135]
+[144]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2702,7 +2698,7 @@ eps-converted-to.pdf Pictures/fitresults/SRVBF.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/SRVBF-eps-converted-to.pdf, id=6031, 569.12625pt x 467.747
+<Pictures/fitresults/SRVBF-eps-converted-to.pdf, id=6388, 569.12625pt x 467.747
 5pt>
 File: Pictures/fitresults/SRVBF-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/SRVBF-eps-converted-to.pdf>
@@ -2721,7 +2717,7 @@ eps-converted-to.pdf Pictures/fitresults/SRGGF.eps>
 (epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/SRGGF-eps-converted-to.pdf, id=6032, 569.12625pt x 467.747
+<Pictures/fitresults/SRGGF-eps-converted-to.pdf, id=6389, 569.12625pt x 467.747
 5pt>
 File: Pictures/fitresults/SRGGF-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/SRGGF-eps-converted-to.pdf>
@@ -2740,7 +2736,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/GGFCR1-eps-converted-to.pdf, id=6033, 569.12625pt x 467.74
+<Pictures/fitresults/GGFCR1-eps-converted-to.pdf, id=6390, 569.12625pt x 467.74
 75pt>
 File: Pictures/fitresults/GGFCR1-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/GGFCR1-eps-converted-to.pdf>
@@ -2759,7 +2755,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/GGFCR2-eps-converted-to.pdf, id=6034, 569.12625pt x 467.74
+<Pictures/fitresults/GGFCR2-eps-converted-to.pdf, id=6391, 569.12625pt x 467.74
 75pt>
 File: Pictures/fitresults/GGFCR2-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/GGFCR2-eps-converted-to.pdf>
@@ -2778,7 +2774,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/GGFCR3-eps-converted-to.pdf, id=6035, 569.12625pt x 467.74
+<Pictures/fitresults/GGFCR3-eps-converted-to.pdf, id=6392, 569.12625pt x 467.74
 75pt>
 File: Pictures/fitresults/GGFCR3-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/GGFCR3-eps-converted-to.pdf>
@@ -2797,7 +2793,7 @@ s-eps-converted-to.pdf Pictures/fitresults/CRZjets.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/CRZjets-eps-converted-to.pdf, id=6036, 569.12625pt x 467.7
+<Pictures/fitresults/CRZjets-eps-converted-to.pdf, id=6393, 569.12625pt x 467.7
 475pt>
 File: Pictures/fitresults/CRZjets-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/CRZjets-eps-converted-to.pdf>
@@ -2816,7 +2812,7 @@ eps-converted-to.pdf Pictures/fitresults/CRTop.eps>
 (epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/CRTop-eps-converted-to.pdf, id=6037, 569.12625pt x 467.747
+<Pictures/fitresults/CRTop-eps-converted-to.pdf, id=6394, 569.12625pt x 467.747
 5pt>
 File: Pictures/fitresults/CRTop-eps-converted-to.pdf Graphic file (type pdf)
  <use Pictures/fitresults/CRTop-eps-converted-to.pdf>
@@ -2827,7 +2823,7 @@ Package pdftex.def Info: Pictures/fitresults/CRTop-eps-converted-to.pdf used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[136]
+[145]
 Package epstopdf Info: Source file: <Pictures/fitresults/correlation_stat.eps>
 (epstopdf)                    date: 2020-06-18 21:59:15
 (epstopdf)                    size: 19368 bytes
@@ -2840,7 +2836,7 @@ ation_stat-eps-converted-to.pdf Pictures/fitresults/correlation_stat.eps>
 (epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/correlation_stat-eps-converted-to.pdf, id=6048, 569.12625p
+<Pictures/fitresults/correlation_stat-eps-converted-to.pdf, id=6404, 569.12625p
 t x 355.3275pt>
 File: Pictures/fitresults/correlation_stat-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2853,22 +2849,18 @@ pdf used on input line 221.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[137] [138 <./Pictures/fitresults/SRVBF-eps-converted-to.pdf> <./Pictures/fitre
-sults/SRGGF-eps-converted-to.pdf> <./Pictures/fitresults/GGFCR1-eps-converted-t
-o.pdf> <./Pictures/fitresults/GGFCR2-eps-converted-to.pdf> <./Pictures/fitresul
-ts/GGFCR3-eps-converted-to.pdf> <./Pictures/fitresults/CRZjets-eps-converted-to
-.pdf> <./Pictures/fitresults/CRTop-eps-converted-to.pdf>]
-<Pictures/fitresults/afterfit.png, id=6143, 654.445pt x 625.33624pt>
+[146] <Pictures/fitresults/afterfit.png, id=6412, 654.445pt x 625.33624pt>
 File: Pictures/fitresults/afterfit.png Graphic file (type png)
 
 <use Pictures/fitresults/afterfit.png>
 Package pdftex.def Info: Pictures/fitresults/afterfit.png used on input line 23
 2.
 (pdftex.def)             Requested size: 211.38832pt x 201.98189pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [147 <./Pictures/fitresults/SRVBF-eps-converted-to.pdf> <./Pictures/fitresults
+/SRGGF-eps-converted-to.pdf> <./Pictures/fitresults/GGFCR1-eps-converted-to.pdf
+> <./Pictures/fitresults/GGFCR2-eps-converted-to.pdf> <./Pictures/fitresults/GG
+FCR3-eps-converted-to.pdf> <./Pictures/fitresults/CRZjets-eps-converted-to.pdf>
+ <./Pictures/fitresults/CRTop-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Pictures/fitresults/impact_asimov_mu_vbf.e
 ps>
 (epstopdf)                    date: 2020-06-18 17:31:57
@@ -2883,7 +2875,7 @@ s>
 (epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
-<Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf, id=6144, 569.12
+<Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf, id=6498, 569.12
 625pt x 653.44125pt>
 File: Pictures/fitresults/impact_asimov_mu_vbf-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2896,54 +2888,50 @@ Package pdftex.def Info: Pictures/fitresults/impact_asimov_mu_vbf-eps-converted
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[139 <./Pictures/fitresults/correlation_stat-eps-converted-to.pdf>] [140 <./Pic
-tures/fitresults/afterfit.png>] [141 <./Pictures/fitresults/impact_asimov_mu_vb
-f-eps-converted-to.pdf>] [142]
-
-LaTeX Warning: Text page 143 contains only floats.
-
-[143] [144] [145]
-<Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6216, 346.896
+[148 <./Pictures/fitresults/correlation_stat-eps-converted-to.pdf> <./Pictures/
+fitresults/afterfit.png>] [149 <./Pictures/fitresults/impact_asimov_mu_vbf-eps-
+converted-to.pdf>] [150] [151] [152] [153] [154]
+<Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6567, 346.896
 01pt x 346.89601pt>
 File: Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf Graphic file
  (type pdf)
 
 <use Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/higgs_pt_migratio
-ns.pdf used on input line 376.
+ns.pdf used on input line 375.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/MTll_migrations.pdf, id=6217, 346.89601pt
+<Pictures/unfolding/response_matrices/MTll_migrations.pdf, id=6568, 346.89601pt
  x 346.89601pt>
 File: Pictures/unfolding/response_matrices/MTll_migrations.pdf Graphic file (ty
 pe pdf)
  <use Pictures/unfolding/response_matrices/MTll_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/MTll_migrations.p
-df used on input line 379.
+df used on input line 378.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/DYll_migrations.pdf, id=6218, 346.89601pt
+<Pictures/unfolding/response_matrices/DYll_migrations.pdf, id=6569, 346.89601pt
  x 346.89601pt>
 File: Pictures/unfolding/response_matrices/DYll_migrations.pdf Graphic file (ty
 pe pdf)
  <use Pictures/unfolding/response_matrices/DYll_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/DYll_migrations.p
-df used on input line 382.
+df used on input line 381.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
-<Pictures/unfolding/response_matrices/Mjj_migrations.pdf, id=6219, 346.89601pt 
+<Pictures/unfolding/response_matrices/Mjj_migrations.pdf, id=6570, 346.89601pt 
 x 346.89601pt>
 File: Pictures/unfolding/response_matrices/Mjj_migrations.pdf Graphic file (typ
 e pdf)
  <use Pictures/unfolding/response_matrices/Mjj_migrations.pdf>
 Package pdftex.def Info: Pictures/unfolding/response_matrices/Mjj_migrations.pd
-f used on input line 385.
+f used on input line 384.
 (pdftex.def)             Requested size: 187.89914pt x 187.89801pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[146] [147 <./Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf> <./
+[155] [156 <./Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf> <./
 Pictures/unfolding/response_matrices/MTll_migrations.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/unfolding/response_matrices/MTll_migr
@@ -2963,53 +2951,53 @@ age
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [148] [149]
+) [157] [158]
 Chapter 8.
-[150
+(./sections/Conclusion.tex [159
 
 
 
-] (./LauraThesis.bbl [151
+]) [160] [161] (./LauraThesis.bbl [162
 
 
-] [152]
+] [163]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [153]
-[154] [155] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-34.def
+) [164]
+[165] [166] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+[167] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [156]
-[157]
-Underfull \hbox (badness 1112) in paragraph at lines 296--307
+[168] [169]
+Underfull \hbox (badness 1112) in paragraph at lines 346--357
 []\OT1/cmr/m/n/12 Georges Aad et al.  Mea-sure-ment of the muon re-con-struc-ti
 on per-for-mance of
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 296--307
+Underfull \hbox (badness 1748) in paragraph at lines 346--357
 \OT1/cmr/m/n/12 the AT-LAS de-tec-tor us-ing 2011 and 2012 LHC pro-ton{proton c
 ol-li-sion data.
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 296--307
+Underfull \hbox (badness 1609) in paragraph at lines 346--357
 \OT1/cmr/m/n/12 Mea-sure-ment of the muon re-con-struc-tion per-for-mance of th
 e AT-LAS de-tec-tor
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 296--307
+Underfull \hbox (badness 2359) in paragraph at lines 346--357
 \OT1/cmr/m/n/12 us-ing 2011 and 2012 LHC proton-proton col-li-sion data.  \OT1/
 cmr/m/it/12 Eur. Phys. J. C\OT1/cmr/m/n/12 ,
  []
 
-[158] [159] [160] [161]) [162]
+[170] [171] [172]) [173]
 Appendix A.
 (./sections/InnerTracker.tex
-<Pictures/ITklayout.png, id=6424, 896.34875pt x 589.20125pt>
+<Pictures/ITklayout.png, id=6785, 896.34875pt x 589.20125pt>
 File: Pictures/ITklayout.png Graphic file (type png)
 
 <use Pictures/ITklayout.png>
@@ -3019,25 +3007,25 @@ Package pdftex.def Info: Pictures/ITklayout.png used on input line 5.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[163
+[174
 
 
-] [164 <./Pictures/ITklayout.png>]
-<Pictures/ITkmodule.png, id=6439, 689.57625pt x 532.99126pt>
+] [175 <./Pictures/ITklayout.png>]
+<Pictures/ITkmodule.png, id=6800, 689.57625pt x 532.99126pt>
 File: Pictures/ITkmodule.png Graphic file (type png)
 
 <use Pictures/ITkmodule.png>
 Package pdftex.def Info: Pictures/ITkmodule.png used on input line 17.
 (pdftex.def)             Requested size: 187.89914pt x 145.22707pt.
 
-<Pictures/electricalstave.png, id=6442, 951.555pt x 172.645pt>
+<Pictures/electricalstave.png, id=6803, 951.555pt x 172.645pt>
 File: Pictures/electricalstave.png Graphic file (type png)
 
 <use Pictures/electricalstave.png>
 Package pdftex.def Info: Pictures/electricalstave.png used on input line 24.
 (pdftex.def)             Requested size: 375.80544pt x 68.1848pt.
- [165 <./Pictures/ITkmodule.png> <./Pictures/electricalstave.png>]
-<Pictures/labviewscreen.png, id=6450, 890.32625pt x 519.9425pt>
+ [176 <./Pictures/ITkmodule.png> <./Pictures/electricalstave.png>]
+<Pictures/labviewscreen.png, id=6809, 890.32625pt x 519.9425pt>
 File: Pictures/labviewscreen.png Graphic file (type png)
 
 <use Pictures/labviewscreen.png>
@@ -3047,7 +3035,7 @@ Package pdftex.def Info: Pictures/labviewscreen.png used on input line 37.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[166] <Pictures/placementresults.png, id=6457, 1295.84125pt x 452.69125pt>
+[177] <Pictures/placementresults.png, id=6815, 1295.84125pt x 452.69125pt>
 File: Pictures/placementresults.png Graphic file (type png)
 
 <use Pictures/placementresults.png>
@@ -3057,29 +3045,29 @@ Package pdftex.def Info: Pictures/placementresults.png used on input line 46.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[167 <./Pictures/labviewscreen.png>] [168 <./Pictures/placementresults.png>]
-<Pictures/paintedstave.png, id=6470, 643.40375pt x 520.94624pt>
+[178 <./Pictures/labviewscreen.png>] [179 <./Pictures/placementresults.png>]
+<Pictures/paintedstave.png, id=6826, 643.40375pt x 520.94624pt>
 File: Pictures/paintedstave.png Graphic file (type png)
 
 <use Pictures/paintedstave.png>
 Package pdftex.def Info: Pictures/paintedstave.png used on input line 62.
 (pdftex.def)             Requested size: 187.89914pt x 152.1357pt.
- [169 <./Pictures/paintedstave.png>]
-<Pictures/FEAcompare.png, id=6477, 908.39375pt x 771.88374pt>
+ [180 <./Pictures/paintedstave.png>]
+<Pictures/FEAcompare.png, id=6832, 908.39375pt x 771.88374pt>
 File: Pictures/FEAcompare.png Graphic file (type png)
 
 <use Pictures/FEAcompare.png>
 Package pdftex.def Info: Pictures/FEAcompare.png used on input line 71.
 (pdftex.def)             Requested size: 187.89914pt x 159.66232pt.
 
-<Pictures/IRimagetotal.png, id=6479, 1266.7325pt x 354.32375pt>
+<Pictures/IRimagetotal.png, id=6834, 1266.7325pt x 354.32375pt>
 File: Pictures/IRimagetotal.png Graphic file (type png)
 
 <use Pictures/IRimagetotal.png>
 Package pdftex.def Info: Pictures/IRimagetotal.png used on input line 80.
 (pdftex.def)             Requested size: 375.80544pt x 105.1139pt.
- [170 <./Pictures/FEAcompare.png>]
-<Pictures/moduleoff.png, id=6487, 1030.85126pt x 577.15625pt>
+ [181 <./Pictures/FEAcompare.png>]
+<Pictures/moduleoff.png, id=6842, 1030.85126pt x 577.15625pt>
 File: Pictures/moduleoff.png Graphic file (type png)
 
 <use Pictures/moduleoff.png>
@@ -3089,29 +3077,29 @@ Package pdftex.def Info: Pictures/moduleoff.png used on input line 89.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [171 <./Pictures/IRimagetotal.png>] [172 <./Pictures/moduleoff.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+) [182 <./Pictures/IRimagetotal.png>] [183 <./Pictures/moduleoff.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 
 (./LauraThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `LauraThesis.out' has not changed.
 (rerunfilecheck)             Checksum: D1B6582A5A0C105AFFF0D7B107E88041;1925.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 12677 strings out of 493033
- 216197 string characters out of 6134139
- 298097 words of memory out of 5000000
- 15211 multiletter control sequences out of 15000+600000
- 15782 words of font info for 56 fonts, out of 8000000 for 9000
+ 12695 strings out of 493033
+ 216625 string characters out of 6134139
+ 324952 words of memory out of 5000000
+ 15205 multiletter control sequences out of 15000+600000
+ 12966 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,17n,49p,2739b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,17n,49p,2739b,721s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -3131,10 +3119,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (179 pages, 12037622 bytes).
+Output written on LauraThesis.pdf (189 pages, 12099174 bytes).
 PDF statistics:
- 6690 PDF objects out of 7423 (max. 8388607)
- 3629 compressed objects within 37 object streams
- 610 named destinations out of 1000 (max. 500000)
+ 7048 PDF objects out of 7423 (max. 8388607)
+ 3972 compressed objects within 40 object streams
+ 625 named destinations out of 1000 (max. 500000)
  1149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
