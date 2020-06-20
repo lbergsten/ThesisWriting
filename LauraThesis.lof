@@ -160,7 +160,7 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Generator uncertainty}}}{138}{subfigure.33.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{138}{subfigure.33.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Binned distributions for each signal and control region shown after stat+sys fit where ratio between data and MC predictions is shown (black). Red points show ratio of data to all backgrounds, excluding VBF signal. Error bands show statistical (black) and systematic uncertainties (shaded).\relax }}{147}{figure.caption.122}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Binned distributions for each signal and control region shown after stat+sys fit where ratio between data and MC predictions is shown (black). Red points show ratio of data to all backgrounds, excluding VBF signal. Error bands show statistical (black) and systematic uncertainties (shaded).\relax }}{147}{figure.caption.120}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal region}}}{147}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ggF SR control region}}}{147}{subfigure.1.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ggF 1 control region}}}{147}{subfigure.1.3}
@@ -168,22 +168,22 @@
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ggF 3 control region}}}{147}{subfigure.1.5}
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$Z+$jets control region}}}{147}{subfigure.1.6}
 \contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Top/$WW$ control region}}}{147}{subfigure.1.7}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Correlations between floating parameters after a stat-only fit\relax }}{148}{figure.caption.123}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Scan of $\mu _{\text {VBF}}$ negative log-likelihood using Asimov data and using only one floating parameter, all $\mu $ values floating, and all $\mu $ and NPs floating. \leavevmode {\color {red}Will replace with unblinded/more final plot}\relax }}{148}{figure.caption.124}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Post-fid effects of top 30 most impactful nuisance parameters on $\mu _{\text {VBF}}$. \leavevmode {\color {red}Asimov, will replace with unblinded plot} \relax }}{149}{figure.caption.125}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Unfolding matrices shown for $p^T_H$, $m_T^{\ell \ell }$, $\Delta Y_{\ell \ell }$ and $m_{jj}$ distributions. Each bin value corresponds to normalized Bayesian probabilities and the x-axis represents reconstruction-level distributions while the y-axis shows truth distributions\nobreakspace {}\cite {ourSupportNote}.\relax }}{156}{figure.caption.128}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$p^T_H$}}}{156}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_T^{\ell \ell }$}}}{156}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{156}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{jj}$}}}{156}{subfigure.5.4}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Correlations between floating parameters after a stat-only fit.\relax }}{148}{figure.caption.121}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Scan of $\mu _{\text {VBF}}$ negative log-likelihood using observed data (black) and Asimov expected results (red) and demonstrating the results using all systematics and only statistical uncertainties.\relax }}{149}{figure.caption.122}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Post-fit effects of top 30 most impactful nuisance parameters on $\mu _{\text {VBF}}$.\relax }}{150}{figure.caption.123}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Unfolding matrices shown for $p^T_H$, $m_T^{\ell \ell }$, $\Delta Y_{\ell \ell }$ and $m_{jj}$ distributions. Each bin value corresponds to normalized Bayesian probabilities and the x-axis represents reconstruction-level distributions while the y-axis shows truth distributions\nobreakspace {}\cite {ourSupportNote}.\relax }}{157}{figure.caption.126}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$p^T_H$}}}{157}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_T^{\ell \ell }$}}}{157}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{157}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{jj}$}}}{157}{subfigure.5.4}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ITK layout as defined in ITk Technical Design Report \cite {ITktech}\relax }}{175}{figure.caption.132}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Short-strip barrel module components \cite {ITktech}\relax }}{176}{figure.caption.134}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Electrical stave prototype at Brookhaven National Laboratory (G. van Nieuwenhuizen)\relax }}{176}{figure.caption.135}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces GUI interface showing etched marking on module corner located in real-time to guide user on how to adjust module position (H. Herde)\relax }}{178}{figure.caption.136}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Histograms show difference between ideal and final position of each module corner. Left shows difference from specification in X and right in Y (P. Bhattarai)\relax }}{179}{figure.caption.137}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Portion of the thermo-mechanical stave after being spray-painted for increased emissivity\relax }}{180}{figure.caption.139}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces IR measurements, thermistor measurements, and FEA simulations for the TM stave are compared. Agreement with FEA simulation within 5\%.\relax }}{181}{figure.caption.140}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{182}{figure.caption.141}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{183}{figure.caption.142}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ITK layout as defined in ITk Technical Design Report \cite {ITktech}\relax }}{175}{figure.caption.130}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Short-strip barrel module components \cite {ITktech}\relax }}{176}{figure.caption.132}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Electrical stave prototype at Brookhaven National Laboratory (G. van Nieuwenhuizen)\relax }}{176}{figure.caption.133}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces GUI interface showing etched marking on module corner located in real-time to guide user on how to adjust module position (H. Herde)\relax }}{178}{figure.caption.134}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Histograms show difference between ideal and final position of each module corner. Left shows difference from specification in X and right in Y (P. Bhattarai)\relax }}{179}{figure.caption.135}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Portion of the thermo-mechanical stave after being spray-painted for increased emissivity\relax }}{180}{figure.caption.137}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces IR measurements, thermistor measurements, and FEA simulations for the TM stave are compared. Agreement with FEA simulation within 5\%.\relax }}{181}{figure.caption.138}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{182}{figure.caption.139}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{183}{figure.caption.140}

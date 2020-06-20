@@ -65,11 +65,11 @@
 \contentsline {section}{\numberline {7.1}Statistical analysis}{139}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{139}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Asimov results}{143}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Unblinded results}{145}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{150}{section.7.2}
+\contentsline {subsection}{\numberline {7.1.3}Observed results}{145}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross sections}{151}{section.7.2}
 \contentsline {section}{\numberline {7.3}Differential cross-section measurements}{154}{section.7.3}
 \contentsline {section}{\numberline {7.4}Future results and measurements}{156}{section.7.4}
 \contentsline {chapter}{\numberline {8}Conclusions}{159}{chapter.8}
 \contentsline {chapter}{\numberline {A}Inner Tracker}{174}{appendix.A}
-\contentsline {subsubsection}{Building ITk Strip barrel staves}{174}{section*.133}
-\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{179}{section*.138}
+\contentsline {subsubsection}{Building ITk Strip barrel staves}{174}{section*.131}
+\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{179}{section*.136}
