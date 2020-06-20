@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  20 JUN 2020 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  20 JUN 2020 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2897,7 +2897,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [148 <./Pictures/fitresults/correlation_stat-eps-converted-to.pdf>] [149 <./Pic
 tures/fitresults/mu_vbf-eps-converted-to.pdf>] [150 <./Pictures/fitresults/impa
-ct_data_mu_vbf-eps-converted-to.pdf>] [151] [152] [153] [154] [155]
+ct_data_mu_vbf-eps-converted-to.pdf>] [151]
+Overfull \hbox (19.55269pt too wide) in paragraph at lines 343--344
+[]\OT1/cmr/m/n/12 Using this value for $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 and
+ a pre-dicted cross sec-tion value of 2.67 fb, from the Powheg$+$Pythia8
+ []
+
+[152] [153] [154] [155]
 <Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf, id=6579, 346.896
 01pt x 346.89601pt>
 File: Pictures/unfolding/response_matrices/higgs_pt_migrations.pdf Graphic file
@@ -3126,7 +3132,7 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LauraThesis.pdf (189 pages, 12078401 bytes).
+Output written on LauraThesis.pdf (189 pages, 12078366 bytes).
 PDF statistics:
  7053 PDF objects out of 7423 (max. 8388607)
  3974 compressed objects within 40 object streams
