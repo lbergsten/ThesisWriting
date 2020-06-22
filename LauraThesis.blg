@@ -12,72 +12,40 @@ I was expecting a `,' or a `}'---line 105 of file references.bib
  :      url  = "https://indico.cern.ch/event/618048"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 248 of file references.bib
- :                        K\"
- :                           ohler, Nicolas Maximilian and Rosati, Stefano and
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 282 of file references.bib
- :  
- :  title = {Electron and photon performance measurements with the {ATLAS} detector using the 2015{\textendash}2017 {LHC} proton-proton collision data},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "JETEtmiss" isn't style-file defined
---line 360 of file references.bib
-I was expecting a `,' or a `}'---line 364 of file references.bib
+--line 358 of file references.bib
+I was expecting a `,' or a `}'---line 362 of file references.bib
  :         
  :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults?redirectedfrom=AtlasPublic.JetEtMissPublicCollisionResults}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "lumigroup" isn't style-file defined
---line 366 of file references.bib
-I was expecting a `,' or a `}'---line 370 of file references.bib
+--line 364 of file references.bib
+I was expecting a `,' or a `}'---line 368 of file references.bib
  :         
  :         url={https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "radiofrequency" isn't style-file defined
+--line 566 of file references.bib
 Warning--entry type for "CERNnews1" isn't style-file defined
---line 693 of file references.bib
-I was expecting a `,' or a `}'---line 697 of file references.bib
+--line 583 of file references.bib
+I was expecting a `,' or a `}'---line 587 of file references.bib
  :  
  :  journal ={CERN News}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "CERNnews2" isn't style-file defined
---line 700 of file references.bib
+--line 590 of file references.bib
 Warning--empty journal in HiggsPotential
 Warning--there's a number but no volume in HiggsPotential
 Warning--empty journal in Stirling
 Warning--empty publisher in LHCCrossSectionWG
-Warning--empty title in ElectronPhotonPerformance
-Warning--empty journal in ElectronPhotonPerformance
-Warning--empty title in MCPPlots2
-Warning--empty institution in MCPPlots2
-Warning--empty year in MCPPlots2
-Name 1 in "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" has a comma at the end for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "S. Addepalli, G. Barone, L. Bergste, C. Blocker, J. Chen, C. Piccola, G. Iakovidis, C. Kitsaki, G. Rosin, G. Sciolla, S. Stucci, and A. Tricoli" for entry ourSupportNote
-while executing---line 944 of file unsrt.bst
 Warning--empty journal in DrellYan
 Warning--empty publisher in HalzenMartin
 Warning--empty booktitle in Kibble
 Warning--empty author in ATLAS-CONF-2019-040
 Warning--empty journal in LHCInjector
-Warning--empty author in radiofrequency
-Warning--empty journal in radiofrequency
 Warning--empty author in tracking
 Warning--empty author in IDreconstruction
 Warning--empty author in JetRun1
@@ -87,43 +55,43 @@ Warning--empty author in MT2
 Warning--empty author in ATLAS-CONF-2019-021
 You've used 64 entries,
             1791 wiz_defined-function locations,
-            803 strings with 24752 characters,
-and the built_in function-call counts, 20335 in all, are:
-= -- 959
-> -- 2539
-< -- 10
-+ -- 876
-- -- 812
-* -- 2125
-:= -- 3921
-add.period$ -- 178
+            799 strings with 13826 characters,
+and the built_in function-call counts, 11635 in all, are:
+= -- 952
+> -- 529
+< -- 11
++ -- 211
+- -- 147
+* -- 779
+:= -- 1935
+add.period$ -- 180
 call.type$ -- 64
-change.case$ -- 59
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 87
-duplicate$ -- 509
-empty$ -- 1193
-format.name$ -- 812
-if$ -- 3879
+cite$ -- 80
+duplicate$ -- 507
+empty$ -- 1196
+format.name$ -- 147
+if$ -- 2529
 int.to.chr$ -- 0
 int.to.str$ -- 64
-missing$ -- 47
-newline$ -- 306
-num.names$ -- 55
-pop$ -- 183
+missing$ -- 46
+newline$ -- 308
+num.names$ -- 56
+pop$ -- 177
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 205
+skip$ -- 198
 stack$ -- 0
 substring$ -- 556
-swap$ -- 56
-text.length$ -- 10
+swap$ -- 59
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 23
-while$ -- 87
+warning$ -- 16
+while$ -- 88
 width$ -- 66
-write$ -- 653
-(There were 16 error messages)
+write$ -- 662
+(There were 5 error messages)

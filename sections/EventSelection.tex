@@ -64,7 +64,7 @@ Table~\ref{tab:ElecSelection} summarizes electron selection criteria.
 \begin{table}[h!]
   \centering
   \caption{Electron selections}
-  \scalebox{0.9}{
+  \resizebox{\textwidth}{!}{
   \begin{tabular}{llccll}
     \hline\hline
      $p_T$ range & $|\eta|$ range   & Electron ID & Isolation     & Impact parameter\\
@@ -84,7 +84,7 @@ Muon selection criteria are summarized in Table~\ref{tab:MuonSelection}.
 \begin{table}[h]
   \centering
   \caption{Muon selections}
-  \scalebox{0.9}{
+  \resizebox{\textwidth}{!}{
   \begin{tabular}{llrccc}
     \hline\hline
      $p_T$ range   & $|\eta|$ range & Muon ID    & Calo Isolation           & Track Isolation             & Impact parameter\\
@@ -185,7 +185,7 @@ The $WW+$top vs. VBF BDT is discussed in this chapter while the others are expla
 
 \begin{table}[h!]
 \centering
-\scalebox{0.8}{
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
 \multirow{2}{*}{Background}   & Relative size  & Relative size  & \multirow{2}{*}{Estimation}  & \multirow{2}{*}{{Generator}} \\
@@ -208,7 +208,7 @@ $W\gamma$,$W\gamma^{*}$       & $\sim1\%$		&  $\sim2.5\%$    & MC only          
 The VBF differential analysis shares object definitions with the VBF and ggF coupling analysis and pre-selection cuts are based off of those used in the 2016 ggF and VBF $H\rightarrow WW$ 36.1 fb$^{-1}$ cross-section paper~\cite{Aaboud_2019}. The VBF selection utilizes observables defined in the previous section. Cuts applied in the preselection region are listed and described in Table~\ref{tab:preseldef}. 
 \begin{table}[h!]
 \centering
-\small{
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
 \multirow{2}{*}{Pre-sel cut}   & Description \\
@@ -226,18 +226,17 @@ Sublead lepton $p_T$	& $p_T^{sublead} >15 $GeV \\
 Opposite sign leptons	&  Require zero dilepton charge \\
 Fake Factor	& W+jets weight applied \\
 \hline
-\end{tabular}
+\end{tabular}}
 \caption{Table describing pre-selection cuts applied in common with VBF and $ggF$ coupling analyses}
 \label{tab:preseldef}
-}
 \end{table}
 
 Yields for all samples as well as data for pre-selection cuts are shown in Table~\ref{tab:preselcut}.
 \begin{table}[h!]
-\scalebox{.55}{
+\resizebox{\textwidth}{!}{
 \input{Pictures/emme-vbf-presel.tex}
 }
-\caption{Cutflow in the pre-selection region with statistical errors shown.}
+\caption{Cutflow in the pre-selection region.}
 \label{tab:preselcut}
 \end{table}
 
@@ -303,7 +302,7 @@ Signal region cuts are listed in Table~\ref{tab:SRdef}.
 
 \begin{table}[h!]
 \centering
-\small{
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|l|c|c|c|}
 \hline
 \multirow{2}{*}{Signal region cut}   & Description \\
@@ -318,15 +317,14 @@ $Z\rightarrow\tau\tau$ veto & $m_{\tau\tau} < m_Z - 25$GeV \\
 $m_{jj}$ cut		& $m_{jj} > 200$GeV \\
 $\Delta Y_{jj}$ cut	& $\Delta Y_{jj} > 2.1$ \\
 \hline
-\end{tabular}
+\end{tabular}}
 \caption{Table describing VBF signal region cuts}
 \label{tab:SRdef}
-}
 \end{table}
 
 Yields for all samples, as well as data for signal region cuts are shown in Table~\ref{tab:srcut}.
 \begin{table}[h!]
-\scalebox{0.5}{
+\resizebox{\textwidth}{!}{
 \input{Pictures/emme-vbf-SR.tex}
 }
 \caption{Cutflow in the signal region.}
