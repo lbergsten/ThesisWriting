@@ -2,7 +2,8 @@
 %-------------------------------------------------------------------------------
 \documentclass{brandeis-dissertation}
 \usepackage{amsmath}
-\usepackage{pdfpages} 
+\usepackage{pdfpages}
+\usepackage{setspace} 
 \usepackage{float}
 \usepackage{multicol}
 \usepackage{multirow}
@@ -16,6 +17,7 @@
 % colored borders (false) colored text (true)
 \hypersetup{colorlinks=true,citecolor=blue,filecolor=black,linkcolor=blue,urlcolor=blue}
 \usepackage{natbib}
+%\setupttoc{toc}{numbered}
 \newcommand{\Ztt}{Z\rightarrow\tau\tau}
 % Add you own definitions here (file ANA-HIGG-2018-49-INT1-defs.sty).
 %\usepackage{ANA-HIGG-2018-49-INT1-defs}
@@ -32,24 +34,31 @@
 \reader{Professor Craig Blocker, Department of Physics, Brandeis University}
 \reader{Dr. Alessandro Tricoli, Brookhaven National Laboratory}
 \dean{Eric Chasalow}
-\graduationyear{2020}
 \graduationmonth{August}
+\graduationyear{2020}
 %-------------------------------------------------------------------------------
 % Content
 %-------------------------------------------------------------------------------
 \begin{document}
 %\signaturepage*
-\thesisabstract{The Standard Model vector boson fusion Higgs boson fiducial cross-section is measured in the $H\rightarrow WW^*\rightarrow\ell\nu\ell\nu$ decay channel using 139 fb$^{-1}$ of proton-proton collisions. Collisions from the Large Hadron Collider at $\sqrt{s}=13$ TeV are recorded by the ATLAS detector. The fiducial cross-section measured to be \textcolor{red}{$---$}. }
+\thesisabstract{The Standard Model vector boson fusion Higgs boson fiducial and inclusive cross-sections are measured in the $H\rightarrow WW^*\rightarrow\ell\nu\ell\nu$ decay channel using 139 fb$^{-1}$ of proton-proton collisions. Collisions from the Large Hadron Collider at $\sqrt{s}=13$ TeV are recorded by the ATLAS detector. The fiducial and inclusive cross-sections are measured to be 2.8$\pm0.5$ (Stat.) $\pm0.3$ (Theor.) $\pm0.2$ (Exp.)~fb and 89$\pm15$ (Stat.) $\pm10$ (Theor.) $\pm5$ (Exp.)~fb. No significant deviations from Standard Model predictions are observed.}
 \dedication{}
 \acknowledgments{}
 \thesisfront[onlinesubmission] %other options include onlinesubmission, copyright, nocopyright, lot, nolot, lof, nolof
 \clearpage
+\begin{doublespacing}
+%\cleardoubleoddpage
+%\pagenumbering{roman}
+%sectionnumbering{roman}
 \listoffigures
 \listoftables
+\end{doublespacing}
 %\tableofcontents
 
 %-------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------
+%\pagenumbering{arabic}
+%\sectionnumbering{arabic}
 \chapter{Introduction}
 \label{sec:intro}
 \input{sections/Introduction}
@@ -110,8 +119,10 @@
 %-------------------------------------------------------------------------------
 
 \clearpage
+\begin{singlespacing}
 \bibliographystyle{unsrt}
 \bibliography{references}
+\end{singlespacing}
 
 %-------------------------------------------------------------------------------
 \clearpage

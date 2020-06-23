@@ -155,12 +155,16 @@ N.R. Council, D.E.P. Sciences, B.P. Astronomy, and C.E.P. Physics.
   Matter}.
 \newblock Physics in a New Era: A Series. National Academies Press, 1998.
 
-\bibitem{HiggsDifferential}
-ATLAS Collaboration.
-\newblock {Measurement of fiducial differential cross sections of gluon-fusion
-  production of Higgs bosons decaying to WW$^{∗}\rightarrow e\nu\mu\nu$ with
-  the ATLAS detector at $ \sqrt{s}=8 $ TeV}.
-\newblock {\em JHEP}, 08:104, 2016.
+\bibitem{LEPHiggs}
+ and M~W Grunewald.
+\newblock {Precision Electroweak Measurements and Constraints on the Standard
+  Model}.
+\newblock Technical Report arXiv:1012.2367. CERN-PH-EP-2010-095.
+  FERMILAB-TM-2480-PPD. LEPEWWG-2010-01. TEVEWWG-2010-01.
+  ALEPH-2010-001-PHYSICS-2010-001. CDF-Note-10338. DELPHI-DELPHI-2010-001-PHYS
+  952. L3-Note-2837. OPAL-PR-432. SLAC-PUB-14301, Dec 2010.
+\newblock Comments: 18 pages, Prepared from Contributions to the 2010 Summer
+  Conferences.
 
 \bibitem{Aaboud_2019}
 ATLAS Collaboration.
@@ -219,6 +223,12 @@ M.~Benedikt, P.~Collier, V.~Mertens, J.~Poole, and K.~Schindl.
 \bibitem{radiofrequency}
 {CERN}.
 \newblock {Radiofrequency cavities}, Sep 2012.
+
+\bibitem{magnets}
+Bjorn Flemsæter.
+\newblock {Investigation, modelling and control of the 1.9 K cooling loop for
+  superconducting magnets for the Large Hadron Collider}, 2000.
+\newblock Presented on Jan 2000.
 
 \bibitem{HLLHCYellow}
 Apollinari G., Béjar~Alonso I., Brüning O., Fessia P., Lamont M., Rossi L.,
