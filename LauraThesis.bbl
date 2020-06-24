@@ -103,11 +103,13 @@ S.~Addepalli, G.~Barone, L.~Bergsten, C.~Blocker, J.~Chen, C.~Piccola,
   cross section in vector boson fusion at $\sqrt{s}=13$ TeV with the ATLAS
   detector}, In preparation.
 
-\bibitem{DrellYan}
-Travis Martin and W~Martin.
-\newblock {Analyzing New Neutral Gauge Bosons at the LHC Using Third Generation
-  Fermions}.
-\newblock May 2020.
+\bibitem{Z+jets}
+Matthias Schott and Monica Dunford.
+\newblock {Review of single vector boson production in pp collisions at
+  $\sqrt{s} = 7$ TeV. Review of single vector boson production in pp collisions
+  at $\sqrt{s} = 7$ TeV}.
+\newblock {\em Eur. Phys. J. C}, 74(arXiv:1405.1160):60 p, May 2014.
+\newblock Comments: 60 pages, 64 figures, For Eur. Phys. J. C.
 
 \bibitem{ITktech}
 ATLAS Collaboration.
