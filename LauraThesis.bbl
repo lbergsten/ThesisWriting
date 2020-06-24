@@ -76,6 +76,12 @@ Miha Zgubi\v{c}, Johannes~Josef Junggeburth, Nicolas~Maximilian Kohler, Stefano
   Plots}.
 \newblock Technical Report ATL-COM-PHYS-2017-1685, CERN, Geneva, Nov 2017.
 
+\bibitem{MCPpaper}
+ATLAS Collaboration.
+\newblock {Muon reconstruction performance of the ATLAS detector in
+  proton–proton collision data at $\sqrt{s}$=13 TeV}.
+\newblock {\em The European Physical Journal C}, 76(5), May 2016.
+
 \bibitem{ParticleFlow}
 ATLAS Collaboration.
 \newblock {Jet reconstruction and performance using particle flow with the
@@ -108,12 +114,6 @@ ATLAS Collaboration.
 \newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
 \newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
   2017.
-
-\bibitem{MCPpaper}
-ATLAS Collaboration.
-\newblock {Muon reconstruction performance of the ATLAS detector in
-  proton–proton collision data at $\sqrt{s}$=13 TeV}.
-\newblock {\em The European Physical Journal C}, 76(5), May 2016.
 
 \bibitem{HWW2016}
 ATLAS Collaboration.
@@ -230,12 +230,24 @@ Bjorn Flemsæter.
   superconducting magnets for the Large Hadron Collider}, 2000.
 \newblock Presented on Jan 2000.
 
+\bibitem{TDAQ}
+G.~Avolio, S.~Ballestrero, and W.~Vandelli.
+\newblock Atlas tdaq system: Current status and performance.
+\newblock {\em Physics Procedia}, 37:1819 -- 1826, 2012.
+\newblock Proceedings of the 2nd International Conference on Technology and
+  Instrumentation in Particle Physics (TIPP 2011).
+
 \bibitem{HLLHCYellow}
 Apollinari G., Béjar~Alonso I., Brüning O., Fessia P., Lamont M., Rossi L.,
   and Tavian L.
 \newblock {\em {High-Luminosity Large Hadron Collider (HL-LHC): Technical
   Design Report V. 0.1}}.
 \newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2017.
+
+\bibitem{primaryvertex}
+Federico Meloni.
+\newblock {Primary vertex reconstruction with the ATLAS detector}.
+\newblock Technical Report ATL-PHYS-PROC-2016-163. 12, CERN, Geneva, Oct 2016.
 
 \bibitem{tracking}
 {Early Inner Detector Tracking Performance in the 2015 data at $\sqrt{s}$ = 13
@@ -302,6 +314,11 @@ Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
   Monte Carlo programs: the POWHEG BOX}.
 \newblock {\em JHEP}, 06:043, 2010.
 
+\bibitem{pythia8}
+Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
+\newblock A brief introduction to pythia 8.1.
+\newblock {\em Computer Physics Communications}, 178(11):852–867, Jun 2008.
+
 \bibitem{Ciccolini:2007jr}
 M.~Ciccolini, Ansgar Denner, and S.~Dittmaier.
 \newblock {Strong and electroweak corrections to the production of Higgs+2jets
@@ -328,6 +345,39 @@ Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 \newblock {A Brief Introduction to PYTHIA 8.1}.
 \newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Sherpa}
+Enrico Bothmann, Gurpreet Singh~Chahal, Stefan Höche, Johannes Krause, Frank
+  Krauss, Silvan Kuttimalai, Sebastian Liebschner, Davide Napoletano, Marek
+  Schönherr, Holger Schulz, and et~al.
+\newblock Event generation with sherpa 2.2.
+\newblock {\em SciPost Physics}, 7(3), Sep 2019.
+
+\bibitem{NNPDF}
+Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Christopher~S. Deans, Luigi
+  Del~Debbio, Stefano Forte, Alberto Guffanti, Nathan~P. Hartland, José~I.
+  Latorre, and et~al.
+\newblock Parton distributions for the lhc run ii.
+\newblock {\em Journal of High Energy Physics}, 2015(4), Apr 2015.
+
+\bibitem{pythia6}
+Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
+\newblock Pythia 6.4 physics and manual.
+\newblock {\em Journal of High Energy Physics}, 2006(05):026–026, May 2006.
+
+\bibitem{MILNO}
+Keith Hamilton, Paolo Nason, and Giulia Zanderighi.
+\newblock Minlo: multi-scale improved nlo.
+\newblock {\em Journal of High Energy Physics}, 2012, 06 2012.
+
+\bibitem{MV2C10}
+{Optimisation of the ATLAS $b$-tagging performance for the 2016 LHC Run}.
+\newblock Technical Report ATL-PHYS-PUB-2016-012, CERN, Geneva, Jun 2016.
+
+\bibitem{DL1}
+Marie~Christine Lanfermann.
+\newblock {Deep Learning in Flavour Tagging at the ATLAS experiment}.
+\newblock Technical Report ATL-PHYS-PROC-2017-191, CERN, Geneva, Oct 2017.
 
 \bibitem{TMVA}
 A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, H.~Voss,
