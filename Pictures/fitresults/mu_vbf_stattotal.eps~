@@ -127,7 +127,7 @@ newpath  gsave  .25 .25 scale  gsave  0 0 t black[  ] 0 sd 3 lw 1 1 1 c 2268 217
  gsave  2268 2176 0 0 C 429.953 1906.25 t 0 r /Helvetica-BoldOblique findfont 102.732 sf 0 0 m (ATLAS) show NC gr 
  gsave  2268 2176 0 0 C 799.028 1906.25 t 0 r /Helvetica findfont 102.732 sf 0 0 m (Internal) show NC gr 
  gsave  2268 2176 0 0 C 574.539 1765.47 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (WW) show NC gr 
- gsave  2268 2176 0 0 C 487.026 1765.47 t 0 r /Symbol findfont 87.5126 sf 0 0 m ( ) show NC gr 
+ gsave  2268 2176 0 0 C 487.026 1765.47 t 0 r /Symbol findfont 87.5126 sf 0 0 m (®) show NC gr 
  gsave  2268 2176 0 0 C 429.953 1765.47 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (H) show NC gr 
  gsave  2268 2176 0 0 C 856.101 1685.57 t 0 r /Helvetica findfont 45.6587 sf 0 0 m (\2551) show NC gr 
  gsave  2268 2176 0 0 C 429.953 1655.13 t 0 r /Helvetica findfont 64.6832 sf 0 0 m (13 TeV, 139 fb) show NC gr  0.2 0.2 0.2 c black 0.2 0.2 0.2 c

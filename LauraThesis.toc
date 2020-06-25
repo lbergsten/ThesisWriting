@@ -60,18 +60,18 @@
 \contentsline {subsubsection}{Theoretical uncertainties on ggF Higgs production}{135}{section*.104}
 \contentsline {subsubsection}{Theoretical uncertainties on top decays}{137}{section*.107}
 \contentsline {subsubsection}{Theoretical uncertainties on $WW$ production}{139}{section*.111}
-\contentsline {subsubsection}{Theoretical uncertainties on $Z\rightarrow \tau \tau $}{140}{section*.114}
-\contentsline {chapter}{\numberline {7}Results}{143}{chapter.7}
-\contentsline {section}{\numberline {7.1}Statistical analysis}{143}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{143}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Asimov results}{147}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Observed results}{150}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross-sections}{157}{section.7.2}
-\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{161}{chapter.8}
-\contentsline {section}{\numberline {8.1}Differential cross-section measurements}{161}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Conclusions}{165}{subsection.8.1.1}
-\contentsline {chapter}{\numberline {A}Inner Tracker}{174}{appendix.A}
-\contentsline {subsubsection}{Building ITk Strip barrel staves}{174}{section*.133}
-\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{179}{section*.138}
-\contentsline {chapter}{\numberline {B}$Z+$jets BDT}{184}{appendix.B}
-\contentsline {chapter}{\numberline {C}Multi-dimensional BDT}{194}{appendix.C}
+\contentsline {subsubsection}{Theoretical uncertainties on $Z\rightarrow \tau \tau $}{141}{section*.114}
+\contentsline {chapter}{\numberline {7}Results}{144}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical analysis}{144}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Likelihood functions}{144}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Asimov results}{149}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Observed results}{152}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Fiducial and inclusive cross-sections}{158}{section.7.2}
+\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{163}{chapter.8}
+\contentsline {section}{\numberline {8.1}Outlook: differential cross-section measurements}{163}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusions}{164}{section.8.2}
+\contentsline {chapter}{\numberline {A}Inner Tracker}{173}{appendix.A}
+\contentsline {subsubsection}{Building ITk Strip barrel staves}{173}{section*.131}
+\contentsline {subsubsection}{IR Testing of ITk Strip barrel staves}{178}{section*.136}
+\contentsline {chapter}{\numberline {B}$Z+$jets BDT}{183}{appendix.B}
+\contentsline {chapter}{\numberline {C}Multi-dimensional BDT}{193}{appendix.C}

@@ -20,7 +20,7 @@
 \contentsline {table}{\numberline {6.6}{\ignorespaces BDT parameters used for the ggF CR2 training.\relax }}{117}{table.caption.77}
 \contentsline {table}{\numberline {6.7}{\ignorespaces BDT parameters used for the ggF CR3 training.\relax }}{121}{table.caption.84}
 \contentsline {table}{\numberline {6.8}{\ignorespaces BDT parameters used for the ggF vs. VBF training.\relax }}{124}{table.caption.91}
-\contentsline {table}{\numberline {6.9}{\ignorespaces Requirements for ``identified'' and ``anti-identified'' electrons and muons.\relax }}{128}{table.caption.96}
+\contentsline {table}{\numberline {6.9}{\ignorespaces Requirements for ``identified'' and ``anti-identified'' electrons and muons.\relax }}{129}{table.caption.96}
 \contentsline {table}{\numberline {6.10}{\ignorespaces Fake factors binned for muons and electrons in $p_T$ and $\eta $ with their statistical uncertainties\relax }}{129}{table.caption.97}
 \contentsline {table}{\numberline {6.11}{\ignorespaces Cutflow in the $W+$jets control region. Lepton ID/anti-ID describes the selection of fake candidates with either one or two ``anti-id'' leptons and statistical uncertainties are shown.\relax }}{130}{table.caption.98}
 \contentsline {table}{\numberline {6.12}{\ignorespaces Summary of the experimental sytematic uncertainties considered.\relax }}{134}{table.caption.100}
@@ -28,21 +28,20 @@
 \contentsline {table}{\numberline {6.14}{\ignorespaces ggF theory uncertainties breakdown\relax }}{137}{table.caption.105}
 \contentsline {table}{\numberline {6.15}{\ignorespaces $t\mathaccentV {bar}016{t}$ theory uncertainties breakdown\relax }}{139}{table.caption.108}
 \contentsline {table}{\numberline {6.16}{\ignorespaces $Wt$ theory uncertainties breakdown\relax }}{139}{table.caption.109}
-\contentsline {table}{\numberline {6.17}{\ignorespaces $WW$ theory uncertainties breakdown\relax }}{139}{table.caption.112}
-\contentsline {table}{\numberline {6.18}{\ignorespaces $Z\rightarrow \tau \tau $ theory uncertainties breakdown\relax }}{141}{table.caption.115}
+\contentsline {table}{\numberline {6.17}{\ignorespaces $WW$ theory uncertainties breakdown\relax }}{140}{table.caption.112}
+\contentsline {table}{\numberline {6.18}{\ignorespaces $Z\rightarrow \tau \tau $ theory uncertainties breakdown\relax }}{142}{table.caption.115}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of all signal and control regions included in simultaneous fit\relax }}{147}{table.caption.117}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Fit categories, including SR and CRs, distributions and number of bins used in the fit.\relax }}{148}{table.caption.118}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Each background's relative size in the signal region as a percentage of the total background contributions and estimation method\relax }}{148}{table.caption.119}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Fiducial phase space definition\relax }}{158}{table.caption.126}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Cutflow showing VBF Higgs events generated with Powheg$+$Pythia8 at truth-level with all fiducial selection requirements\nobreakspace {}\cite {ourSupportNote}. \relax }}{159}{table.caption.127}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of all signal and control regions included in simultaneous fit\relax }}{148}{table.caption.117}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Fit categories, including SR and CRs, distributions and number of bins used in the fit.\relax }}{149}{table.caption.118}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Each background's relative size in the signal region as a percentage of the total background contributions and estimation method\relax }}{149}{table.caption.119}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Fiducial phase space definition\relax }}{160}{table.caption.126}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Cutflow showing VBF Higgs events generated with Powheg$+$Pythia8 at truth-level with all fiducial selection requirements\nobreakspace {}\cite {ourSupportNote}. \relax }}{160}{table.caption.127}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Planned observables and bin edges for differential cross-section measurements\relax }}{165}{table.caption.129}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Comparing measured VBF $H\rightarrow WW^*$ fiducial cross-sections using 36.1 fb$^{-1}$ and 139 fb$^{-1}$ measured in this thesis \cite {HWW2016}.\relax }}{166}{table.caption.130}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of measurements of VBF $H\rightarrow WW^*$ fiducial cross-sections using 36.1 fb$^{-1}$ and 139 fb$^{-1}$ measured in this thesis \cite {HWW2016}.\relax }}{166}{table.caption.128}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces BDT parameters used for the $Z\rightarrow \tau \tau $ training.\relax }}{185}{table.caption.143}
-\contentsline {table}{\numberline {B.2}{\ignorespaces Four testing conditions defined for use in simultaneous fit\relax }}{189}{table.caption.148}
-\contentsline {table}{\numberline {B.3}{\ignorespaces Four testing conditions defined for use in simultaneous fit using only statistical uncertainties\relax }}{189}{table.caption.149}
-\contentsline {table}{\numberline {B.4}{\ignorespaces Four testing conditions defined for use in simultaneous fit using and systematic and statistical uncertainties\relax }}{190}{table.caption.150}
+\contentsline {table}{\numberline {B.1}{\ignorespaces BDT parameters used for the $Z\rightarrow \tau \tau $ training.\relax }}{184}{table.caption.141}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Four testing conditions defined for use in simultaneous fit\relax }}{188}{table.caption.146}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Four testing conditions defined for use in simultaneous fit using only statistical uncertainties\relax }}{188}{table.caption.147}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Four testing conditions defined for use in simultaneous fit using and systematic and statistical uncertainties\relax }}{189}{table.caption.148}
 \addvspace {10\p@ }

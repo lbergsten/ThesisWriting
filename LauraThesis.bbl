@@ -409,8 +409,21 @@ Fabio Cardillo, Otilia~Anamaria Ducu, Julien Maurer, Claudia Merlassino, Joseph
   ATLAS detector at the LHC}.
 \newblock Technical Report ATLAS-CONF-2019-021, CERN, Geneva, Jun 2019.
 
+\bibitem{UEEE5}
+Stefan Gieseke, Christian Röhr, and Andrzej Siódmok.
+\newblock Colour reconnections in herwig++.
+\newblock {\em The European Physical Journal C}, 72(11), Nov 2012.
+
 \bibitem{WG1}
 {WG1 scheme: meeting discussions}.
+
+\bibitem{MG5}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock {\em JHEP}, 07:079, 2014.
 
 \bibitem{Wttheory}
 Stefano Frixione, Eric Laenen, Patrick Motylinski, Chris White, and Bryan~R
