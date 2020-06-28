@@ -1,5 +1,25 @@
 \begin{thebibliography}{10}
 
+\bibitem{MCPpaper}
+ATLAS Collaboration.
+\newblock {Muon reconstruction performance of the ATLAS detector in
+  proton–proton collision data at $\sqrt{s}$=13 TeV}.
+\newblock {\em The European Physical Journal C}, 76(5), May 2016.
+
+\bibitem{ourSupportNote}
+S.~Addepalli, G.~Barone, L.~Bergsten, C.~Blocker, J.~Chen, C.~Piccola,
+  G.~Iakovidis, C.~Kitsaki, G.~Rosin, G.~Sciolla, S.~Stucci, and A.~Tricoli.
+\newblock {Measurements of the $H\rightarrow WW^*\rightarrow \ell\nu\ell\nu$
+  cross section in vector boson fusion at $\sqrt{s}=13$ TeV with the ATLAS
+  detector}, In preparation.
+
+\bibitem{HWW2016}
+ATLAS Collaboration.
+\newblock {Measurements of gluon-gluon fusion and vector-boson fusion Higgs
+  boson production cross-sections in the $H \to WW^{\ast} \to e\nu\mu\nu$ decay
+  channel in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}.
+\newblock {\em Phys. Lett. B}, 789:508--529, 2019.
+
 \bibitem{PDG}
 M.~Tanabashi et~al.
 \newblock Review of particle physics.
@@ -76,12 +96,6 @@ Miha Zgubi\v{c}, Johannes~Josef Junggeburth, Nicolas~Maximilian Kohler, Stefano
   Plots}.
 \newblock Technical Report ATL-COM-PHYS-2017-1685, CERN, Geneva, Nov 2017.
 
-\bibitem{MCPpaper}
-ATLAS Collaboration.
-\newblock {Muon reconstruction performance of the ATLAS detector in
-  proton–proton collision data at $\sqrt{s}$=13 TeV}.
-\newblock {\em The European Physical Journal C}, 76(5), May 2016.
-
 \bibitem{ParticleFlow}
 ATLAS Collaboration.
 \newblock {Jet reconstruction and performance using particle flow with the
@@ -96,13 +110,6 @@ Jet and Etmiss~Performance group.
 Luminosity group.
 \newblock Public plots, 2019.
 
-\bibitem{ourSupportNote}
-S.~Addepalli, G.~Barone, L.~Bergsten, C.~Blocker, J.~Chen, C.~Piccola,
-  G.~Iakovidis, C.~Kitsaki, G.~Rosin, G.~Sciolla, S.~Stucci, and A.~Tricoli.
-\newblock {Measurements of the $H\rightarrow WW^*\rightarrow \ell\nu\ell\nu$
-  cross section in vector boson fusion at $\sqrt{s}=13$ TeV with the ATLAS
-  detector}, In preparation.
-
 \bibitem{Z+jets}
 Matthias Schott and Monica Dunford.
 \newblock {Review of single vector boson production in pp collisions at
@@ -116,13 +123,6 @@ ATLAS Collaboration.
 \newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
 \newblock Technical Report CERN-LHCC-2017-005. ATLAS-TDR-025, CERN, Geneva, Apr
   2017.
-
-\bibitem{HWW2016}
-ATLAS Collaboration.
-\newblock {Measurements of gluon-gluon fusion and vector-boson fusion Higgs
-  boson production cross-sections in the $H \to WW^{\ast} \to e\nu\mu\nu$ decay
-  channel in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}.
-\newblock {\em Phys. Lett. B}, 789:508--529, 2019.
 
 \bibitem{HalzenMartin}
 F.~Halzen and A.~Martin.
@@ -158,9 +158,7 @@ N.R. Council, D.E.P. Sciences, B.P. Astronomy, and C.E.P. Physics.
 \newblock Physics in a New Era: A Series. National Academies Press, 1998.
 
 \bibitem{LEPHiggs}
- and M~W Grunewald.
-\newblock {Precision Electroweak Measurements and Constraints on the Standard
-  Model}.
+{Precision Electroweak Measurements and Constraints on the Standard Model}.
 \newblock Technical Report arXiv:1012.2367. CERN-PH-EP-2010-095.
   FERMILAB-TM-2480-PPD. LEPEWWG-2010-01. TEVEWWG-2010-01.
   ALEPH-2010-001-PHYSICS-2010-001. CDF-Note-10338. DELPHI-DELPHI-2010-001-PHYS
@@ -234,7 +232,7 @@ Bjorn Flemsæter.
 
 \bibitem{TDAQ}
 G.~Avolio, S.~Ballestrero, and W.~Vandelli.
-\newblock Atlas tdaq system: Current status and performance.
+\newblock {ATLAS TDAQ System: Current Status and Performance}.
 \newblock {\em Physics Procedia}, 37:1819 -- 1826, 2012.
 \newblock Proceedings of the 2nd International Conference on Technology and
   Instrumentation in Particle Physics (TIPP 2011).
@@ -277,7 +275,7 @@ ATLAS Collaboration.
 
 \bibitem{CrystalBall}
 Souvik Das.
-\newblock A simple alternative to the crystal ball function, 2016.
+\newblock {A simple alternative to the Crystal Ball function}, 2016.
 
 \bibitem{JetRun1}
 {Jet global sequential corrections with the ATLAS detector in proton-proton
@@ -318,7 +316,7 @@ Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
 
 \bibitem{pythia8}
 Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
-\newblock A brief introduction to pythia 8.1.
+\newblock {A brief introduction to PYTHIA 8.1}.
 \newblock {\em Computer Physics Communications}, 178(11):852–867, Jun 2008.
 
 \bibitem{Ciccolini:2007jr}
@@ -352,24 +350,24 @@ Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
 Enrico Bothmann, Gurpreet Singh~Chahal, Stefan Höche, Johannes Krause, Frank
   Krauss, Silvan Kuttimalai, Sebastian Liebschner, Davide Napoletano, Marek
   Schönherr, Holger Schulz, and et~al.
-\newblock Event generation with sherpa 2.2.
+\newblock {Event generation with Sherpa 2.2}.
 \newblock {\em SciPost Physics}, 7(3), Sep 2019.
 
 \bibitem{NNPDF}
 Richard~D. Ball, Valerio Bertone, Stefano Carrazza, Christopher~S. Deans, Luigi
   Del~Debbio, Stefano Forte, Alberto Guffanti, Nathan~P. Hartland, José~I.
   Latorre, and et~al.
-\newblock Parton distributions for the lhc run ii.
+\newblock {Parton distributions for the LHC run II}.
 \newblock {\em Journal of High Energy Physics}, 2015(4), Apr 2015.
 
 \bibitem{pythia6}
 Torbjörn Sjöstrand, Stephen Mrenna, and Peter Skands.
-\newblock Pythia 6.4 physics and manual.
+\newblock {PYTHIA 6.4 physics and manual}.
 \newblock {\em Journal of High Energy Physics}, 2006(05):026–026, May 2006.
 
 \bibitem{MILNO}
 Keith Hamilton, Paolo Nason, and Giulia Zanderighi.
-\newblock Minlo: multi-scale improved nlo.
+\newblock {MINLO: multi-scale improved NLO}.
 \newblock {\em Journal of High Energy Physics}, 2012, 06 2012.
 
 \bibitem{MV2C10}
@@ -387,7 +385,7 @@ A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, H.~Voss,
   S.~Henrot-Versille, M.~Jachowski, K.~Kraszewski, A.~Krasznahorkay Jr.,
   M.~Kruk, Y.~Mahalalel, R.~Ospanov, X.~Prudent, A.~Robert, D.~Schouten,
   F.~Tegenfeldt, A.~Voigt, K.~Voss, M.~Wolter, and A.~Zemla.
-\newblock Tmva - toolkit for multivariate data analysis, 2007.
+\newblock {TMVA - Toolkit for Multivariate Data Analysis}, 2007.
 
 \bibitem{MT2}
 {Top quark mass measurement in the $e\mu$ channel using the mT2 variable at
@@ -396,7 +394,7 @@ A.~Hoecker, P.~Speckmayer, J.~Stelzer, J.~Therhaag, E.~von Toerne, H.~Voss,
 
 \bibitem{ABCD}
 W.~Buttinger.
-\newblock Background estimation with the abcd method, 2018.
+\newblock {Background Estimation with the ABCD Method}, 2018.
 
 \bibitem{fakefactormethod}
 Fabio Cardillo, Otilia~Anamaria Ducu, Julien Maurer, Claudia Merlassino, Joseph
@@ -411,7 +409,7 @@ Fabio Cardillo, Otilia~Anamaria Ducu, Julien Maurer, Claudia Merlassino, Joseph
 
 \bibitem{UEEE5}
 Stefan Gieseke, Christian Röhr, and Andrzej Siódmok.
-\newblock Colour reconnections in herwig++.
+\newblock {Colour reconnections in Herwig++}.
 \newblock {\em The European Physical Journal C}, 72(11), Nov 2012.
 
 \bibitem{WG1}

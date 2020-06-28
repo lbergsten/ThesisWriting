@@ -2,46 +2,48 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces The seven isolation working points are described by their discriminating variables and defining criteria\nobreakspace {}\cite {MCPpaper}.\relax }}{64}{table.caption.24}
+\contentsline {table}{\numberline {4.1}{\ignorespaces The seven isolation working points are described by their discriminating variables and defining criteria\nobreakspace {}\cite {MCPpaper}.\relax }}{55}{table.caption.25}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Electron selections\relax }}{82}{table.caption.37}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Muon selections\relax }}{83}{table.caption.39}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Table describing pre-selection cuts applied in common with VBF and $ggF$ coupling analyses\relax }}{90}{table.caption.42}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Cutflow in the pre-selection region.\relax }}{90}{table.caption.43}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Table describing VBF signal region cuts\relax }}{91}{table.caption.46}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Cutflow in the signal region.\relax }}{93}{table.caption.47}
-\contentsline {table}{\numberline {5.7}{\ignorespaces BDT parameters used for the VBF vs. top + $WW$ training.\relax }}{96}{table.caption.50}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Electron selections\relax }}{73}{table.caption.38}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Muon selections\relax }}{74}{table.caption.40}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Table describing pre-selection cuts applied in common with VBF and $ggF$ coupling analyses\relax }}{81}{table.caption.43}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Cutflow in the pre-selection region.\relax }}{81}{table.caption.44}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Table describing VBF signal region cuts\relax }}{82}{table.caption.47}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Cutflow in the signal region.\relax }}{84}{table.caption.48}
+\contentsline {table}{\numberline {5.7}{\ignorespaces BDT parameters used for the VBF vs. top + $WW$ training.\relax }}{87}{table.caption.51}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Cutflow in the $Z+$jets control region.\relax }}{102}{table.caption.57}
-\contentsline {table}{\numberline {6.2}{\ignorespaces Cutflow in the top control region.\relax }}{105}{table.caption.59}
-\contentsline {table}{\numberline {6.3}{\ignorespaces BDT parameters used for the top + $WW$ vs. other backgrounds training.\relax }}{105}{table.caption.62}
-\contentsline {table}{\numberline {6.4}{\ignorespaces Cutflow in the $WW$ validation region.\relax }}{110}{table.caption.67}
-\contentsline {table}{\numberline {6.5}{\ignorespaces BDT parameters used for the ggF CR1 training.\relax }}{113}{table.caption.70}
-\contentsline {table}{\numberline {6.6}{\ignorespaces BDT parameters used for the ggF CR2 training.\relax }}{117}{table.caption.77}
-\contentsline {table}{\numberline {6.7}{\ignorespaces BDT parameters used for the ggF CR3 training.\relax }}{121}{table.caption.84}
-\contentsline {table}{\numberline {6.8}{\ignorespaces BDT parameters used for the ggF vs. VBF training.\relax }}{124}{table.caption.91}
-\contentsline {table}{\numberline {6.9}{\ignorespaces Requirements for ``identified'' and ``anti-identified'' electrons and muons.\relax }}{129}{table.caption.96}
-\contentsline {table}{\numberline {6.10}{\ignorespaces Fake factors binned for muons and electrons in $p_T$ and $\eta $ with their statistical uncertainties\relax }}{129}{table.caption.97}
-\contentsline {table}{\numberline {6.11}{\ignorespaces Cutflow in the $W+$jets control region. Lepton ID/anti-ID describes the selection of fake candidates with either one or two ``anti-id'' leptons and statistical uncertainties are shown.\relax }}{130}{table.caption.98}
-\contentsline {table}{\numberline {6.12}{\ignorespaces Summary of the experimental sytematic uncertainties considered.\relax }}{134}{table.caption.100}
-\contentsline {table}{\numberline {6.13}{\ignorespaces VBF theory uncertainties breakdown\relax }}{135}{table.caption.102}
-\contentsline {table}{\numberline {6.14}{\ignorespaces ggF theory uncertainties breakdown\relax }}{137}{table.caption.105}
-\contentsline {table}{\numberline {6.15}{\ignorespaces $t\mathaccentV {bar}016{t}$ theory uncertainties breakdown\relax }}{139}{table.caption.108}
-\contentsline {table}{\numberline {6.16}{\ignorespaces $Wt$ theory uncertainties breakdown\relax }}{139}{table.caption.109}
-\contentsline {table}{\numberline {6.17}{\ignorespaces $WW$ theory uncertainties breakdown\relax }}{140}{table.caption.112}
-\contentsline {table}{\numberline {6.18}{\ignorespaces $Z\rightarrow \tau \tau $ theory uncertainties breakdown\relax }}{142}{table.caption.115}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Cutflow in the $Z+$jets control region.\relax }}{93}{table.caption.58}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Cutflow in the top validation region.\relax }}{96}{table.caption.60}
+\contentsline {table}{\numberline {6.3}{\ignorespaces BDT parameters used for the top + $WW$ vs. other backgrounds training.\relax }}{96}{table.caption.63}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Cutflow in the $WW$ validation region.\relax }}{101}{table.caption.68}
+\contentsline {table}{\numberline {6.5}{\ignorespaces BDT parameters used for the ggF CR1 training.\relax }}{104}{table.caption.71}
+\contentsline {table}{\numberline {6.6}{\ignorespaces BDT parameters used for the ggF CR2 training.\relax }}{108}{table.caption.78}
+\contentsline {table}{\numberline {6.7}{\ignorespaces BDT parameters used for the ggF CR3 training.\relax }}{112}{table.caption.85}
+\contentsline {table}{\numberline {6.8}{\ignorespaces BDT parameters used for the ggF vs. VBF training.\relax }}{115}{table.caption.92}
+\contentsline {table}{\numberline {6.9}{\ignorespaces Requirements for ``identified'' and ``anti-identified'' electrons and muons.\relax }}{120}{table.caption.97}
+\contentsline {table}{\numberline {6.10}{\ignorespaces Fake factors binned for muons and electrons in $p_T$ and $\eta $ with their statistical uncertainties\relax }}{120}{table.caption.98}
+\contentsline {table}{\numberline {6.11}{\ignorespaces Cutflow in the $W+$jets control region. Lepton ID/anti-ID describes the selection of fake candidates with either one or two ``anti-id'' leptons and statistical uncertainties are shown.\relax }}{121}{table.caption.99}
+\contentsline {table}{\numberline {6.12}{\ignorespaces Summary of the experimental sytematic uncertainties considered.\relax }}{125}{table.caption.101}
+\contentsline {table}{\numberline {6.13}{\ignorespaces VBF theory uncertainties breakdown\relax }}{126}{table.caption.103}
+\contentsline {table}{\numberline {6.14}{\ignorespaces ggF theory uncertainties breakdown\relax }}{128}{table.caption.106}
+\contentsline {table}{\numberline {6.15}{\ignorespaces $t\mathaccentV {bar}016{t}$ theory uncertainties breakdown\relax }}{130}{table.caption.109}
+\contentsline {table}{\numberline {6.16}{\ignorespaces $Wt$ theory uncertainties breakdown\relax }}{130}{table.caption.110}
+\contentsline {table}{\numberline {6.17}{\ignorespaces $WW$ theory uncertainties breakdown\relax }}{131}{table.caption.113}
+\contentsline {table}{\numberline {6.18}{\ignorespaces $Z\rightarrow \tau \tau $ theory uncertainties breakdown\relax }}{133}{table.caption.116}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of all signal and control regions included in simultaneous fit\relax }}{148}{table.caption.117}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Fit categories, including SR and CRs, distributions and number of bins used in the fit.\relax }}{149}{table.caption.118}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Each background's relative size in the signal region as a percentage of the total background contributions and estimation method\relax }}{149}{table.caption.119}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Fiducial phase space definition\relax }}{160}{table.caption.126}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Cutflow showing VBF Higgs events generated with Powheg$+$Pythia8 at truth-level with all fiducial selection requirements\nobreakspace {}\cite {ourSupportNote}. \relax }}{160}{table.caption.127}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Summary of all signal and control regions included in simultaneous fit\relax }}{139}{table.caption.118}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Fit categories, including SR and CRs, distributions and number of bins used in the fit.\relax }}{140}{table.caption.119}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Each background's relative size in the signal region as a percentage of the total background contributions and estimation method\relax }}{140}{table.caption.120}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Fiducial phase space definition\relax }}{150}{table.caption.127}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Cutflow showing VBF Higgs events generated with Powheg$+$Pythia8 at truth-level with all fiducial selection requirements\nobreakspace {}\cite {ourSupportNote}. \relax }}{151}{table.caption.128}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of measurements of VBF $H\rightarrow WW^*$ fiducial cross-sections using 36.1 fb$^{-1}$ and 139 fb$^{-1}$ measured in this thesis \cite {HWW2016}.\relax }}{166}{table.caption.128}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of measurements of VBF $H\rightarrow WW^*$ fiducial cross-sections using 36.1 fb$^{-1}$ and 139 fb$^{-1}$ measured in this thesis \cite {HWW2016}.\relax }}{156}{table.caption.129}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces BDT parameters used for the $Z\rightarrow \tau \tau $ training.\relax }}{184}{table.caption.141}
-\contentsline {table}{\numberline {B.2}{\ignorespaces Four testing conditions defined for use in simultaneous fit\relax }}{188}{table.caption.146}
-\contentsline {table}{\numberline {B.3}{\ignorespaces Four testing conditions defined for use in simultaneous fit using only statistical uncertainties\relax }}{188}{table.caption.147}
-\contentsline {table}{\numberline {B.4}{\ignorespaces Four testing conditions defined for use in simultaneous fit using and systematic and statistical uncertainties\relax }}{189}{table.caption.148}
+\contentsline {table}{\numberline {B.1}{\ignorespaces BDT parameters used for the $Z\rightarrow \tau \tau $ training.\relax }}{175}{table.caption.142}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Four testing conditions for signal and $Z\rightarrow \tau \tau $ control region definitions.\relax }}{179}{table.caption.148}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Signal strength uncertainty for each fit parameter in a stat-only fit using four $Z\rightarrow \tau \tau $ control region conditions.\relax }}{180}{table.caption.149}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Signal strength uncertainty for each fit parameter in a stat-only fit using four $Z\rightarrow \tau \tau $ control region conditions.\relax }}{180}{table.caption.150}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Tested and optimal parameters for multiclassification BDT.\relax }}{182}{table.caption.151}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Input variables to multiclass BDT ranked in order or importance\relax }}{183}{table.caption.152}
