@@ -101,7 +101,16 @@ Muon selection criteria are summarized in Table~\ref{tab:MuonSelection}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Jets}
 
-Jets constitute an important part of the analysis both in their number and characteristics. Our signal region selection and most control regions require at least two jets. In order to estimate and reject $ggF$ Higgs background events, regions with less than two jets are also studied. ``Tagging'' jets refer to those two considered in our jet requirement, that originate from the hard scatter quarks. These two jets are typically separated in rapidity and, since they are not color-connected, we expect a suppression of QCD activity in the rapidity gap formed by the three jets. As detailed in Section 4.4, jets reconstruction uses the anti-$k_t$ algorithm to create jet tracks from calorimeter deposited energy within a cone of $R = 0.4$, and this analysis uses particle flow jet reconstruction.   
+Jets constitute an important part of the analysis both in their number and characteristics. Our signal region selection and most control regions require at least two jets. In order to estimate and reject $ggF$ Higgs background events, regions with less than two jets are also studied. ``Tagging'' jets refer to those two considered in our jet requirement, that originate from the hard scatter quarks. These two jets are typically separated in rapidity and, since they are not color-connected, we expect a suppression of QCD activity in the rapidity gap formed by the two jets. VBF Higgs production involves only electroweak bosons so color charge is preserved for each individual quark independently. An example color flow diagram for this process is shown in Figure~\ref{fig:colorflow}. QCD predicts that color connected quarks exhibit higher radiation. Therefore color connected backgrounds' driven QCD interactions are more likely than VBF to have jets formed from radiation between the two tagged jets. We can mitigate these backgrounds with a requirement called the ``central jet veto''.  
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Pictures/fig_01b_2-edited.pdf}
+    \caption{Color flow diagram for VBF production Higgs. Two VBF jets are not color-connected and are the only color-charged particles in this Higgs production mode.}
+    \label{fig:colorflow}
+\end{figure}
+
+As detailed in Section 4.4, jets reconstruction uses the anti-$k_t$ algorithm to create jet tracks from calorimeter deposited energy within a cone of $R = 0.4$, and this analysis uses particle flow jet reconstruction.   
 
 Jets are required to have $p_T > 30$ GeV to eliminate high potential for pile-up jets in the full $\eta$ range, $|\eta| < 4.5$. ``Jet vertex tagger'' variables suppress pile-up events through combinations of multiple variables into a single jet tagger. For jets with $p_T < 60$ GeV and $|\eta| < 2.4$, the JVT variable is required to be larger than 0.59. In the forward region, a designated tagger called ``fJVT'' ought to be applied. However, the current analysis does not include this requirement, leading to more jet pile-up than expected. 
 
@@ -165,9 +174,14 @@ where $\bar{\eta} = (\eta_{j_0} + \eta_{j_1})/2$ and so for each lepton:
      >1  & \quad \rightarrow \textrm{   The lepton is outside the rapidity gap between the two tagged jets.} 
     \end{array} \right. 
  \end{equation}
-\item $\mathrm{\sum_{l,j} M_{lj}}$: The sum of the invariant masses of all possible lepton-jet pairs are used to train our signal discriminant as VBF Higgs signal peaks at a higher value than the dominant backgrounds. VBF signal jets tend to be very forward while lepton central so a large separation between lepton and jets is expected as opposed to typical background topologies. This produces a large invariant mass because of conservation of momentum in the transverse plane.  
+\item $\mathrm{\sum_{l,j} M_{lj}}$: The sum of the invariant masses of all possible lepton-jet pairs are used to train our signal discriminant as VBF Higgs signal peaks at a higher value than the dominant backgrounds. This is explained further next.  
 \end{itemize}
+Invariant mass measures total energy and momentum of a system which is equal in all references frames. For collider experiments like the LHC, which has highly relativistic particles, this is measured with the transverse momentum of each particle and the angular difference, $\Theta$, between them as follows:
+\begin{equation}
+m^2 = 2p_1p_2(\cosh(1-\Delta \Theta)).
+\end{equation}
 
+Large angular separation between two particles thus leads to a higher invariant momentum. VBF signal jets tend to be very forward while leptons central so a large separation between lepton and jets is expected as opposed to typical background topologies. Because of this, the invariant mass for leptons and jets from VBF Higgs production is high relative to backgrounds
 
 \section{Event selection}
 Figure~\ref{fig:FeynmanDiagramVBF} shows the Feynman diagram for the vector boson fusion Higgs production mode. Two energetic jets with large separation in rapidity accompany the Higgs and its decay products. In addition, since the Higgs is created through the fusion of two electro-weak bosons, there is no QCD interaction between the jets and the Higgs boson or its decay products. The main backgrounds this analysis seeks to mitigate include top quark production, Drell-Yan/$Z$, dibosons ($WW$, $WZ$, $ZZ$, and $W\gamma$), ggF Higgs production, and $W$+jets. 

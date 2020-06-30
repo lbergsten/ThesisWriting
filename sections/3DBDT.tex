@@ -29,7 +29,7 @@ Number of cuts                               &  10       & [5,7,10,12]  \\
 
 For this BDT, variables were carefully chosen to optimize differences between each of the three classifications. Over 25 potentially useful variables were tested in the multiclass BDT and the most impactful of these were chosen. Training variables for the optimal analysis include $M_{l1j1}$, $M_{l1j0}$, $M_{l0j1}$, $M_{l0j0}$, $\sum \eta_\ell^{\mathrm{centrality}}$, $\Delta \phi_{jj}$, $p_T^{j0}$, $p_T^{j1}$, $p_T^{j2}$, $\eta^{j0}$, $\eta^{j1}$, $\eta^{l0}$, $\eta^{l1}$, $p_T^{l0}$, $p_T^{l1}$, $p_T^{\text{tot}}$, $\Delta \eta_{jj}$, $\sum \eta_{jj}$, $m_T$, $m_{ll}$, $\Delta \phi_{\ell\ell}$, $\Delta Y_{\ell\ell}$, $\sum M_{lj}$, and $\Delta Y_{jj}$. Figure~\ref{fig:multiclassBDTinput} and~\ref{fig:multiclasscorrSB} show the input distributions of each variable used to train the multiclass BDT and the correlations between them.
 
-BDT input variables are ranked by importance through a TMVA algorithm. The algorithm determines how often the each variable is used to split decision tree nodes and then weights each split by the squared separation gain achieved and by the number of events in that node~\ref{TMVA}. Ranking results are displayed in order of variable importance in Table~\ref{tab:rankingmulti}.
+BDT input variables are ranked by importance through a TMVA algorithm. The algorithm determines how often the each variable is used to split decision tree nodes and then weights each split by the squared separation gain achieved and by the number of events in that node~\cite{TMVA}. Ranking results are displayed in order of variable importance in Table~\ref{tab:rankingmulti}.
 
 \begin{table}[h!]
 \centering
@@ -125,7 +125,7 @@ Two key metrics for testing the success of our multiclass BDT are $S/B$ and sign
     -\sqrt{2(n\ln[\frac{n(b+\sigma^2)}{b^2+n\sigma^2}]-\frac{b^2}{\sigma^2}\ln[1+\frac{\sigma^2(n-b)}{b(b+\sigma^2)}])},& \text{if } n<b .
 \end{cases}
 \] 
-where $b$ denotes background estimates with a statistical uncertainty $\sigma$ and $Z$ represents significance of seeing $n$ signal events. This definition of signal signicance is the current recommendation from the ATLAS statistics committee~\ref{Buttinger:2643488}. Adding this definition of signal signifiance bin-by-bin quadratically gives an overall value of 10.3.
+where $b$ denotes background estimates with a statistical uncertainty $\sigma$ and $Z$ represents significance of seeing $n$ signal events. This definition of signal significance is the current recommendation from the ATLAS statistics committee~\cite{Berger:2285058}. Adding this definition of signal signifiance bin-by-bin quadratically gives an overall value of 10.3.
 
 \begin{figure}[!htbp]
 \centering

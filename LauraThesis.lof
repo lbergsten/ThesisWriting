@@ -21,7 +21,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Electron isolation effiency shown for four working points in $Z\rightarrow ee$ events as a function of $E_T$ and $\eta $\nobreakspace {}\cite {ElectronPhotonPerformance}\relax }}{48}{figure.caption.23}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces On the left, reconstruction efficiency for \textit {Tight} muons from $Z \rightarrow \mu \mu $ events is displayed as a function of the $p_T$ of the muon in the region $0.1 < |\eta | < 2.5$ with systematic and statistical uncertainties. On the right, muon reconstruction efficiency is shown as a function of $\eta $ in $Z \rightarrow \mu \mu $ events for muons with $p_T > 15$ GeV for \textit {Medium}, \textit {Loose} and \textit {Tight} muons. In both plots the full 139 fb$^{-1}$ Run 2 dataset is used\nobreakspace {}\cite {MCPPlots}.\relax }}{53}{figure.caption.24}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Isolation efficiency for the GradientLoose (left) and FixedCutTrackOnly (right) muon isolation working points. The efficiency is displayed as a function of $p_T$ in $Z \rightarrow \mu \mu $ events. The black markers show efficiency measured in data samples while the red show MC simulations. The bottom panel shows the ratio of the efficiency between the two as well as both statistical and systematic uncertainties \nobreakspace {}\cite {MCPPlots2}.\relax }}{56}{figure.caption.26}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Dimuon invariant mass distributions of $Z\rightarrow \mu \mu $ (left) and $J/\Psi \rightarrow \mu \mu $ (right) candidate events reconstructed with CB muons. Black points show data, the continuous line shows MC simulation after momentum corrections are applied, and the dashed lines show the MC simulation without any correction\nobreakspace {}\cite {MCPpaper}.\relax }}{58}{figure.caption.27}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dimuon invariant mass distributions of $Z\rightarrow \mu \mu $ (left) and $J/\psi \rightarrow \mu \mu $ (right) candidate events reconstructed with CB muons. Black points show data, the continuous line shows MC simulation after momentum corrections are applied, and the dashed lines show the MC simulation without any correction\nobreakspace {}\cite {MCPpaper}.\relax }}{58}{figure.caption.27}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces The $r$- values from each of $10$ fits of resolution to $p_T$ for ID muon simulations are shown. Each value corresponds to a particular ROF or $\eta $ region. These plots show $r_1$ (left) and $r_2$ (right) as functions of leading muon $\eta $.\relax }}{58}{figure.caption.28}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Flow chart of the particle flow algorithm beginning with track selection and ending with charged particles and changed/unchanged topo-clusers\nobreakspace {}\cite {ParticleFlow}.\relax }}{60}{figure.caption.29}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Sum of transverse momenta of neutral and charged particle flow objects in an area $\Delta \eta \times \Delta \phi = 0.2 \times 0.2$ from a 2017 event with mean number of interactions per beam crossing $\mu =38$\nobreakspace {}\cite {JETEtmiss}\relax }}{62}{figure.caption.30}
@@ -29,173 +29,174 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Track-based Soft Term $E_T^{miss}$ shown for the complete Run 2 dataset with an integrated luminosity of 140 fb$^-1$ (left). Monte Carlo simulations are compared to data for the tight $E_T^{miss}$ working point. Track-based Soft Term $E_T^{miss}$ significance modeling shown in the tight $E_T^{miss}$ working point (right)\nobreakspace {}\cite {JETEtmiss}\relax }}{66}{figure.caption.32}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The luminosity-weighted distribution of the mean number of interactions per crossing is shown for Run 2 $pp$ collision data\nobreakspace {}\cite {lumigroup}. \relax }}{69}{figure.caption.33}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Feynman diagram for VBF Higgs production\nobreakspace {}\cite {Djouadi}\relax }}{79}{figure.caption.42}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Distributions of $\Delta Y_{jj}$, $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{jj}$, $m_{\ell \ell }$, $m_T$, jet $p^T_{\text {lead}}$, jet $p^T_{\text {sublead}}$, and $\Delta \phi _{jj}$ in the preselection region. Distributions show good MC modeling of variables used in the signal region BDT. Errors shown are solely statistical. \relax }}{83}{figure.caption.45}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{jj}$}}}{83}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{83}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{83}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{jj}$}}}{83}{subfigure.3.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{\ell \ell }$}}}{83}{subfigure.3.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m_T$ [GeV}}}{83}{subfigure.3.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {jet $p^T_{\text {lead}}$}}}{83}{subfigure.3.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {jet $p^T_{\text {sublead}}$}}}{83}{subfigure.3.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$\Delta \phi _{jj}$}}}{83}{subfigure.3.9}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Signal and background yields for VBF and total background (aside from fakes) at various $m_{jj}$ and $\Delta Y_{jj}$ cut values. Simulated events for MC16a campaign only. Choice of cut at $m_{jj}>200$ GeV and $\Delta Y_{jj}>2.1$ nearly halves background yields while reducing signal by $<5\%$.\relax }}{84}{figure.caption.46}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, $m_T$, $p^T_{tot}$, lep $p^T_{\text {lead}}$, jet $p^T_{\text {lead}}$ and $\ensuremath {E_{\text {T,rel}}^{\text {miss}}}$ in the differential VBF signal region, many used as input to the BDT discriminating VBF from top $+WW$ backgrounds. Errors shown are solely statistical. \relax }}{85}{figure.caption.49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{85}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{85}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{85}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$ [GeV}}}{85}{subfigure.5.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$p^T_{tot}$}}}{85}{subfigure.5.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {lep $p^T_{\text {lead}}$}}}{85}{subfigure.5.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {jet $p^T_{\text {lead}}$}}}{85}{subfigure.5.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\ensuremath {E_{\text {T,rel}}^{\text {miss}}}$}}}{85}{subfigure.5.8}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Distributions of input variables to VBF vs. top+$WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background top+$WW$\nobreakspace {}\cite {ourSupportNote}.\relax }}{87}{figure.caption.52}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlations of input variables to VBF vs. top +$WW$ BDT. Signal represents VBF and background top+$WW$\nobreakspace {}\cite {ourSupportNote}.\relax }}{88}{figure.caption.53}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Weighted, normalized samples of VBF (signal) and top$+WW$ samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{89}{figure.caption.54}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Full weighted samples of VBF signal and all backgrounds plotted over BDT output distribution after signal region selection.Errors shown are solely statistical.\relax }}{90}{figure.caption.55}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Color flow diagram for VBF production Higgs. Two VBF jets are not color-connected and are the only color-charged particles in this Higgs production mode.\relax }}{75}{figure.caption.41}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Feynman diagram for VBF Higgs production\nobreakspace {}\cite {Djouadi}\relax }}{80}{figure.caption.43}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Distributions of $\Delta Y_{jj}$, $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{jj}$, $m_{\ell \ell }$, $m_T$, jet $p^T_{\text {lead}}$, jet $p^T_{\text {sublead}}$, and $\Delta \phi _{jj}$ in the preselection region. Distributions show good MC modeling of variables used in the signal region BDT. Errors shown are solely statistical. \relax }}{84}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{jj}$}}}{84}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{84}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{84}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_{jj}$}}}{84}{subfigure.4.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m_{\ell \ell }$}}}{84}{subfigure.4.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m_T$ [GeV}}}{84}{subfigure.4.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {jet $p^T_{\text {lead}}$}}}{84}{subfigure.4.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {jet $p^T_{\text {sublead}}$}}}{84}{subfigure.4.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$\Delta \phi _{jj}$}}}{84}{subfigure.4.9}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Signal and background yields for VBF and total background (aside from fakes) at various $m_{jj}$ and $\Delta Y_{jj}$ cut values. Simulated events for MC16a campaign only. Choice of cut at $m_{jj}>200$ GeV and $\Delta Y_{jj}>2.1$ nearly halves background yields while reducing signal by $<5\%$.\relax }}{85}{figure.caption.47}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, $m_T$, $p^T_{tot}$, lep $p^T_{\text {lead}}$, jet $p^T_{\text {lead}}$ and $\ensuremath {E_{\text {T,rel}}^{\text {miss}}}$ in the differential VBF signal region, many used as input to the BDT discriminating VBF from top $+WW$ backgrounds. Errors shown are solely statistical. \relax }}{86}{figure.caption.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{86}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{86}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{86}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$ [GeV}}}{86}{subfigure.6.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$p^T_{tot}$}}}{86}{subfigure.6.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {lep $p^T_{\text {lead}}$}}}{86}{subfigure.6.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {jet $p^T_{\text {lead}}$}}}{86}{subfigure.6.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\ensuremath {E_{\text {T,rel}}^{\text {miss}}}$}}}{86}{subfigure.6.8}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Distributions of input variables to VBF vs. top+$WW$ BDT. Samples are weighted and normalized to even numbers of background and signal events. Signal represents VBF and background top+$WW$\nobreakspace {}\cite {ourSupportNote}.\relax }}{89}{figure.caption.53}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Correlations of input variables to VBF vs. top +$WW$ BDT. Signal represents VBF and background top+$WW$\nobreakspace {}\cite {ourSupportNote}.\relax }}{90}{figure.caption.54}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Weighted, normalized samples of VBF (signal) and top$+WW$ samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{91}{figure.caption.55}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Full weighted samples of VBF signal and all backgrounds plotted over BDT output distribution after signal region selection.Errors shown are solely statistical.\relax }}{91}{figure.caption.56}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Feynman diagram for example $Z+$jets processes in which two quarks or a quark and gluon produce a $Z$-boson in association with two jets. In our $Z+$jets events, the $Z$-bosons next decay to two $\tau $ leptons\nobreakspace {}\cite {Z+jets}.\relax }}{92}{figure.caption.56}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distributions of $m_{\tau \tau }$, $p^T_{tot}$, $m_T$, $\ensuremath {E_{\text {T}}^{\text {miss}}}$, $\ensuremath {E_{\text {T, rel}}^{\text {miss}}}$, $\ensuremath {E_{\text {T}}^{\text {miss, significance}}}$, $\ensuremath {E_{\text {T}}^{\text {miss, track}}}$, and $\ensuremath {E_{\text {T,rel}}^{\text {miss, track}}}$ in the $Z+$jets control region. Uncertainties shown (yellow) are purely statistical. \relax }}{94}{figure.caption.59}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m_{\tau \tau }$ {[GeV]}}}}{94}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$p^T_{tot}$}}}{94}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_T$ {[GeV]}}}}{94}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$E_{\text {T}}^{\text {miss}}$}}}{94}{subfigure.2.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\ensuremath {E_{\text {T,rel}}^{\text {miss}}}$}}}{94}{subfigure.2.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss, significance}}}$}}}{94}{subfigure.2.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss, track}}}$}}}{94}{subfigure.2.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\ensuremath {E_{\text {T,rel}}^{\text {miss, track}}}$}}}{94}{subfigure.2.8}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Distributions of $m_{\ell \ell }$, $\Delta Y_{\ell \ell }$, $\Delta Y_{jj}$, $\DOTSB \sum@ \slimits@ $ centralities, $M_{l0j0}$, $M_{l1j1}$, $\Delta \phi _{jj}$, $p_T^{tot}$, and $m_T$ in the top validation region. Uncertainties shown (yellow) are purely statistical. \relax }}{97}{figure.caption.61}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m_{\ell \ell }$}}}{97}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{97}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta Y_{jj}$}}}{97}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\DOTSB \sum@ \slimits@ $ centralities}}}{97}{subfigure.3.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$M_{l0j0}$ {[GeV]} }}}{97}{subfigure.3.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$M_{l1j1}$ {[GeV]}}}}{97}{subfigure.3.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\Delta \phi _{jj}$}}}{97}{subfigure.3.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$p_T^{tot}$}}}{97}{subfigure.3.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m_T$ {[GeV]}}}}{97}{subfigure.3.9}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Distributions of input variables to top+$WW$ vs. other samples BDT. Samples are normalized to even numbers of background and signal events. Signal represents top+$WW$ and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{98}{figure.caption.64}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Correlations of input variables to top +$WW$ vs other samples BDT. Signal represents top+$WW$ and background other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{99}{figure.caption.65}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Normalized samples of top$+WW$ samples (signal) and other samples (background) plotted over BDT output distribution\nobreakspace {}\cite {ourSupportNote}.\relax }}{99}{figure.caption.66}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Full weighted samples of all signal and background events plotted over BDT output distribution after signal region selection.\relax }}{100}{figure.caption.67}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta Y_{jj}$, $\DOTSB \sum@ \slimits@ $ centralities, $M_{l0j0}$, $M_{l1j1}$, $p_T^{j0}$, $\Delta \phi _{jj}$, $p^T_{tot}$, and $m_T$ in the $WW$ validation region. Uncertainties shown (yellow) are purely statistical. \relax }}{102}{figure.caption.69}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{102}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta Y_{jj}$}}}{102}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\DOTSB \sum@ \slimits@ $ centralities}}}{102}{subfigure.8.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$M_{l0j0}$ {[GeV]}}}}{102}{subfigure.8.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$M_{l1j1}$ {[GeV]}}}}{102}{subfigure.8.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T^{j0}$}}}{102}{subfigure.8.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\Delta \phi _{jj}$}}}{102}{subfigure.8.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$p^T_{tot}$}}}{102}{subfigure.8.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m_T$ {[GeV]}}}}{102}{subfigure.8.9}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, $m_T$, jet $p^T_{\text {lead}}$, jet $p^T_{\text {sublead}}$, $\Delta \phi _{jj}$, and $\ensuremath {E_{\text {T}}^{\text {miss}}}$ in the ggF CR1 used as input to the BDT discriminating ggF from all other samples. Uncertainties shown (yellow) are purely statistical. \relax }}{105}{figure.caption.72}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{105}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{105}{subfigure.9.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{105}{subfigure.9.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$ {[GeV]}}}}{105}{subfigure.9.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {jet $p^T_{\text {lead}}$}}}{105}{subfigure.9.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {jet $p^T_{\text {sublead}}$}}}{105}{subfigure.9.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\Delta \phi _{jj}$}}}{105}{subfigure.9.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss}}}$}}}{105}{subfigure.9.8}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Distributions of input variables to ggF CR1 BDT. Samples are normalized to even numbers of background and signal events. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{106}{figure.caption.73}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Correlations of input variables to ggF CR1 BDT. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{106}{figure.caption.74}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{107}{figure.caption.75}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 1.\relax }}{107}{figure.caption.76}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, $m_T$, $\Delta \phi _{jj}$, and $\ensuremath {E_{\text {T}}^{\text {miss}}}$ in the ggF CR2 used as input to the BDT discriminating ggF from all other samples. Uncertainties shown (yellow) are purely statistical. \relax }}{109}{figure.caption.79}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{109}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{109}{subfigure.14.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{109}{subfigure.14.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$ {[GeV]}}}}{109}{subfigure.14.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\Delta \phi _{jj}$}}}{109}{subfigure.14.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss}}}$}}}{109}{subfigure.14.6}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Distributions of input variables to ggF CR2 BDT. Samples are normalized to even numbers of background and signal events. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{110}{figure.caption.80}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Correlations of input variables to ggF CR2 BDT. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{110}{figure.caption.81}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{111}{figure.caption.82}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR2 cuts.\relax }}{111}{figure.caption.83}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, and $m_T$ in the ggF CR3 used as input to the BDT discriminating ggF from all other samples. Uncertainties shown (yellow) are purely statistical. \relax }}{112}{figure.caption.86}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{112}{subfigure.19.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{112}{subfigure.19.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{112}{subfigure.19.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$}}}{112}{subfigure.19.4}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Distributions of input variables to the ggF CR3 BDT. Samples are normalized to even numbers of background and signal events. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{113}{figure.caption.87}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Correlations of input variables to the ggF CR3 BDT. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{114}{figure.caption.88}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{114}{figure.caption.89}
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR3 cuts.\relax }}{115}{figure.caption.90}
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Distributions of input variables to the ggF vs. VBF BDT. Samples are normalized to even numbers of background and signal events. Signal represents VBF and background ggF samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{116}{figure.caption.93}
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Correlations of input variables to the ggF vs. VBF BDT. Signal represents VBF and background ggF samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{117}{figure.caption.94}
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Normalized samples of VBF (signal) and ggF (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{117}{figure.caption.95}
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Full weighted samples of VBF signal and ggF background plotted over BDT output distribution after SR cuts.\relax }}{118}{figure.caption.96}
-\contentsline {figure}{\numberline {6.28}{\ignorespaces Distributions of $p_T^{\ell \ell }$, $m_{\ell \ell }$, $m_T$, $p^T_{tot}$, lep $p^T_{\text {lead}}$, lep $p^T_{\text {sublead}}$, $m_{jj}$, and $\ensuremath {E_{\text {T}}^{\text {miss}}}$ in the differential VBF $W+$jets control region. \relax }}{122}{figure.caption.100}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$p_T^{\ell \ell }$}}}{122}{subfigure.28.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{\ell \ell }$}}}{122}{subfigure.28.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_T$ {[GeV]}}}}{122}{subfigure.28.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p^T_{tot}$}}}{122}{subfigure.28.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {lep $p^T_{\text {lead}}$}}}{122}{subfigure.28.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m_{jj}$}}}{122}{subfigure.28.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss}}}$}}}{122}{subfigure.28.7}
-\contentsline {figure}{\numberline {6.29}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the VBF signal displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{127}{figure.caption.104}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{127}{subfigure.29.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{127}{subfigure.29.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Shower uncertainty}}}{127}{subfigure.29.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD uncertainty}}}{127}{subfigure.29.4}
-\contentsline {figure}{\numberline {6.30}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the ggF background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{129}{figure.caption.107}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{129}{subfigure.30.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{129}{subfigure.30.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Shower uncertainty}}}{129}{subfigure.30.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{129}{subfigure.30.4}
-\contentsline {figure}{\numberline {6.31}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the $t\mathaccentV {bar}016{t}$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{131}{figure.caption.111}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{131}{subfigure.31.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Generator uncertainty}}}{131}{subfigure.31.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Shower uncertainty}}}{131}{subfigure.31.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{131}{subfigure.31.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ISR uncertainty}}}{131}{subfigure.31.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {FSR uncertainty}}}{131}{subfigure.31.6}
-\contentsline {figure}{\numberline {6.32}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the $WW$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{132}{figure.caption.114}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{132}{subfigure.32.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{132}{subfigure.32.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {QCD scale uncertainty}}}{132}{subfigure.32.3}
-\contentsline {figure}{\numberline {6.33}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the $Z\rightarrow \tau \tau $ background displayed against the VBF vs. $Z+$jets BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{134}{figure.caption.117}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{134}{subfigure.33.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{134}{subfigure.33.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Generator uncertainty}}}{134}{subfigure.33.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{134}{subfigure.33.4}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Feynman diagram for example $Z+$jets processes in which two quarks or a quark and gluon produce a $Z$-boson in association with two jets. In our $Z+$jets events, the $Z$-bosons next decay to two $\tau $ leptons\nobreakspace {}\cite {Z+jets}.\relax }}{94}{figure.caption.57}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distributions of $m_{\tau \tau }$, $p^T_{tot}$, $m_T$, $\ensuremath {E_{\text {T}}^{\text {miss}}}$, $\ensuremath {E_{\text {T, rel}}^{\text {miss}}}$, $\ensuremath {E_{\text {T}}^{\text {miss, significance}}}$, $\ensuremath {E_{\text {T}}^{\text {miss, track}}}$, and $\ensuremath {E_{\text {T,rel}}^{\text {miss, track}}}$ in the $Z+$jets control region. Uncertainties shown (yellow) are purely statistical. \relax }}{96}{figure.caption.60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m_{\tau \tau }$ {[GeV]}}}}{96}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$p^T_{tot}$}}}{96}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_T$ {[GeV]}}}}{96}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$E_{\text {T}}^{\text {miss}}$}}}{96}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\ensuremath {E_{\text {T,rel}}^{\text {miss}}}$}}}{96}{subfigure.2.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss, significance}}}$}}}{96}{subfigure.2.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss, track}}}$}}}{96}{subfigure.2.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\ensuremath {E_{\text {T,rel}}^{\text {miss, track}}}$}}}{96}{subfigure.2.8}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distributions of $m_{\ell \ell }$, $\Delta Y_{\ell \ell }$, $\Delta Y_{jj}$, $\DOTSB \sum@ \slimits@ $ centralities, $M_{l0j0}$, $M_{l1j1}$, $\Delta \phi _{jj}$, $p_T^{tot}$, and $m_T$ in the top validation region. Uncertainties shown (yellow) are purely statistical. \relax }}{99}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m_{\ell \ell }$}}}{99}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{99}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\Delta Y_{jj}$}}}{99}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\DOTSB \sum@ \slimits@ $ centralities}}}{99}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$M_{l0j0}$ {[GeV]} }}}{99}{subfigure.3.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$M_{l1j1}$ {[GeV]}}}}{99}{subfigure.3.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\Delta \phi _{jj}$}}}{99}{subfigure.3.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$p_T^{tot}$}}}{99}{subfigure.3.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m_T$ {[GeV]}}}}{99}{subfigure.3.9}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Distributions of input variables to top+$WW$ vs. other samples BDT. Samples are normalized to even numbers of background and signal events. Signal represents top+$WW$ and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{100}{figure.caption.65}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Correlations of input variables to top +$WW$ vs other samples BDT. Signal represents top+$WW$ and background other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{101}{figure.caption.66}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Normalized samples of top$+WW$ samples (signal) and other samples (background) plotted over BDT output distribution\nobreakspace {}\cite {ourSupportNote}.\relax }}{101}{figure.caption.67}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Full weighted samples of all signal and background events plotted over BDT output distribution after signal region selection.\relax }}{102}{figure.caption.68}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta Y_{jj}$, $\DOTSB \sum@ \slimits@ $ centralities, $M_{l0j0}$, $M_{l1j1}$, $p_T^{j0}$, $\Delta \phi _{jj}$, $p^T_{tot}$, and $m_T$ in the $WW$ validation region. Uncertainties shown (yellow) are purely statistical. \relax }}{104}{figure.caption.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{104}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta Y_{jj}$}}}{104}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\DOTSB \sum@ \slimits@ $ centralities}}}{104}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$M_{l0j0}$ {[GeV]}}}}{104}{subfigure.8.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$M_{l1j1}$ {[GeV]}}}}{104}{subfigure.8.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$p_T^{j0}$}}}{104}{subfigure.8.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\Delta \phi _{jj}$}}}{104}{subfigure.8.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$p^T_{tot}$}}}{104}{subfigure.8.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m_T$ {[GeV]}}}}{104}{subfigure.8.9}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, $m_T$, jet $p^T_{\text {lead}}$, jet $p^T_{\text {sublead}}$, $\Delta \phi _{jj}$, and $\ensuremath {E_{\text {T}}^{\text {miss}}}$ in the ggF CR1 used as input to the BDT discriminating ggF from all other samples. Uncertainties shown (yellow) are purely statistical. \relax }}{107}{figure.caption.73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{107}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{107}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{107}{subfigure.9.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$ {[GeV]}}}}{107}{subfigure.9.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {jet $p^T_{\text {lead}}$}}}{107}{subfigure.9.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {jet $p^T_{\text {sublead}}$}}}{107}{subfigure.9.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\Delta \phi _{jj}$}}}{107}{subfigure.9.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss}}}$}}}{107}{subfigure.9.8}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Distributions of input variables to ggF CR1 BDT. Samples are normalized to even numbers of background and signal events. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{108}{figure.caption.74}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Correlations of input variables to ggF CR1 BDT. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{108}{figure.caption.75}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{109}{figure.caption.76}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR 1.\relax }}{109}{figure.caption.77}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, $m_T$, $\Delta \phi _{jj}$, and $\ensuremath {E_{\text {T}}^{\text {miss}}}$ in the ggF CR2 used as input to the BDT discriminating ggF from all other samples. Uncertainties shown (yellow) are purely statistical. \relax }}{111}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{111}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{111}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{111}{subfigure.14.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$ {[GeV]}}}}{111}{subfigure.14.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$\Delta \phi _{jj}$}}}{111}{subfigure.14.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss}}}$}}}{111}{subfigure.14.6}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Distributions of input variables to ggF CR2 BDT. Samples are normalized to even numbers of background and signal events. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{112}{figure.caption.81}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Correlations of input variables to ggF CR2 BDT. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{112}{figure.caption.82}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{113}{figure.caption.83}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR2 cuts.\relax }}{113}{figure.caption.84}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Distributions of $\Delta Y_{\ell \ell }$, $\Delta \phi _{\ell \ell }$, $m_{\ell \ell }$, and $m_T$ in the ggF CR3 used as input to the BDT discriminating ggF from all other samples. Uncertainties shown (yellow) are purely statistical. \relax }}{114}{figure.caption.87}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\Delta Y_{\ell \ell }$}}}{114}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\Delta \phi _{\ell \ell }$}}}{114}{subfigure.19.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_{\ell \ell }$}}}{114}{subfigure.19.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m_T$}}}{114}{subfigure.19.4}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Distributions of input variables to the ggF CR3 BDT. Samples are normalized to even numbers of background and signal events. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{115}{figure.caption.88}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Correlations of input variables to the ggF CR3 BDT. Signal represents ggF and background all other samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{116}{figure.caption.89}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Normalized samples of ggF (signal) and all other samples (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{116}{figure.caption.90}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Full weighted samples of ggF signal and all other backgrounds plotted over BDT output distribution after ggF CR3 cuts.\relax }}{117}{figure.caption.91}
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Distributions of input variables to the ggF vs. VBF BDT. Samples are normalized to even numbers of background and signal events. Signal represents VBF and background ggF samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{118}{figure.caption.94}
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Correlations of input variables to the ggF vs. VBF BDT. Signal represents VBF and background ggF samples\nobreakspace {}\cite {ourSupportNote}.\relax }}{119}{figure.caption.95}
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Normalized samples of VBF (signal) and ggF (background) plotted over BDT output distribution, overlaid testing and training samples shown\nobreakspace {}\cite {ourSupportNote}.\relax }}{119}{figure.caption.96}
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Full weighted samples of VBF signal and ggF background plotted over BDT output distribution after SR cuts.\relax }}{120}{figure.caption.97}
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Distributions of $p_T^{\ell \ell }$, $m_{\ell \ell }$, $m_T$, $p^T_{tot}$, lep $p^T_{\text {lead}}$, lep $p^T_{\text {sublead}}$, $m_{jj}$, and $\ensuremath {E_{\text {T}}^{\text {miss}}}$ in the differential VBF $W+$jets control region. \relax }}{124}{figure.caption.101}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$p_T^{\ell \ell }$}}}{124}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m_{\ell \ell }$}}}{124}{subfigure.28.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m_T$ {[GeV]}}}}{124}{subfigure.28.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$p^T_{tot}$}}}{124}{subfigure.28.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {lep $p^T_{\text {lead}}$}}}{124}{subfigure.28.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m_{jj}$}}}{124}{subfigure.28.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$\ensuremath {E_{\text {T}}^{\text {miss}}}$}}}{124}{subfigure.28.7}
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the VBF signal displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{129}{figure.caption.105}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{129}{subfigure.29.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{129}{subfigure.29.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Shower uncertainty}}}{129}{subfigure.29.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD uncertainty}}}{129}{subfigure.29.4}
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the ggF background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{131}{figure.caption.108}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{131}{subfigure.30.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{131}{subfigure.30.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Shower uncertainty}}}{131}{subfigure.30.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{131}{subfigure.30.4}
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the $t\mathaccentV {bar}016{t}$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{133}{figure.caption.112}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{133}{subfigure.31.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Generator uncertainty}}}{133}{subfigure.31.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Shower uncertainty}}}{133}{subfigure.31.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{133}{subfigure.31.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ISR uncertainty}}}{133}{subfigure.31.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {FSR uncertainty}}}{133}{subfigure.31.6}
+\contentsline {figure}{\numberline {6.32}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the $WW$ background displayed against the VBF vs. top +$WW$ BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{134}{figure.caption.115}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{134}{subfigure.32.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{134}{subfigure.32.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {QCD scale uncertainty}}}{134}{subfigure.32.3}
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Up and down variations shown for four theoretical uncertainties from the $Z\rightarrow \tau \tau $ background displayed against the VBF vs. $Z+$jets BDT. The nominal sample is shown in black and slopes are calculated for up and down variations to display any potential linear shape effects. Distributions are shown after all signal region cuts. Yellow bands represent statistical uncertainties\nobreakspace {}\cite {ourSupportNote}. \relax }}{136}{figure.caption.118}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PDF uncertainty}}}{136}{subfigure.33.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\alpha _s$ uncertainty}}}{136}{subfigure.33.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Generator uncertainty}}}{136}{subfigure.33.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {QCD scale uncertainty}}}{136}{subfigure.33.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Post-fit effects of top 30 most impactful nuisance parameters on $\mu _{\text {VBF}}$ using the Asimov dataset.\relax }}{142}{figure.caption.121}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Binned distributions for each signal and control region shown after stat+sys fit where ratio between data and MC predictions is shown (black). Error bars show statistical uncertainties.\relax }}{144}{figure.caption.122}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal region}}}{144}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ggF SR control region}}}{144}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ggF 1 control region}}}{144}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ggF 2 control region}}}{144}{subfigure.2.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ggF 3 control region}}}{144}{subfigure.2.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$Z+$jets control region}}}{144}{subfigure.2.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Top/$WW$ control region}}}{144}{subfigure.2.7}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Correlations between floating parameters after a stat-only fit.\relax }}{145}{figure.caption.123}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Scan of $\mu _{\text {VBF}}$ negative log-likelihood using observed data (black) and Asimov expected results (red) and demonstrating the results using all systematics (solid) and only statistical (dashed) uncertainties.\relax }}{146}{figure.caption.124}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Scan of $\mu _{\text {VBF}}$ negative log-likelihood using observed data (black) and Asimov expected results (blue) and demonstrating the results using all statistical and theoretical (dashed) uncertainties and theoretical and experimental (dotted) uncertainties.\relax }}{147}{figure.caption.125}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Post-fit effects of top 30 most impactful nuisance parameters on $\mu _{\text {VBF}}$ using observed dataset.\relax }}{148}{figure.caption.126}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Post-fit effects of top 30 most impactful nuisance parameters on $\mu _{\text {VBF}}$ using the Asimov dataset.\relax }}{144}{figure.caption.122}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Binned distributions for each signal and control region shown after stat+sys fit where ratio between data and MC predictions is shown (black). Error bars show statistical uncertainties.\relax }}{146}{figure.caption.123}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Signal region}}}{146}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ggF SR control region}}}{146}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ggF 1 control region}}}{146}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {ggF 2 control region}}}{146}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ggF 3 control region}}}{146}{subfigure.2.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$Z+$jets control region}}}{146}{subfigure.2.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Top/$WW$ control region}}}{146}{subfigure.2.7}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Correlations between floating parameters after a stat-only fit.\relax }}{147}{figure.caption.124}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Scan of $\mu _{\text {VBF}}$ negative log-likelihood using observed data (black) and Asimov expected results (red) and demonstrating the results using all systematics (solid) and only statistical (dashed) uncertainties.\relax }}{148}{figure.caption.125}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Scan of $\mu _{\text {VBF}}$ negative log-likelihood using observed data (black) and Asimov expected results (blue) and demonstrating the results using all statistical and theoretical (dashed) uncertainties and theoretical and experimental (dotted) uncertainties.\relax }}{149}{figure.caption.126}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Post-fit effects of top 30 most impactful nuisance parameters on $\mu _{\text {VBF}}$ using observed dataset.\relax }}{150}{figure.caption.127}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces ITK layout as defined in ITk Technical Design Report \cite {ITktech}\relax }}{165}{figure.caption.131}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Short-strip barrel module components \cite {ITktech}\relax }}{166}{figure.caption.133}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Electrical stave prototype at Brookhaven National Laboratory (G. van Nieuwenhuizen)\relax }}{166}{figure.caption.134}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces GUI interface showing etched marking on module corner located in real-time to guide user on how to adjust module position (H. Herde)\relax }}{168}{figure.caption.135}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Histograms show difference between ideal and final position of each module corner. Left shows difference from specification in X and right in Y (P. Bhattarai)\relax }}{169}{figure.caption.136}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Portion of the thermo-mechanical stave after being spray-painted for increased emissivity\relax }}{170}{figure.caption.138}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces IR measurements, thermistor measurements, and FEA simulations for the TM stave are compared. Agreement with FEA simulation within 5\%.\relax }}{171}{figure.caption.139}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{172}{figure.caption.140}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{173}{figure.caption.141}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ITK layout as defined in ITk Technical Design Report \cite {ITktech}\relax }}{167}{figure.caption.132}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Short-strip barrel module components \cite {ITktech}\relax }}{168}{figure.caption.134}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Electrical stave prototype at Brookhaven National Laboratory (G. van Nieuwenhuizen)\relax }}{168}{figure.caption.135}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces GUI interface showing etched marking on module corner located in real-time to guide user on how to adjust module position (H. Herde)\relax }}{170}{figure.caption.136}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Histograms show difference between ideal and final position of each module corner. Left shows difference from specification in X and right in Y (P. Bhattarai)\relax }}{171}{figure.caption.137}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Portion of the thermo-mechanical stave after being spray-painted for increased emissivity\relax }}{172}{figure.caption.139}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces IR measurements, thermistor measurements, and FEA simulations for the TM stave are compared. Agreement with FEA simulation within 5\%.\relax }}{173}{figure.caption.140}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{174}{figure.caption.141}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces IR image of fully loaded thermo-mechanical stave\relax }}{175}{figure.caption.142}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Distributions of input variables to $Z\rightarrow \tau \tau $ BDT. Samples are normalized to even numbers of background and signal events. Signal represents $Z\rightarrow \tau \tau $ and background VBF Higgs.\relax }}{176}{figure.caption.143}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Correlations of input variables to $Z\rightarrow \tau \tau $ BDT. Signal represents $Z\rightarrow \tau \tau $ and background VBF Higgs.\relax }}{176}{figure.caption.144}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Normalized samples of $Z\rightarrow \tau \tau $ (signal) and VBF (background) plotted over BDT output distribution, overlaid testing and training samples shown.\relax }}{177}{figure.caption.145}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Weighted samples of VBF signal, $Z\rightarrow \tau \tau $, and all other backgrounds plotted over BDT$_{Z\rightarrow \tau \tau }$ after pre-selection cuts\relax }}{177}{figure.caption.146}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Full weighted samples plotted over the $Z\rightarrow \tau \tau $ BDT output in the signal region after cutting on BDT$_Z\rightarrow \tau \tau $\relax }}{178}{figure.caption.147}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Distributions of input variables to $Z\rightarrow \tau \tau $ BDT. Samples are normalized to even numbers of background and signal events. Signal represents $Z\rightarrow \tau \tau $ and background VBF Higgs.\relax }}{178}{figure.caption.144}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Correlations of input variables to $Z\rightarrow \tau \tau $ BDT. Signal represents $Z\rightarrow \tau \tau $ and background VBF Higgs.\relax }}{178}{figure.caption.145}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Normalized samples of $Z\rightarrow \tau \tau $ (signal) and VBF (background) plotted over BDT output distribution, overlaid testing and training samples shown.\relax }}{179}{figure.caption.146}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Weighted samples of VBF signal, $Z\rightarrow \tau \tau $, and all other backgrounds plotted over BDT$_{Z\rightarrow \tau \tau }$ after pre-selection cuts\relax }}{179}{figure.caption.147}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Full weighted samples plotted over the $Z\rightarrow \tau \tau $ BDT output in the signal region after cutting on BDT$_Z\rightarrow \tau \tau $\relax }}{180}{figure.caption.148}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Distributions of input variables to the multiclass BDT. Samples are normalized to even contributions from each event type.\relax }}{184}{figure.caption.153}
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Correlations of input variables to the multiclass BDT. Plots show correlations for VBF (left), ggF (center) and WW events (right).\relax }}{185}{figure.caption.154}
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Normalized samples of VBF, ggF, and WW plotted over BDT output distribution, overlaid testing and training samples shown.\relax }}{186}{figure.caption.155}
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Weighted samples of VBF, ggF, and WW as well as all other background samples plotted over BDT output distributions projected onto each axis.\relax }}{186}{figure.caption.156}
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Weighted samples of VBF, ggF, and WW as well as all other background samples plotted over BDT output distributions transformed with a Gaussian quantile function and projected onto each axis.\relax }}{187}{figure.caption.157}
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Plots show 3D distribution of multiclass BDT ouput for VBF signal (top, left), all combined backgrounds (top, right), and bin-by-bin signal significance (lower, center).\relax }}{188}{figure.caption.158}
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Plots show 3D distribution of 1D BDT ouputs for VBF signal (top, left), all combined MC background (top, right), and bin-by-bin signal significance (lower, center).\relax }}{189}{figure.caption.159}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Distributions of input variables to the multiclass BDT. Samples are normalized to even contributions from each event type.\relax }}{186}{figure.caption.154}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Correlations of input variables to the multiclass BDT. Plots show correlations for VBF (left), ggF (center) and WW events (right).\relax }}{187}{figure.caption.155}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Normalized samples of VBF, ggF, and WW plotted over BDT output distribution, overlaid testing and training samples shown.\relax }}{188}{figure.caption.156}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Weighted samples of VBF, ggF, and WW as well as all other background samples plotted over BDT output distributions projected onto each axis.\relax }}{188}{figure.caption.157}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Weighted samples of VBF, ggF, and WW as well as all other background samples plotted over BDT output distributions transformed with a Gaussian quantile function and projected onto each axis.\relax }}{189}{figure.caption.158}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Plots show 3D distribution of multiclass BDT ouput for VBF signal (top, left), all combined backgrounds (top, right), and bin-by-bin signal significance (lower, center).\relax }}{190}{figure.caption.159}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Plots show 3D distribution of 1D BDT ouputs for VBF signal (top, left), all combined MC background (top, right), and bin-by-bin signal significance (lower, center).\relax }}{191}{figure.caption.160}
